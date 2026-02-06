@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import QuotesGenerator from '../../components/tools/QuotesGenerator';
+---
+<BaseLayout title="媽媽崩潰語錄產生器" description="隨機產生媽媽內心 OS，看看哪一句最有共感。笑著笑著就釋壓了。">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">崩潰語錄</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">💬 媽媽崩潰語錄產生器</h1>
+      <p class="text-warmgray-400">每一句都是真實心聲，你不是一個人</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <QuotesGenerator client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>怎麼使用？</h2>
+      <p>點一下就會隨機跳出一句「媽媽內心 OS」，看到哪句特別有共感就截圖分享吧！不斷點「換一句」看更多崩潰日常，保證每句都讓你邊笑邊點頭。</p>
+      <h2>笑著說出來就沒那麼累了</h2>
+      <p>每個媽媽心裡都有一堆 OS，但平常不好意思說出來。看到別人也有一樣的想法，突然就覺得「原來不是只有我」——然後壓力就輕了一半。分享給你的媽媽好友們，一起笑著崩潰吧！</p>
+    </div>
+  </div>
+</BaseLayout>

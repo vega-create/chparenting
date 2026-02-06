@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DailyJokes from '../../components/tools/DailyJokes';
+---
+<BaseLayout title="每日媽媽笑話" description="每天一則育兒笑話，笑一笑壓力少一半。分享給你的媽媽好友們！">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">每日笑話</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🤣 每日媽媽笑話</h1>
+      <p class="text-warmgray-400">笑一笑，壓力少一半</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <DailyJokes client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>怎麼使用？</h2>
+      <p>每次進來都會看到一則媽媽/育兒笑話。覺得好笑就點「換一則」看更多，喜歡的話可以分享給你的媽媽好友們，一起笑一笑放鬆放鬆！</p>
+      <h2>笑一笑真的有用嗎？</h2>
+      <p>研究顯示，笑可以降低壓力荷爾蒙、釋放腦內啡，甚至提升免疫力。媽媽每天給自己幾分鐘的「笑時間」，是最簡單的充電方式。不需要理由，笑就對了！</p>
+    </div>
+  </div>
+</BaseLayout>

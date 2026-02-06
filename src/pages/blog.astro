@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const now = new Date();
+const allPosts = await getCollection('posts', ({ data }) => {
+  return !data.draft && new Date(data.publishDate) <= now;
+});
+const posts = allPosts.sort((a, b) => 
+  new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+);
+---
+
+<BaseLayout title="所有文章" description="媽媽生活復原力Lab的所有文章，包含舒壓技巧、育兒心得、生活靈感。">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+    <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-2">
+      📖 所有文章
+    </h1>
+    <p class="text-warmgray-400 mb-8">共 {posts.length} 篇文章</p>
+
+    {posts.length > 0 ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        {posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.slug}
+            category={post.data.category}
+            publishDate={post.data.publishDate}
+            image={post.data.image}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20">
+        <span class="text-5xl block mb-4">📝</span>
+        <p class="text-warmgray-400 font-display">文章正在準備中，敬請期待！</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

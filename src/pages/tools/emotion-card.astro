@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmotionCard from '../../components/tools/EmotionCard';
+---
+<BaseLayout title="情緒安撫卡" description="親子一起用的情緒辨識工具。幫助孩子認識自己的情緒，也幫助媽媽學會回應。">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">情緒安撫卡</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🎨 情緒安撫卡</h1>
+      <p class="text-warmgray-400">和孩子一起認識情緒、學會表達</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <EmotionCard client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>為什麼情緒辨識很重要？</h2>
+      <p>孩子在學會說話之前，就已經開始感受情緒了。但他們往往不知道自己「怎麼了」，只能用哭鬧來表達。幫助孩子辨識和命名情緒，是情緒管理的第一步。</p>
+      <p>這個工具有「孩子版」和「媽媽版」兩種模式。孩子版幫助親子一起學習情緒辨識，媽媽版則提醒我們——大人也需要好好照顧自己的情緒。</p>
+    </div>
+  </div>
+</BaseLayout>

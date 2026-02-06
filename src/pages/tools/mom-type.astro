@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MomTypeQuiz from '../../components/tools/MomTypeQuiz';
+---
+<BaseLayout title="你是哪種媽媽？" description="5 題趣味心理測驗，找出你的媽媽類型！超人媽媽、佛系媽媽、暖心媽媽還是冒險媽媽？">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">媽媽類型測驗</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🎭 你是哪種媽媽？</h1>
+      <p class="text-warmgray-400">5 題趣味測驗，找出你的媽媽類型</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <MomTypeQuiz client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>怎麼使用？</h2>
+      <p>只要回答 5 個輕鬆的情境題，就能找出你是哪種類型的媽媽。每種類型都有可愛的描述和專屬建議，測完可以分享結果給朋友，看看你們是不是同一種媽媽！</p>
+      <h2>每種媽媽都很棒</h2>
+      <p>這只是一個趣味測驗，沒有好壞之分。不管你是哪一種媽媽，你都在用自己的方式愛孩子，而那就是最好的方式。</p>
+    </div>
+  </div>
+</BaseLayout>

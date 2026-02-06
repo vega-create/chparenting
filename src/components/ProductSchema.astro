@@ -1,0 +1,111 @@
+---
+/**
+ * ProductSchema.astro
+ * 產品結構化資料 - 用於電商商品頁
+ * 參考: https://developers.google.com/search/docs/appearance/structured-data/product
+ * 
+ * 使用方式:
+ * <ProductSchema
+ *   name="商品名稱"
+ *   description="商品描述"
+ *   image="https://example.com/image.jpg"
+ *   price={2180}
+ *   currency="TWD"
+ *   availability="InStock"
+ *   sku="SKU12345"
+ *   brand="品牌名"
+ *   url="https://example.com/product/xxx"
+ * />
+ */
+
+interface Props {
+  name: string;
+  description: string;
+  image: string | string[];
+  price: number;
+  currency?: string;
+  availability?: 'InStock' | 'OutOfStock' | 'PreOrder' | 'SoldOut';
+  sku?: string;
+  brand?: string;
+  url: string;
+  priceValidUntil?: string;  // ISO date format: '2026-12-31'
+  ratingValue?: number;
+  reviewCount?: number;
+  seller?: string;
+  sellerUrl?: string;
+  condition?: 'NewCondition' | 'UsedCondition' | 'RefurbishedCondition';
+}
+
+const {
+  name,
+  description,
+  image,
+  price,
+  currency = 'TWD',
+  availability = 'InStock',
+  sku,
+  brand,
+  url,
+  priceValidUntil,
+  ratingValue,
+  reviewCount,
+  seller,
+  sellerUrl,
+  condition = 'NewCondition',
+} = Astro.props;
+
+const availabilityMap: Record<string, string> = {
+  InStock: 'https://schema.org/InStock',
+  OutOfStock: 'https://schema.org/OutOfStock',
+  PreOrder: 'https://schema.org/PreOrder',
+  SoldOut: 'https://schema.org/SoldOut',
+};
+
+const conditionMap: Record<string, string> = {
+  NewCondition: 'https://schema.org/NewCondition',
+  UsedCondition: 'https://schema.org/UsedCondition',
+  RefurbishedCondition: 'https://schema.org/RefurbishedCondition',
+};
+
+const schema: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": name,
+  "description": description,
+  "image": Array.isArray(image) ? image : [image],
+  "offers": {
+    "@type": "Offer",
+    "price": price,
+    "priceCurrency": currency,
+    "availability": availabilityMap[availability],
+    "url": url,
+    "itemCondition": conditionMap[condition],
+    ...(priceValidUntil && { "priceValidUntil": priceValidUntil }),
+    ...(seller && {
+      "seller": {
+        "@type": "Organization",
+        "name": seller,
+        ...(sellerUrl && { "url": sellerUrl })
+      }
+    }),
+  },
+  ...(sku && { "sku": sku }),
+  ...(brand && {
+    "brand": {
+      "@type": "Brand",
+      "name": brand
+    }
+  }),
+};
+
+// Add aggregate rating if provided
+if (ratingValue && reviewCount) {
+  schema.aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": ratingValue,
+    "reviewCount": reviewCount,
+  };
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

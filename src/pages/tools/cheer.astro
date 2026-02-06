@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CheerCard from '../../components/tools/CheerCard';
+---
+<BaseLayout title="媽媽加油卡" description="寫下今天的心情，讓我們給你一句溫暖的加油話語。媽媽也需要被鼓勵，你很棒！">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">媽媽加油卡</span>
+    </nav>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <CheerCard client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>為什麼媽媽需要被鼓勵？</h2>
+      <p>每天照顧家庭和孩子，媽媽很容易忘記自己也需要被看見、被肯定。寫下今天的心情，不只是紀錄，更是一種釋放。而那句為你準備的話，希望能讓你記得：你已經很棒了。</p>
+      <p>如果覺得溫暖，記得複製分享給身邊的媽媽朋友，讓正能量傳遞出去 🧡</p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WhiteNoise from '../../components/tools/WhiteNoise';
+---
+<BaseLayout title="白噪音播放器" description="雨聲、海浪、森林、篝火⋯⋯選一個自然音效，幫助你放鬆或入睡。支援定時關閉。">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">白噪音</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🌧️ 白噪音播放器</h1>
+      <p class="text-warmgray-400">選一個聲音，讓自己沉浸在自然的寧靜中</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <WhiteNoise client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>白噪音如何幫助放鬆？</h2>
+      <p>白噪音能夠遮蔽環境中的突然聲響，創造一個穩定的聲音環境。研究顯示，自然的白噪音（如雨聲、海浪）可以降低皮質醇水平、減緩心率，幫助入睡和提升專注力。</p>
+      <p>特別適合在孩子午睡時給自己幾分鐘的放鬆時間，或是睡前播放幫助入眠。</p>
+    </div>
+  </div>
+</BaseLayout>

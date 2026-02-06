@@ -1,0 +1,51 @@
+---
+import { siteConfig } from '../site.config';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  category: string;
+  publishDate: Date;
+  image?: string;
+}
+
+const { title, description, slug, category, publishDate, image } = Astro.props;
+const categoryInfo = siteConfig.categories.find(c => c.slug === category);
+const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
+  month: 'short', day: 'numeric'
+});
+---
+
+<a href={`/posts/${slug}/`} class="block group">
+  <article class="bg-white/60 rounded-2xl overflow-hidden border border-white/80 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+    {image && (
+      <div class="aspect-[16/9] overflow-hidden">
+        <img
+          src={image}
+          alt={title}
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        />
+      </div>
+    )}
+    <div class="p-5">
+      <div class="flex items-center gap-2 mb-2">
+        {categoryInfo && (
+          <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-peach-400/10 text-peach-500">
+            {categoryInfo.emoji} {categoryInfo.name}
+          </span>
+        )}
+        <time class="text-xs text-warmgray-400" datetime={publishDate.toISOString()}>
+          {dateStr}
+        </time>
+      </div>
+      <h3 class="font-display font-bold text-warmgray-800 group-hover:text-peach-500 transition-colors mb-2 line-clamp-2">
+        {title}
+      </h3>
+      <p class="text-sm text-warmgray-400 line-clamp-2 leading-relaxed">
+        {description}
+      </p>
+    </div>
+  </article>
+</a>

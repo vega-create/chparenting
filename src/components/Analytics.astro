@@ -1,0 +1,57 @@
+---
+/**
+ * GA4 + Facebook Pixel + AdSense 追蹤碼
+ * 放在 <head> 中，只在有設定 ID 時才載入
+ */
+import { siteConfig } from '../site.config';
+
+const ga4Id = siteConfig.analytics?.ga4;
+const fbPixelId = siteConfig.analytics?.fbPixel;
+const adsenseClient = siteConfig.adsense?.client;
+const adsenseEnabled = siteConfig.adsense?.enabled;
+---
+
+{/* Google Analytics 4 */}
+{ga4Id && (
+  <>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}></script>
+    <script define:vars={{ ga4Id }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', ga4Id);
+    </script>
+  </>
+)}
+
+{/* Facebook / Meta Pixel */}
+{fbPixelId && (
+  <>
+    <script define:vars={{ fbPixelId }}>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', fbPixelId);
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src={`https://www.facebook.com/tr?id=${fbPixelId}&ev=PageView&noscript=1`}
+      />
+    </noscript>
+  </>
+)}
+
+{/* Google AdSense */}
+{adsenseEnabled && adsenseClient && (
+  <script
+    async
+    src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+    crossorigin="anonymous"
+  ></script>
+)}

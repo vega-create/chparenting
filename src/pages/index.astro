@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WebSiteSchema from '../components/WebSiteSchema.astro';
+import MoodCheck from '../components/tools/MoodCheck';
+import Marquee from '../components/Marquee.astro';
+import PostCard from '../components/PostCard.astro';
+import { siteConfig } from '../site.config';
+import { getCollection } from 'astro:content';
+
+// Get published posts (filter future dates for scheduled publishing)
+const now = new Date();
+const allPosts = await getCollection('posts', ({ data }) => {
+  return !data.draft && new Date(data.publishDate) <= now;
+});
+const latestPosts = allPosts
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+  .slice(0, 6);
+
+const tools = [
+  { icon: '🫁', name: '呼吸練習', desc: '3分鐘放鬆', href: '/tools/breathing/', color: 'bg-peach-400', size: 'col-span-2 row-span-2' },
+  { icon: '✨', name: '正能量卡片', desc: '每日一句暖心話', href: '/tools/affirmation/', color: 'bg-amber-400', size: 'col-span-1' },
+  { icon: '📊', name: '壓力測驗', desc: '了解你的壓力指數', href: '/tools/stress-test/', color: 'bg-rose-300', size: 'col-span-1' },
+  { icon: '🌧️', name: '白噪音', desc: '助眠放鬆', href: '/tools/white-noise/', color: 'bg-sage-400', size: 'col-span-1 row-span-2' },
+  { icon: '😂', name: '崩潰語錄', desc: '媽媽內心OS', href: '/tools/quotes/', color: 'bg-orange-300', size: 'col-span-1' },
+  { icon: '📝', name: '心情日記', desc: '記錄每天的心情', href: '/tools/mood-diary/', color: 'bg-warmgray-300', size: 'col-span-1' },
+];
+---
+
+<BaseLayout>
+  <WebSiteSchema />
+  <!-- Marquee -->
+  <Marquee />
+
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+    <!-- Hero Section -->
+    <section class="py-12 sm:py-16 text-center">
+      <div class="animate-fade-in-up">
+        <p class="text-peach-400 font-display font-semibold text-sm tracking-widest mb-3 uppercase">
+          Mom Life Recovery Lab
+        </p>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-warmgray-800 leading-tight mb-4">
+          媽媽不需要完美
+        </h1>
+        <p class="text-xl sm:text-2xl text-warmgray-400 font-display font-light mb-8">
+          只需要一個能喘口氣的空間
+        </p>
+      </div>
+
+      <!-- Mood Check -->
+      <div class="max-w-xl mx-auto animate-fade-in-up stagger-2">
+        <MoodCheck client:visible />
+      </div>
+    </section>
+
+    <!-- Bento Grid Tools -->
+    <section class="mb-16">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-display font-bold text-warmgray-800 flex items-center gap-2">
+          <span>🧰</span> 喘息工具箱
+        </h2>
+        <a href="/tools/" class="text-sm text-peach-400 hover:text-peach-500 font-display font-medium transition-colors">
+          全部工具 →
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 auto-rows-[120px] sm:auto-rows-[140px]">
+        {tools.map((tool, i) => (
+          <a
+            href={tool.href}
+            class:list={[
+              'bento-card group',
+              tool.size,
+              'animate-fade-in-up',
+            ]}
+            style={`animation-delay: ${i * 0.08}s; opacity: 0;`}
+          >
+            <div class:list={[
+              'absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15]',
+              tool.color,
+            ]} />
+            <div class="relative z-10 h-full flex flex-col justify-between">
+              <span class="text-3xl sm:text-4xl block mb-2">{tool.icon}</span>
+              <div>
+                <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">
+                  {tool.name}
+                </h3>
+                <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">
+                  {tool.desc}
+                </p>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Categories Quick Nav -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-display font-bold text-warmgray-800 mb-8 flex items-center gap-2">
+        <span>🗂️</span> 探索分類
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+        {siteConfig.categories.map((cat, i) => (
+          <a
+            href={`/category/${cat.slug}/`}
+            class="bg-white/60 rounded-2xl p-5 border border-white/80 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 text-center group"
+            style={`animation-delay: ${i * 0.1}s;`}
+          >
+            <span class="text-3xl block mb-2">{cat.emoji}</span>
+            <h3 class="font-display font-bold text-warmgray-700 text-sm group-hover:text-peach-500 transition-colors">
+              {cat.name}
+            </h3>
+            <p class="text-xs text-warmgray-400 mt-1">{cat.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Latest Articles -->
+    {latestPosts.length > 0 && (
+      <section class="mb-16">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-2xl font-display font-bold text-warmgray-800 flex items-center gap-2">
+            <span>📖</span> 最新文章
+          </h2>
+          <a href="/blog/" class="text-sm text-peach-400 hover:text-peach-500 font-display font-medium transition-colors">
+            全部文章 →
+          </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {latestPosts.map((post) => (
+            <PostCard
+              title={post.data.title}
+              description={post.data.description}
+              slug={post.slug}
+              category={post.data.category}
+              publishDate={post.data.publishDate}
+              image={post.data.image}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- CTA Section -->
+    <section class="mb-16 text-center">
+      <div class="bg-gradient-to-br from-peach-400/10 to-sage-100 rounded-3xl p-8 sm:p-12 border border-peach-400/10">
+        <span class="text-5xl block mb-4">💛</span>
+        <h2 class="text-2xl font-display font-bold text-warmgray-800 mb-3">
+          你不是一個人
+        </h2>
+        <p class="text-warmgray-500 max-w-md mx-auto mb-6 leading-relaxed">
+          每個媽媽都需要被理解和支持。這裡是你的喘息空間，隨時回來充電。
+        </p>
+        <a
+          href="/tools/"
+          class="inline-flex items-center gap-2 bg-peach-400 text-white px-6 py-3 rounded-full font-display font-semibold hover:bg-peach-500 transition-colors shadow-lg shadow-peach-400/20"
+        >
+          開始放鬆 🧡
+        </a>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

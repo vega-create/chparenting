@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PrioritySorter from '../../components/tools/PrioritySorter';
+---
+<BaseLayout title="待辦事項優先排序" description="把待辦事項分成「必做」「可以晚點」「放掉吧」三類，減少不必要的壓力。完成後可複製分享到 LINE！">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">待辦排序</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">✅ 待辦事項優先排序</h1>
+      <p class="text-warmgray-400">不是所有事都要今天做完</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <PrioritySorter client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>怎麼使用？</h2>
+      <p>把腦中所有待辦事項輸入進來，然後一個一個分類成三種：「✅ 今天必做」是不做真的會怎樣的事；「⏳ 可以晚點」是重要但不急的事；「🎈 放掉吧」是其實不做也不會怎樣的事。</p>
+      <p>分類完成後，點「完成整理」就能看到整理好的清單，可以一鍵複製到 LINE 或備忘錄保存，隨時提醒自己今天只要專注在「必做」的事就好！</p>
+      <h2>為什麼要排序？</h2>
+      <p>媽媽每天有做不完的事，但不是每件事都同樣重要。學會分辨「必做」和「可以放掉」的事，是減壓最有效的方式。當你把清單整理好，會發現其實今天真正要做的沒那麼多——然後你就能放心地喘口氣了。</p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MoodDiary from '../../components/tools/MoodDiary';
+---
+<BaseLayout title="心情日記" description="花一分鐘記錄今天的心情，收到一句暖心的話。可以複製到 LINE 或備忘錄保存！">
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
+      <span class="text-warmgray-500">心情日記</span>
+    </nav>
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">📝 心情日記</h1>
+      <p class="text-warmgray-400">每天一分鐘，記錄你的心情</p>
+    </div>
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <MoodDiary client:visible />
+    </div>
+    <div class="prose-warm mt-12">
+      <h2>怎麼使用？</h2>
+      <p>選擇今天的心情，可以寫一些想說的話（也可以不寫），按下記錄後就會產生你的心情卡片。點「複製紀錄」就能貼到 LINE、備忘錄或日記 App 保存，每天花一分鐘給自己一個小紀錄。</p>
+      <h2>為什麼記錄心情有幫助？</h2>
+      <p>情緒覺察是心理健康的第一步。寫下來不只是紀錄，更是一種釋放。當你養成記錄的習慣，會慢慢看見自己的情緒模式，知道什麼讓你開心、什麼讓你疲累。這份自我了解，就是改變的開始。</p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BreathingExercise from '../../components/tools/BreathingExercise';
+---
+
+<BaseLayout
+  title="3 分鐘呼吸練習"
+  description="跟著視覺化引導一起呼吸：吸氣 4 秒、停住 4 秒、吐氣 6 秒。3 分鐘讓你放鬆下來。"
+>
+  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a>
+      <span class="mx-2">›</span>
+      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a>
+      <span class="mx-2">›</span>
+      <span class="text-warmgray-500">呼吸練習</span>
+    </nav>
+
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">
+        🫁 3 分鐘呼吸練習
+      </h1>
+      <p class="text-warmgray-400">
+        找一個舒服的姿勢，跟著圓圈的節奏呼吸
+      </p>
+    </div>
+
+    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
+      <BreathingExercise client:visible />
+    </div>
+
+    <!-- SEO Content -->
+    <div class="prose-warm mt-12">
+      <h2>為什麼呼吸練習有效？</h2>
+      <p>
+        當我們感到壓力或焦慮時，呼吸會變得又快又淺。有意識地放慢呼吸，可以啟動副交感神經系統，讓身體從「戰或逃」模式切換到「休息與修復」模式。
+      </p>
+      <p>
+        4-4-6 呼吸法（吸氣 4 秒、停住 4 秒、吐氣 6 秒）是一種簡單有效的放鬆技巧。較長的吐氣時間可以幫助降低心率和血壓，讓你快速感到平靜。
+      </p>
+
+      <h2>什麼時候可以做？</h2>
+      <p>
+        隨時隨地！在孩子午睡時、等孩子下課時、睡前、或任何你覺得需要喘口氣的時候。只需要 3 分鐘，你就能感受到不同。
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const toolCategories = [
+  {
+    name: '🧘 喘息區',
+    tools: [
+      { icon: '🫁', name: '3 分鐘呼吸練習', desc: '視覺化呼吸引導動畫，吸氣-停-吐氣', href: '/tools/breathing/', color: '#E8A87C' },
+      { icon: '📊', name: '壓力指數測驗', desc: '10 題快速測驗，了解你的壓力等級', href: '/tools/stress-test/', color: '#C4A0A0' },
+      { icon: '✨', name: '今日正能量卡片', desc: '每天一句鼓勵的話，可以分享給朋友', href: '/tools/affirmation/', color: '#D4B896' },
+      { icon: '🌧️', name: '白噪音播放器', desc: '雨聲、海浪、森林，幫助放鬆和入睡', href: '/tools/white-noise/', color: '#8BA888' },
+      { icon: '📝', name: '心情日記', desc: '記錄今天心情，複製分享到 LINE 保存', href: '/tools/mood-diary/', color: '#B8A090' },
+      { icon: '🏮', name: '媽媽安心籤', desc: '每天抽一籤，給自己一句溫暖的話', href: '/tools/fortune/', color: '#D4956A' },
+      { icon: '🌸', name: '媽媽加油卡', desc: '寫下心情，收到專屬鼓勵話語', href: '/tools/cheer/', color: '#E8A87C' },
+    ],
+  },
+  {
+    name: '😂 笑一個',
+    tools: [
+      { icon: '🤣', name: '每日媽媽笑話', desc: '每天一則育兒生活笑話', href: '/tools/jokes/', color: '#E8A87C' },
+      { icon: '💬', name: '崩潰語錄產生器', desc: '隨機產生「媽媽內心OS」', href: '/tools/quotes/', color: '#D4956A' },
+      { icon: '🎭', name: '你是哪種媽媽？', desc: '趣味心理測驗', href: '/tools/mom-type/', color: '#C07D52' },
+    ],
+  },
+  {
+    name: '🏠 生活工具',
+    tools: [
+      { icon: '⏰', name: '時間分配計算器', desc: '算出每天留給自己多少時間', href: '/tools/time-calc/', color: '#9A8A7A' },
+      { icon: '✅', name: '待辦優先排序', desc: '分出必做、可以晚點、放掉，可複製分享', href: '/tools/priority/', color: '#6E8E6A' },
+      { icon: '🎨', name: '情緒安撫卡', desc: '親子一起用的情緒辨識工具', href: '/tools/emotion-card/', color: '#D4A574' },
+    ],
+  },
+];
+---
+
+<BaseLayout title="喘息工具館" description="媽媽專屬的舒壓工具：呼吸練習、壓力測驗、白噪音、正能量卡片、笑話放鬆，讓你隨時充電。">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+    <div class="text-center mb-12">
+      <span class="text-5xl block mb-4">🧰</span>
+      <h1 class="text-3xl sm:text-4xl font-display font-bold text-warmgray-800 mb-3">
+        喘息工具館
+      </h1>
+      <p class="text-warmgray-400 max-w-md mx-auto">
+        選一個你現在需要的工具，給自己幾分鐘的喘息時間
+      </p>
+    </div>
+
+    {toolCategories.map((cat) => (
+      <section class="mb-12">
+        <h2 class="text-xl font-display font-bold text-warmgray-700 mb-5">
+          {cat.name}
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {cat.tools.map((tool) => (
+            <a
+              href={tool.href}
+              class="bg-white/60 rounded-2xl p-5 border border-white/80 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group flex items-start gap-4"
+            >
+              <span
+                class="text-3xl flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center"
+                style={`background: ${tool.color}15;`}
+              >
+                {tool.icon}
+              </span>
+              <div>
+                <h3 class="font-display font-bold text-warmgray-800 group-hover:text-peach-500 transition-colors">
+                  {tool.name}
+                </h3>
+                <p class="text-sm text-warmgray-400 mt-1">{tool.desc}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

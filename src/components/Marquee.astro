@@ -1,0 +1,25 @@
+---
+const affirmations = [
+  '你今天也辛苦了 ♡',
+  '不完美也沒關係',
+  '你已經是最好的媽媽了',
+  '記得今天也要愛自己',
+  '休息不是偷懶，是充電',
+  '深呼吸，你可以的',
+  '你的存在就是孩子最大的禮物',
+  '今天只需要做到「夠好」就好',
+];
+
+const doubled = [...affirmations, ...affirmations];
+---
+
+<div class="overflow-hidden bg-peach-400/8 py-3 border-y border-peach-400/10">
+  <div class="animate-marquee whitespace-nowrap inline-flex">
+    {doubled.map((text, i) => (
+      <span class="inline-flex items-center mx-6 text-sm text-warmgray-500 font-display">
+        <span class="text-peach-400 mr-2">✦</span>
+        {text}
+      </span>
+    ))}
+  </div>
+</div>

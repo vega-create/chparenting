@@ -1,0 +1,52 @@
+---
+import { siteConfig } from '../site.config';
+---
+
+<footer class="bg-warmgray-800 text-warmgray-300 mt-20">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Brand -->
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <img src="/images/logo.png" alt="Mom Life Recovery Lab" class="h-10 w-auto brightness-0 invert opacity-80" />
+        </div>
+        <p class="text-sm leading-relaxed text-warmgray-400">
+          媽媽不需要完美，只需要一個能喘口氣的空間。這裡有舒壓工具、暖心文章、還有讓你笑出來的育兒日常。
+        </p>
+      </div>
+
+      <!-- Categories -->
+      <div>
+        <h3 class="font-display font-bold text-white mb-4">探索分類</h3>
+        <ul class="space-y-2">
+          {siteConfig.categories.map((cat) => (
+            <li>
+              <a
+                href={`/category/${cat.slug}/`}
+                class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors"
+              >
+                {cat.emoji} {cat.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h3 class="font-display font-bold text-white mb-4">更多</h3>
+        <ul class="space-y-2">
+          <li><a href="/about/" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">關於薇佳媽咪</a></li>
+          <li><a href="/tools/" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">喘息工具館</a></li>
+          <li><a href="/privacy/" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">隱私權政策</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-warmgray-700 mt-8 pt-8 text-center">
+      <p class="text-xs text-warmgray-500">
+        © {new Date().getFullYear()} {siteConfig.name} ♡ 用愛建立
+      </p>
+    </div>
+  </div>
+</footer>

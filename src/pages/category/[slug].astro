@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { siteConfig } from '../../site.config';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return siteConfig.categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+const now = new Date();
+const allPosts = await getCollection('posts', ({ data }) => {
+  return !data.draft && data.category === category.slug && new Date(data.publishDate) <= now;
+});
+const posts = allPosts.sort((a, b) => 
+  new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+);
+---
+
+<BaseLayout title={category.name} description={category.description}>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a>
+      <span class="mx-2">›</span>
+      <span class="text-warmgray-500">{category.name}</span>
+    </nav>
+
+    <div class="flex items-center gap-3 mb-2">
+      <span class="text-4xl">{category.emoji}</span>
+      <h1 class="text-3xl font-display font-bold text-warmgray-800">
+        {category.name}
+      </h1>
+    </div>
+    <p class="text-warmgray-400 mb-8">{category.description}（{posts.length} 篇文章）</p>
+
+    {posts.length > 0 ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        {posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.slug}
+            category={post.data.category}
+            publishDate={post.data.publishDate}
+            image={post.data.image}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20">
+        <span class="text-5xl block mb-4">{category.emoji}</span>
+        <p class="text-warmgray-400 font-display">這個分類的文章正在準備中！</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,145 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import FAQSchema from '../components/FAQSchema.astro';
+import ArticleSchema from '../components/ArticleSchema.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import AdSense from '../components/AdSense.astro';
+import { siteConfig } from '../site.config';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+    publishDate: string;
+    category: string;
+    tags: string[];
+    image?: string;
+    imageAlt?: string;
+    faq?: { q: string; a: string }[];
+  };
+  headings: { depth: number; slug: string; text: string }[];
+}
+
+const { frontmatter, headings } = Astro.props;
+const { title, description, publishDate, category, tags, image, imageAlt, faq } = frontmatter;
+
+const categoryInfo = siteConfig.categories.find(c => c.slug === category);
+const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+
+<BaseLayout title={title} description={description} image={image} type="article" publishDate={new Date(publishDate)}>
+  <!-- Structured Data -->
+  <ArticleSchema
+    title={title}
+    description={description}
+    publishDate={publishDate}
+    image={image}
+    url={siteConfig.url + Astro.url.pathname}
+    category={categoryInfo?.name}
+    tags={tags}
+  />
+  <BreadcrumbSchema items={[
+    { name: '首頁', url: '/' },
+    ...(categoryInfo ? [{ name: categoryInfo.name, url: `/category/${category}/` }] : []),
+    { name: title },
+  ]} />
+
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a>
+      <span class="mx-2">›</span>
+      {categoryInfo && (
+        <>
+          <a href={`/category/${category}/`} class="hover:text-peach-400 transition-colors">
+            {categoryInfo.emoji} {categoryInfo.name}
+          </a>
+          <span class="mx-2">›</span>
+        </>
+      )}
+      <span class="text-warmgray-500">{title}</span>
+    </nav>
+
+    <!-- Title -->
+    <h1 class="text-3xl sm:text-4xl font-bold font-display text-warmgray-800 leading-tight mb-4">
+      {title}
+    </h1>
+
+    <!-- Meta -->
+    <div class="flex flex-wrap items-center gap-3 text-sm text-warmgray-400 mb-8">
+      <time datetime={publishDate}>{dateStr}</time>
+      {categoryInfo && (
+        <a href={`/category/${category}/`} class="bg-peach-400/15 text-peach-500 px-3 py-1 rounded-full text-xs font-medium">
+          {categoryInfo.emoji} {categoryInfo.name}
+        </a>
+      )}
+    </div>
+
+    <!-- Cover Image -->
+    {image && (
+      <img
+        src={image}
+        alt={imageAlt || title}
+        class="w-full rounded-2xl mb-8 object-cover max-h-96"
+        loading="lazy"
+      />
+    )}
+
+    <!-- Ad: Top -->
+    <AdSense slot="top" format="horizontal" />
+
+    <!-- Table of Contents -->
+    <TableOfContents headings={headings} />
+
+    <!-- Ad: After TOC -->
+    <AdSense slot="after-toc" />
+
+    <!-- Article Content -->
+    <div class="prose-warm">
+      <slot />
+    </div>
+
+    <!-- Ad: Mid Article -->
+    <AdSense slot="mid" />
+
+    <!-- Tags -->
+    {tags && tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mt-10 pt-6 border-t border-warmgray-200">
+        {tags.map((tag) => (
+          <span class="bg-warmgray-100 text-warmgray-500 px-3 py-1 rounded-full text-xs">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <!-- Ad: Before FAQ -->
+    <AdSense slot="before-faq" />
+
+    <!-- FAQ Section -->
+    {faq && faq.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold font-display text-warmgray-800 mb-6">
+          💬 常見問題
+        </h2>
+        <div class="space-y-4">
+          {faq.map((item) => (
+            <details class="bg-warmgray-100 rounded-2xl overflow-hidden group">
+              <summary class="px-6 py-4 cursor-pointer font-medium text-warmgray-700 hover:text-peach-500 transition-colors flex items-center justify-between">
+                <span>{item.q}</span>
+                <span class="text-peach-400 group-open:rotate-45 transition-transform text-xl">+</span>
+              </summary>
+              <div class="px-6 pb-4 text-warmgray-500 leading-relaxed">
+                {item.a}
+              </div>
+            </details>
+          ))}
+        </div>
+        <FAQSchema faqs={faq} />
+      </section>
+    )}
+  </article>
+</BaseLayout>

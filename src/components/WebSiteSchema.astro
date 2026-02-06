@@ -1,0 +1,23 @@
+---
+import { siteConfig } from '../site.config';
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": siteConfig.name,
+  "alternateName": "Mom Life Recovery Lab",
+  "url": siteConfig.url,
+  "description": siteConfig.description,
+  "publisher": {
+    "@type": "Organization",
+    "name": siteConfig.name,
+    "url": siteConfig.url,
+    "logo": {
+      "@type": "ImageObject",
+      "url": siteConfig.url + "/images/logo.png",
+    },
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />

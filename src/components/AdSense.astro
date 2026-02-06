@@ -1,0 +1,43 @@
+---
+/**
+ * AdSense 廣告版位元件
+ * 使用方式：<AdSense slot="top" />
+ * 版位：top（頂部）、after-toc（目錄下）、mid（文章中段）、before-faq（FAQ上方）
+ */
+import { siteConfig } from '../site.config';
+
+interface Props {
+  slot?: 'top' | 'after-toc' | 'mid' | 'before-faq' | 'tool-top' | 'tool-bottom';
+  format?: 'auto' | 'horizontal' | 'rectangle' | 'vertical';
+}
+
+const { slot = 'mid', format = 'auto' } = Astro.props;
+const { client, enabled } = siteConfig.adsense;
+
+// 不同版位的樣式
+const slotStyles: Record<string, string> = {
+  'top': 'my-4',
+  'after-toc': 'my-6',
+  'mid': 'my-8',
+  'before-faq': 'my-8',
+  'tool-top': 'my-4',
+  'tool-bottom': 'my-4',
+};
+---
+
+{enabled && client && (
+  <div class={`adsense-container ${slotStyles[slot] || 'my-6'}`}>
+    <div class="text-center">
+      <ins
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client={client}
+        data-ad-format={format}
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+)}
