@@ -4,7 +4,7 @@ description: "覺得壓力好大、喘不過氣？這篇文章分享 5 個簡單
 publishDate: 2025-02-06
 category: "mom-relax"
 tags: ["壓力", "放鬆", "舒壓", "媽媽"]
-image: "https://images.pexels.com/photos/4551028/pexels-photo-4551028.jpeg?auto=compressimage: "https://images.pexels.com/photos/4551028/pexels-photo-4551028.jpeg?auto=compressimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"cs=tinysrgbimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"h=650&w=940"cs=tinysrgbimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"h=650&w=940"
+image: "https://images.pexels.com/photos/4551028/pexels-photo-4551028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "一個正在放鬆的女性"
 faq:
   - q: "媽媽壓力大是正常的嗎？"

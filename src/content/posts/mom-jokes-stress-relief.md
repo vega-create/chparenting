@@ -4,7 +4,7 @@ description: "你是不是也覺得當媽之後笑點變低了？其實，笑是
 publishDate: "2025-02-06"
 category: "release"
 tags: ["媽媽笑話", "育兒日常", "解壓", "媽媽心聲"]
-image: "https://images.pexels.com/photos/5637812/pexels-photo-5637812.jpeg?auto=compressimage: "https://images.pexels.com/photos/5637812/pexels-photo-5637812.jpeg?auto=compressimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"cs=tinysrgbimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"h=650&w=940"cs=tinysrgbimage: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"h=650&w=940"
+image: "https://images.pexels.com/photos/5637812/pexels-photo-5637812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "一位媽媽開心的笑著"
 faq:
   - q: "為什麼當媽後特別需要笑？"
