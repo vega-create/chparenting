@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PrioritySorter from '../../components/tools/PrioritySorter';
+import ShareButtons from '../../components/ShareButtons.astro';
 ---
 <BaseLayout title="待辦事項優先排序" description="把待辦事項分成「必做」「可以晚點」「放掉吧」三類，減少不必要的壓力。完成後可複製分享到 LINE！">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -23,5 +24,6 @@ import PrioritySorter from '../../components/tools/PrioritySorter';
       <h2>為什麼要排序？</h2>
       <p>媽媽每天有做不完的事，但不是每件事都同樣重要。學會分辨「必做」和「可以放掉」的事，是減壓最有效的方式。當你把清單整理好，會發現其實今天真正要做的沒那麼多——然後你就能放心地喘口氣了。</p>
     </div>
+      <ShareButtons title="📋 待辦優先排序" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
   </div>
 </BaseLayout>

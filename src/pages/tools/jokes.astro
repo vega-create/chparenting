@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import DailyJokes from '../../components/tools/DailyJokes';
+import ShareButtons from '../../components/ShareButtons.astro';
 ---
 <BaseLayout title="每日媽媽笑話" description="每天一則育兒笑話，笑一笑壓力少一半。分享給你的媽媽好友們！">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -22,5 +23,6 @@ import DailyJokes from '../../components/tools/DailyJokes';
       <h2>笑一笑真的有用嗎？</h2>
       <p>研究顯示，笑可以降低壓力荷爾蒙、釋放腦內啡，甚至提升免疫力。媽媽每天給自己幾分鐘的「笑時間」，是最簡單的充電方式。不需要理由，笑就對了！</p>
     </div>
+      <ShareButtons title="😆 每日媽媽笑話" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
   </div>
 </BaseLayout>

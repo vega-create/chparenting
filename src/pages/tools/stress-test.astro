@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StressTest from '../../components/tools/StressTest';
+import ShareButtons from '../../components/ShareButtons.astro';
 ---
 <BaseLayout title="媽媽壓力指數測驗" description="10 題快速測驗，了解你的壓力等級，獲得專屬建議。只需要 2 分鐘。">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -20,5 +21,6 @@ import StressTest from '../../components/tools/StressTest';
       <h2>關於這個測驗</h2>
       <p>這是一個簡單的自我評估工具，幫助你了解目前的壓力狀態。它不是醫學診斷工具，但可以讓你更清楚自己需要什麼樣的支持。如果壓力持續很高，建議尋求專業的心理諮商協助。</p>
     </div>
+      <ShareButtons title="📊 壓力指數測驗" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
   </div>
 </BaseLayout>

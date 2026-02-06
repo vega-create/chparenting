@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MoodDiary from '../../components/tools/MoodDiary';
+import ShareButtons from '../../components/ShareButtons.astro';
 ---
 <BaseLayout title="心情日記" description="花一分鐘記錄今天的心情，收到一句暖心的話。可以複製到 LINE 或備忘錄保存！">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -22,5 +23,6 @@ import MoodDiary from '../../components/tools/MoodDiary';
       <h2>為什麼記錄心情有幫助？</h2>
       <p>情緒覺察是心理健康的第一步。寫下來不只是紀錄，更是一種釋放。當你養成記錄的習慣，會慢慢看見自己的情緒模式，知道什麼讓你開心、什麼讓你疲累。這份自我了解，就是改變的開始。</p>
     </div>
+      <ShareButtons title="📝 心情日記" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
   </div>
 </BaseLayout>

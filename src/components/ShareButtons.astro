@@ -1,0 +1,244 @@
+---
+/**
+ * ShareButtons.astro — 社群分享元件
+ * 
+ * 用法：
+ *   文章頁：<ShareButtons title={post.data.title} />
+ *   工具頁：<ShareButtons title="心情日記" label="覺得這個工具不錯？分享給朋友吧 💛" variant="tool" />
+ * 
+ * Props:
+ *   title    — 分享時顯示的標題（必填）
+ *   label    — 分享區塊上方的文字（選填，預設「覺得不錯？分享給需要喘息的媽媽 💛」）
+ *   variant  — "article" | "tool"（選填，預設 "article"）
+ */
+
+interface Props {
+  title: string;
+  label?: string;
+  variant?: 'article' | 'tool';
+}
+
+const { 
+  title, 
+  label = '覺得不錯？分享給需要喘息的媽媽 💛',
+  variant = 'article' 
+} = Astro.props;
+
+const url = Astro.url.href;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+
+// 各平台分享連結
+const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+const lineShareUrl = `https://line.me/R/msg/text/?${encodedTitle}%0A${encodedUrl}`;
+// Instagram 沒有直接分享 URL 的 API，改為複製連結後引導到 IG
+const igShareUrl = `https://www.instagram.com/`;
+---
+
+<div class="share-block">
+  <div class="share-block__label">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+    </svg>
+    {label}
+  </div>
+  <div class="share-block__buttons">
+    <!-- Facebook -->
+    <a href={fbShareUrl} target="_blank" rel="noopener noreferrer" class="share-btn share-btn--fb" aria-label="分享到 Facebook">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      Facebook
+    </a>
+
+    <!-- LINE -->
+    <a href={lineShareUrl} target="_blank" rel="noopener noreferrer" class="share-btn share-btn--line" aria-label="分享到 LINE">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.304C24 4.974 18.629.572 12 .572S0 4.974 0 10.304c0 4.813 4.27 8.846 10.035 9.613.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.304"/></svg>
+      LINE
+    </a>
+
+    <!-- Instagram 限動 -->
+    <button class="share-btn share-btn--ig" id="ig-share-btn" aria-label="分享到 Instagram 限動">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      限動
+    </button>
+
+    <!-- 複製連結 -->
+    <button class="share-btn share-btn--copy" id="copy-link-btn" aria-label="複製連結">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+      <span class="copy-text">複製連結</span>
+    </button>
+  </div>
+</div>
+
+<!-- Toast 通知 -->
+<div class="share-toast" id="share-toast"></div>
+
+<style>
+  .share-block {
+    background: #FDF5F0;
+    border: 1px solid #F2D8C2;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .share-block__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #D4956A;
+    margin-bottom: 16px;
+  }
+
+  .share-block__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  .share-btn:active {
+    transform: scale(0.95);
+  }
+
+  /* Facebook */
+  .share-btn--fb {
+    background: #1877F2;
+    color: white;
+  }
+  .share-btn--fb:hover {
+    background: #1565D8;
+    box-shadow: 0 4px 12px rgba(24, 119, 242, 0.35);
+  }
+
+  /* LINE */
+  .share-btn--line {
+    background: #06C755;
+    color: white;
+  }
+  .share-btn--line:hover {
+    background: #05B34C;
+    box-shadow: 0 4px 12px rgba(6, 199, 85, 0.35);
+  }
+
+  /* Instagram */
+  .share-btn--ig {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+  }
+  .share-btn--ig:hover {
+    box-shadow: 0 4px 12px rgba(225, 48, 108, 0.4);
+    filter: brightness(1.05);
+  }
+
+  /* 複製連結 */
+  .share-btn--copy {
+    background: white;
+    color: #6B7280;
+    border: 1.5px solid #E5E7EB;
+  }
+  .share-btn--copy:hover {
+    background: #F9FAFB;
+    border-color: #E8A87C;
+    color: #D4956A;
+    box-shadow: 0 4px 12px rgba(232, 168, 124, 0.2);
+  }
+  .share-btn--copy.copied {
+    background: #FDF5F0;
+    border-color: #E8A87C;
+    color: #D4956A;
+  }
+
+  /* Toast */
+  .share-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: #1F2937;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 100;
+    pointer-events: none;
+  }
+  .share-toast.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+
+  @media (max-width: 480px) {
+    .share-btn {
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+    .share-block__buttons {
+      gap: 8px;
+    }
+  }
+</style>
+
+<script define:vars={{ url, title }}>
+  // 複製連結
+  document.getElementById('copy-link-btn')?.addEventListener('click', () => {
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = document.getElementById('copy-link-btn');
+      const textEl = btn?.querySelector('.copy-text');
+      if (btn && textEl) {
+        btn.classList.add('copied');
+        textEl.textContent = '已複製 ✓';
+        showToast('✅ 連結已複製！');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          textEl.textContent = '複製連結';
+        }, 2000);
+      }
+    });
+  });
+
+  // Instagram 限動 — 先複製連結，再提示開啟 IG
+  document.getElementById('ig-share-btn')?.addEventListener('click', () => {
+    navigator.clipboard.writeText(url).then(() => {
+      showToast('📋 連結已複製！開啟 Instagram 貼到限動吧');
+      // 嘗試開啟 Instagram app（手機才有效）
+      setTimeout(() => {
+        window.open('instagram://story-camera', '_blank');
+      }, 500);
+    }).catch(() => {
+      // fallback: 直接開 IG 網頁
+      window.open('https://www.instagram.com/', '_blank');
+    });
+  });
+
+  function showToast(msg) {
+    const toast = document.getElementById('share-toast');
+    if (toast) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+  }
+</script>

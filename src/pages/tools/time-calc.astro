@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TimeCalculator from '../../components/tools/TimeCalculator';
+import ShareButtons from '../../components/ShareButtons.astro';
 ---
 <BaseLayout title="媽媽時間分配計算器" description="輸入你每天做的事，算出留給自己的時間有多少。看看你有沒有好好照顧自己。">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -22,5 +23,6 @@ import TimeCalculator from '../../components/tools/TimeCalculator';
       <h2>為什麼要算？</h2>
       <p>很多媽媽覺得「時間不夠用」，但從來沒有真正算過。當你看到具體的數字，才會意識到：原來我需要重新分配時間，留一點給自己。就算只有 15 分鐘，那也是屬於你的時間。</p>
     </div>
+      <ShareButtons title="⏰ 角色時間計算器" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
   </div>
 </BaseLayout>
