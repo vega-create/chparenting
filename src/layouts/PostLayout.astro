@@ -92,7 +92,7 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
     <AdSense slot="top" format="horizontal" />
 
     <!-- Table of Contents -->
-    <TableOfContents headings={headings} />
+    <TableOfContents headings={faq && faq.length > 0 ? [...headings, { depth: 2, slug: "常見問題", text: "💬 常見問題" }] : headings} />
 
     <!-- Ad: After TOC -->
     <AdSense slot="after-toc" />
@@ -122,7 +122,7 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
     <!-- FAQ Section -->
     {faq && faq.length > 0 && (
       <section class="mt-12">
-        <h2 class="text-2xl font-bold font-display text-warmgray-800 mb-6">
+        <h2 id="常見問題" class="text-2xl font-bold font-display text-warmgray-800 mb-6">
           💬 常見問題
         </h2>
         <div class="space-y-4">
