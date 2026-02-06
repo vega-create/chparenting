@@ -42,8 +42,8 @@ export const siteConfig = {
 
   // AdSense (待申請)
   adsense: {
-    client: '',
-    enabled: false,
+    client: 'ca-pub-3493526929407874',
+    enabled: true,
   },
 
   // GA4
