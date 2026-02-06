@@ -6,6 +6,8 @@ import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import AdSense from '../components/AdSense.astro';
 import { siteConfig } from '../site.config';
+import ShareButtons from '../components/ShareButtons.astro';
+import ShareButtons from '../components/ShareButtons.astro';
 
 interface Props {
   frontmatter: {
@@ -141,5 +143,8 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
         <FAQSchema faqs={faq} />
       </section>
     )}
+
+    <!-- 社群分享 -->
+    <ShareButtons title={title} />
   </article>
 </BaseLayout>

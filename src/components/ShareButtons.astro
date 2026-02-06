@@ -3,36 +3,26 @@
  * ShareButtons.astro — 社群分享元件
  * 
  * 用法：
- *   文章頁：<ShareButtons title={post.data.title} />
- *   工具頁：<ShareButtons title="心情日記" label="覺得這個工具不錯？分享給朋友吧 💛" variant="tool" />
- * 
- * Props:
- *   title    — 分享時顯示的標題（必填）
- *   label    — 分享區塊上方的文字（選填，預設「覺得不錯？分享給需要喘息的媽媽 💛」）
- *   variant  — "article" | "tool"（選填，預設 "article"）
+ *   文章頁：<ShareButtons title={title} />
+ *   工具頁：<ShareButtons title="心情日記" label="覺得這個工具不錯？分享給朋友吧 💛" />
  */
 
 interface Props {
   title: string;
   label?: string;
-  variant?: 'article' | 'tool';
 }
 
 const { 
   title, 
   label = '覺得不錯？分享給需要喘息的媽媽 💛',
-  variant = 'article' 
 } = Astro.props;
 
 const url = Astro.url.href;
 const encodedUrl = encodeURIComponent(url);
 const encodedTitle = encodeURIComponent(title);
 
-// 各平台分享連結
 const fbShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
 const lineShareUrl = `https://line.me/R/msg/text/?${encodedTitle}%0A${encodedUrl}`;
-// Instagram 沒有直接分享 URL 的 API，改為複製連結後引導到 IG
-const igShareUrl = `https://www.instagram.com/`;
 ---
 
 <div class="share-block">
@@ -80,7 +70,7 @@ const igShareUrl = `https://www.instagram.com/`;
     border-radius: 16px;
     padding: 24px;
     text-align: center;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 
   .share-block__label {
@@ -113,7 +103,7 @@ const igShareUrl = `https://www.instagram.com/`;
     border: none;
     cursor: pointer;
     transition: all 0.25s ease;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC', 'Quicksand', sans-serif;
   }
 
   .share-btn:active {
@@ -223,12 +213,10 @@ const igShareUrl = `https://www.instagram.com/`;
   document.getElementById('ig-share-btn')?.addEventListener('click', () => {
     navigator.clipboard.writeText(url).then(() => {
       showToast('📋 連結已複製！開啟 Instagram 貼到限動吧');
-      // 嘗試開啟 Instagram app（手機才有效）
       setTimeout(() => {
         window.open('instagram://story-camera', '_blank');
       }, 500);
     }).catch(() => {
-      // fallback: 直接開 IG 網頁
       window.open('https://www.instagram.com/', '_blank');
     });
   });
