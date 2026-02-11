@@ -2,7 +2,7 @@
 title: "為什麼媽媽笑話能讓你秒減壓？10 個讓你笑到流淚的育兒日常"
 description: "你是不是也覺得當媽之後笑點變低了？其實，笑是最好的解壓方式。來看看這些讓無數媽媽笑到不行的育兒日常，保證你看完心情會好很多。"
 publishDate: "2025-02-06"
-category: "release"
+category: "mom-emotions"
 tags: ["媽媽笑話", "育兒日常", "解壓", "媽媽心聲"]
 image: "https://images.pexels.com/photos/5637812/pexels-photo-5637812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "一位媽媽開心的笑著"

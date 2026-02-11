@@ -2,7 +2,7 @@
 title: "孩子情緒失控怎麼辦？6 個親子一起做的舒壓小練習"
 description: "孩子在公共場合大哭大鬧讓你崩潰？與其壓抑情緒，不如學會和孩子一起面對。6 個簡單的親子舒壓練習，幫助你和孩子一起找回平靜。"
 publishDate: "2025-02-06"
-category: "child-raising"
+category: "parent-child"
 tags: ["親子舒壓", "情緒管理", "兒童情緒", "親子互動"]
 image: "https://images.pexels.com/photos/7105605/pexels-photo-7105605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "媽媽和孩子一起做伸展運動"

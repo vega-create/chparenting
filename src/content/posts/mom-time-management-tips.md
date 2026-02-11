@@ -2,7 +2,7 @@
 title: "媽媽如何每天多出30分鐘？5 個時間管理小魔法"
 description: "覺得每天24小時根本不夠用？試試這 5 個專為忙碌媽媽設計的時間管理技巧，不需要犧牲睡眠，就能找回屬於自己的時間。"
 publishDate: "2025-02-06"
-category: "life-inspiration"
+category: "practical-life"
 tags: ["時間管理", "媽媽生活", "自我照顧", "生活技巧"]
 image: "https://images.pexels.com/photos/4474042/pexels-photo-4474042.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "一位媽媽在安靜的角落喝咖啡"

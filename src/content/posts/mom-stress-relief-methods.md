@@ -2,7 +2,7 @@
 title: "媽媽壓力大怎麼辦？5 個讓你瞬間放鬆的小方法"
 description: "覺得壓力好大、喘不過氣？這篇文章分享 5 個簡單又有效的放鬆方法，讓忙碌的媽媽也能找到喘息的空間。"
 publishDate: 2025-02-06
-category: "mom-relax"
+category: "mom-emotions"
 tags: ["壓力", "放鬆", "舒壓", "媽媽"]
 image: "https://images.pexels.com/photos/4551028/pexels-photo-4551028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imageAlt: "一個正在放鬆的女性"
