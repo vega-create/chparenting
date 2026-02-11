@@ -18,19 +18,19 @@ export const siteConfig = {
   nav: [
     { text: '首頁', href: '/', emoji: '🏠' },
     { text: '喘息工具', href: '/tools/', emoji: '🫁' },
-    { text: '媽媽喘息區', href: '/category/mom-relax/', emoji: '☕' },
-    { text: '解壓笑一個', href: '/category/release/', emoji: '😂' },
-    { text: '親子舒壓', href: '/category/child-raising/', emoji: '👩‍👧' },
-    { text: '生活魔法', href: '/category/life-inspiration/', emoji: '✨' },
+    { text: '育兒崩潰', href: '/category/parenting-crisis/', emoji: '🔥' },
+    { text: '媽媽情緒', href: '/category/mom-emotions/', emoji: '💛' },
+    { text: '親子關係', href: '/category/parent-child/', emoji: '👩‍👧' },
+    { text: '生活實用', href: '/category/practical-life/', emoji: '✨' },
     { text: '關於我', href: '/about/', emoji: '💛' },
   ],
 
   // Content categories
   categories: [
-    { slug: 'mom-relax', name: '媽媽喘息區', emoji: '☕', description: '專屬媽媽的放鬆時刻' },
-    { slug: 'release', name: '解壓笑一個', emoji: '😂', description: '笑一笑，壓力少一半' },
-    { slug: 'child-raising', name: '親子舒壓', emoji: '👩‍👧', description: '和孩子一起放鬆的方法' },
-    { slug: 'life-inspiration', name: '生活魔法', emoji: '✨', description: '讓生活更輕鬆的小技巧' },
+    { slug: 'parenting-crisis', name: '育兒崩潰', emoji: '🔥', description: '育兒難題的實用解答' },
+    { slug: 'mom-emotions', name: '媽媽情緒', emoji: '💛', description: '你的辛苦，我都懂' },
+    { slug: 'parent-child', name: '親子關係', emoji: '👩‍👧', description: '更好的教養從理解開始' },
+    { slug: 'practical-life', name: '生活實用', emoji: '✨', description: '媽媽必備的實用資訊' },
   ],
 
   // Social links
