@@ -74,6 +74,8 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
     <!-- Meta -->
     <div class="flex flex-wrap items-center gap-3 text-sm text-warmgray-400 mb-8">
       <time datetime={publishDate}>{dateStr}</time>
+      <span class="text-warmgray-300">·</span>
+      <a href="/about/" class="hover:text-peach-400 transition-colors">{siteConfig.author}</a>
       {categoryInfo && (
         <a href={`/category/${category}/`} class="bg-peach-400/15 text-peach-500 px-3 py-1 rounded-full text-xs font-medium">
           {categoryInfo.emoji} {categoryInfo.name}
