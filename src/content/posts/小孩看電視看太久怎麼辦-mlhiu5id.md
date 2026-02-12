@@ -15,9 +15,6 @@ faq:
     a: "可以嘗試讓活動變得有趣，比如舉辦家庭競賽，或是與朋友一起進行，這樣能增加他們的參與感和興趣。"
 author: "Vega"
 ---
-
-# 小孩看電視看太久怎麼辦
-
 在一個陽光明媚的下午，阿玲正忙著準備晚餐，突然聽見小孩小宇的笑聲從客廳傳來。她忍不住探頭一看，卻發現小宇正坐在沙發上，眼睛緊盯著電視螢幕，手裡還握著一包零食。這已經是他連續看了第三集動畫片，阿玲心裡暗想：這樣下去可不行啊！她努力回想當初對小宇的承諾，每天只能看一小時電視，但現在這個小約定似乎早已被遺忘。阿玲感到一陣崩潰，心裡不禁懷疑：我該怎麼辦？
 
 小孩看電視看太久，常常讓媽媽們感到無奈與焦慮。不過，這並不是沒得解決的問題！透過一些具體的方法與建議，我們可以幫助孩子建立健康的視聽習慣。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![Asian mother and child enjoy cooking together in a cozy home kitchen setting.](https://images.pexels.com/photos/7678030/pexels-photo-7678030.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、設定合理的觀看時間
 
 為了避免小孩沉迷於電視，設定合理的觀看時間是非常重要的。首先，媽
 
-![Two kids playfully engage in peek-a-boo inside a star-themed tent.](https://images.pexels.com/photos/7105548/pexels-photo-7105548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 媽們可以根據孩子的年齡來決定每
 
-![A cozy moment of mother and daughters reading together, promoting family bonding.](https://images.pexels.com/photos/7105616/pexels-photo-7105616.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 天的觀看時間。例如，對於學齡前的孩子，每天不超過一小時是比較合適的。這樣可以避免他們因為長時間看電視而影響到學習與其他活動。
 
 在設定觀看時間時，可以讓小孩參與這個過程，讓他們覺得自己有選擇的權利。例如，阿玲可以和小宇一起制定觀看計畫，決定今天要看哪些節目，並設定每個節目的時間。透過這樣的方式，不僅能讓孩子更有主動性，還能讓他們學會時間管理。

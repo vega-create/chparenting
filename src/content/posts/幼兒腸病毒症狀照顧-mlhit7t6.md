@@ -15,9 +15,6 @@ faq:
     a: "若孩子持續高燒、出現脫水症狀、持續嘔吐或呼吸困難等情況時，應立即就醫。"
 author: "Vega"
 ---
-
-# 幼兒腸病毒症狀照顧
-
 在某個熱情的夏日午後，阿美正忙著準備為她的寶寶小頌做午餐。突然，她注意到小頌的臉色變得異常蒼白，嘴角還出現了小水泡。阿美心中一緊，立刻想起最近幼兒園正流行腸病毒。她的心中充滿了焦慮，腸病毒的症狀讓她感到不安，因為她知道，這不僅會讓小頌不舒服，還可能影響到全家人的生活。於是，阿美決定深入了解腸病毒的症狀與照顧方法，讓自己能在這段艱難的時期更好地照顧小頌。
 
 腸病毒是一種常見於幼兒的病毒，會引起多種症狀，包括發燒、喉嚨痛和皮膚水泡等。了解腸病毒的症狀及如何照顧受影響的幼兒，可以幫助媽媽們減輕焦慮，提供更好的支持。
@@ -36,7 +33,6 @@ author: "Vega"
 
 
 
-![Cute Asian little girl sitting on soft bed and looking at sick grandmother drinking medicine on sunny day](https://images.pexels.com/photos/5692692/pexels-photo-5692692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、如何照顧感染腸病毒的幼兒
 
 在孩子感染腸病毒後，適當的照顧是至關重要的。以下是一些建議：
@@ -45,12 +41,10 @@ author: "Vega"
    
 2. **舒適的環境**：保持室內通風，讓孩子在舒適的環境中休息。可以使用輕薄的被子
 
-![An Asian mother happily feeds her baby with a bottle during the Christmas holiday season.](https://images.pexels.com/photos/9396667/pexels-photo-9396667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ，避免因發燒而過熱。
 
 3. **飲食調整**：提供清淡、易消化的食物，例如米粥、香蕉或蔬菜湯。如果孩子因喉嚨痛而拒絕固體食物，可以
 
-![A close-up shot of hands being washed under a modern faucet indoors.](https://images.pexels.com/photos/3736432/pexels-photo-3736432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 考慮給予稀飯或湯類。
 
 4. **定期觀察症狀**：密切注意孩子的症狀變化，如果發現情況惡化，例如高燒不退或出現持續嘔吐，應立即就醫。

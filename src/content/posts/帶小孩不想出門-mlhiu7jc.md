@@ -15,9 +15,6 @@ faq:
     a: "讓小孩選擇衣物、準備零食和玩具，並告訴他們當天的計畫，這樣能增加他們的期待感。"
 author: "Vega"
 ---
-
-# 帶小孩不想出門
-
 在一個陽光明媚的週末早晨，媽咪小莉望著窗外的藍天，心中卻有著無數的掙扎。她的寶貝寶寶小皓正坐在客廳的地上，手裡玩著積木，興高采烈地發出咯咯的笑聲。小莉心裡明白，今天是個適合外出走走的好日子，但想到出門的過程，她的腦海裡瞬間浮現出一堆麻煩的場景：要準備的衣物、必須帶的尿布、還有小皓可能會在路上鬧脾氣的情景。最終，小莉不由自主地選擇了留在家裡，享受著這份安靜，卻也感到一絲內疚與不安。
 
 帶小孩出門，對許多媽媽來說，真的像是一場心理的拉鋸戰。有時候，我們想要出去呼吸新鮮空氣、享受家庭時光，但那份重重的準備和可能出現的挑戰，讓我們更願意待在舒適的家裡。這篇文章將幫助你理解為什麼會有這樣的情緒，並提供一些實用的建議，讓你更輕鬆地帶著小孩出門。
@@ -36,19 +33,16 @@ author: "Vega"
 
 
 
-![A woman prepares a salad while her baby sits at the table in a cozy home setting.](https://images.pexels.com/photos/7469420/pexels-photo-7469420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、如何克服出門的焦慮？
 
 克服出門的焦慮，首先要認識到這些情緒是正常的，接下來可以試著以下幾個方法：
 
 1. **簡化準備工作**：列出一個簡單的清單，將每次出門需要的物品固定下來，這樣每次出門時就能更快速地準備好，減少不
 
-![A joyful young girl delighted by her clothing choices in a bright room.](https://images.pexels.com/photos/5692997/pexels-photo-5692997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 必要的壓力。
 
 2. **給予自己和小孩足夠的時間**：出門前預留足夠的時間，讓小孩有時間適應這個過程，而不是急急忙忙地衝出門
 
-![A joyful moment of a mother and her daughters dancing and playing outside on a sunny day.](https://images.pexels.com/photos/5637811/pexels-photo-5637811.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 。這樣不僅能減少焦慮，也能讓小孩感受到安全感。
 
 3. **設定小目標**：不必每次都要去大型的公園或商場，可以從家附近的小公園開始，讓小孩享受戶外的樂趣，慢慢增加出門的頻率和距離。

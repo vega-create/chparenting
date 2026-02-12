@@ -15,9 +15,6 @@ faq:
     a: "安排每週至少一次的個人活動，例如看電影、運動或與朋友聚會，讓自己得到充分的休息和放鬆。"
 author: "Vega"
 ---
-
-# 覺得自己不是好媽媽
-
 在一個陽光明媚的午後，妍妍正在全聯裡推著購物車，買著平常的日用品。她的心裡卻一直在煩惱著。因為早上，女兒小安又因為不想上幼兒園大哭不止，而她無奈地只能把她推上車，心裡充滿了自責。妍妍不禁想：「我是不是一個不好的媽媽？」她一直努力去參加親子活動，盡量讓小安快樂，但卻總覺得自己做得不夠好，心裡的那份焦慮與不安如影隨形，讓她無法平靜。
 
 這樣的想法其實是許多媽媽們共同的心聲。許多時候，我們都會對自己提出苛刻的要求，認為自己應該成為完美的媽媽，卻忘了每個人都有不如意的時刻。事實上，能夠意識到自己的不足，並努力改進，這本身就是一個好媽媽的表現。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![Adorable child with crown in stroller, shopping mall setting with mother and superhero costume.](https://images.pexels.com/photos/11608316/pexels-photo-11608316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、如何辨識自我懷疑的情緒？
 
 辨識自我懷疑的情緒
 
-![Smiling mother holding child against a gray wall, showcasing family love and togetherness.](https://images.pexels.com/photos/7678122/pexels-photo-7678122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 是第一步。妍妍在推著購物車的時候，不時會想起小安的哭泣聲，這時候她可以問自己幾個問題：這些懷疑是否基於事實？我有沒有嘗試過其
 
-![A joyful mother and son embrace on a cozy bed, enjoying a carefree morning together.](https://images.pexels.com/photos/4473807/pexels-photo-4473807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 他方法來解決問題？這些問題能幫助妍妍釐清自己的情緒，並理解這些自我懷疑是否真實。
 
 在情緒來襲時，媽媽們可以試著寫下自己的感受，並找出這些感受的根源。例如，妍妍可以寫下她對小安的擔心，並回顧自己在日常生活中對女兒的付出。這樣的過程不僅能幫助媽媽們釐清思緒，也能讓她們更客觀地看待自己的表現。

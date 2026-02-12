@@ -15,9 +15,6 @@ faq:
     a: "每天花些時間自我反思，專注於身體的美好部分，並與他人分享感受，會有助於接受自我。"
 author: "Vega"
 ---
-
-# 產後身材回不去好沮喪
-
 在一個陽光明媚的午後，阿娟坐在家裡的沙發上，手裡抱著剛滿一歲的寶寶，心裡卻有些鬱悶。她瞥了一眼鏡子，發現自己身材的變化讓她感到不安。曾經的她是那麼自信，現在卻因為產後的身材回不去而感到沮喪。無論是從健身房回來的朋友，還是社交媒體上那些「產後身材回春」的故事，都在她心裡扎了根。她開始質疑自己，懷疑自己是否還能找回那個自信的自己。
 
 這樣的情緒，對於每位新手媽媽來說，都是一種無形的壓力。產後身材的變化不僅是生理上的挑戰，更是一種心理上的考驗。其實，這是許多媽媽共同的心聲，我們都在努力接受產後的自己。
@@ -32,14 +29,10 @@ author: "Vega"
 
 
 
-![Asian woman using camera and ring light for vlogging indoors.](https://images.pexels.com/photos/9413658/pexels-photo-9413658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 ## 二、社會媒體的影響
 
 在這個數位時代，
 
-![Side view of smiling young Asian woman stretching body with adorable daughter while standing against each other on floor carpet near cozy couch in modern living room in morning](https://images.pexels.com/photos/447362
-
-![A ballet coach and her student in a studio, using a laptop for an online lesson.](https://images.pexels.com/photos/5150429/pexels-photo-5150429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 2/pexels-photo-4473622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 社交媒體充斥著各種各樣的「完美」身材照片，這讓許多媽媽感到壓力重重。時常看到那些產後迅速恢復身材的名人或網紅，會讓人不自覺地開始與自己比較，進而產生焦慮感。其實，這些照片往往是經過精心處理的，背後也有無數的辛苦與努力。
 

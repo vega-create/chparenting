@@ -15,9 +15,6 @@ faq:
     a: "通常在孩子三歲左右，但最重要的是孩子的生理和心理準備狀態。如果孩子表現出想要戒尿布的意願，那就是最佳時機。"
 author: "Vega"
 ---
-
-# 3歲不肯戒尿布
-
 在一個陽光明媚的早晨，阿妍正忙著為她三歲的兒子小哲準備早餐。突然，她聽見小哲在客廳裡大聲呼喊：「媽咪！我尿尿了！」她心中一陣無奈，因為小哲已經三歲了，照理說應該開始戒尿布了。阿妍深吸一口氣，心裡盤算著：到底是什麼原因讓小哲不肯戒尿布呢？她不禁想起自己也曾經在超市裡，因為小哲的尿布問題而感到無比崩潰，甚至想過要放棄這一切。這個故事是否也讓你感同身受呢？
 
 在許多媽媽的心中，三歲的孩子應該已經能夠掌握如廁訓練，但實際上，許多孩子在戒尿布的過程中會遇到各種各樣的困難。這篇文章將深入探討為什麼有些三歲孩子不肯戒尿布，並提供具體的解決方法，幫助你和孩子一起度過這個階段。
@@ -30,11 +27,6 @@ author: "Vega"
 
 
 
-![A cheerful young girl wearing a red dress and playful headwear, exuding joy and innocence.](https://images.pexels.com/photos/3661508/pexels-photo-3661508.jpeg?auto=compress&cs=tinysrgb&h=650&w=9
-
-![A mother and son bonding while reading a book together indoors, sharing a joyful moment.](https://images.pexels.com/photos/9345609/pexels-photo-9345609.jpeg?auto=compress&
-
-![Adorable child in red dress blowing soap bubbles while playing indoors with colorful toys.](https://images.pexels.com/photos/3661470/pexels-photo-3661470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 cs=tinysrgb&h=650&w=940)
 40)
 ## 二、創造舒適的環境

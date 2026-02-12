@@ -15,9 +15,6 @@ faq:
     a: "如果腰痠背痛持續不退，且伴隨麻木、刺痛感或行動困難，建議儘早就醫檢查。"
 author: "Vega"
 ---
-
-# 帶小孩腰痠背痛
-
 在一個陽光燦爛的週末，阿美帶著她的寶寶小宇，準備去公園散步。雖然小宇已經快兩歲了，但他的小腳丫總是喜歡在草地上跑來跑去，完全不理會媽媽的呼喚。阿美一邊追著小宇，心裡想着「快點，媽媽要休息了！」，但小宇的笑聲讓她不禁微笑。然而，當她終於把小宇抱回懷裡時，腰痛的感覺卻如潮水般湧現，讓她忍不住發出一聲呻吟。每次帶小孩都這麼累，阿美心裡不禁想：這樣的腰痠背痛何時才會結束？
 
 在帶小孩的過程中，很多媽媽都會面臨腰痠背痛的困擾，這是因為長時間的抱、舉及其他勞動造成的。這篇文章將幫助你了解這些疼痛的原因，以及如何舒緩這些不適，讓你能更輕鬆地享受育兒的過程。
@@ -30,14 +27,10 @@ author: "Vega"
 
 
 
-![A touching indoor moment of an Asian woman embracing her baby, showcasing love and motherhood.](https://images.pexels.com/photos/13801898/pexels-photo-13801898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、如何預防腰痠背痛？
 
 預防腰痠背痛，首先要從正確的姿勢開始。當你抱小孩時，應盡量保持背部直立，避免長時間彎腰。如果需要蹲下，建議雙腿分開，讓身體的重心保持穩定
 
-![Side view of smiling young Asian woman stretching body with adorable daughter while standing against each other on floor carpet near cozy couch in modern living room in morning](https://images.pexels.com/photos/4473622/pexels
-
-![A woman in activewear holds her lower back, indicating muscle strain, outdoors.](https://images.pexels.com/photos/7298412/pexels-photo-7298412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 -photo-4473622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 ，這樣可以減少腰部的負擔。此外，選擇合適的抱娃方式也很重要。試著使用雙手抱著寶寶，這樣可以分散重心，減少單側的負擔。
 

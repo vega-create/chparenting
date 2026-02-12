@@ -15,9 +15,6 @@ faq:
     a: "如果小孩的哭鬧伴隨著其他不適症狀，如高燒、持續不適或食慾不振，建議及時就醫檢查。"
 author: "Vega"
 ---
-
-# 小孩半夜哭鬧原因
-
 在一個寧靜的夜晚，媽媽小珍正疲憊地坐在沙發上，努力想要閉上眼睛，享受短暫的休息。就在這時，房間裡突然傳來一陣尖銳的哭聲，小珍的心一緊，立刻跳起來，直直奔向寶寶的房間。小珍的寶寶小凱，才剛剛入睡，怎麼又哭了呢？她心裡一陣焦慮，想著：是不是肚子餓了？還是做噩夢了？小珍嘗試著安撫小凱，但他似乎無法平靜下來，哭得更厲害了。這樣的情況讓小珍感到崩潰，真的不知道該怎麼辦才好。
 
 其實，半夜哭鬧是很多媽媽們共同面對的難題，無論是剛出生的小寶寶，還是稍微大一點的幼兒，這種情況都會時常發生。為什麼小孩半夜會哭鬧呢？這篇文章將幫助你理解可能的原因，並提供實用的解決方法。
@@ -32,14 +29,10 @@ author: "Vega"
 
 
 
-![A joyful mother and child laughing together at home on a cozy sofa, enjoying quality time.](https://images.pexels.com/photos/7705710/pexels-photo-7705710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、情緒因素：分離焦慮或噩夢
 
 隨著年齡的增長，小孩開始意識到周圍的環
 
-![Cute toddler sitting in a high chair enjoying a healthy fruit snack indoors.](https://images.pexels.com/photos/5083229/pexels-photo-5083229.jpeg?auto=compress&cs=tinysrgb&h=650&w=94
-
-![Charming newborn baby in lace bonnet and wrap sleeping peacefully, supported gently by adult hands.](https://images.pexels.com/photos/34689201/pexels-photo-34689201.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 0)
 境與人際關係。小凱在夜裡哭鬧，可能是因為他感到孤單或有分離焦慮。這種情況特別常見於一歲到三歲的幼兒，他們在睡眠中可能會突然驚醒，因為夢到了媽媽不在身邊。
 

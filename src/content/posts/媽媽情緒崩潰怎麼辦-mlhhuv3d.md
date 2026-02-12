@@ -15,9 +15,6 @@ faq:
     a: "如果情緒持續低落、影響生活品質，建議及早尋求專業的心理諮詢，獲得專業的支持與指導。"
 author: "Vega"
 ---
-
-# 媽媽情緒崩潰怎麼辦
-
 在一個陽光明媚的早晨，阿妤正忙著為她的小寶貝準備早餐。剛剛喂完奶，寶寶又開始哭鬧，讓她的心情瞬間跌入谷底。她試著安撫他，但寶寶似乎就是不願意平靜下來。此時，阿妤的腦海中不斷浮現著昨晚沒睡好，還有一大堆家務等著她去處理。情緒的壓力像潮水般湧來，讓她感到無法承受。她忍不住想，這樣的日子何時才會結束？媽媽的角色真的這麼艱難嗎？
 
 情緒崩潰是許多媽媽在育兒過程中常遇到的問題。了解情緒的根源並學會應對，能讓我們更有力量去面對育兒的挑戰。
@@ -30,15 +27,11 @@ author: "Vega"
 
 
 
-![Portrait of an empowered woman embracing her scars with confidence in a mirror reflection.](https://images.pexels.com/photos/8626332/pexels-photo-8626332.jpeg?auto=compress&cs=
-
-![A mother and daughter enjoy a playful moment playing hide and seek by the window indoors.](https://images.pexels.com/photos/7943704/pexels-photo-7943704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 tinysrgb&h=650&w=940)
 ## 二、學會接納自己的情緒
 
 情緒的起伏是正
 
-![A mother and daughter performing yoga on a paved path, showcasing togetherness and wellness.](https://images.pexels.com/photos/13849212/pexels-photo-13849212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 常的，尤其是在育兒這條路上，媽媽們需要學會接納自己的情緒。當感到焦慮、憤怒或沮喪時，不要急著責備自己，而是試著說：「這是我目前的感受，我正在努力應對。」
 
 在接納情緒的過程中，可以試著寫日記，將情緒寫下來，讓自己的心情有一個發洩的出口。這樣不僅能讓我們更清楚自己的情緒來源，還能在寫的過程中找到解決問題的靈感。

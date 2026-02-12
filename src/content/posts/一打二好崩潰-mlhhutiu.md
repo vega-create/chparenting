@@ -15,9 +15,6 @@ faq:
     a: "主動聯繫朋友或其他媽媽，分享育兒經驗，或者參加媽媽團體，尋找情感支持。"
 author: "Vega"
 ---
-
-# 一打二好崩潰
-
 在一個平常的週末早晨，小雯正忙著準備早餐，心裡盤算著今天的行程該怎麼安排。她的兩個小孩，三歲的阿樂和一歲的阿妍，正鬧著要吃冰淇淋，根本不想理會早晨的燕麥粥。小雯一面想著如何應對他們的“抗議”，一面又得控制情緒，因為她知道，若是忍不住大吼，後果可能會更糟。這時，阿樂突然摔倒，哭得撕心裂肺，阿妍也在旁邊跟著一起哭泣。小雯深吸一口氣，心裡暗自嘀咕：「一打二，真的是好崩潰啊！」
 
 這樣的情況對於許多媽媽來說都不陌生。在面對兩個小孩的需求時，情緒容易崩潰。如何平衡自己的情緒，讓自己在育兒的過程中不再感到焦慮與崩潰呢？其實，有幾個方法可以幫助媽媽們重新找到平靜與快樂。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![Joyful couple celebrating pregnancy together on bed in cozy bedroom.](https://images.pexels.com/photos/7780580/pexels-photo-7780580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、學會分散注意力
 
 有時候，當小孩的需求變得
 
-![A mother and daughter bonding indoors, lying on a bed and enjoying quality time together.](https://images.pexels.com/photos/4473774/pexels-photo-4473774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 過於強烈時，媽媽們會感到無力。這時候，不妨試試分散注意力的方法。例如，當阿樂和阿妍都在哭鬧時，小雯可以試著轉移他們的注
 
-![Shiny golden trophy and stars on a vibrant yellow background, symbolizing success and victory.](https://images.pexels.com/photos/6532373/pexels-photo-6532373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 意力，找一些他們喜歡的玩具或書本，讓他們暫時忘記不滿的情緒。
 
 在生活中，這樣的技巧非常有用。你可以準備一些可以快速引起小孩興趣的玩具，或是提前準備一些簡單的遊戲，隨時拿出來讓小孩參與。這不僅能讓小孩保持興趣，還能給你帶來一點喘息的空間。

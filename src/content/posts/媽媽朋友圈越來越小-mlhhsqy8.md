@@ -15,9 +15,6 @@ faq:
     a: "可以試著給自己一些空間，做自己喜歡的事情，或尋求專業的心理支持，這樣會有助於改善情緒。"
 author: "Vega"
 ---
-
-# 媽媽朋友圈越來越小
-
 在一個陽光明媚的午後，阿芬坐在全聯的咖啡區，手裡捧著一杯熱咖啡，心情卻不像這陽光那麼明媚。她的寶寶剛滿一歲，育兒的艱辛讓她時常感到孤獨。曾經的閨蜜們，不是因為生活忙碌而漸行漸遠，就是因為小孩的教育理念不同，讓她們的對話越來越少。今天，她在社群媒體上看到小美和其他媽媽聚會的照片，心裡不禁有些失落，想著：「我的朋友圈怎麼變得這麼小？」
 
 這樣的情境，許多媽媽或許都曾經感同身受。隨著育兒的忙碌和生活的變化，媽媽們的社交圈似乎都在不知不覺中縮小了。本文將探討為什麼媽媽的朋友圈越來越小，以及如何在這個過程中找到支持和歸屬感。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![A mother and child enjoying playtime together in the living room, fostering love and connection.](https://images.pexels.com/photos/7678058/pexels-photo-7678058.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、社交媒體的影響
 
 在這個數位化的時代，社交媒體成為媽媽們溝通的重要管道。然而，社交媒體的虛擬連結有時反而讓人
 
-![A pregnant mother holding hands with her daughter, outdoors by a gray wall. Captures family love and motherhood.](https://images.pexels.com/photos/7678085/pexels-photo-7678085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 感到孤獨。阿芬在翻閱朋友圈時，看到其他媽媽們的生活光鮮亮麗，心裡不禁感到自己不夠好，進而選擇不再主動分享自己的生活。這種現象在許多媽
 
-![Focused Asian little boy watching movie on TV together with mother embracing sister while having pastime in living room in daytime](https://images.pexels.com/photos/4474008/pexels-photo-4474008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 媽中普遍存在，導致她們的朋友圈越來越小。
 
 此外，社交媒體中的比較文化也加劇了這種孤獨感。媽媽們常常會不自覺地拿自己的生活與他人的生活進行比較，這會讓她們感到焦慮和壓力，最終選擇與他人保持距離。對於這種情況，媽媽們需要學會調整心態，將重心放在自己的生活上，而不是不停地與他人比較。

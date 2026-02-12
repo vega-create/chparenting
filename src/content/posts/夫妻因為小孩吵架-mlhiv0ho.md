@@ -15,9 +15,6 @@ faq:
     a: "遇到育兒問題時，夫妻應該共同討論，尋找合適的解決方案，必要時可以尋求專業的幫助。"
 author: "Vega"
 ---
-
-# 夫妻因為小孩吵架
-
 在一個平常的星期五晚上，阿芳和阿強本想享受一個溫馨的家庭時光，卻因為小孩的吵鬧而爆發了一場激烈的爭吵。小寶貝在沙發上玩耍，突然摔倒了，阿芳立刻衝過去安撫，卻不小心把阿強正在看電視的遙控器弄掉了。阿強一時怒火攻心，指責阿芳不專心照顧孩子，阿芳則不甘示弱，反駁說阿強根本不理解她的辛苦。這樣的情況讓他們的情緒瞬間升高，原本的溫馨氛圍瞬間轉變成冷戰，讓整個家裡都笼罩在緊張的氣氛中。
 
 夫妻因為小孩吵架，通常是因為壓力、溝通不良以及對育兒方式的不同看法。了解這些原因後，夫妻雙方可以找到更健康的溝通方式，減少衝突的發生。
@@ -30,14 +27,10 @@ author: "Vega"
 
 
 
-![Parents helping daughter with homework in a cozy living room setting.](https://images.pexels.com/photos/8054815/pexels-photo-8054815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、夫妻間的溝通不良
 
 溝通不良是夫妻吵架的另一大因素。在育兒的過程中，夫妻之間往往忙於應對日常的挑戰
 
-![A young couple enjoys a serene moment together in a sunny park, exuding romance and tranquility.](https://images.pexels.com/photos/5225471/pexels-photo-5225471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h
-
-![Joyful Asian family with smiling children enjoying a day outdoors, showcasing warmth and togetherness.](https://images.pexels.com/photos/8297604/pexels-photo-8297604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 =650&w=940)
 ，卻忽略了彼此的情緒和需求。阿芳在安撫小寶貝時，阿強可能不滿她的方式，卻未能及時表達出來，最終累積到一定程度便爆發出來。
 

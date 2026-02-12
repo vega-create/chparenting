@@ -15,9 +15,6 @@ faq:
     a: "要明白，放假是為了讓自己恢復精力，這樣才能更好地照顧孩子。給自己一些正面的鼓勵和支持，接受這樣的安排。"
 author: "Vega"
 ---
-
-# 媽媽需要放假嗎
-
 在一個陽光明媚的周末早晨，阿雅正忙著為她的兩個孩子準備早餐。小孩子們在客廳裡嬉鬧，偶爾發出尖叫聲，讓她的耳朵有些發麻。阿雅一邊翻煎蛋，一邊心裡默默計算著，接下來的行程還有幼兒園的接送、超市的採買、下午的親子活動……她不禁想，這樣的日子，什麼時候才能喘口氣呢？她的好友小莉則在朋友圈裡分享了自己的一趟小旅行，照片中的她笑得燦爛，讓阿雅心裡一陣羨慕。她開始反思，作為媽媽的自己，是否也需要放假，來好好照顧一下自己的心靈？
 
 媽媽們常常把所有的心力都投注在孩子身上，卻常常忽略了自己的需求。是的，媽媽們絕對需要放假。放假不僅是為了休息，更是為了重拾當初的那份熱情與活力。
@@ -34,17 +31,14 @@ author: "Vega"
 
 
 
-![A mother and daughter joyfully baking cookies together in their home kitchen, creating sweet memories.](https://images.pexels.com/photos/5908027/pexels-photo-5908027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、放假對媽媽的好處
 
 放假對媽媽們來說不僅僅是一段時間的休息，更是重拾自我、調整心態的重要時機。以下是幾個放假的好處
 
-![Focused Asian little boy watching movie on TV together with mother embracing sister while having pastime in living room in daytime](https://images.pexels.com/photos/4474008/pexels-photo-4474008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ：
 
 1. **舒緩壓力**：
 
-![Pregnant mother with daughter enjoying outdoors in matching outfits and happiness](https://images.pexels.com/photos/7678089/pexels-photo-7678089.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 放假可以讓媽媽們暫時遠離日常的瑣事，減輕心理負擔，讓心情變得輕鬆。
 2. **增進親密關係**：如果能和伴侶或朋友一起旅行，將會增進彼此的情感，讓生活變得更有趣。
 3. **自我成長**：放假期間，媽媽們可以嘗試新的興趣，或者回到自己最喜愛的活動上，比如閱讀、運動或藝術創作，這樣能讓她們重新找到生活的熱情。

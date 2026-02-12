@@ -15,9 +15,6 @@ faq:
     a: "如果經過一段時間的努力仍然無法改善睡眠質量，或感到情緒低落，建議尋求專業的心理醫生或諮詢師的幫助。"
 author: "Vega"
 ---
-
-# 媽媽半夜睡不好怎麼辦
-
 在一個寧靜的夜晚，阿芳終於把孩子哄睡了，心裡的疲憊感卻如潮水般湧來。她洗好澡，躺在床上，卻怎麼也無法入眠。腦海裡不斷重播著白天的瑣事，從孩子的飲食到明天的工作計劃，心裡的焦慮像是靜不下來的鐘擺。當她再次看到床邊的鬧鐘，已經過了半夜十二點，明天又得早起，這讓她更加焦慮。阿芳暗自嘆息，這樣的夜晚已經不知重複了多少次，睡不好的煩惱讓她感到無比無助。
 
 半夜睡不好對許多媽媽來說並不陌生，這種情況可以由多種原因造成，包括焦慮、壓力或是身體不適。要改善這種情況，媽媽們可以採取一些具體的措施來調整自己的睡眠習慣和情緒狀態，讓自己能夠擁有更好的休息。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![A serene moment capturing a mother and daughter cuddling in bed, enjoying restful sleep.](https://images.pexels.com/photos/4473878/pexels-photo-4473878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 ## 二、建立穩定的睡眠習慣
 
 一個穩定的睡
 
-![Luxurious modern bedroom with plants and string lights, creating a cozy ambiance.](https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 眠習慣可以幫助媽媽們更容易入睡。建議在每晚固定的時間上床，並保
 
-![A mother and her toddler relax together on a bed in a comfortable, modern setting.](https://images.pexels.com/photos/7677590/pexels-photo-7677590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 持每天的作息一致。即使是週末，也盡量不要讓作息過於不規律。此外，睡前一小時可以進行一些放鬆活動，如閱讀、冥想或輕柔的伸展運動，這些都有助於提高入睡的質量。
 
 如果你習慣在睡前使用手機或看電視，試著在睡前一小時避免這些電子設備，因為藍光會干擾我們的褪黑激素分泌，影響入睡。相反，使用一些柔和的燈光來營造舒適的氛圍，讓自己逐漸放鬆，這樣才能更快入眠。

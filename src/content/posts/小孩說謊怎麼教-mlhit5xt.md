@@ -15,9 +15,6 @@ faq:
     a: "如果小孩的說謊行為持續並且影響到日常生活，建議尋求專業的心理諮詢，幫助孩子釐清內心的需求。"
 author: "Vega"
 ---
-
-# 小孩說謊怎麼教
-
 在一個陽光明媚的下午，阿芳帶著她的五歲女兒小晴到全聯購物。小晴興奮地指著糖果架，央求媽媽買一包。阿芳心裡一陣掙扎，因為她已經答應過不再讓小晴吃太多零食。於是，她溫柔地拒絕了小晴的要求。小晴一聽，立刻撇下嘴，輕聲說：「可是班上所有的小朋友都有，我也有！」那一瞬間，阿芳愣住了，心裡默默想著：「怎麼會這樣呢？小晴明明知道我們不會買的，為什麼要說謊？」這是許多媽媽都曾經面對的困擾，孩子的說謊行為，究竟該怎麼處理？
 
 孩子說謊的行為，往往源於他們的心理發展階段與情感需求。要有效地教育小孩，父母需要理性分析原因，並給予適當的引導與支持。
@@ -30,16 +27,12 @@ author: "Vega"
 
 
 
-![Heartwarming image of a father and daughter bonding over ice cream indoors.](https://images.pexels.com/photos/9229259/pexels-photo-9229259.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、如何應對小孩的說謊行為
 
 面對孩子的說謊行為，首先要保持冷靜，避免情緒激動。阿芳在超市中，選擇先不直接反駁小晴的話，而是試圖了解她的感受。這樣的處理方式，不僅能讓孩子感受到安全感，還能促進親子之間的溝通。可以試著問小晴為什麼會這麼說，並引導她表達自己的情緒與需求。
 
 接著，父母
 
-![A candid classroom moment capturing a laughing boy pointing at a peer, highlighting bullying dynamics.](https://images.pexels.com/photos/6936412/pexels-photo-6936412.jpeg?auto=compress&cs=tinysrgb&dpr=
-
-![Father and daughter enjoying a reading session together at home, surrounded by plants.](https://images.pexels.com/photos/8055515/pexels-photo-8055515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 2&h=650&w=940)
 可以透過講故事的方式來教導孩子誠實的重要性。例如，講述《誠實的木匠》這個故事，讓孩子明白誠實的價值。這種方式不僅能引起孩子的興趣，還能讓他們在故事中獲得啟發。
 

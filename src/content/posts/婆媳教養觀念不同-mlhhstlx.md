@@ -15,9 +15,6 @@ faq:
     a: "可以試著與婆婆進行溝通，分享現代育兒的理念，並找到彼此都能接受的育兒方式，建立共識。"
 author: "Vega"
 ---
-
-# 婆媳教養觀念不同
-
 在一個陽光明媚的週末早上，阿美正忙著準備午餐，突然聽見小孩在客廳裡吵鬧聲。她快步走過去，看到婆婆正耐心地教小孩玩拼圖，而小孩卻是心不在焉，隨意地把拼圖塊丟進地上。阿美忍不住皺起眉頭，心裡想：「這樣教小孩根本沒有耐心，還不如我自己來！」而婆婆則滿不在乎，覺得這樣的互動很正常。兩代人面對同一個小孩，卻有著截然不同的教養觀念，讓阿美感到困惑與無奈。
 
 婆媳之間的教養觀念不同，往往讓家庭氛圍緊張，也使得媽媽們面臨更多的情緒壓力。要如何處理這樣的情況，讓家庭更和諧，成為了每位媽媽需要面對的挑戰。
@@ -30,12 +27,7 @@ author: "Vega"
 
 
 
-![Asian mother with her two daughters enjoying a tender moment indoors, showcasing love and affection.](https://images.pexels.com/photos/6182925/pexels-photo-6182925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=
-
-![Heartwarming outdoor scene of twin girls with their grandparents, sharing love and happiness.](https://images.pexels.com/photos/5637739/pexels-photo-5637739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 940)
-
-![Co-parenting paper and pen on a white wooden table next to a typewriter.](https://images.pexels.com/photos/18457888/pexels-photo-18457888.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 
 ## 二、開放溝通，建立共識
 

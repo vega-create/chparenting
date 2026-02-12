@@ -15,9 +15,6 @@ faq:
     a: "父母應該介入並引導孩子學習輪流和尊重別人的玩具，必要時可考慮尋求專業協助。"
 author: "Vega"
 ---
-
-# 小孩搶玩具怎麼處理
-
 在某個陽光明媚的週末，阿芳帶著她的三歲寶貝小宇來到附近的公園，期待著和其他小朋友一起玩耍。然而，當小宇看到別的小朋友正在玩他最喜歡的消防車時，眼神立刻變得不安。他衝過去，拉著那個小朋友的手，嘴裡大喊著：「我要玩那個！」對方的小朋友驚訝地看著他，阿芳則在一旁感到心煩意亂，無奈又不知該怎麼辦。這樣的情境，是否也曾經發生在你我之間？
 
 對於小孩搶玩具的行為，許多父母會感到無力、焦慮，甚至會感到崩潰。其實，這是孩子學習社交的一部分，我們需要用正確的方式來幫助他們理解分享的意義，以及如何妥善處理衝突。
@@ -30,15 +27,11 @@ author: "Vega"
 
 
 
-![Two young children enjoying playtime with wooden blocks in a cozy indoor setting, fostering creativity and fun.](https://images.pexels.com/photos/3661452/pexels-photo-3661452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-
-![A mother guides her daughter in learning activities using cards and a laptop at home.](https://images.pexels.com/photos/7943496/pexels-photo-7943496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 )
 ## 二、教導分享與輪流的技巧
 
 當小孩搶玩具時，父母可以利用這個機會來
 
-![A group of children in a classroom displaying bullying behavior towards a peer.](https://images.pexels.com/photos/7929430/pexels-photo-7929430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 教導他們分享和輪流的概念。首先，可以透過遊戲來引導孩子，例如設計一個「輪流玩玩具」的遊戲，讓孩子們學習如何等待自己的順序。這不僅能讓孩子了解分享的重要性，還能讓他們在遊戲中獲得樂趣。
 
 此外，父母也可以用正向的言語鼓勵孩子。例如，每當他們願意分享玩具時，可以給予讚美和鼓勵，讓孩子知道這是值得學習的行為。這樣的正向強化會使孩子更願意去學習如何分享，而不是一味地搶奪。

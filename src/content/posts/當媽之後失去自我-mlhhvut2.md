@@ -15,9 +15,6 @@ faq:
     a: "請求幫助可以減輕壓力，促進伴侶間的理解與支持，讓育兒過程變得更輕鬆。"
 author: "Vega"
 ---
-
-# 當媽之後失去自我
-
 在一個陽光明媚的早晨，阿玲正在全聯購物，心裡卻有些煩躁。她推著購物車，腦海中不斷回想著昨天晚上小寶的哭鬧，還有她為了哄他入睡而失去的那一小時。當她在選擇牛奶時，眼前的選擇卻讓她感到茫然，似乎她已經很久沒有為自己做過決定了。買什麼、吃什麼，似乎都不再是她的選擇，而是圍繞著小寶的需求而轉動。她想起了自己曾經喜歡的事情，像是畫畫、看書，卻發現這些都已經被生活的重擔壓得無影無蹤。
 
 這樣的情況對許多媽媽來說並不陌生，從懷孕到生子，生活的重心似乎突然轉變，失去了自我的感覺愈來愈強烈。失去自我並不是一時的感受，而是一種逐漸累積的情緒，這需要我們去正視與調整。
@@ -32,15 +29,12 @@ author: "Vega"
 
 
 
-![Two mothers lovingly dress their young boy on the couch.](https://images.pexels.com/photos/7780914/pexels-photo-7780914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 ## 二、壓力與內疚感的影響
 
 育兒過程中，媽媽們常常面對來自外界的壓力與內心的自我要求，這些都可能導致失去自我的感覺。阿玲有時候會在
 
-![A pregnant mother holding hands with her daughter, outdoors by a gray wall. Captures family love and motherhood.](https://images.pexels.com/photos/7678085/pexels-photo-7678085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 臉書
 
-![A mother captures a playful moment with her child in a stylish living room.](https://images.pexels.com/photos/7705715/pexels-photo-7705715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 上看到其他媽媽的生活，覺得自己總是做得不夠好，心裡的內疚感與壓力交織在一起，讓她幾乎喘不過氣來。
 
 這種內疚感讓媽媽們不斷自責，認為自己不能給孩子最好的生活，甚至在睡眠不足的情況下，還要為了孩子的未來而焦慮。這樣的情緒會讓我們忽略自己的需求，進而失去自我。對於這種情況，重要的是學會對自己寬容，理解每位媽媽都在努力，而不是一味地與他人比較。

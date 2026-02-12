@@ -15,9 +15,6 @@ faq:
     a: "建立固定的親子時間，與大寶一起進行活動，讓他感受到自己在媽媽心中的重要性。"
 author: "Vega"
 ---
-
-# 二寶出生大寶吃醋
-
 在一個陽光明媚的早晨，林小姐正忙著為她的新生二寶換尿布，突然聽到一聲撕心裂肺的哭聲。原來，她的大寶小宇正在客廳裡，對著媽媽的注意力感到不滿。小宇一邊哭一邊用力拉著媽媽的褲子，像是要宣告：“我才是最重要的！”這一幕讓林小姐既想笑又覺得心酸，因為她知道，這不僅是小宇的嫉妒，更是他對新兄弟姐妹來臨的焦慮和不安。作為媽媽，她要如何在這樣的情況下平衡兩個寶貝的需求呢？
 
 在二寶出生後，大寶出現吃醋情緒是非常正常的反應。這種情緒通常源於對媽媽的依賴和對新生兒的嫉妒。理解這一點是幫助孩子調適情緒的第一步。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![Joyous mother with her children lying on bed, capturing a happy moment of togetherness.](https://images.pexels.com/photos/4473870/pexels-photo-4473870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 ## 二、與大寶的有效溝通
 
 與大寶進行有效的溝通是非常
 
-![Happy twin girls dancing outdoors, wearing matching dresses, bringing joy and togetherness.](https://images.pexels.com/photos/5637813/pexels-photo-5637813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 重
 
-![Adorable Asian siblings enjoying playtime indoors, capturing innocence and togetherness.](https://images.pexels.com/photos/7105568/pexels-photo-7105568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 要的，這樣可以幫助他更好地理解新生兒的角色。林小姐可以選擇在小宇心情平靜的時候，和他聊聊新生兒的到來，告訴他二寶的需要和媽媽的愛是可以分開的，而不是互相排斥的。
 
 例如，林小姐可以這樣說：“小宇，你知道嗎？二寶現在需要媽媽的照顧，因為他還很小，不能自己做很多事情。但是媽媽永遠愛你，媽媽也需要你的幫助哦！你可以幫我拿尿布嗎？”這樣不僅讓小宇感受到被重視，也讓他參與到照顧新生兒的過程中，增強了他的自信心。

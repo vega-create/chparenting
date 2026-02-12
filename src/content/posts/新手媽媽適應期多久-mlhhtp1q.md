@@ -15,9 +15,6 @@ faq:
     a: "觀察寶寶的反應，根據他的需求進行調整，這樣能找到最適合的育兒方式。"
 author: "Vega"
 ---
-
-# 新手媽媽適應期多久
-
 在某個晴朗的早晨，小婷坐在全聯的商店裡，手裡抱著剛出生的寶寶，腦海裡卻是一片混亂。她一邊挑選著奶粉，一邊擔心著寶寶的哭鬧聲影響到其他顧客。每當她試圖冷靜，卻又被寶寶的需求淹沒。小婷心裡想：「這樣的生活要持續多久？我是不是永遠都無法適應成為媽媽的角色？」她不知道，這樣的感受其實是許多新手媽媽都曾經經歷過的。
 
 新手媽媽的適應期通常會因人而異，但普遍來說，這個過程大約需要三到六個月的時間。在這段時間裡，媽媽們會經歷情緒的起伏與生活的調整，逐漸找到與寶寶相處的方式。
@@ -30,15 +27,12 @@ author: "Vega"
 
 
 
-![Mother and daughter in elegant black attire sitting near a Shanghai storefront.](https://images.pexels.com/photos/6690507/pexels-photo-6690507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 ## 二、建立育兒的自信心
 
 許多新手媽媽在面對寶寶時，常常會感到不知所措，懷疑自己的育兒能力。小雅曾經因為寶寶的哭鬧而感到無比焦慮，甚至懷
 
-![A mother dances with her twin daughters in a lively outdoor setting, enjoying a sunny day.](https://images.pexels.com/photos/5637809/pexels-photo-5637809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 疑自己是不是一個合格的媽媽。這種情
 
-![A mother and daughter bonding through knitting, creating a cozy indoor scene.](https://images.pexels.com/photos/5693380/pexels-photo-5693380.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
 況在新手媽媽中非常普遍。根據[親子天下](https://parenting.com.tw)的調查，新手媽媽的育兒自信心往往會隨著時間的推移而增強。
 
 要增強自信心，媽媽們可以參加一些親子活動或育兒課程，這不僅能學習到育兒的技巧，還能與其他媽媽互相交流，分享經驗。參加這些活動的過程中，媽媽們會發現，自己並不是孤單的，大家都有類似的困擾與挑戰。
