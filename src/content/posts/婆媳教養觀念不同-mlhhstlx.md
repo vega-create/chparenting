@@ -1,6 +1,6 @@
 ---
 title: "婆媳教養觀念不同"
-description: "婆媳教養觀念不同"
+description: "在一個陽光明媚的週末早上，阿美正忙著準備午餐，突然聽見小孩在客廳裡吵鬧聲。⋯⋯"
 publishDate: 2026-02-12
 category: "媽媽情緒"
 tags: []

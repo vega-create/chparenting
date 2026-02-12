@@ -1,6 +1,6 @@
 ---
 title: "覺得自己不是好媽媽"
-description: "覺得自己不是好媽媽"
+description: "在一個陽光明媚的午後，妍妍正在全聯裡推著購物車，買著平常的日用品。她的心裡卻一直在煩惱著。⋯⋯"
 publishDate: 2026-02-14
 category: "媽媽情緒"
 tags: []
