@@ -13,31 +13,35 @@ const allPosts = await getCollection('posts');
 const relatedPosts = allPosts
   .filter(post => post.data.category === category && !currentSlug.includes(post.slug))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
-  .slice(0, limit);
-
-const postUrls = relatedPosts.map(post => `/posts/${post.slug}`);
+  .slice(0, limit)
+  .map(post => ({
+    url: `/posts/${post.slug}`,
+    title: post.data.title,
+    image: post.data.image || '',
+    imageAlt: post.data.imageAlt || post.data.title,
+  }));
 ---
 
 {relatedPosts.length > 0 && (
   <section class="my-10">
     <h2 class="text-xl font-bold mb-6 text-warmgray-700 font-display">💛 延伸閱讀</h2>
     <div class="grid md:grid-cols-3 gap-5">
-      {relatedPosts.map((post, i) => (
+      {relatedPosts.map((post) => (
         
-          href={postUrls[i]}
+          href={post.url}
           class="group block bg-white rounded-xl overflow-hidden border border-warmgray-100 hover:shadow-md transition-all"
         >
-          {post.data.image && (
+          {post.image && (
             <img
-              src={post.data.image}
-              alt={post.data.imageAlt || post.data.title}
+              src={post.image}
+              alt={post.imageAlt}
               class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
           )}
           <div class="p-4">
             <h3 class="font-semibold text-warmgray-700 group-hover:text-peach-500 transition-colors line-clamp-2 text-sm">
-              {post.data.title}
+              {post.title}
             </h3>
           </div>
         </a>
