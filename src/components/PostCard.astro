@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { title, description, slug, category, publishDate, image } = Astro.props;
-const categoryInfo = siteConfig.categories.find(c => c.slug === category);
+const categoryInfo = siteConfig.categories.find(c => c.slug === category || c.name === category);
 const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
   month: 'short', day: 'numeric'
 });
