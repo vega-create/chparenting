@@ -5,6 +5,7 @@ import ArticleSchema from '../components/ArticleSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import AuthorBox from '../components/AuthorBox.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
 import AdSense from '../components/AdSense.astro';
 import { siteConfig } from '../site.config';
 import ShareButtons from '../components/ShareButtons.astro';
@@ -150,6 +151,9 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
 
     <!-- 作者介紹 -->
     <AuthorBox />
+
+    <!-- 相關文章 -->
+    <RelatedPosts category={category} currentSlug={Astro.url.pathname} />
 
     <!-- 社群分享 -->
     <ShareButtons title={title} />
