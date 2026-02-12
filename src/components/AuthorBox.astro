@@ -1,0 +1,72 @@
+---
+import { siteConfig } from '../site.config';
+---
+
+<div class="author-box">
+  <div class="author-inner">
+    <div class="author-avatar">💛</div>
+    <div class="author-info">
+      <p class="author-label">關於作者</p>
+      <p class="author-name">{siteConfig.author}</p>
+      <p class="author-bio">兩個孩子的媽，分享育兒路上的崩潰與成長。希望每位媽媽都知道——你已經做得夠好了。</p>
+      <a href="/about/" class="author-link">了解更多 →</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .author-box {
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    background: #fdf8f3;
+    border-radius: 12px;
+    border: 1px solid #f0e6d9;
+  }
+  .author-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .author-avatar {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #f0e6d9;
+  }
+  .author-label {
+    font-size: 0.75rem;
+    color: #9a8a78;
+    margin-bottom: 0.15rem;
+  }
+  .author-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #5c4f3c;
+    margin-bottom: 0.4rem;
+  }
+  .author-bio {
+    font-size: 0.9rem;
+    color: #7a6d5e;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+  .author-link {
+    font-size: 0.85rem;
+    color: #c4956a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .author-link:hover {
+    color: #a67a50;
+    text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    .author-inner { flex-direction: column; align-items: center; text-align: center; }
+  }
+</style>

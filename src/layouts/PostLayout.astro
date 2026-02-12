@@ -4,6 +4,7 @@ import FAQSchema from '../components/FAQSchema.astro';
 import ArticleSchema from '../components/ArticleSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import AuthorBox from '../components/AuthorBox.astro';
 import AdSense from '../components/AdSense.astro';
 import { siteConfig } from '../site.config';
 import ShareButtons from '../components/ShareButtons.astro';
@@ -143,6 +144,9 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
         <FAQSchema faqs={faq} />
       </section>
     )}
+
+    <!-- 作者介紹 -->
+    <AuthorBox />
 
     <!-- 社群分享 -->
     <ShareButtons title={title} />
