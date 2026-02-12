@@ -20,9 +20,11 @@ const relatedPosts = allPosts
   <section class="my-10">
     <h2 class="text-xl font-bold mb-6 text-warmgray-700 font-display">💛 延伸閱讀</h2>
     <div class="grid md:grid-cols-3 gap-5">
-      {relatedPosts.map((post) => (
+      {relatedPosts.map((post) => {
+        const postUrl = `/posts/${post.slug}`;
+        return (
         
-          href={"/posts/" + post.slug}
+          href={postUrl}
           class="group block bg-white rounded-xl overflow-hidden border border-warmgray-100 hover:shadow-md transition-all"
         >
           {post.data.image && (
@@ -39,7 +41,8 @@ const relatedPosts = allPosts
             </h3>
           </div>
         </a>
-      ))}
+        );
+      })}
     </div>
   </section>
 )}
