@@ -40,7 +40,7 @@ export const siteConfig = {
     facebook: '',
   },
 
-  // AdSense (待申請)
+  // AdSense 
   adsense: {
     client: 'ca-pub-3493526929407874',
     enabled: true,
@@ -48,7 +48,7 @@ export const siteConfig = {
 
   // GA4
   analytics: {
-    ga4: '',
+    ga4: 'G-C0SFWXX8Q0',
     fbPixel: '',
   },
 };
