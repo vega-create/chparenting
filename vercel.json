@@ -17,7 +17,7 @@
     { "source": "/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/", "destination": "/", "statusCode": 301 },
     { "source": "/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/:path*", "destination": "/", "statusCode": 301 },
     { "source": "/o-ka-roll-rol/", "destination": "/", "statusCode": 301 },
-    { "source": "/鴻鼎菜子/", "destination": "/", "statusCode": 301 },
+    { "source": "/鴻鼎菓子/", "destination": "/", "statusCode": 301 },
     { "source": "/sample-page/", "destination": "/", "statusCode": 301 },
     { "source": "/category/:path*", "destination": "/", "statusCode": 301 },
     { "source": "/list/:path*", "destination": "/", "statusCode": 301 },
