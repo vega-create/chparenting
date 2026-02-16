@@ -1,0 +1,32 @@
+{
+  "redirects": [
+    { "source": "/camp02/", "destination": "/", "statusCode": 301 },
+    { "source": "/台中北屯區汗蒸幕推薦/", "destination": "/", "statusCode": 301 },
+    { "source": "/kinyo/", "destination": "/", "statusCode": 301 },
+    { "source": "/天然清潔用品/", "destination": "/", "statusCode": 301 },
+    { "source": "/天然清潔用品/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/家庭必備清潔劑｜潔霜浴廁清潔劑、廚房清潔劑開/", "destination": "/", "statusCode": 301 },
+    { "source": "/益生菌/", "destination": "/", "statusCode": 301 },
+    { "source": "/滴雞精評比/", "destination": "/", "statusCode": 301 },
+    { "source": "/萌貝貝/", "destination": "/", "statusCode": 301 },
+    { "source": "/台中北區染髮推薦/", "destination": "/", "statusCode": 301 },
+    { "source": "/台中燙髮推薦｜電話亭hair-salon一中店-｜燙髮不擔心傷/", "destination": "/", "statusCode": 301 },
+    { "source": "/kissme/", "destination": "/", "statusCode": 301 },
+    { "source": "/zenyumstep0/", "destination": "/", "statusCode": 301 },
+    { "source": "/zenyum-1/", "destination": "/", "statusCode": 301 },
+    { "source": "/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/", "destination": "/", "statusCode": 301 },
+    { "source": "/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/o-ka-roll-rol/", "destination": "/", "statusCode": 301 },
+    { "source": "/鴻鼎菜子/", "destination": "/", "statusCode": 301 },
+    { "source": "/sample-page/", "destination": "/", "statusCode": 301 },
+    { "source": "/category/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/list/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/life/", "destination": "/", "statusCode": 301 },
+    { "source": "/tool/", "destination": "/", "statusCode": 301 },
+    { "source": "/feed/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-admin/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-content/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-includes/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-login.php", "destination": "/", "statusCode": 301 }
+  ]
+}
