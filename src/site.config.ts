@@ -21,6 +21,7 @@ export const siteConfig = {
     { text: '育兒崩潰', href: '/category/parenting-crisis/', emoji: '🔥' },
     { text: '媽媽情緒', href: '/category/mom-emotions/', emoji: '💛' },
     { text: '親子關係', href: '/category/parent-child/', emoji: '👩‍👧' },
+    { text: '孩子學習', href: '/category/kids-learning/', emoji: '🎓' },
     { text: '生活實用', href: '/category/practical-life/', emoji: '✨' },
     { text: '關於我', href: '/about/', emoji: '💛' },
   ],
@@ -30,14 +31,14 @@ export const siteConfig = {
     { slug: 'parenting-crisis', name: '育兒崩潰', emoji: '🔥', description: '育兒難題的實用解答' },
     { slug: 'mom-emotions', name: '媽媽情緒', emoji: '💛', description: '你的辛苦，我都懂' },
     { slug: 'parent-child', name: '親子關係', emoji: '👩‍👧', description: '更好的教養從理解開始' },
+    { slug: 'kids-learning', name: '孩子學習', emoji: '🎓', description: '免費學習資源，減輕教養負擔' },
     { slug: 'practical-life', name: '生活實用', emoji: '✨', description: '媽媽必備的實用資訊' },
   ],
 
   // Social links
   social: {
-    line: '',
-    instagram: '',
-    facebook: '',
+    instagram: 'https://www.instagram.com/vega_balancelife',
+    facebook: 'https://www.facebook.com/MomLifeRecoveryLab',
   },
 
   // AdSense 
