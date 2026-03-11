@@ -1,41 +1,96 @@
-<p class="text-warmgray-400 mb-8">{category.description}（{posts.length} 篇文章）</p>
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { siteConfig } from '../../site.config';
+import { getCollection } from 'astro:content';
 
-{category.slug === 'kids-learning' && (
-  <div class="bg-amber-50 border border-amber-100 rounded-2xl p-6 mb-10">
-    <p class="text-warmgray-700 leading-relaxed mb-4">
-      補習費貴、孩子不愛去——很多媽媽都有這個煩惱。這裡整理了免費的孩子學習資源和陪讀方法，搭配我自己開發的免費學習平台，讓孩子在家就能有效練習英文、日文、數學。
-    </p>
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
-      <a href="https://learn.chparenting.com/gept/elementary/" target="_blank"
-        class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
-        <span class="text-2xl">📚</span>
-        <span class="text-xs font-medium text-warmgray-700">GEPT 英檢</span>
-        <span class="text-xs text-warmgray-400">初級・中級</span>
-      </a>
-      <a href="https://learn.chparenting.com/japanese/" target="_blank"
-        class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
-        <span class="text-2xl">🇯🇵</span>
-        <span class="text-xs font-medium text-warmgray-700">日文練習</span>
-        <span class="text-xs text-warmgray-400">五十音・N5</span>
-      </a>
-      <a href="https://learn.chparenting.com/math/" target="_blank"
-        class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
-        <span class="text-2xl">🔢</span>
-        <span class="text-xs font-medium text-warmgray-700">數學練習</span>
-        <span class="text-xs text-warmgray-400">四則運算</span>
-      </a>
-      <a href="https://learn.chparenting.com/finance/" target="_blank"
-        class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
-        <span class="text-2xl">💰</span>
-        <span class="text-xs font-medium text-warmgray-700">兒童理財</span>
-        <span class="text-xs text-warmgray-400">遊戲化學習</span>
-      </a>
+export async function getStaticPaths() {
+  return siteConfig.categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+const now = new Date();
+const allPosts = await getCollection('posts', ({ data }) => {
+  return !data.draft && (data.category === category.slug || data.category === category.name) && new Date(data.publishDate) <= now;
+});
+const posts = allPosts.sort((a, b) => 
+  new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+);
+---
+<BaseLayout title={category.name} description={category.description}>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+    <nav class="text-sm text-warmgray-400 mb-6 font-display">
+      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a>
+      <span class="mx-2">›</span>
+      <span class="text-warmgray-500">{category.name}</span>
+    </nav>
+    <div class="flex items-center gap-3 mb-2">
+      <span class="text-4xl">{category.emoji}</span>
+      <h1 class="text-3xl font-display font-bold text-warmgray-800">
+        {category.name}
+      </h1>
     </div>
-    <a href="https://learn.chparenting.com" target="_blank"
-      class="inline-flex items-center gap-2 bg-peach-400 hover:bg-peach-500 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors">
-      免費開始練習 →
-    </a>
-  </div>
-)}
+    <p class="text-warmgray-400 mb-8">{category.description}（{posts.length} 篇文章）</p>
 
-{posts.length > 0 ? (
+    {category.slug === 'kids-learning' && (
+      <div class="bg-amber-50 border border-amber-100 rounded-2xl p-6 mb-10">
+        <p class="text-warmgray-700 leading-relaxed mb-4">
+          補習費貴、孩子不愛去——很多媽媽都有這個煩惱。這裡整理了免費的孩子學習資源和陪讀方法，搭配我自己開發的免費學習平台，讓孩子在家就能有效練習英文、日文、數學。
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+          <a href="https://learn.chparenting.com/gept/elementary/" target="_blank"
+            class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
+            <span class="text-2xl">📚</span>
+            <span class="text-xs font-medium text-warmgray-700">GEPT 英檢</span>
+            <span class="text-xs text-warmgray-400">初級・中級</span>
+          </a>
+          <a href="https://learn.chparenting.com/japanese/" target="_blank"
+            class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
+            <span class="text-2xl">🇯🇵</span>
+            <span class="text-xs font-medium text-warmgray-700">日文練習</span>
+            <span class="text-xs text-warmgray-400">五十音・N5</span>
+          </a>
+          <a href="https://learn.chparenting.com/math/" target="_blank"
+            class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
+            <span class="text-2xl">🔢</span>
+            <span class="text-xs font-medium text-warmgray-700">數學練習</span>
+            <span class="text-xs text-warmgray-400">四則運算</span>
+          </a>
+          <a href="https://learn.chparenting.com/finance/" target="_blank"
+            class="flex flex-col items-center gap-1 bg-white rounded-xl p-3 text-center hover:shadow-md transition-shadow border border-amber-100">
+            <span class="text-2xl">💰</span>
+            <span class="text-xs font-medium text-warmgray-700">兒童理財</span>
+            <span class="text-xs text-warmgray-400">遊戲化學習</span>
+          </a>
+        </div>
+        <a href="https://learn.chparenting.com" target="_blank"
+          class="inline-flex items-center gap-2 bg-peach-400 hover:bg-peach-500 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors">
+          免費開始練習 →
+        </a>
+      </div>
+    )}
+
+    {posts.length > 0 ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        {posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.slug}
+            category={post.data.category}
+            publishDate={post.data.publishDate}
+            image={post.data.image}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20">
+        <span class="text-5xl block mb-4">{category.emoji}</span>
+        <p class="text-warmgray-400 font-display">這個分類的文章正在準備中！</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>
