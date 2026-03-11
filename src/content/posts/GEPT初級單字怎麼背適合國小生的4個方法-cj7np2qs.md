@@ -34,7 +34,7 @@ author: "薇佳媽咪"
 
 ## 方法一：遊戲化練習平台
 
-最低門檻的起點。[learn.chparenting.com](https://learn.chparenting.com/gept/elementary/) 的單字練習是用配對、填空、選擇題的方式，**孩子在做題目的過程中，反覆接觸同一個單字，不知不覺就記起來了。**
+最低門檻的起點。[learn.chparenting.com](https://learn.chparenting.com/elementary) 的單字練習是用配對、填空、選擇題的方式，**孩子在做題目的過程中，反覆接觸同一個單字，不知不覺就記起來了。**
 
 跟背單字表最大的差別是：它有立即回饋（答對了有反應、答錯了看到正確答案），大腦對「有回饋的學習」記憶效率高很多。
 
