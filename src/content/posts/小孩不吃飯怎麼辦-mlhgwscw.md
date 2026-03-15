@@ -4,8 +4,8 @@ description: "在某個下午的陽光下，阿芬正坐在餐桌前，心情忐
 publishDate: 2026-03-28
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/7363738/pexels-photo-7363738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-imageAlt: "Family mealtime with children"
+image: "https://images.pexels.com/photos/5083233/pexels-photo-5083233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Asian mother patiently feeding her toddler at the dining table"
 faq:
   - q: "小孩一餐吃多少才夠？"
     a: "2～5 歲孩子的胃容量大約是他的拳頭大小。每餐 1/4～1/3 碗飯、一份蛋白質（半顆蛋或一塊豆腐）、一份蔬菜就很足夠。"

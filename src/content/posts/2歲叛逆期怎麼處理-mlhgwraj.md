@@ -4,8 +4,8 @@ description: "在某個陽光明媚的下午，阿婷正在全聯裡忙著選購
 publishDate: 2026-03-26
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/11792768/pexels-photo-11792768.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-imageAlt: "A mother and son share a joyful moment together in a lush outdoor setting."
+image: "https://images.pexels.com/photos/4868633/pexels-photo-4868633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Asian mother kneeling down to comfort her toddler during a tantrum outdoors"
 faq:
   - q: "叛逆期會持續多久？"
     a: "通常從 1.5 歲開始，到 3～3.5 歲左右逐漸緩和。高峰期在 2～2.5 歲，這段時間孩子的自我意識和語言發展最快速。"

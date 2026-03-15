@@ -4,8 +4,8 @@ description: "在一個陽光明媚的早晨，林小姐正忙著為她的新生
 publishDate: 2026-03-21
 category: "親子關係"
 tags: []
-image: "https://images.pexels.com/photos/5693065/pexels-photo-5693065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-imageAlt: "Joyful moments as grandmother plays with two children on the bed indoors."
+image: "https://images.pexels.com/photos/5692264/pexels-photo-5692264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Asian mother happily playing with two young children on the bed at home"
 faq:
   - q: "大寶吃醋會持續多久？"
     a: "多數孩子在 3～6 個月內逐漸適應，但如果行為退化嚴重（如已戒尿布又開始尿床），或出現攻擊性行為超過 2 個月，建議諮詢兒童心理師。"
