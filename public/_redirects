@@ -1,0 +1,79 @@
+# ==========================================
+# chparenting.com 301 Redirects for Cloudflare Pages
+# 覆蓋: 404(36) + noindex(57) + 已檢索未建索引(67) + 重複頁面
+# ==========================================
+
+# === 舊文章 slug 變更（404 中的 posts）===
+/posts/3歲不肯戒尿布-mlhiu655/ /posts/3歲不肯戒尿布-mlkp11qs/ 301
+/posts/3歲不肯戒尿布-mlknbibi/ /posts/3歲不肯戒尿布-mlkp11qs/ 301
+/posts/產後身材回不去好沮喪-mlhiv235/ /posts/產後身材回不去好沮喪-mlkmg8yz/ 301
+/posts/帶小孩不想出門-mlklalq4/ /posts/帶小孩不想出門-mlhiu7jc/ 301
+/posts/媽媽需要放假嗎-mlkooows/ /posts/媽媽需要放假嗎-mlhivy16/ 301
+
+# === 舊 WordPress 文章（根目錄 slug）→ 首頁 ===
+/camp02/ / 301
+/台中北屯區汗蒸幕推薦/ / 301
+/kinyo/ / 301
+/天然清潔用品/ / 301
+/家庭必備清潔劑｜潔霜浴廁清潔劑、廚房清潔劑開/ / 301
+/益生菌/ / 301
+/滴雞精評比/ / 301
+/萌貝貝/ / 301
+/台中北區染髮推薦/ / 301
+/台中燙髮推薦｜電話亭hair-salon一中店-｜燙髮不擔心傷/ / 301
+/kissme/ / 301
+/zenyumstep0/ / 301
+/zenyum-1/ / 301
+/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/ / 301
+/o-ka-roll-rol/ / 301
+/鴻鼎菓子/ / 301
+/sample-page/ / 301
+/首頁/ / 301
+/台中北屯區汗蒸幕推薦/ / 301
+
+# === 舊 WordPress 文章的 /feed/ 路徑 ===
+/萌貝貝/feed/ / 301
+/o-ka-roll-rol/feed/ / 301
+/zenyum-1/feed/ / 301
+/zenyumstep0/feed/ / 301
+/鴻鼎菓子/feed/ / 301
+/kinyo/feed/ / 301
+/kissme/feed/ / 301
+/台中北屯區汗蒸幕推薦/feed/ / 301
+/台中北區染髮推薦/feed/ / 301
+/開箱文產後塑身的好朋友-愛菲斯ｎａｓａ授權-石/feed/ / 301
+/滴雞精評比/feed/ / 301
+/comments/feed/ / 301
+
+# === 舊分頁 ===
+/page/* /blog/ 301
+
+# === 舊分類頁 → 首頁（含 /feed/ 子路徑）===
+/category/* / 301
+
+# === 舊標籤頁 → 首頁（含 /feed/ 子路徑）===
+/tag/* / 301
+
+# === 舊搜尋頁 ===
+/search/* / 301
+
+# === 舊作者頁 ===
+/author/* / 301
+
+# === 舊列表頁 ===
+/list/ / 301
+/list/* / 301
+/life/ / 301
+/tool/ /tools/ 301
+
+# === RSS Feed 路徑 ===
+/feed/ / 301
+/feed/* / 301
+
+# === WordPress 殘留 ===
+/wp-admin/* / 301
+/wp-content/* / 301
+/wp-includes/* / 301
+/wp-login.php / 301
+/wp-json/* / 301
+/xmlrpc.php / 301
