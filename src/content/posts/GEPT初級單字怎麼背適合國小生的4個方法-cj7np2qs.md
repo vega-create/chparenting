@@ -68,6 +68,16 @@ Quizlet 的「配對」模式，是把單字和意思打亂，限時把它們連
 
 **重點不是方法有多厲害，而是每天都做一點點。**
 
+## 推薦輔助教材
+
+如果想搭配紙本教材一起練，以下幾本很適合國小生用來準備 GEPT 初級單字：
+
+- [怪物講師 GEPT 初級「單字」+「文法」+模擬試題套書](https://www.books.com.tw/exep/assp.php/vegalin1029/products/0010996262?utm_source=vegalin1029&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202603) — 單字和文法搭配模擬試題，還有教學影片，自學最推
+- [學霸 GEPT 初級單字+片語+文法](https://www.books.com.tw/exep/assp.php/vegalin1029/products/0011044477?utm_source=vegalin1029&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202603) — 高命中率重點整理，背起來就去考
+- [全民英檢初級模擬試題（增訂五版）](https://www.books.com.tw/exep/assp.php/vegalin1029/products/0011012357?utm_source=vegalin1029&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202603) — 寫模擬試題也是複習單字的好方式
+
+> *以上為博客來聯盟行銷連結，透過連結購買不會增加費用，但能幫助我們持續提供免費內容！*
+
 ## 結語
 
 背單字最怕的不是忘記，而是因為一直忘記而放棄。**換個方式，孩子學得開心，你也不用每天盯著他背單字表。**
