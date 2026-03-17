@@ -48,8 +48,10 @@
 # === 舊分頁 ===
 /page/* /blog/ 301
 
-# === 舊分類頁 → 首頁（含 /feed/ 子路徑）===
-/category/* / 301
+# === 舊分類頁 feed → 首頁 ===
+# 注意：/category/parenting-crisis/, /category/mom-emotions/, /category/parent-child/,
+# /category/kids-learning/, /category/practical-life/ 是 Astro 真實頁面，不可 redirect
+/category/*/feed/ / 301
 
 # === 舊標籤頁 → 首頁（含 /feed/ 子路徑）===
 /tag/* / 301
