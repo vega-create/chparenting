@@ -18,7 +18,6 @@ author: "薇佳媽咪"
 <div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 
-# 帶小孩好累怎麼辦
 
 一大早，陽光透過窗簾的縫隙灑進客廳，陳媽媽已經忙碌了好幾個小時。她一邊在全聯推著購物車，一邊安撫著三歲的小寶貝，心裡卻在默默計算著今天的開支。小寶貝突然在貨架旁停下，指著一包五顏六色的糖果，嘴裡不斷叫著「媽媽，我要這個！」陳媽媽感到頭痛，心裡盤算著「這包糖果一定會讓他不吃正餐，真是的！」但她又不想讓孩子失望，只好不情願地掏出錢包。回到家，孩子又開始鬧著要玩具，陳媽媽的耐心也在這不斷的要求中漸漸被磨光。這樣的日子，真的讓她覺得好累。
 

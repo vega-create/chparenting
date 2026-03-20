@@ -18,7 +18,6 @@ author: "薇佳媽咪"
 <div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 
-# 對小孩發脾氣好內疚
 
 在一個陽光明媚的下午，阿芳正在全聯裡推著購物車，身邊的四歲兒子小宇卻不斷地在車裡翻來翻去，嘴裡還不斷嘟囔著想要買這個、那個，眼神裡閃爍著無限的渴望。阿芳原本就對於選購晚餐的食材感到煩躁，這時聽到小宇“媽媽我想要這個”的聲音，火氣瞬間上來了。她忍不住嚷道：“你能不能安靜一點？每次都這樣！我才沒有時間陪你玩！”話一出口，阿芳心裡立刻一陣後悔，腦中不斷浮現著小宇失落的表情，心裡充滿了內疚。
 
