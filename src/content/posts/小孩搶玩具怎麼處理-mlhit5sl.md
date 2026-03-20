@@ -15,7 +15,6 @@ faq:
     a: "父母應該介入並引導孩子學習輪流和尊重別人的玩具，必要時可考慮尋求專業協助。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在某個陽光明媚的週末，阿芳帶著她的三歲寶貝小宇來到附近的公園，期待著和其他小朋友一起玩耍。然而，當小宇看到別的小朋友正在玩他最喜歡的消防車時，眼神立刻變得不安。他衝過去，拉著那個小朋友的手，嘴裡大喊著：「我要玩那個！」對方的小朋友驚訝地看著他，阿芳則在一旁感到心煩意亂，無奈又不知該怎麼辦。這樣的情境，是否也曾經發生在你我之間？
 

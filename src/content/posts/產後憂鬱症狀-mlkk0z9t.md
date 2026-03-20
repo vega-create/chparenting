@@ -15,9 +15,6 @@ faq:
     a: "提供情感支持，主動詢問她的感受，並協助分擔日常事務，讓她感受到不孤單，可以有效提升她的情緒。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在一個陽光明媚的早晨，阿婷坐在沙發上，手中抱著剛出生的寶寶。她的臉上帶著微笑，但心裡卻翻騰著情緒。她的媽媽和婆婆忙著收拾家務，偶爾會瞥一眼阿婷，問她有沒有需要幫忙。阿婷卻覺得自己像是一座孤島，雖然周圍人潮洶湧，但她卻無法開口。每當夜晚降臨，寶寶的哭聲更是讓她感到無助，心中無盡的焦慮和疲憊如陰雲般籠罩著她。這樣的情況持續了數週，阿婷感到自己似乎陷入了一種無法自拔的情緒漩渦，這就是她開始懷疑自己是否正在面對產後憂鬱的徵兆。
 

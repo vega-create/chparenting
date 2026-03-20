@@ -15,7 +15,6 @@ faq:
     a: "如果孩子經常打人，且這種行為持續一段時間或伴隨其他情緒問題，建議尋求專業幫助。可以向兒科醫生或心理諮詢師諮詢。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在一個陽光明媚的下午，阿芬帶著她的四歲兒子小宇去公園玩。小宇在滑梯上玩得不亦樂乎，突然，一個小朋友因為搶玩具而被小宇推倒在地。小宇不僅不覺得有什麼不妥，反而對著媽媽笑著說：「我就是要他不玩我的玩具！」阿芬心裡一驚，瞬間感受到一陣崩潰。她知道小孩不懂事，但這樣的行為該怎麼教呢？這不僅是小宇的問題，也是她的挑戰。
 

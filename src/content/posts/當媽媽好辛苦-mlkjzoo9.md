@@ -15,9 +15,6 @@ faq:
     a: "如果情緒問題持續影響生活，影響到家庭或工作，建議尋求心理諮詢師的幫助，以獲得專業指導。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在一個陽光明媚的早晨，阿芳正在全聯排隊結帳，手裡提著一大袋的菜，另一隻手則緊緊握著她兩歲的小孩小宇。小宇突然用力掙脫，朝著巧克力區域衝去，阿芳瞬間感到心臟漏了一拍，忙不迭地追了上去。她心裡暗想：「為什麼我總是要這麼辛苦，明明只是想買些菜而已！」面對一連串的挑戰與責任，阿芳不禁感到疲憊不堪。但深呼吸後，她又想起小宇燦爛的笑容，心中再次燃起了力量。
 

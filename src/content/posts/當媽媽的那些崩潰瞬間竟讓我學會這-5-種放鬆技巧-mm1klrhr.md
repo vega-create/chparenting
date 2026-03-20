@@ -15,7 +15,6 @@ faq:
     a: "可以嘗試設定個人的時間，從事自己喜歡的活動，如閱讀、寫日記或做手工，讓自己在繁忙的生活中找到快樂。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 在一個陽光明媚的週末，婉如正帶著她三歲的兒子育誠到公園玩。這本應是個輕鬆愉快的親子時光，卻因為育誠的[情緒](https://chparenting.com/posts/媽媽情緒崩潰怎麼辦-mlhhuv3d)忽然爆發而變得焦頭爛額。當育誠在秋千上又叫又哭時，旁邊的沛蓉忍不住笑著提醒婉如：「放鬆一點，媽媽有時候也需要喘口氣！」這句話像是重重地敲在了婉如心坎上，讓她明白，其實身為媽媽的崩潰，真的不必隱藏。於是，她開始尋找一些能讓自己放鬆的技巧，並從中學到不少。
 

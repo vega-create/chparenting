@@ -17,7 +17,6 @@ faq:
     a: "可以用繪本介紹新成員、帶大寶參加產檢、一起準備嬰兒用品，讓他感到參與而非被取代。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
 
 在一個陽光明媚的早晨，林小姐正忙著為她的新生二寶換尿布，突然聽到一聲撕心裂肺的哭聲。原來，她的大寶小宇正在客廳裡，用力拉著媽媽的褲腳，一邊哭一邊喊：「媽媽抱我！不要抱弟弟！」這一幕讓林小姐既心疼又無奈——她知道小宇不是在無理取鬧，而是在用他僅有的方式表達：**我害怕失去媽媽的愛**。
 

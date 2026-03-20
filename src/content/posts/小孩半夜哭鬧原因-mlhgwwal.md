@@ -15,7 +15,6 @@ faq:
     a: "夜驚通常發生在深睡期（入睡後 2～3 小時），孩子雖然尖叫但其實沒有醒，不需要叫醒他。噩夢發生在後半夜淺眠期，孩子會真的醒來且記得夢境。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在一個寧靜的夜晚，媽媽小珍正疲憊地坐在沙發上，努力想要閉上眼睛休息。就在這時，房間裡突然傳來一陣尖銳的哭聲。小珍的心一緊，立刻跳起來衝向寶寶的房間。她的兒子小凱才剛入睡不到一個小時，怎麼又哭了？是肚子餓了？做噩夢了？還是哪裡不舒服？小珍抱起小凱輕輕搖晃，但他似乎怎麼都安撫不下來，哭得越來越大聲。
 

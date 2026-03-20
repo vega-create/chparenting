@@ -15,7 +15,6 @@ faq:
     a: "找個輕鬆的時機，開誠布公地討論彼此的想法，並共同制定一個合理的計劃，讓每個人都有參與感。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 在某個陽光明媚的早晨，慧玲忙著給兩歲的哲瑋準備早餐。哲瑋一邊吃著吐司，一邊驚呼著想要更多的果醬，這時，素梅來訪了。兩位[媽媽](https://chparenting.com/posts/媽媽朋友圈越來越小-mlhhsqy8)在廚房裡聊著育兒經，卻發現兩個小孩在客廳裡打鬧得不可開交。雖然她們都知道要專注在孩子的需求上，但心裡不禁也渴望一點屬於自己的時間。如何在這忙碌的生活中找到放鬆的瞬間？這成了她們共同的心聲。
 

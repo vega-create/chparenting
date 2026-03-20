@@ -15,7 +15,6 @@ faq:
     a: "建立「物品歸位」的習慣，並制定清理計畫，定期檢查家庭環境，這樣能保持長期的整潔。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 映彤正坐在沙發上，手裡拿著一杯熱茶，望著四周凌亂的家，心裡不禁感到一陣無奈。志豪剛剛放學回來，背包裡的玩具和書本隨意扔在客廳，還有淑惠剛做完的手工藝品，堆得像小山一樣。映彤嘆了口氣，這樣的情況每天下班回家都會發生，讓她的心情變得沉重。她想，這樣的生活到底要多久才能改變？
 

@@ -15,9 +15,6 @@ faq:
     a: "安排定期的休閒活動，如與朋友聚會、做自己喜歡的事情，這樣能幫助你舒緩壓力，保持良好的心態。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在繁忙的早晨，阿美忙著準備孩子的早餐，卻發現老公還在床上打著呼嚕。她一邊煎蛋一邊心裡暗想：「我不是一個人帶小孩啊，他怎麼還能繼續睡？」孩子在旁邊不停地吵鬧，阿美的耐心也漸漸消磨殆盡。當她終於忍不住大聲叫出來的時候，老公才慢慢翻身起來，揉著眼睛，卻仍然一副無所謂的樣子。阿美的心裡充滿了委屈與無奈，為什麼在這樣的重要時刻，老公總是顯得如此漠不關心？
 

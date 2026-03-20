@@ -17,8 +17,6 @@ faq:
     a: "建議國小 4-5 年級開始，這時候孩子的記憶力強、也有足夠的中文閱讀能力輔助理解。太早開始反而容易挫折。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
-
 
 我女兒剛開始備考 GEPT 初級的時候，我用最傳統的方式——給她一張單字表，叫她每天背 10 個。
 

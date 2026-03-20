@@ -17,8 +17,6 @@ faq:
     a: "建議在正餐前 1.5～2 小時不提供點心，讓孩子帶著適度的飢餓感上桌。零食可以有，但固定時間、固定份量。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
-
 
 在某個下午的陽光下，阿芬正坐在餐桌前，心情忐忑地看著她的寶貝兒子小傑。今天的午餐是她精心準備的番茄義大利麵，裡面還加了小傑最愛的肉球。可是小傑坐在餐椅上，叉子戳了戳麵條，又放下來，轉頭看著窗外的小鳥，完全沒有要吃的意思。阿芬忍不住催促：「小傑，趕快吃，麵要涼了！」小傑皺起眉頭，把盤子往前一推：「不要。」
 

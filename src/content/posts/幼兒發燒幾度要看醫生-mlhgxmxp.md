@@ -15,7 +15,6 @@ faq:
     a: "對於三個月以下的嬰兒，任何發燒情況都應立即就醫，因為這可能是嚴重感染的徵兆。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在一個陽光明媚的下午，阿靜剛把剛滿三歲的小明送到幼兒園，準備去全聯補貨。正當她挑選著水果時，手機響了起來，是幼兒園的老師打來的。小明發燒了，體溫已經達到38.5度！阿靜瞬間心裡一緊，手裡的蘋果差點掉落。她知道小朋友發燒是常見的事，但這樣的情況要怎麼處理才好呢？等待的時間裡，阿靜不禁想起自己曾經看過的育兒書籍，裡面提到的發燒標準與該就醫的指引。但真的要看醫生嗎？這是每位媽媽都會面對的煩惱。
 

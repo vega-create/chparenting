@@ -15,7 +15,6 @@ faq:
     a: "如果情緒持續低落、影響生活品質，建議及早尋求專業的心理諮詢，獲得專業的支持與指導。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 在一個陽光明媚的早晨，阿妤正忙著為她的小寶貝準備早餐。剛剛喂完奶，寶寶又開始哭鬧，讓她的心情瞬間跌入谷底。她試著安撫他，但寶寶似乎就是不願意平靜下來。此時，阿妤的腦海中不斷浮現著昨晚沒睡好，還有一大堆家務等著她去處理。情緒的壓力像潮水般湧來，讓她感到無法承受。她忍不住想，這樣的日子何時才會結束？媽媽的角色真的這麼艱難嗎？
 

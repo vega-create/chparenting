@@ -15,7 +15,6 @@ faq:
     a: "可以試著放鬆心情，與孩子一起參與有趣的活動，並珍惜他們的創造力，這樣會讓育兒生活充滿歡樂。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 在一個陽光明媚的週末，淑芬帶著她的兒子志豪去公園玩。志豪興奮地跑向秋千，卻不小心跌倒，臉上沾滿了草地上的泥巴。淑芬本想立刻去檢查兒子的狀況，但看到他嘟著嘴，像小豬一樣可愛的模樣，忍不住笑出聲。就在這時，志豪抬頭問：「媽媽，我是不是變成小豬了？」淑芬笑得肚子都痛，心想，育兒的每一天都充滿了意想不到的驚喜和歡樂。
 

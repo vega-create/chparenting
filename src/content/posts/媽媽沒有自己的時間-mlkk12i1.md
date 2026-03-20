@@ -15,9 +15,6 @@ faq:
     a: "獨處時間可以讓媽媽重獲新生，提升心理健康，增進與孩子的互動，同時也能讓媽媽更清楚自己的需求與興趣。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在一個晴朗的早晨，謝媽媽捧著一杯熱騰騰的咖啡，坐在窗邊的陽光下，卻不由自主地望向玩具堆滿的客廳。她的寶寶在地上抓玩具，四歲的大女兒則在嘰喳著要吃早餐。謝媽媽心裡暗自慨嘆：「我這樣的時光，何時才能再有？」每當她想要享受片刻的寧靜，卻總被孩子的需求打斷，這種無法擁有自己的時間的感覺，讓她開始懷疑自己是否還能像從前那樣，擁有屬於自己的生活。
 

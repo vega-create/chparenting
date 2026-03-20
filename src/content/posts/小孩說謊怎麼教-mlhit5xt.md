@@ -15,7 +15,6 @@ faq:
     a: "如果小孩的說謊行為持續並且影響到日常生活，建議尋求專業的心理諮詢，幫助孩子釐清內心的需求。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在一個陽光明媚的下午，阿芳帶著她的五歲女兒小晴到全聯購物。小晴興奮地指著糖果架，央求媽媽買一包。阿芳心裡一陣掙扎，因為她已經答應過不再讓小晴吃太多零食。於是，她溫柔地拒絕了小晴的要求。小晴一聽，立刻撇下嘴，輕聲說：「可是班上所有的小朋友都有，我也有！」那一瞬間，阿芳愣住了，心裡默默想著：「怎麼會這樣呢？小晴明明知道我們不會買的，為什麼要說謊？」這是許多媽媽都曾經面對的困擾，孩子的說謊行為，究竟該怎麼處理？
 

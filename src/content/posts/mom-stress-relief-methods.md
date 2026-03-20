@@ -14,7 +14,6 @@ faq:
   - q: "壓力大到影響睡眠怎麼辦？"
     a: "可以試試睡前做簡單的呼吸練習或聽白噪音。如果長期失眠，建議尋求專業醫師的協助。"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
 
 小芳是兩個孩子的媽媽，白天上班、晚上帶小孩、週末還要處理永遠做不完的家事。有一天她突然在廚房裡哭了起來，不是因為發生了什麼大事，只是因為太累了。如果你也有過這樣的時刻，請你知道——你不是一個人，而且你值得好好休息。
 

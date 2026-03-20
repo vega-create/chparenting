@@ -15,7 +15,6 @@ faq:
     a: "遇到育兒問題時，夫妻應該共同討論，尋找合適的解決方案，必要時可以尋求專業的幫助。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 在一個平常的星期五晚上，阿芳和阿強本想享受一個溫馨的家庭時光，卻因為小孩的吵鬧而爆發了一場激烈的爭吵。小寶貝在沙發上玩耍，突然摔倒了，阿芳立刻衝過去安撫，卻不小心把阿強正在看電視的遙控器弄掉了。阿強一時怒火攻心，指責阿芳不專心照顧孩子，阿芳則不甘示弱，反駁說阿強根本不理解她的辛苦。這樣的情況讓他們的情緒瞬間升高，原本的溫馨氛圍瞬間轉變成冷戰，讓整個家裡都笼罩在緊張的氣氛中。
 

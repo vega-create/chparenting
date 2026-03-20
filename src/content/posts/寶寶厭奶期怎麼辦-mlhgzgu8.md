@@ -17,8 +17,6 @@ faq:
     a: "不一定，厭奶通常是暫時性的發展階段，不代表奶粉有問題。頻繁換奶反而可能讓寶寶更排斥，建議先觀察 1～2 週再決定。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
-
 
 在全聯的嬰兒用品區，阿靜正焦急地翻找著各種奶粉，三個月大的小寶寶窩在推車裡，一臉「我才不要喝奶」的倔強表情。明明上個月還喝得津津有味，怎麼突然就開始抗拒奶瓶了？阿靜心裡一陣崩潰，忍不住想問——寶寶厭奶期到底該怎麼辦？
 

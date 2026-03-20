@@ -15,7 +15,6 @@ faq:
     a: "可以試著把生活中的小插曲記錄下來，與家人分享，讓每個人都能在生活中找到快樂和笑聲！"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
 
 在一個陽光明媚的週末，阿嬌正準備帶著她的寶寶小米去公園溜達。她心中默默計畫著，今天要讓小米好好享受大自然的美好。不過，當她把小米放進嬰兒車的那一瞬間，卻發現小米已經把手上剛吃完的餅乾，整個抹在了臉上，還得意洋洋地笑著。阿嬌心裡一陣崩潰，卻又忍不住笑出聲來。這就是育兒的日常啊，總是能讓我們在崩潰與歡笑之間搖擺。
 

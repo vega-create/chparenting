@@ -15,9 +15,6 @@ faq:
     a: "如果孩子在三歲仍然不肯戒尿布，伴隨其他發展遲緩或情緒問題，建議諮詢專業醫生，尋求適當的評估和建議。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
-
-
 
 在一個陽光明媚的下午，筱婷帶著她三歲的兒子哲瑋來到公園玩。看著周圍的孩子們自由自在地奔跑，筱婷心中有些焦慮。哲瑋的尿布已經快要滿到溢出，但他依然不願意上廁所。她的心情就像那被風吹動的秋千，起伏不定。旁邊的韻如正帶著她的女兒，輕鬆地告訴哲瑋：“不如跟媽媽說要上廁所，這樣就能換成小內褲了！”哲瑋卻只是撅著嘴，像是誓言不肯放棄他的尿布。筱婷心中暗自嘆息，為何戒尿布這件事總是如此困難？
 

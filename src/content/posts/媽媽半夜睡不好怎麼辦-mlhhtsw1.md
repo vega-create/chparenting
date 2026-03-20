@@ -15,7 +15,6 @@ faq:
     a: "如果經過一段時間的努力仍然無法改善睡眠質量，或感到情緒低落，建議尋求專業的心理醫生或諮詢師的幫助。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 在一個寧靜的夜晚，阿芳終於把孩子哄睡了，心裡的疲憊感卻如潮水般湧來。她洗好澡，躺在床上，卻怎麼也無法入眠。腦海裡不斷重播著白天的瑣事，從孩子的飲食到明天的工作計劃，心裡的焦慮像是靜不下來的鐘擺。當她再次看到床邊的鬧鐘，已經過了半夜十二點，明天又得早起，這讓她更加焦慮。阿芳暗自嘆息，這樣的夜晚已經不知重複了多少次，睡不好的煩惱讓她感到無比無助。
 

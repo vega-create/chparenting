@@ -15,7 +15,6 @@ faq:
     a: "請求幫助可以減輕壓力，促進伴侶間的理解與支持，讓育兒過程變得更輕鬆。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
 
 在一個陽光明媚的早晨，阿玲正在全聯購物，心裡卻有些煩躁。她推著購物車，腦海中不斷回想著昨天晚上小寶的哭鬧，還有她為了哄他入睡而失去的那一小時。當她在選擇牛奶時，眼前的選擇卻讓她感到茫然，似乎她已經很久沒有為自己做過決定了。買什麼、吃什麼，似乎都不再是她的選擇，而是圍繞著小寶的需求而轉動。她想起了自己曾經喜歡的事情，像是畫畫、看書，卻發現這些都已經被生活的重擔壓得無影無蹤。
 

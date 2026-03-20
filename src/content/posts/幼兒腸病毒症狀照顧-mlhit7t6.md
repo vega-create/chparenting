@@ -15,7 +15,6 @@ faq:
     a: "若孩子持續高燒、出現脫水症狀、持續嘔吐或呼吸困難等情況時，應立即就醫。"
 author: "Vega"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
 
 在某個熱情的夏日午後，阿美正忙著準備為她的寶寶小頌做午餐。突然，她注意到小頌的臉色變得異常蒼白，嘴角還出現了小水泡。阿美心中一緊，立刻想起最近幼兒園正流行腸病毒。她的心中充滿了焦慮，腸病毒的症狀讓她感到不安，因為她知道，這不僅會讓小頌不舒服，還可能影響到全家人的生活。於是，阿美決定深入了解腸病毒的症狀與照顧方法，讓自己能在這段艱難的時期更好地照顧小頌。
 

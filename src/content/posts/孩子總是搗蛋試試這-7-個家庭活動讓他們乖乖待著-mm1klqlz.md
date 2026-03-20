@@ -15,7 +15,6 @@ faq:
     a: "根據不同的活動，所需材料會有所不同，例如廚藝活動需要食材，手作活動需要基本的手作工具和材料。可以提前準備，讓活動更加順利。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 在某個午後，品妤正準備在全聯買菜，卻發現柏翰和小朋友們在超市裡像小鬧鐘般到處跑，吵得她頭都大了。她心想：「怎麼這麼難控制！」突然，柏翰一個轉身，撞上了貨架，衣服上的餅乾屑飛了一地。品妤無奈地笑了笑，心裡卻在想，是不是該找點活動讓[孩子們](https://chparenting.com/posts/小孩打人怎麼教-mlhgxk0u)乖乖待著呢？
 

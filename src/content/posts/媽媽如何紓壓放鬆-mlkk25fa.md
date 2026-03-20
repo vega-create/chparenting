@@ -15,9 +15,6 @@ faq:
     a: "運動能釋放內啡肽，改善情緒，增強體力，也能讓媽媽在育兒的過程中更有活力，減輕壓力。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在一個陽光明媚的週末早晨，阿美正在全聯的蔬果區挑選新鮮的水果，她的寶寶小宇則在推車裡咿咿呀呀地玩著。每當她聽到小宇的笑聲，心裡都會感到無比的幸福，但隨著日常的忙碌與壓力，阿美也漸漸感到疲憊不堪。當她結帳時，突然想起自己已經好幾個月沒好好放鬆過，這樣的生活真的要改變了。於是，她心裡默默決定，要找回那個快樂的自己。
 

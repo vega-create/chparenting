@@ -15,9 +15,6 @@ faq:
     a: "常見的工具包括 Google Calendar、Todoist、Trello 等，可以幫助你制定計畫與提醒重要事項。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在某個清晨，陽光透過窗簾的縫隙灑進來，李娜匆忙地穿著衣服，心裡默默計算著今天的行程。她的三歲兒子小宇在客廳裡玩著玩具，還時不時發出幾聲歡笑。可是，李娜的腦海中卻不斷閃過各種待辦事項：會議報告、家庭聚會、孩子的幼兒園活動。這樣的日子已經持續了好幾個月，李娜心中不禁感到一陣焦慮，想著「我該如何才能有效地管理這些時間，讓生活不再這麼忙碌呢？」
 

@@ -15,9 +15,6 @@ faq:
     a: "全職媽媽可以尋找社交平台上的媽媽社群，與志同道合的朋友分享經驗，這樣能減輕孤獨感，找到支持。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
-
-
 
 在一個陽光明媚的下午，家裡的客廳裡充滿了玩具的雜亂，三歲的子涵正在地上大聲哭鬧，要求她的媽媽小玲馬上陪她玩。小玲一邊試圖安撫子涵，一邊還要想著晚餐要煮什麼，還有洗衣服、整理家務的清單一籮筐。她心裡不禁想：「我到底為什麼會這麼累？」雖然小玲知道全職媽媽的工作是無法用金錢來衡量的，但她卻感覺到巨大的壓力與孤獨，時常在深夜裡偷偷流淚。
 

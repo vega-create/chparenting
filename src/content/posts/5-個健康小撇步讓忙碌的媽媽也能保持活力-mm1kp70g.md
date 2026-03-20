@@ -15,7 +15,6 @@ faq:
     a: "可以利用帶孩子去公園的時間進行運動，或在晚上孩子睡覺後進行簡單的運動，讓運動成為日常生活的一部分。"
 author: "薇佳媽咪"
 ---
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
 
 在一個陽光明媚的早晨，品妤站在全聯的蔬果區，手裡拿著一包剛剛挑選的青菜，卻忍不住想著今天的行程：送翊安上學後，還要帶著小女兒欣怡去診所看感冒。生活的忙碌讓她心裡有點焦慮，尤其是最近工作繁忙，常常覺得精疲力竭，卻又不想讓孩子感受到她的疲憊。隨著年齡增長，品妤越來越明白，保持健康與活力不僅是為了自己，也是為了能更好地陪伴孩子。
 
