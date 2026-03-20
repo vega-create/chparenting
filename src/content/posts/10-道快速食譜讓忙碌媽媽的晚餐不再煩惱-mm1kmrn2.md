@@ -15,6 +15,8 @@ faq:
     a: "大部分食譜都適合幼兒及以上年齡的孩子，但要注意食物切割大小和調味品的使用哦！"
 author: "薇佳媽咪"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
+
 在一個平常的星期三晚上，雅萍回到家，已經是晚上六點半了。她的老公宥辰剛下班，兩個小寶貝卻鬧得不可開交，這時候的雅萍感覺自己像是一位超級英雄，卻又有些力不從心。打開冰箱，裡面空空如也，想到晚餐還沒開始準備，雅萍的心情瞬間緊張起來。可是，她的腦海中閃過一個念頭：快速食譜！於是，她決定要用簡單又美味的方式，解決這場晚餐的危機。
 
 屬於忙碌媽媽的晚餐不必再是煩惱，這裡有十道快速又好吃的食譜，讓你能輕鬆準備出美味的晚餐，為家人帶來溫暖的滋味！

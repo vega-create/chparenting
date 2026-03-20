@@ -15,6 +15,8 @@ faq:
     a: "主動聯繫朋友或其他媽媽，分享育兒經驗，或者參加媽媽團體，尋找情感支持。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個平常的週末早晨，小雯正忙著準備早餐，心裡盤算著今天的行程該怎麼安排。她的兩個小孩，三歲的阿樂和一歲的阿妍，正鬧著要吃冰淇淋，根本不想理會早晨的燕麥粥。小雯一面想著如何應對他們的“抗議”，一面又得控制情緒，因為她知道，若是忍不住大吼，後果可能會更糟。這時，阿樂突然摔倒，哭得撕心裂肺，阿妍也在旁邊跟著一起哭泣。小雯深吸一口氣，心裡暗自嘀咕：「一打二，真的是好崩潰啊！」
 
 這樣的情況對於許多媽媽來說都不陌生。在面對兩個小孩的需求時，情緒容易崩潰。如何平衡自己的情緒，讓自己在育兒的過程中不再感到焦慮與崩潰呢？其實，有幾個方法可以幫助媽媽們重新找到平靜與快樂。

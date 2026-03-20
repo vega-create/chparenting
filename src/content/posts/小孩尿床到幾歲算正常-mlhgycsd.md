@@ -15,6 +15,8 @@ faq:
     a: "如果孩子在七歲以上仍然尿床，建議尋求專業醫療建議，以排除可能的健康問題。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
+
 在一個繁忙的週末早晨，阿娟正忙著準備早餐，卻發現她的五歲兒子小宇，還在夢鄉中沉沉睡去。她輕輕叫他起床，卻不小心發現床單濕了。這一幕讓阿娟的心瞬間沉了下來，心裡不禁想：「小宇都五歲了，怎麼還會尿床呢？」在社交媒體上，朋友們的孩子早已經不再有這樣的問題。她開始懷疑自己是不是做了什麼錯，或是小宇的健康狀況出了問題。面對這樣的情況，阿娟的心情可想而知，彷彿整個育兒的信心都被動搖了。
 
 其實，許多媽媽在育兒過程中都曾經經歷過類似的情況，尿床問題就像是育兒路上的一個小驚嚇。那麼，小孩尿床到幾歲算正常呢？根據專家建議，五歲的孩子偶爾尿床是正常的，但如果持續到七歲以上，就需要進一步關注了。

@@ -15,6 +15,8 @@ faq:
     a: "如果腰痠背痛持續不退，且伴隨麻木、刺痛感或行動困難，建議儘早就醫檢查。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個陽光燦爛的週末，阿美帶著她的寶寶小宇，準備去公園散步。雖然小宇已經快兩歲了，但他的小腳丫總是喜歡在草地上跑來跑去，完全不理會媽媽的呼喚。阿美一邊追著小宇，心裡想着「快點，媽媽要休息了！」，但小宇的笑聲讓她不禁微笑。然而，當她終於把小宇抱回懷裡時，腰痛的感覺卻如潮水般湧現，讓她忍不住發出一聲呻吟。每次帶小孩都這麼累，阿美心裡不禁想：這樣的腰痠背痛何時才會結束？
 
 在帶小孩的過程中，很多媽媽都會面臨腰痠背痛的困擾，這是因為長時間的抱、舉及其他勞動造成的。這篇文章將幫助你了解這些疼痛的原因，以及如何舒緩這些不適，讓你能更輕鬆地享受育兒的過程。

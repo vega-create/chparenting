@@ -15,6 +15,8 @@ faq:
     a: "可以加入媽媽群組或與朋友保持聯繫，分享育兒經驗，互相支持。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在某個陽光明媚的早晨，瑩瑩坐在餐桌前，望著正在玩積木的寶寶，心裡五味雜陳。她的育嬰假即將結束，面對即將到來的上班日，腦海中不斷閃過過去忙碌的工作畫面，還有那些難以割捨的母子時光。她的心情像是被重重的雲霧籠罩，既期待重返職場，又無法抑制對寶寶的思念。每次看著寶寶的笑容，瑩瑩都在心裡告訴自己：「再過幾天，我就要離開你了。」
 
 這樣的情緒，其實在許多媽媽的心中都會浮現。育嬰假結束後，回到工作崗位，不僅要面對職場的挑戰，還要調整心態去適應母職與工作的平衡。這篇文章將會探討這些情緒，並分享一些具體的應對策略，幫助媽媽們平穩過渡。

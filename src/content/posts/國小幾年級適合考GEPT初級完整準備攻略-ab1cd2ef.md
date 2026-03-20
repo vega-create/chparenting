@@ -17,6 +17,8 @@ faq:
     a: "學校英文以課文為主，GEPT 初級更偏重生活化英文的實際運用，聽力是日常對話、閱讀是短文和情境。備考 GEPT 對提升孩子的英文應用能力很有幫助。"
 author: "薇佳媽咪"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
+
 
 有一天我女兒跑來問我：「媽媽，英檢是什麼？我們班有同學在考。」
 

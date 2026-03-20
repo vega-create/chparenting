@@ -15,6 +15,8 @@ faq:
     a: "當然！像是 [親子天下](https://parenting.com.tw) 和 [媽媽寶寶](https://mombaby.com.tw) 都是很好的資源，提供豐富的資訊和討論區。"
 author: "薇佳媽咪"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
+
 在一個陽光明媚的星期六早晨，婉如帶著她的寶寶承恩，來到附近的公園散步。陽光透過樹葉灑下斑駁的光影，承恩在草地上快樂地爬著，婉如則坐在長椅上，默默觀察周圍的媽媽們。她注意到素梅正和其他幾位媽媽聊天，分享育兒小妙招，笑聲此起彼落。此時，婉如心裡不禁想：為什麼自己總是獨自在這條育兒的道路上掙扎？如果能找到一群志同道合的媽媽，就能一起分享這些辛苦與快樂，該有多好啊！
 
 事實上，找到志同道合的媽媽社群並不難，只需要透過一些平台，就能輕鬆建立起連結！

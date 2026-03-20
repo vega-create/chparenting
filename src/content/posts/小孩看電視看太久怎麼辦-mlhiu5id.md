@@ -15,6 +15,8 @@ faq:
     a: "可以嘗試讓活動變得有趣，比如舉辦家庭競賽，或是與朋友一起進行，這樣能增加他們的參與感和興趣。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
+
 在一個陽光明媚的下午，阿玲正忙著準備晚餐，突然聽見小孩小宇的笑聲從客廳傳來。她忍不住探頭一看，卻發現小宇正坐在沙發上，眼睛緊盯著電視螢幕，手裡還握著一包零食。這已經是他連續看了第三集動畫片，阿玲心裡暗想：這樣下去可不行啊！她努力回想當初對小宇的承諾，每天只能看一小時電視，但現在這個小約定似乎早已被遺忘。阿玲感到一陣崩潰，心裡不禁懷疑：我該怎麼辦？
 
 小孩看電視看太久，常常讓媽媽們感到無奈與焦慮。不過，這並不是沒得解決的問題！透過一些具體的方法與建議，我們可以幫助孩子建立健康的視聽習慣。

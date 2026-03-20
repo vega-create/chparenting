@@ -15,6 +15,8 @@ faq:
     a: "可以試著給自己一些空間，做自己喜歡的事情，或尋求專業的心理支持，這樣會有助於改善情緒。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個陽光明媚的午後，阿芬坐在全聯的咖啡區，手裡捧著一杯熱咖啡，心情卻不像這陽光那麼明媚。她的寶寶剛滿一歲，育兒的艱辛讓她時常感到孤獨。曾經的閨蜜們，不是因為生活忙碌而漸行漸遠，就是因為小孩的教育理念不同，讓她們的對話越來越少。今天，她在社群媒體上看到小美和其他媽媽聚會的照片，心裡不禁有些失落，想著：「我的朋友圈怎麼變得這麼小？」
 
 這樣的情境，許多媽媽或許都曾經感同身受。隨著育兒的忙碌和生活的變化，媽媽們的社交圈似乎都在不知不覺中縮小了。本文將探討為什麼媽媽的朋友圈越來越小，以及如何在這個過程中找到支持和歸屬感。

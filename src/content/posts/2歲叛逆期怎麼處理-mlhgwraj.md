@@ -17,6 +17,8 @@ faq:
     a: "不建議。研究顯示體罰會增加孩子的攻擊性行為，且效果短暫。正向教養（設定界線＋同理情緒＋自然後果）更有長期效果。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
+
 
 在某個陽光明媚的下午，阿婷正在全聯裡忙著選購晚餐的食材。小宇乖乖坐在推車裡，一切看起來風平浪靜——直到他看見了糖果架。「我要！我要那個！」小宇開始扭動身體，試圖爬出推車。阿婷溫柔地說：「今天不買糖果喔。」下一秒，小宇整個人往後仰，放聲大哭，雙腳猛踢推車，哭聲迴盪在整個賣場。周圍的目光像聚光燈一樣打過來，阿婷感覺臉頰發燙，手足無措。
 

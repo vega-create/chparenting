@@ -15,6 +15,8 @@ faq:
     a: "讓小孩選擇衣物、準備零食和玩具，並告訴他們當天的計畫，這樣能增加他們的期待感。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個陽光明媚的週末早晨，媽咪小莉望著窗外的藍天，心中卻有著無數的掙扎。她的寶貝寶寶小皓正坐在客廳的地上，手裡玩著積木，興高采烈地發出咯咯的笑聲。小莉心裡明白，今天是個適合外出走走的好日子，但想到出門的過程，她的腦海裡瞬間浮現出一堆麻煩的場景：要準備的衣物、必須帶的尿布、還有小皓可能會在路上鬧脾氣的情景。最終，小莉不由自主地選擇了留在家裡，享受著這份安靜，卻也感到一絲內疚與不安。
 
 帶小孩出門，對許多媽媽來說，真的像是一場心理的拉鋸戰。有時候，我們想要出去呼吸新鮮空氣、享受家庭時光，但那份重重的準備和可能出現的挑戰，讓我們更願意待在舒適的家裡。這篇文章將幫助你理解為什麼會有這樣的情緒，並提供一些實用的建議，讓你更輕鬆地帶著小孩出門。

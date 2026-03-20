@@ -9,11 +9,11 @@ const moods = [
 
 const toolSuggestions: Record<string, { name: string; href: string; emoji: string }[]> = {
   '還不錯': [
-    { name: '正能量卡片', href: '/tools/affirmation/', emoji: '✨' },
+    { name: '正能量卡片', href: '/tools/affirmation/?mood=happy', emoji: '✨' },
     { name: '今日笑話', href: '/tools/jokes/', emoji: '😂' },
   ],
   '普通': [
-    { name: '正能量卡片', href: '/tools/affirmation/', emoji: '✨' },
+    { name: '正能量卡片', href: '/tools/affirmation/?mood=tired', emoji: '✨' },
     { name: '白噪音', href: '/tools/white-noise/', emoji: '🌧️' },
   ],
   '有點累': [
@@ -22,7 +22,7 @@ const toolSuggestions: Record<string, { name: string; href: string; emoji: strin
   ],
   '需要抱抱': [
     { name: '呼吸練習', href: '/tools/breathing/', emoji: '🫁' },
-    { name: '正能量卡片', href: '/tools/affirmation/', emoji: '✨' },
+    { name: '正能量卡片', href: '/tools/affirmation/?mood=angry', emoji: '✨' },
     { name: '心情日記', href: '/tools/mood-diary/', emoji: '📝' },
   ],
 };

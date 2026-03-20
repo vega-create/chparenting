@@ -15,6 +15,8 @@ faq:
     a: "要明白，放假是為了讓自己恢復精力，這樣才能更好地照顧孩子。給自己一些正面的鼓勵和支持，接受這樣的安排。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個陽光明媚的周末早晨，阿雅正忙著為她的兩個孩子準備早餐。小孩子們在客廳裡嬉鬧，偶爾發出尖叫聲，讓她的耳朵有些發麻。阿雅一邊翻煎蛋，一邊心裡默默計算著，接下來的行程還有幼兒園的接送、超市的採買、下午的親子活動……她不禁想，這樣的日子，什麼時候才能喘口氣呢？她的好友小莉則在朋友圈裡分享了自己的一趟小旅行，照片中的她笑得燦爛，讓阿雅心裡一陣羨慕。她開始反思，作為媽媽的自己，是否也需要放假，來好好照顧一下自己的心靈？
 
 媽媽們常常把所有的心力都投注在孩子身上，卻常常忽略了自己的需求。是的，媽媽們絕對需要放假。放假不僅是為了休息，更是為了重拾當初的那份熱情與活力。

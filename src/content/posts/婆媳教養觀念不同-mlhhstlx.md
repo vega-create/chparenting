@@ -15,6 +15,8 @@ faq:
     a: "可以試著與婆婆進行溝通，分享現代育兒的理念，並找到彼此都能接受的育兒方式，建立共識。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">💭</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">認識情緒</div><div style="color: #6b7280; font-size: 0.7rem;">先接納自己</div></div><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">🫂</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">自我照顧</div><div style="color: #6b7280; font-size: 0.7rem;">媽媽也需要愛</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">🌈</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">正面轉化</div><div style="color: #6b7280; font-size: 0.7rem;">找回內在力量</div></div></div>
+
 在一個陽光明媚的週末早上，阿美正忙著準備午餐，突然聽見小孩在客廳裡吵鬧聲。她快步走過去，看到婆婆正耐心地教小孩玩拼圖，而小孩卻是心不在焉，隨意地把拼圖塊丟進地上。阿美忍不住皺起眉頭，心裡想：「這樣教小孩根本沒有耐心，還不如我自己來！」而婆婆則滿不在乎，覺得這樣的互動很正常。兩代人面對同一個小孩，卻有著截然不同的教養觀念，讓阿美感到困惑與無奈。
 
 婆媳之間的教養觀念不同，往往讓家庭氛圍緊張，也使得媽媽們面臨更多的情緒壓力。要如何處理這樣的情況，讓家庭更和諧，成為了每位媽媽需要面對的挑戰。

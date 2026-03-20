@@ -15,6 +15,8 @@ faq:
     a: "當然不是！有自己的興趣和熱情，反而會讓你成為更快樂的媽媽。先從每天留15分鐘給自己開始，做任何讓你開心的事。"
 layout: ../../layouts/PostLayout.astro
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">👶</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">育兒</div><div style="color: #6b7280; font-size: 0.7rem;">陪伴成長</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">📚</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">學習</div><div style="color: #6b7280; font-size: 0.7rem;">一起進步</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">❤️</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">親子</div><div style="color: #6b7280; font-size: 0.7rem;">幸福時光</div></div></div>
+
 ## 一、「我只是想安靜喝杯咖啡」
 
 雅琪是一個全職媽媽，有兩個分別 3 歲和 5 歲的孩子。她說，她最大的願望不是環遊世界，也不是名牌包包，而是「安安靜靜喝完一杯熱咖啡」。

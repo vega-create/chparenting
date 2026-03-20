@@ -15,6 +15,8 @@ faq:
     a: "如果小孩的哭鬧持續不斷，或伴隨其他症狀如發燒、嘔吐等，建議儘早尋求醫療協助。"
 author: "Vega"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #fce7f3; border-radius: 10px; border: 1px solid #f9a8d4; text-align: center;"><div style="font-size: 1.3rem;">😤</div><div style="font-weight: 700; color: #9d174d; font-size: 0.8rem;">崩潰瞬間</div><div style="color: #6b7280; font-size: 0.7rem;">每個媽媽都懂</div></div><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">🧘</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">深呼吸</div><div style="color: #6b7280; font-size: 0.7rem;">調整心態</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">💪</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">重新出發</div><div style="color: #6b7280; font-size: 0.7rem;">妳不是一個人</div></div></div>
+
 在一個陽光明媚的早晨，媽媽小雯正忙著準備早餐，卻聽到從嬰兒房傳來陣陣的哭聲。她的寶寶小宇今天特別不高興，剛剛喝完奶又開始鬧了起來。小雯心中一陣焦慮，想著「這次又是什麼原因呢？」她試著抱著小宇，輕輕搖晃，卻無法止住他的哭鬧。她心裡明白，這種情況不止一次了，面對小宇的情緒，她感到無比挫折，甚至想要大喊：「我到底做錯了什麼？」這樣的場景，是否也曾在你的生活中上演過？
 
 小孩哭鬧不停的原因多樣，可能是因為身體不適、情緒不穩，或是單純想要吸引注意。了解這些原因後，我們可以針對性地採取行動，幫助寶寶舒緩情緒。

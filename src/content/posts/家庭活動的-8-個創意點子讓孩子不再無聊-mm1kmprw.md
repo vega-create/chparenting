@@ -15,6 +15,8 @@ faq:
     a: "可以考慮一些適合全家觀看的經典動畫電影，例如《冰雪奇緣》或《玩具總動員》等。"
 author: "薇佳媽咪"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
+
 在一個陽光明媚的週末早晨，筱婷和她的兒子翊安正在家裡。翊安一臉無聊，坐在沙發上玩著電話遊戲，時不時地發出一聲嘆息。筱婷心裡想著，這樣的日子怎麼能讓孩子有趣起來呢？於是她靈機一動，決定不再讓翊安獨自沉迷於電子產品，而是要與他一起創造一些有趣的回憶。於是，筱婷開始思考各種有趣的家庭活動點子，讓翊安重拾童年樂趣。
 
 如果你的孩子也總是感到無聊，不妨試試這八個創意家庭活動，讓全家人一起享受快樂的時光，並增進彼此的親密感。

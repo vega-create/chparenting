@@ -15,6 +15,8 @@ faq:
     a: "可以參加當地的育兒小組或社群媒體上的媽媽群組，和其他媽媽分享經驗，互相支持。"
 author: "薇佳媽咪"
 ---
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;"><div style="padding: 0.8rem; background: #dbeafe; border-radius: 10px; border: 1px solid #93c5fd; text-align: center;"><div style="font-size: 1.3rem;">💡</div><div style="font-weight: 700; color: #1e40af; font-size: 0.8rem;">實用技巧</div><div style="color: #6b7280; font-size: 0.7rem;">省時省力</div></div><div style="padding: 0.8rem; background: #fef3c7; border-radius: 10px; border: 1px solid #fde68a; text-align: center;"><div style="font-size: 1.3rem;">🏠</div><div style="font-weight: 700; color: #92400e; font-size: 0.8rem;">居家妙招</div><div style="color: #6b7280; font-size: 0.7rem;">輕鬆管理</div></div><div style="padding: 0.8rem; background: #d1fae5; border-radius: 10px; border: 1px solid #6ee7b7; text-align: center;"><div style="font-size: 1.3rem;">✨</div><div style="font-weight: 700; color: #065f46; font-size: 0.8rem;">生活品質</div><div style="color: #6b7280; font-size: 0.7rem;">享受每一天</div></div></div>
+
 在一個陽光明媚的週末早晨，佳穎帶著三歲的威廷到公園玩耍。陽光灑在臉上，微風輕拂，心情本該愉悅。但是，威廷卻因為想要玩滑梯而哭鬧不止，讓佳穎感到一陣頭痛。她試著用甜美的聲音安撫他，但威廷的情緒卻越來越激動，讓周圍的家長也開始窺探。此時，佳穎心裡不禁想：「這樣的情況我該怎麼辦？」她感到無比的壓力，甚至想要逃回家中。
 
 育兒的路上，壓力無處不在，尤其是當孩子的[情緒失控](https://chparenting.com/posts/2歲叛逆期怎麼處理-mlhgwraj)時，媽媽的心情也會跟著波動。然而，學會管理這些壓力，讓自己保持冷靜，才是母親們面對育兒挑戰的關鍵。
