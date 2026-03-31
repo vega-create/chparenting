@@ -1,0 +1,178 @@
+---
+import Analytics from '../components/Analytics.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  primaryColor: string;
+  bgColor: string;
+}
+
+const { title, description, primaryColor, bgColor } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="noindex, nofollow" />
+  <Analytics />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <style define:vars={{ primaryColor, bgColor }}>
+    body {
+      background-color: #FDFAF8;
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #333;
+      line-height: 1.8;
+    }
+    .quiz-hero {
+      background-color: var(--bgColor);
+      text-align: center;
+      padding: 3rem 1.5rem 2.5rem;
+    }
+    .quiz-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primaryColor);
+      margin: 0 0 0.5rem;
+    }
+    .quiz-hero p {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 0;
+    }
+    .quiz-section {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    .quiz-section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primaryColor);
+      margin-bottom: 1rem;
+    }
+    .trait-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .trait-list li {
+      padding: 0.6rem 0;
+      font-size: 1rem;
+      color: #444;
+      border-bottom: 1px solid #f0ebe6;
+    }
+    .trait-list li:last-child {
+      border-bottom: none;
+    }
+    .ai-prompt-box {
+      background: #f5f3f0;
+      border-radius: 12px;
+      padding: 1.2rem 1rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #444;
+      white-space: pre-line;
+      position: relative;
+    }
+    .copy-btn {
+      display: block;
+      width: 100%;
+      margin-top: 0.8rem;
+      padding: 0.7rem;
+      background-color: var(--primaryColor);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .copy-btn:hover {
+      opacity: 0.9;
+    }
+    .copy-btn.copied {
+      background-color: #6B9E6B;
+    }
+    .cta-section {
+      text-align: center;
+      padding: 2rem 1.5rem 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta-btn {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      background-color: var(--primaryColor);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    .cta-btn:hover {
+      opacity: 0.9;
+    }
+    .cta-sub {
+      margin-top: 0.8rem;
+      font-size: 0.85rem;
+      color: #999;
+    }
+    .footer-links {
+      text-align: center;
+      padding: 1.5rem 1.5rem 3rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .footer-links a {
+      color: var(--primaryColor);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .read-more {
+      text-align: center;
+      padding: 0 1.5rem 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .read-more a {
+      color: var(--primaryColor);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .read-more a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <slot />
+  <script is:inline>
+    function copyPrompt(btn) {
+      const box = btn.previousElementSibling || btn.closest('.ai-prompt-box')?.querySelector('.prompt-text');
+      const text = btn.closest('.ai-prompt-box').querySelector('.prompt-text').textContent.trim();
+      navigator.clipboard.writeText(text).then(() => {
+        btn.textContent = '已複製！';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = '複製指令';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>

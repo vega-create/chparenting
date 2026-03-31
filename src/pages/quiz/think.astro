@@ -1,0 +1,47 @@
+---
+import QuizResultLayout from '../../layouts/QuizResultLayout.astro';
+---
+<QuizResultLayout
+  title="你的小孩是思考型 🧠"
+  description="思考型小孩的特質與 AI 育兒指令"
+  primaryColor="#8B2252"
+  bgColor="#FFF0F3"
+>
+  <section class="quiz-hero">
+    <h1>思考型 🧠</h1>
+    <p>為什麼先生型，觀察力強，需要理解才行動</p>
+  </section>
+
+  <section class="quiz-section">
+    <h2>✦ 你家小孩的特質</h2>
+    <ul class="trait-list">
+      <li>✓ 問題多、愛講道理</li>
+      <li>✓ 不懂原因就不肯動</li>
+      <li>✓ 情緒不外露，但內心戲很多</li>
+      <li>✓ 需要邏輯，不吃單純的威脅</li>
+    </ul>
+  </section>
+
+  <section class="quiz-section">
+    <h2>✦ AI 指令懶人包</h2>
+    <p style="font-size: 0.85rem; color: #888; margin-bottom: 0.8rem;">複製這段指令，貼進 Claude 或 ChatGPT 直接用</p>
+    <div class="ai-prompt-box">
+      <span class="prompt-text">我小孩思考型，什麼事情都要先問為什麼，
+幫我用小孩聽得懂的方式解釋：
+為什麼要早睡、為什麼要收玩具，
+各一個理由，不超過 2 句話。</span>
+      <button class="copy-btn" onclick="copyPrompt(this)">複製指令</button>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <a class="cta-btn" href="https://www.instagram.com/vega_aimom" target="_blank" rel="noopener">
+      追蹤 @vega_aimom IG 🔔
+    </a>
+    <p class="cta-sub">每週分享更多媽媽 AI 場景</p>
+  </section>
+
+  <div class="footer-links">
+    <a href="/">← 想了解更多育兒技巧？回首頁看看</a>
+  </div>
+</QuizResultLayout>
