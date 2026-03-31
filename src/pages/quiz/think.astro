@@ -1,47 +1,83 @@
 ---
-import QuizResultLayout from '../../layouts/QuizResultLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
-<QuizResultLayout
-  title="你的小孩是思考型 🧠"
-  description="思考型小孩的特質與 AI 育兒指令"
-  primaryColor="#8B2252"
-  bgColor="#FFF0F3"
->
-  <section class="quiz-hero">
-    <h1>思考型 🧠</h1>
-    <p>為什麼先生型，觀察力強，需要理解才行動</p>
-  </section>
+<BaseLayout title="你的小孩是思考型 🧠" description="思考型小孩的特質與 AI 育兒指令" noindex={true}>
+  <article class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <!-- Hero -->
+    <div class="text-center mb-10 bg-[#FFF0F3] -mx-4 sm:-mx-6 px-4 sm:px-6 py-10 rounded-b-3xl">
+      <h1 class="text-4xl font-bold font-display text-[#8B2252] mb-2">思考型 🧠</h1>
+      <p class="text-warmgray-500 text-lg">為什麼先生型，觀察力強，需要理解才行動</p>
+    </div>
 
-  <section class="quiz-section">
-    <h2>✦ 你家小孩的特質</h2>
-    <ul class="trait-list">
-      <li>✓ 問題多、愛講道理</li>
-      <li>✓ 不懂原因就不肯動</li>
-      <li>✓ 情緒不外露，但內心戲很多</li>
-      <li>✓ 需要邏輯，不吃單純的威脅</li>
-    </ul>
-  </section>
+    <!-- 特質列表 -->
+    <section class="mb-8">
+      <h2 class="text-xl font-bold font-display text-warmgray-800 mb-4">✦ 你家小孩的特質</h2>
+      <div class="bg-white/60 rounded-2xl border border-white/80 shadow-sm p-5 space-y-3">
+        <div class="flex items-start gap-3 text-warmgray-700">
+          <span class="text-[#8B2252] font-bold mt-0.5">✓</span>
+          <span>問題多、愛講道理</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-[#8B2252] font-bold mt-0.5">✓</span>
+          <span>不懂原因就不肯動</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-[#8B2252] font-bold mt-0.5">✓</span>
+          <span>情緒不外露，但內心戲很多</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-[#8B2252] font-bold mt-0.5">✓</span>
+          <span>需要邏輯，不吃單純的威脅</span>
+        </div>
+      </div>
+    </section>
 
-  <section class="quiz-section">
-    <h2>✦ AI 指令懶人包</h2>
-    <p style="font-size: 0.85rem; color: #888; margin-bottom: 0.8rem;">複製這段指令，貼進 Claude 或 ChatGPT 直接用</p>
-    <div class="ai-prompt-box">
-      <span class="prompt-text">我小孩思考型，什麼事情都要先問為什麼，
+    <!-- AI 指令 -->
+    <section class="mb-8">
+      <h2 class="text-xl font-bold font-display text-warmgray-800 mb-2">✦ AI 指令懶人包</h2>
+      <p class="text-warmgray-400 text-sm mb-3">複製這段指令，貼進 Claude 或 ChatGPT 直接用</p>
+      <div class="bg-warmgray-100 rounded-2xl p-5">
+        <p id="prompt-text" class="text-warmgray-700 leading-relaxed whitespace-pre-line mb-4">我小孩思考型，什麼事情都要先問為什麼，
 幫我用小孩聽得懂的方式解釋：
 為什麼要早睡、為什麼要收玩具，
-各一個理由，不超過 2 句話。</span>
-      <button class="copy-btn" onclick="copyPrompt(this)">複製指令</button>
+各一個理由，不超過 2 句話。</p>
+        <button
+          id="copy-btn"
+          class="w-full py-3 bg-[#8B2252] text-white rounded-xl font-bold text-sm tracking-wide hover:opacity-90 transition-all cursor-pointer"
+        >複製指令</button>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center mb-8">
+      <a
+        href="https://www.instagram.com/vega_aimom"
+        target="_blank"
+        rel="noopener"
+        class="block w-full py-4 bg-[#8B2252] text-white rounded-2xl font-bold text-base tracking-wide hover:opacity-90 transition-all shadow-lg no-underline"
+      >
+        追蹤 @vega_aimom IG 🔔
+      </a>
+      <p class="text-warmgray-400 text-xs mt-2">每週分享更多媽媽 AI 場景</p>
+    </section>
+
+    <!-- 底部連結 -->
+    <div class="text-center pt-4 border-t border-warmgray-200">
+      <a href="/" class="text-peach-500 text-sm hover:text-peach-600 transition-colors">
+        ← 想了解更多育兒技巧？回首頁看看
+      </a>
     </div>
-  </section>
+  </article>
 
-  <section class="cta-section">
-    <a class="cta-btn" href="https://www.instagram.com/vega_aimom" target="_blank" rel="noopener">
-      追蹤 @vega_aimom IG 🔔
-    </a>
-    <p class="cta-sub">每週分享更多媽媽 AI 場景</p>
-  </section>
-
-  <div class="footer-links">
-    <a href="/">← 想了解更多育兒技巧？回首頁看看</a>
-  </div>
-</QuizResultLayout>
+  <script is:inline>
+    document.getElementById('copy-btn').addEventListener('click', function() {
+      var text = document.getElementById('prompt-text').textContent.trim();
+      var btn = this;
+      navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = '已複製！✓';
+        btn.style.backgroundColor = '#5a9e5a';
+        setTimeout(function() { btn.textContent = '複製指令'; btn.style.backgroundColor = '#8B2252'; }, 2000);
+      });
+    });
+  </script>
+</BaseLayout>
