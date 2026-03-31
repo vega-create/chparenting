@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="你家小孩是哪種類型？" description="小孩類型測驗結果：行動型、連結型、思考型，附 AI 育兒指令懶人包" noindex={true}>
+  <article class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <!-- Hero -->
+    <div class="text-center mb-10 bg-peach-100 -mx-4 sm:-mx-6 px-4 sm:px-6 py-10 rounded-b-3xl">
+      <h1 class="text-3xl sm:text-4xl font-bold font-display text-peach-600 mb-2">你家小孩是哪種類型？</h1>
+      <p class="text-warmgray-500 text-lg">找到你家小孩的類型，複製 AI 指令直接用</p>
+    </div>
+
+    <!-- 快速跳轉 -->
+    <nav class="flex gap-3 justify-center mb-10 flex-wrap">
+      <a href="#action" class="px-4 py-2 bg-peach-400/15 text-peach-600 rounded-full text-sm font-medium hover:bg-peach-400/25 transition-colors no-underline">🚀 行動型</a>
+      <a href="#heart" class="px-4 py-2 bg-peach-400/15 text-peach-600 rounded-full text-sm font-medium hover:bg-peach-400/25 transition-colors no-underline">💗 連結型</a>
+      <a href="#think" class="px-4 py-2 bg-peach-400/15 text-peach-600 rounded-full text-sm font-medium hover:bg-peach-400/25 transition-colors no-underline">🧠 思考型</a>
+    </nav>
+
+    <!-- ===== 行動型 ===== -->
+    <section id="action" class="mb-12 scroll-mt-6">
+      <h2 class="text-2xl font-bold font-display text-peach-600 mb-1">行動型 🚀</h2>
+      <p class="text-warmgray-400 mb-4">先衝再說型，精力旺盛，需要目標感</p>
+
+      <div class="bg-white/60 rounded-2xl border border-white/80 shadow-sm p-5 space-y-3 mb-5">
+        <div class="flex items-start gap-3 text-warmgray-700">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>做事衝動，但熱情十足</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>需要具體的短期目標才能專注</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>罵完哭完，5 分鐘後就跑去玩了</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>最怕等待，最愛被誇速度快</span>
+        </div>
+      </div>
+
+      <p class="text-warmgray-400 text-sm mb-2">✦ AI 指令 — 複製貼進 Claude 或 ChatGPT 直接用</p>
+      <div class="bg-warmgray-100 rounded-2xl p-5">
+        <p class="prompt-text text-warmgray-700 leading-relaxed whitespace-pre-line mb-4">我小孩行動型，精力旺盛坐不住，
+幫我想 3 個今晚可以消耗他體力又不需要我一直陪的活動，
+10 分鐘可以結束的那種。</p>
+        <button class="copy-btn w-full py-3 bg-peach-500 text-white rounded-xl font-bold text-sm tracking-wide hover:opacity-90 transition-all cursor-pointer">複製指令</button>
+      </div>
+    </section>
+
+    <hr class="border-warmgray-200 mb-12" />
+
+    <!-- ===== 連結型 ===== -->
+    <section id="heart" class="mb-12 scroll-mt-6">
+      <h2 class="text-2xl font-bold font-display text-peach-600 mb-1">連結型 💗</h2>
+      <p class="text-warmgray-400 mb-4">需要被看見型，重視關係，需要有人在旁邊</p>
+
+      <div class="bg-white/60 rounded-2xl border border-white/80 shadow-sm p-5 space-y-3 mb-5">
+        <div class="flex items-start gap-3 text-warmgray-700">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>情緒豐富，很在意別人的眼光</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>需要你先認同他，才願意配合</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>用關係驅動行動（為了你才做）</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>被忽略比被罵更傷他</span>
+        </div>
+      </div>
+
+      <p class="text-warmgray-400 text-sm mb-2">✦ AI 指令 — 複製貼進 Claude 或 ChatGPT 直接用</p>
+      <div class="bg-warmgray-100 rounded-2xl p-5">
+        <p class="prompt-text text-warmgray-700 leading-relaxed whitespace-pre-line mb-4">我小孩連結型，很在意我有沒有在看他，
+幫我想 3 句今天可以讓他感覺被重視的話，
+不超過 20 字，生活中可以自然說出口的那種。</p>
+        <button class="copy-btn w-full py-3 bg-peach-500 text-white rounded-xl font-bold text-sm tracking-wide hover:opacity-90 transition-all cursor-pointer">複製指令</button>
+      </div>
+    </section>
+
+    <hr class="border-warmgray-200 mb-12" />
+
+    <!-- ===== 思考型 ===== -->
+    <section id="think" class="mb-12 scroll-mt-6">
+      <h2 class="text-2xl font-bold font-display text-peach-600 mb-1">思考型 🧠</h2>
+      <p class="text-warmgray-400 mb-4">為什麼先生型，觀察力強，需要理解才行動</p>
+
+      <div class="bg-white/60 rounded-2xl border border-white/80 shadow-sm p-5 space-y-3 mb-5">
+        <div class="flex items-start gap-3 text-warmgray-700">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>問題多、愛講道理</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>不懂原因就不肯動</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>情緒不外露，但內心戲很多</span>
+        </div>
+        <div class="flex items-start gap-3 text-warmgray-700 border-t border-warmgray-100 pt-3">
+          <span class="text-peach-600 font-bold mt-0.5">✓</span><span>需要邏輯，不吃單純的威脅</span>
+        </div>
+      </div>
+
+      <p class="text-warmgray-400 text-sm mb-2">✦ AI 指令 — 複製貼進 Claude 或 ChatGPT 直接用</p>
+      <div class="bg-warmgray-100 rounded-2xl p-5">
+        <p class="prompt-text text-warmgray-700 leading-relaxed whitespace-pre-line mb-4">我小孩思考型，什麼事情都要先問為什麼，
+幫我用小孩聽得懂的方式解釋：
+為什麼要早睡、為什麼要收玩具，
+各一個理由，不超過 2 句話。</p>
+        <button class="copy-btn w-full py-3 bg-peach-500 text-white rounded-xl font-bold text-sm tracking-wide hover:opacity-90 transition-all cursor-pointer">複製指令</button>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center mb-8">
+      <a
+        href="https://www.instagram.com/vega_aimom"
+        target="_blank"
+        rel="noopener"
+        class="block w-full py-4 bg-peach-500 text-white rounded-2xl font-bold text-base tracking-wide hover:opacity-90 transition-all shadow-lg no-underline"
+      >
+        追蹤 @vega_aimom IG 🔔
+      </a>
+      <p class="text-warmgray-400 text-xs mt-2">每週分享更多媽媽 AI 場景</p>
+    </section>
+
+    <!-- 底部連結 -->
+    <div class="text-center pt-4 border-t border-warmgray-200">
+      <a href="/" class="text-peach-500 text-sm hover:text-peach-600 transition-colors">
+        ← 想了解更多育兒技巧？回首頁看看
+      </a>
+    </div>
+  </article>
+
+  <script is:inline>
+    document.querySelectorAll('.copy-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var text = this.closest('.bg-warmgray-100').querySelector('.prompt-text').textContent.trim();
+        var b = this;
+        navigator.clipboard.writeText(text).then(function() {
+          b.textContent = '已複製！✓';
+          b.style.backgroundColor = '#5a9e5a';
+          setTimeout(function() { b.textContent = '複製指令'; b.style.backgroundColor = ''; }, 2000);
+        });
+      });
+    });
+  </script>
+</BaseLayout>
