@@ -1,0 +1,36 @@
+# 媽媽生活復原力Lab（Mom Life Recovery Lab）
+
+> 媽媽不需要完美，只需要一個能喘口氣的空間。舒壓工具、笑話放鬆、心理支持，讓媽媽找回自己。
+
+chparenting.com 是台灣媽媽的舒壓與支持平台，提供喘息工具（呼吸練習、正能量卡片、壓力測驗、白噪音、崩潰語錄、心情日記）、媽媽心聲文章、以及實用的情緒支持資源。內容由 薇佳媽咪 撰寫，關注點是幫助媽媽在育兒壓力下找回自己。
+
+## 主要分類
+
+- [文章](https://chparenting.com/blog/): 所有媽媽心聲、育兒心得、舒壓筆記
+- [喘息工具](https://chparenting.com/tools/): 線上舒壓小工具（呼吸練習、正能量卡片、心情日記等）
+- [壓力測驗](https://chparenting.com/quiz/): 互動式測驗
+- [分類總覽](https://chparenting.com/category/): 依類別瀏覽
+
+## 主要頁面
+
+- [首頁](https://chparenting.com/): 平台總覽、最新文章、舒壓工具
+- [關於](https://chparenting.com/about/): 關於薇佳媽咪與這個平台
+- [隱私權](https://chparenting.com/privacy/)
+
+## 最新文章
+
+- [媽媽情緒崩潰語錄：20 句讓你笑著流淚的真心話（你不是一個人）](https://chparenting.com/posts/媽媽情緒崩潰語錄-mlhj0002/) [媽媽情緒] — 2026-03-31
+- [小孩不吃飯怎麼辦？營養師也認同的 6 招讓孩子愛上吃飯](https://chparenting.com/posts/小孩不吃飯怎麼辦-mlhgwscw/) [育兒崩潰] — 2026-03-28
+- [2歲叛逆期怎麼處理？Terrible Two 完整指南（原因×對策×地雷）](https://chparenting.com/posts/2歲叛逆期怎麼處理-mlhgwraj/) [育兒崩潰] — 2026-03-26
+- [小孩半夜哭鬧原因全解析：6 大原因 × 實用哄睡技巧](https://chparenting.com/posts/小孩半夜哭鬧原因-mlhgwwal/) [育兒崩潰] — 2026-03-24
+- [二寶出生大寶吃醋怎麼辦？過來人教你 5 招化解手足衝突](https://chparenting.com/posts/二寶出生大寶吃醋-mlhhsoho/) [親子關係] — 2026-03-21
+- [白噪音播放器推薦：5 個免費工具幫寶寶＆媽媽一夜好眠](https://chparenting.com/posts/白噪音播放器推薦-mlhj0001/) [生活實用] — 2026-03-19
+- [寶寶厭奶期怎麼辦？完整攻略一次看懂（症狀、時間、對策）](https://chparenting.com/posts/寶寶厭奶期怎麼辦-mlhgzgu8/) [育兒崩潰] — 2026-03-17
+- [不花補習費！在家陪孩子學英文的 5 個免費資源](https://chparenting.com/posts/不花補習費在家陪孩子學英文的5個免費資源-bk3mx9tz/) [kids-learning] — 2026-03-11
+- [國小幾年級適合考 GEPT 初級？完整準備攻略](https://chparenting.com/posts/國小幾年級適合考gept初級完整準備攻略-ab1cd2ef/) [kids-learning] — 2026-03-11
+- [2026 最完整！免費兒童學習網站總整理（依科目分類）](https://chparenting.com/posts/2026最完整免費兒童學習網站總整理依科目分類-fn2gs8pw/) [kids-learning] — 2026-03-10
+
+## Optional
+
+- [Sitemap](https://chparenting.com/sitemap-index.xml): 完整頁面清單
+- [全文索引](https://chparenting.com/llms-full.txt): 所有文章的 markdown 全文
