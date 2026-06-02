@@ -3,7 +3,11 @@ import PostLayout from '../../layouts/PostLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  // Only generate pages for published posts (skip future-scheduled + drafts)
+  const now = new Date();
+  const posts = await getCollection('posts', ({ data }) =>
+    !data.draft && new Date(data.publishDate) <= now
+  );
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
