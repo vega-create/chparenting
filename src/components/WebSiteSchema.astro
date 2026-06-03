@@ -1,23 +1,65 @@
 ---
 import { siteConfig } from '../site.config';
 
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": siteConfig.name,
-  "alternateName": "Mom Life Recovery Lab",
-  "url": siteConfig.url,
-  "description": siteConfig.description,
-  "publisher": {
-    "@type": "Organization",
-    "name": siteConfig.name,
-    "url": siteConfig.url,
-    "logo": {
-      "@type": "ImageObject",
-      "url": siteConfig.url + "/images/logo.png",
+// Combined WebSite + Organization Schema via @graph.
+// Gives Google + AI crawlers the full family context for every page.
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${siteConfig.url}#website`,
+      name: siteConfig.name,
+      alternateName: 'Mom Life Recovery Lab',
+      url: siteConfig.url,
+      description: siteConfig.description,
+      inLanguage: 'zh-TW',
+      publisher: { '@id': `${siteConfig.url}#organization` },
     },
-  },
+    {
+      '@type': 'Organization',
+      '@id': `${siteConfig.url}#organization`,
+      name: siteConfig.name,
+      legalName: 'Mommy Wisdom International LTD. 智慧媽咪國際有限公司',
+      url: siteConfig.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/images/logo.png`,
+        width: 512,
+        height: 512,
+      },
+      founder: {
+        '@type': 'Person',
+        name: 'Vega Lin (薇佳)',
+        jobTitle: 'Founder',
+        url: `${siteConfig.url}/about/`,
+        description:
+          '東海大學數位創新碩士在讀，8+ 年數位行銷經驗（Google Ads/Facebook Ads/SEO），前英文老師，兩個孩子的媽。',
+        alumniOf: { '@type': 'EducationalOrganization', name: 'Tunghai University' },
+      },
+      sameAs: [
+        'https://baby.chparenting.com',
+        'https://pregnancy.chparenting.com',
+        'https://learn.chparenting.com',
+        'https://english.chparenting.com',
+        'https://kids.chparenting.com',
+        'https://mommystartup.com',
+        'https://mommywisdom.tw',
+        'https://aimommywisdom.com',
+        'https://vega-note.com',
+      ],
+      knowsAbout: [
+        '正向教養',
+        '媽媽心理健康',
+        '兒童發展',
+        '親子溝通',
+        '育兒崩潰處理',
+        '手足相處',
+        '產後恢復',
+      ],
+    },
+  ],
 };
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

@@ -3,6 +3,7 @@ import SEO from '../components/SEO.astro';
 import Analytics from '../components/Analytics.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import WebSiteSchema from '../components/WebSiteSchema.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -32,6 +33,9 @@ const { title, description, image, type, publishDate, noindex } = Astro.props;
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+  <!-- WebSite + Organization Schema (every page, family-wide sameAs) -->
+  <WebSiteSchema />
 </head>
 <body class="min-h-screen flex flex-col">
   <Header />
