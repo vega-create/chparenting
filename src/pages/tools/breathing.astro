@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BreathingExercise from '../../components/tools/BreathingExercise';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 
 <BaseLayout
@@ -27,6 +28,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       </p>
     </div>
 
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <BreathingExercise client:visible />
     </div>

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FortuneCard from '../../components/tools/FortuneCard';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="媽媽安心籤" description="每天一籤，給自己一句溫暖的話。媽媽專屬的安心籤，抽一籤為今天的自己加油打氣！" image="/images/og-fortune.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -10,6 +11,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
       <span class="text-warmgray-500">媽媽安心籤</span>
     </nav>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <FortuneCard client:visible />
     </div>

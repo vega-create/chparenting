@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EmotionCard from '../../components/tools/EmotionCard';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="情緒安撫卡" description="親子一起用的情緒辨識工具。幫助孩子認識自己的情緒，也幫助媽媽學會回應。" image="/images/og-emotion-card.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -14,6 +15,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🎨 情緒安撫卡</h1>
       <p class="text-warmgray-400">和孩子一起認識情緒、學會表達</p>
     </div>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <EmotionCard client:visible />
     </div>

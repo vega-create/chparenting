@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CheerCard from '../../components/tools/CheerCard';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="媽媽加油卡" description="寫下今天的心情，讓我們給你一句溫暖的加油話語。媽媽也需要被鼓勵，你很棒！" image="/images/og-cheer.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -10,6 +11,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
       <span class="text-warmgray-500">媽媽加油卡</span>
     </nav>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <CheerCard client:visible />
     </div>

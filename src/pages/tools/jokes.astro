@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import DailyJokes from '../../components/tools/DailyJokes';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="每日媽媽笑話" description="每天一則育兒笑話，笑一笑壓力少一半。分享給你的媽媽好友們！" image="/images/og-jokes.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -14,6 +15,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🤣 每日媽媽笑話</h1>
       <p class="text-warmgray-400">笑一笑，壓力少一半</p>
     </div>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <DailyJokes client:visible />
     </div>

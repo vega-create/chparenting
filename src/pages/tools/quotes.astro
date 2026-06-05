@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import QuotesGenerator from '../../components/tools/QuotesGenerator';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="媽媽崩潰語錄產生器" description="隨機產生媽媽內心 OS，看看哪一句最有共感。笑著笑著就釋壓了。" image="/images/og-quotes.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -14,6 +15,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">💬 媽媽崩潰語錄產生器</h1>
       <p class="text-warmgray-400">每一句都是真實心聲，你不是一個人</p>
     </div>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <QuotesGenerator client:visible />
     </div>

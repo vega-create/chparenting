@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AffirmationCard from '../../components/tools/AffirmationCard';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="今日正能量卡片" description="每天一句暖心話，送給辛苦的你。翻翻卡片，把正能量分享給身邊的媽媽。" image="/images/og-affirmation.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -14,6 +15,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">✨ 今日正能量卡片</h1>
       <p class="text-warmgray-400">每天一句暖心話，送給辛苦的你</p>
     </div>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <AffirmationCard client:visible />
     </div>

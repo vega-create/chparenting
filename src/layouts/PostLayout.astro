@@ -9,7 +9,6 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import AdSense from '../components/AdSense.astro';
 import { siteConfig } from '../site.config';
 import ShareButtons from '../components/ShareButtons.astro';
-import ShareButtons from '../components/ShareButtons.astro';
 
 interface Props {
   frontmatter: {
@@ -52,7 +51,9 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
     { name: title },
   ]} />
 
-  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10
+              lg:grid lg:grid-cols-[1fr_320px] lg:gap-10 lg:items-start">
+    <article class="max-w-none">
     <!-- Breadcrumb -->
     <nav class="text-sm text-warmgray-400 mb-6 font-display">
       <a href="/" class="hover:text-peach-400 transition-colors">首頁</a>
@@ -95,14 +96,11 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
       />
     )}
 
-    <!-- Ad: Top -->
+    <!-- Ad: Top (after cover image) -->
     <AdSense slot="top" format="horizontal" />
 
     <!-- Table of Contents -->
     <TableOfContents headings={faq && faq.length > 0 ? [...headings, { depth: 2, slug: "常見問題", text: "💬 常見問題" }] : headings} />
-
-    <!-- Ad: After TOC -->
-    <AdSense slot="after-toc" />
 
     <!-- Article Content -->
     <div class="prose-warm">
@@ -124,7 +122,7 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
     )}
 
     <!-- Ad: Before FAQ -->
-    <AdSense slot="before-faq" />
+    <AdSense slot="bottom" />
 
     <!-- FAQ Section -->
     {faq && faq.length > 0 && (
@@ -157,5 +155,13 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
 
     <!-- 社群分享 -->
     <ShareButtons title={title} />
-  </article>
+    </article>
+
+    <!-- Sidebar (desktop only) -->
+    <aside class="hidden lg:block">
+      <div class="sticky top-24 space-y-6">
+        <AdSense slot="sidebar" />
+      </div>
+    </aside>
+  </div>
 </BaseLayout>

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StressTest from '../../components/tools/StressTest';
 import ShareButtons from '../../components/ShareButtons.astro';
+import AdSense from '../../components/AdSense.astro';
 ---
 <BaseLayout title="媽媽壓力指數測驗" description="10 題快速測驗，了解你的壓力等級，獲得專屬建議。只需要 2 分鐘。" image="/images/og-stress-test.jpg">
   <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
@@ -14,6 +15,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
       <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">📊 媽媽壓力指數測驗</h1>
       <p class="text-warmgray-400">10 題快速測驗，只需要 2 分鐘</p>
     </div>
+    <AdSense slot="tool-top" format="horizontal" />
     <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
       <StressTest client:visible />
     </div>
