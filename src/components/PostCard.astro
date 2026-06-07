@@ -12,8 +12,9 @@ interface Props {
 
 const { title, description, slug, category, publishDate, image } = Astro.props;
 const categoryInfo = siteConfig.categories.find(c => c.slug === category || c.name === category);
+// Include year so readers can tell 2025 vs 2026 articles apart at a glance.
 const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
-  month: 'short', day: 'numeric'
+  year: 'numeric', month: 'short', day: 'numeric'
 });
 ---
 
@@ -36,7 +37,8 @@ const dateStr = new Date(publishDate).toLocaleDateString('zh-TW', {
             {categoryInfo.emoji} {categoryInfo.name}
           </span>
         )}
-        <time class="text-xs text-warmgray-400" datetime={publishDate.toISOString()}>
+        <time class="text-xs text-warmgray-400 inline-flex items-center gap-1" datetime={publishDate.toISOString()}>
+          <span aria-hidden="true">📅</span>
           {dateStr}
         </time>
       </div>
