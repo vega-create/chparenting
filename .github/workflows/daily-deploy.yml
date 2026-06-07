@@ -2,6 +2,10 @@ name: Daily Deploy
 on:
   schedule:
     - cron: '30 0 * * *'
+  # Auto-deploy on every push to main so content edits ship immediately
+  # (otherwise pushes wait until the next 08:30 Taiwan cron tick).
+  push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
