@@ -4,7 +4,7 @@ import { siteConfig } from '../site.config';
 
 <footer class="bg-warmgray-800 text-warmgray-300 mt-20">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- Brand -->
       <div>
         <div class="flex items-center gap-2 mb-4">
@@ -29,6 +29,20 @@ import { siteConfig } from '../site.config';
               </a>
             </li>
           ))}
+        </ul>
+      </div>
+
+      <!-- 免費學習平台：薇佳媽咪自己開發的子站。放在全站頁尾是刻意的——
+           learn 子網域被 Google 停止檢索後，主站是唯一每天都有 Googlebot
+           經過、又能給它一條路走進 learn 的地方。錨文字用描述性的詞。 -->
+      <div>
+        <h3 class="font-display font-bold text-white mb-4">免費學習平台</h3>
+        <ul class="space-y-2">
+          <li><a href="https://learn.chparenting.com/" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">親子多元學習平台</a></li>
+          <li><a href="https://learn.chparenting.com/elementary" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">GEPT 初級免費練習題庫</a></li>
+          <li><a href="https://learn.chparenting.com/jlpt-n5" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">JLPT N5 日文入門練習</a></li>
+          <li><a href="https://learn.chparenting.com/board-games" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">18 款免費教育桌遊</a></li>
+          <li><a href="https://english.chparenting.com/" class="text-sm text-warmgray-400 hover:text-peach-400 transition-colors">Adventure English 冒險英語</a></li>
         </ul>
       </div>
 
