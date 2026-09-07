@@ -4,6 +4,8 @@ description: "六年級社會的亞洲地理，孩子最常被國家和首都的
 publishDate: 2026-11-14
 category: "kids-learning"
 tags: ["亞洲首都", "國小社會", "亞洲地理", "六年級社會", "國家首都", "免費練習題"]
+image: "https://images.pexels.com/photos/20378127/pexels-photo-20378127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "東京晴空塔與市區天際線"
 faq:
   - q: "亞洲首都要背幾個？"
     a: "國小階段十個以內：日本東京、韓國首爾、泰國曼谷、越南河內、菲律賓馬尼拉、印尼雅加達、馬來西亞吉隆坡、新加坡、印度新德里、中國北京。這十個是台灣人最常接觸的國家，考題也集中在這裡。"

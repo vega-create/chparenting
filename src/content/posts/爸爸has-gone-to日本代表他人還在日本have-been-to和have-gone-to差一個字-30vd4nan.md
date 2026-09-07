@@ -4,6 +4,8 @@ description: "have been to（去過，人回來了）和 have gone to（去了�
 publishDate: 2026-11-06
 category: "kids-learning"
 tags: ["have been to", "國小英文", "現在完成式", "英文文法", "GEPT初級", "免費英文練習"]
+image: "https://images.pexels.com/photos/1381415/pexels-photo-1381415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "拉著行李箱站在機場窗前的人"
 faq:
   - q: "have been to 和 have gone to 到底差在哪？"
     a: "have been to 是「去過」，人已經回來了：I have been to Japan. 我去過日本（現在在台灣）。have gone to 是「去了」，人還在那裡：Dad has gone to Japan. 爸爸去日本了（人還在日本）。差別在「人現在在哪」。"

@@ -4,6 +4,8 @@ description: "孩子彈到第一首有升記號的曲子就卡住，是因為不
 publishDate: 2026-11-12
 category: "kids-learning"
 tags: ["C 大調", "樂理", "音階", "調號", "兒童樂理", "免費樂理練習"]
+image: "https://images.pexels.com/photos/159420/piano-instrument-music-keys-159420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "鋼琴黑白琴鍵特寫"
 faq:
   - q: "C 大調為什麼沒有升降記號？"
     a: "因為大調音階的「全全半全全全半」排法，剛好從 C 開始走全部落在白鍵上。從別的音開始走同樣的排法，就會踩到黑鍵，所以需要升降記號。C 大調是唯一全白鍵的大調，這也是為什麼初學都從它開始。"
