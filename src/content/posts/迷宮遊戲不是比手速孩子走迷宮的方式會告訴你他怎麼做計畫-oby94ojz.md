@@ -4,6 +4,8 @@ description: "迷宮是最被低估的教育遊戲，練的不是反應，是先
 publishDate: 2026-11-04
 category: "kids-learning"
 tags: ["迷宮遊戲", "邏輯遊戲", "路徑規劃", "空間感", "兒童益智", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/7352811/pexels-photo-7352811.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子用手指走紙上的迷宮"
 faq:
   - q: "迷宮在練什麼能力？"
     a: "三件事：路徑規劃（先看整體再決定怎麼走）、空間方向感（左右上下、我現在在哪）、遇到死路回頭修正。這三件事就是「做計畫」的迷你版。"

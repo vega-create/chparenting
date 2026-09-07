@@ -4,6 +4,8 @@ description: "pants、shoes、glasses 這些字英文永遠是複數，一件褲
 publishDate: 2026-10-23
 category: "kids-learning"
 tags: ["a pair of", "國小英文", "英文複數", "衣服英文", "GEPT初級", "免費英文練習"]
+image: "https://images.pexels.com/photos/21920108/pexels-photo-21920108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "一雙小小的童鞋"
 faq:
   - q: "為什麼 pants 是複數？褲子明明是一件。"
     a: "因為英文把褲子看成「兩條褲管」，就像鞋子是兩隻、眼鏡是兩片鏡片、剪刀是兩片刀刃。這些「成雙」的東西英文都用複數，要說「一件」就用 a pair of。中文沒有這種看法，所以孩子會覺得奇怪。"

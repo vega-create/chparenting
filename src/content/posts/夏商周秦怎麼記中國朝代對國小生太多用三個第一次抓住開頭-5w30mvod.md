@@ -4,6 +4,8 @@ description: "國小社會的亞洲歷史從中國古代開始，朝代一長串
 publishDate: 2026-11-02
 category: "kids-learning"
 tags: ["中國朝代", "國小社會", "亞洲歷史", "六年級社會", "甲骨文", "免費練習題"]
+image: "https://images.pexels.com/photos/12321159/pexels-photo-12321159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "博物館裡的古代青銅面具"
 faq:
   - q: "國小要背全部的中國朝代嗎？"
     a: "不用。國小社會的亞洲歷史只碰幾個重點：夏商周的開始、秦的統一、之後幾個大朝代的代表性事件。朝代歌那種從夏到清全背的，是國中的事。國小先把「開頭」弄清楚。"

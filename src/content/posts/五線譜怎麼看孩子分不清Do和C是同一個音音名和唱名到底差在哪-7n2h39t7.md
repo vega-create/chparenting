@@ -4,6 +4,8 @@ description: "五線譜有五條線四個間，位置越高音越高。孩子最
 publishDate: 2026-10-31
 category: "kids-learning"
 tags: ["五線譜", "樂理", "音名唱名", "兒童樂理", "高音譜號", "免費樂理練習"]
+image: "https://images.pexels.com/photos/4146645/pexels-photo-4146645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "手寫五線譜上的音符特寫"
 faq:
   - q: "Do Re Mi 和 C D E 有什麼不同？"
     a: "Do Re Mi 是唱名，用來唱的；C D E 是音名，用來叫的。在 C 大調裡，Do 就是 C、Re 就是 D、Mi 就是 E。孩子先學會這一組對照就好：Do=C、Re=D、Mi=E、Fa=F、Sol=G、La=A、Si=B。"
