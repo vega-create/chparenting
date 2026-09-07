@@ -4,6 +4,8 @@ description: "國小英文考卷扣分最多的常是六個小規則：節日大
 publishDate: 2026-10-01
 category: "kids-learning"
 tags: ["國小英文", "英文常見錯誤", "英文考試", "國小英文文法", "英檢準備", "免費英文練習"]
+image: "https://images.pexels.com/photos/6684373/pexels-photo-6684373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "用紅筆批改考卷"
 faq:
   - q: "這些小規則要不要特別教？"
     a: "要，因為學校常常只是帶過。每一條都可以用一句話講清楚，孩子做對應單元的練習之前先看那一句，考卷上就不會覺得沒看過。"

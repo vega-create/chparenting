@@ -4,6 +4,8 @@ description: "JLPT 沒有年齡限制，國小生可以報考 N5。但「可以�
 publishDate: 2026-09-15
 category: "kids-learning"
 tags: ["JLPT N5", "兒童日文", "日檢", "國小學日文", "N5準備", "免費日文練習"]
+image: "https://images.pexels.com/photos/7605894/pexels-photo-7605894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子用粉筆在小黑板上寫平假名"
 faq:
   - q: "JLPT 有年齡限制嗎？"
     a: "沒有。JLPT 對報考者沒有年齡、學歷或國籍的限制，國小生可以報考任何級數。實務上 N5 是最多小學生報考的級數。"

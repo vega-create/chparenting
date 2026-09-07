@@ -4,6 +4,8 @@ description: "兒童程式教育不是先學 Scratch 或 Python，是先懂三�
 publishDate: 2026-09-25
 category: "kids-learning"
 tags: ["兒童程式", "程式邏輯", "國小程式教育", "運算思維", "程式啟蒙", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/5665500/pexels-photo-5665500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子用平板上的積木程式操作玩具機器人"
 faq:
   - q: "國小生學程式要買電腦或上課嗎？"
     a: "一開始不用。程式的核心是三個概念——序列、迴圈、條件——這三個概念不需要電腦就能懂，用有這些機制的遊戲練，比一開始就面對一個程式編輯器有效。等概念有了，再碰 Scratch 之類的工具會很快。"

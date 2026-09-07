@@ -4,6 +4,8 @@ description: "高年級國語考修辭，孩子常四種都會背定義就是分
 publishDate: 2026-10-08
 category: "kids-learning"
 tags: ["修辭", "國小國語", "修辭法", "高年級國語", "明喻擬人", "免費國語練習"]
+image: "https://images.pexels.com/photos/34344662/pexels-photo-34344662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "攤開的手寫詩集與秋天的落葉"
 faq:
   - q: "修辭幾年級開始考？"
     a: "四年級開始出現，五、六年級是重點。國小會考的主要是明喻、暗喻、擬人、排比、誇飾、設問這幾種，不會考得太深。"

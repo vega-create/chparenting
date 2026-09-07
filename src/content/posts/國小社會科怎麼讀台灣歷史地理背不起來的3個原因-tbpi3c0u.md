@@ -4,6 +4,8 @@ description: "國小社會科背不起來，是因為把「理解科」當背科
 publishDate: 2026-09-10
 category: "kids-learning"
 tags: ["國小社會", "台灣歷史", "台灣地理", "社會科複習", "國小中年級", "免費練習題"]
+image: "https://images.pexels.com/photos/8083429/pexels-photo-8083429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子的手指在地圖上移動"
 faq:
   - q: "國小社會科為什麼這麼難背？"
     a: "因為它不是「背科」，是「理解科」被當成背科在讀。歷史事件有前後因果、地理有位置關係，孩子如果只記名詞不記關係，每一個資訊都是孤立的，當然記不住。"

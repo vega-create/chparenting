@@ -4,6 +4,8 @@ description: "小三英文跟不上，多半不是能力問題，是三個具體
 publishDate: 2026-09-08
 category: "kids-learning"
 tags: ["小三英文", "國小英文", "英文跟不上", "在家學英文", "免費英文練習", "GEPT初級"]
+image: "https://images.pexels.com/photos/7334320/pexels-photo-7334320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子用木製字母教具排列英文字母"
 faq:
   - q: "小三英文跟不上，是不是太晚開始了？"
     a: "不是。小三是很多學校英文從「聽說為主」轉成「開始考拼寫和文法」的分水嶺，很多孩子是在這個轉換點卡住，不是基礎不好。這個階段補起來的速度通常比家長想的快。"

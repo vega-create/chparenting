@@ -4,6 +4,8 @@ description: "六年級的世界地理範圍突然變大，孩子容易被地名
 publishDate: 2026-10-02
 category: "kids-learning"
 tags: ["世界地理", "七大洲", "國小社會", "六年級社會", "五大洋", "免費練習題"]
+image: "https://images.pexels.com/photos/9440832/pexels-photo-9440832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "男孩用手指著地球儀"
 faq:
   - q: "世界地理幾年級學？"
     a: "六年級。它接在五年級的台灣地理後面，範圍從一個島擴大到整個地球。如果五年級的「地圖法」有建起來，六年級只是把地圖放大；沒有的話，六年級的地名量會讓孩子放棄。"

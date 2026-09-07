@@ -4,6 +4,8 @@ description: "百分比是國小數學裡最貼近生活、卻最容易教成抽
 publishDate: 2026-09-23
 category: "kids-learning"
 tags: ["百分比", "打折", "國小數學", "五年級數學", "生活數學", "免費練習"]
+image: "https://images.pexels.com/photos/7986987/pexels-photo-7986987.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "紅底的 SALE 50% 折扣標籤"
 faq:
   - q: "百分比幾年級學？"
     a: "五、六年級。它接在分數和小數後面，因為百分比本質上就是「分母固定是 100 的分數」。分數和小數穩了，百分比很快；沒穩的話，百分比會變成第三套要背的規則。"

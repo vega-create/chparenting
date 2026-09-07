@@ -4,6 +4,8 @@ description: "低年級國字練習，家長盯的是漂不漂亮，真正該在
 publishDate: 2026-10-03
 category: "kids-learning"
 tags: ["國字筆順", "低年級國語", "國字練習", "筆畫", "部首", "免費國語練習"]
+image: "https://images.pexels.com/photos/12356915/pexels-photo-12356915.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "在格線紙上練習書寫國字"
 faq:
   - q: "筆順寫錯真的有關係嗎？"
     a: "有，但不是「字會變醜」那種關係。筆順錯的孩子寫字慢、寫多了手累，而且查字典的時候數筆畫會數錯。低年級把常見的筆順規則建好，之後的每一個字都會受益。"

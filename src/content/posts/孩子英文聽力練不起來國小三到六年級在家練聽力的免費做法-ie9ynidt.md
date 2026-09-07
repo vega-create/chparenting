@@ -4,6 +4,8 @@ description: "英文聽力練不起來，常常是「聽的東西太難、聽的
 publishDate: 2026-09-12
 category: "kids-learning"
 tags: ["英文聽力", "國小英文", "英文聽力練習", "在家學英文", "免費英文資源", "GEPT初級"]
+image: "https://images.pexels.com/photos/3755500/pexels-photo-3755500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "戴著耳機微笑的小女孩坐在書桌前"
 faq:
   - q: "孩子聽英文都說聽不懂，是不是要先把單字背多一點？"
     a: "反過來。聽力差的孩子常常是「認得字但聽不出來」，因為他學單字的時候只有看、沒有聽。單字要用聽的方式再學一次——聽到 apple 能反應出蘋果，而不是看到 apple 才知道。"

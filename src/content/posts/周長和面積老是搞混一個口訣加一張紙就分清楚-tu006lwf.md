@@ -4,6 +4,8 @@ description: "周長是「繞一圈多長」，面積是「蓋住多少地」。
 publishDate: 2026-09-28
 category: "kids-learning"
 tags: ["周長", "面積", "國小數學", "幾何", "四年級數學", "免費練習"]
+image: "https://images.pexels.com/photos/5412336/pexels-photo-5412336.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "圓規、直尺與方格筆記本"
 faq:
   - q: "周長和面積幾年級學？"
     a: "三年級認識周長，四年級面積，五、六年級進到圓的周長和面積。三年級「周長是繞一圈」這個概念沒建好，四年級面積一進來兩個就會混。"

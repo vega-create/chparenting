@@ -4,6 +4,8 @@ description: "五十音背不起來不是記憶力差。日文系媽媽拆出三
 publishDate: 2026-09-09
 category: "kids-learning"
 tags: ["五十音", "日文入門", "兒童日文", "JLPT N5", "平假名", "片假名", "在家學日文"]
+image: "https://images.pexels.com/photos/9785146/pexels-photo-9785146.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "用毛筆練習寫平假名的練習紙"
 faq:
   - q: "五十音要背多久才正常？"
     a: "如果方法對，平假名一到兩週可以認得大部分，寫得順要再一兩週。如果背了一個月還在前十個打轉，問題幾乎一定是方法，不是天分——通常是把 50 個假名當成 50 個沒關聯的圖案在硬記。"

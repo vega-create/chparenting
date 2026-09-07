@@ -4,6 +4,8 @@ description: "注音還沒穩，英文又開始教字母發音，兩套會不會
 publishDate: 2026-09-16
 category: "kids-learning"
 tags: ["注音", "注音符號", "低年級國語", "注音拼讀", "英文自然發音", "免費練習"]
+image: "https://images.pexels.com/photos/8613121/pexels-photo-8613121.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "小女孩看著牆上的數字與英文字母海報"
 faq:
   - q: "注音和英文自然發音會不會互相干擾？"
     a: "會有短暫的混淆，特別是一年級上學期，但這是正常的，不是「打架」。兩套系統一個對應中文、一個對應英文，孩子的大腦分得開，只是需要時間。真正造成注音學不好的，通常是注音本身的卡點沒處理。"

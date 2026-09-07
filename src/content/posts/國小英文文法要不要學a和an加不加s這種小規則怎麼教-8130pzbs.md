@@ -4,6 +4,8 @@ description: "國小英文文法不是要教文法術語，是幾條很小、很
 publishDate: 2026-09-19
 category: "kids-learning"
 tags: ["國小英文文法", "英文文法", "國小英文", "a和an", "可數名詞", "免費英文練習"]
+image: "https://images.pexels.com/photos/6502823/pexels-photo-6502823.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "老師與學生在白板前寫英文句子"
 faq:
   - q: "國小需要學英文文法嗎？"
     a: "需要，但不是學術語。國小的英文文法是幾條很小的規則——a 和 an、加不加 s、there is 和 there are。孩子不用知道「冠詞」「不可數名詞」這些詞，只要知道判斷方法。"

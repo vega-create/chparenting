@@ -4,6 +4,8 @@ description: "孩子輸不起，硬要他「沒關係再來一次」通常沒用
 publishDate: 2026-09-14
 category: "kids-learning"
 tags: ["輸不起", "情緒教養", "挫折忍受", "桌遊", "親子遊戲", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/7296490/pexels-photo-7296490.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "孩子們趴在地板上玩桌遊"
 faq:
   - q: "孩子輸不起是個性問題嗎？"
     a: "多半不是。輸不起通常是「輸的經驗太少、每次輸的強度又太大」——他還沒學會怎麼跟那個感覺相處，就被丟進有輸有贏的場合。把強度調小、次數變多，大部分孩子幾個月內就會明顯改變。"

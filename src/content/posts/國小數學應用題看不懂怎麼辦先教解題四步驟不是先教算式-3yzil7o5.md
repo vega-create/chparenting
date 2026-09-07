@@ -4,6 +4,8 @@ description: "數學應用題看不懂，多半不是算不出來，是不知道
 publishDate: 2026-09-11
 category: "kids-learning"
 tags: ["數學應用題", "國小數學", "應用題", "解題步驟", "在家教數學", "免費練習"]
+image: "https://images.pexels.com/photos/5905965/pexels-photo-5905965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "小學生在白板上解數學題"
 faq:
   - q: "孩子計算都會，就是應用題不會，正常嗎？"
     a: "非常常見。計算是「照做」，應用題是「先決定要做什麼再做」，中間多了一個翻譯步驟——把中文句子翻成算式。這一步學校常常跳過，直接示範算式，孩子就只看到結果，沒學到怎麼從題目走到算式。"
