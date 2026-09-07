@@ -4,6 +4,8 @@ description: "孩子知道過年放假、元宵吃湯圓，但不知道為什麼
 publishDate: 2026-10-20
 category: "kids-learning"
 tags: ["台灣節慶", "國小社會", "台灣文化", "傳統習俗", "四年級社會", "免費練習題"]
+image: "https://images.pexels.com/photos/15241740/pexels-photo-15241740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "門上貼著的福字春聯"
 faq:
   - q: "台灣節慶幾年級學？"
     a: "三、四年級的「家鄉」和「文化」單元開始，五年級的台灣文化會再深入。低年級也會在生活課提到，但考「為什麼」是中年級開始。"

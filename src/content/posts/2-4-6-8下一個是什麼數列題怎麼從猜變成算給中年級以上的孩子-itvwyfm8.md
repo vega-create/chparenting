@@ -4,6 +4,8 @@ description: "數列題是國小數學和智力測驗都會出現的題型，孩
 publishDate: 2026-10-21
 category: "kids-learning"
 tags: ["數列", "邏輯遊戲", "找規律", "等差數列", "數學思維", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/1329296/pexels-photo-1329296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "排成一列的木製數字"
 faq:
   - q: "數列題幾年級會遇到？"
     a: "中年級開始在「找規律」的單元出現，多半是等差；高年級會出現等比和更複雜的規律。私中入學考和智力測驗也常考，因為它測的是推理不是計算。"

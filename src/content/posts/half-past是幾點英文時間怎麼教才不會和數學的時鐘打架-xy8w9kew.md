@@ -4,6 +4,8 @@ description: "英文時間是國小英文和數學同時在教的東西：數學
 publishDate: 2026-10-16
 category: "kids-learning"
 tags: ["英文時間", "國小英文", "half past", "時間換算", "國小數學", "免費英文練習"]
+image: "https://images.pexels.com/photos/745365/pexels-photo-745365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "黑板上畫的時鐘"
 faq:
   - q: "half past 和 quarter 一定要學嗎？"
     a: "要，但不用一開始就學。GEPT 初級的日常作息與時間單元建議先學整點（It's three o'clock），穩了再加半點（half past three），最後才是 quarter。三步分開，每一步都不難；三步一起教，孩子會混。"

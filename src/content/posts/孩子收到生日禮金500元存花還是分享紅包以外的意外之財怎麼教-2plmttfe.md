@@ -4,6 +4,8 @@ description: "紅包、生日禮金、比賽獎金——孩子一年會收到好
 publishDate: 2026-10-22
 category: "kids-learning"
 tags: ["紅包", "兒童理財", "壓歲錢", "禮金", "存錢", "免費理財練習"]
+image: "https://images.pexels.com/photos/36290925/pexels-photo-36290925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "雙手遞出的紅包"
 faq:
   - q: "孩子收到的紅包和禮金，要讓他自己決定嗎？"
     a: "要，但在一個框架裡決定。不是「全部給你隨便花」也不是「媽媽幫你存起來」，是「分成三份：存、花、分享，你決定比例」。有框架的自主，孩子學得到東西；沒框架的自主，錢會在三天內不見。"
