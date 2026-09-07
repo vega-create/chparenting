@@ -4,6 +4,8 @@ description: "速率距離時間是高年級應用題的大關，孩子常背三
 publishDate: 2026-11-22
 category: "kids-learning"
 tags: ["速率距離時間", "國小數學", "應用題", "五年級數學", "速率", "免費數學練習"]
+image: "https://images.pexels.com/photos/19316774/pexels-photo-19316774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "汽車儀表板上的時速表特寫"
 faq:
   - q: "速率、距離、時間三個公式要全部背嗎？"
     a: "只要記一個：距離 = 速率 × 時間。另外兩個是它的除法版本：速率 = 距離 ÷ 時間、時間 = 距離 ÷ 速率。孩子如果懂「乘法和除法互逆」，一個公式推出三個，不用背。"

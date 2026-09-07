@@ -4,6 +4,8 @@ description: "日文的熱和冷各有兩個字：暑い是天氣熱、熱い是
 publishDate: 2026-11-24
 category: "kids-learning"
 tags: ["日文形容詞", "兒童日文", "JLPT N5", "暑い寒い", "日文顏色", "免費日文練習"]
+image: "https://images.pexels.com/photos/21628240/pexels-photo-21628240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "雙手捧著一杯熱茶"
 faq:
   - q: "暑い和熱い怎麼分？"
     a: "暑い（あつい）是天氣熱、環境熱：今天好熱。熱い（あつい）是東西燙、摸起來熱：這杯茶好燙。兩個唸法一樣，漢字不同。判斷方法：摸得到的用熱い，感覺得到但摸不到的用暑い。"

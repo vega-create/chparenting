@@ -4,6 +4,8 @@ description: "六年級世界歷史從古文明開始，孩子記得金字塔很
 publishDate: 2026-11-28
 category: "kids-learning"
 tags: ["古埃及", "國小社會", "世界歷史", "六年級社會", "尼羅河", "免費練習題"]
+image: "https://images.pexels.com/photos/15127142/pexels-photo-15127142.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "吉薩金字塔與沙漠中的駱駝"
 faq:
   - q: "為什麼說尼羅河是埃及的禮物？"
     a: "因為尼羅河每年定期氾濫，退水後留下肥沃的土壤，讓古埃及能在沙漠裡發展農業。沒有尼羅河就沒有古埃及文明。這句話是古希臘歷史學家說的，課本和考題都很愛用。"

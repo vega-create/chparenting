@@ -4,6 +4,8 @@ description: "音程是兩個音之間的距離，用「度」來算。孩子最
 publishDate: 2026-11-26
 category: "kids-learning"
 tags: ["音程", "樂理", "兒童樂理", "音程度數", "協和音程", "免費樂理練習"]
+image: "https://images.pexels.com/photos/6647838/pexels-photo-6647838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "一隻手按在鋼琴鍵上跨越幾個音"
 faq:
   - q: "音程是什麼？"
     a: "兩個音之間的距離，用「度」當單位。C 到 D 是二度、C 到 E 是三度、C 到 C（高八度）是八度。數的時候起始音算 1，一個一個往上數到目標音。"

@@ -4,6 +4,8 @@ description: "同樣是英文單字遊戲，單字搜尋練「認」，接龍練
 publishDate: 2026-11-30
 category: "kids-learning"
 tags: ["英文單字遊戲", "國小英文", "背單字", "單字接龍", "英文拼字", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/695571/pexels-photo-695571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "拼出 WORDS 的英文字母方塊"
 faq:
   - q: "單字搜尋和單字接龍差在哪？"
     a: "單字搜尋是在字母方陣裡找出藏起來的單字，練的是「認」——看到就認得出。單字接龍是用上一個字的最後一個字母開頭想出新單字，練的是「想」——從腦中主動叫出來。認比想容易，所以搜尋適合低年級，接龍要三年級以上。"
