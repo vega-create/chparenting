@@ -4,6 +4,8 @@ description: "英文數字是國小英文聽力最常掉分的地方：thirteen 
 publishDate: 2026-10-09
 category: "kids-learning"
 tags: ["英文數字", "國小英文", "英文聽力", "thirteen thirty", "GEPT初級", "免費英文練習"]
+image: "https://images.pexels.com/photos/311268/pexels-photo-311268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "彩色的數字積木"
 faq:
   - q: "thirteen 和 thirty 到底怎麼分？"
     a: "看重音。-teen 結尾的字（13 到 19）重音在後面，teen 唸得又長又重；-ty 結尾的字（20、30、40……）重音在前面，ty 很輕很短。孩子聽的時候不要聽字尾，聽哪一半比較用力。"

@@ -4,6 +4,8 @@ description: "數獨不是高年級的專利。4×4 的水果數獨不用會加�
 publishDate: 2026-10-14
 category: "kids-learning"
 tags: ["數獨", "邏輯遊戲", "兒童數獨", "邏輯思維", "找規律", "免費教育遊戲"]
+image: "https://images.pexels.com/photos/7296812/pexels-photo-7296812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "大人陪孩子玩木製邏輯拼圖"
 faq:
   - q: "數獨要會數學才能玩嗎？"
     a: "不用。數獨的數字只是符號，可以換成任何東西。4×4 的迷你數獨用四種水果代替 1 到 4，規則是每行、每列、每個 2×2 宮格四種水果各出現一次。不會加減法的孩子也能玩。"

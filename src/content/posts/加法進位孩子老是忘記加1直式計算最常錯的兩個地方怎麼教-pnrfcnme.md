@@ -4,6 +4,8 @@ description: "低年級數學的直式加減，錯最多的是進位忘記加 1�
 publishDate: 2026-10-10
 category: "kids-learning"
 tags: ["加法進位", "低年級數學", "直式計算", "退位減法", "二年級數學", "免費數學練習"]
+image: "https://images.pexels.com/photos/8612925/pexels-photo-8612925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "小女孩用算盤學加法"
 faq:
   - q: "孩子進位老是忘記加 1，是粗心嗎？"
     a: "多數不是。粗心是偶爾錯，進位每次都忘是概念問題——他不知道那個「1」是什麼、從哪來、要去哪。把「個位滿 10 就換成十位的 1」用實物做一次，比說一百次「不要忘記」有用。"
