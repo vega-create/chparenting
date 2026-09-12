@@ -4,6 +4,8 @@ description: "小學英檢（GEPT Kids）和全民英檢初級是兩個不同的
 publishDate: 2026-09-16
 category: "kids-learning"
 tags: ["小學英檢", "GEPT Kids", "全民英檢初級", "兒童英檢", "國小英檢", "英檢怎麼選"]
+image: "https://images.pexels.com/photos/8423044/pexels-photo-8423044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "小學生在教室裡開心地舉手"
 faq:
   - q: "小學英檢和全民英檢初級是同一個考試嗎？"
     a: "不是。兩個都是 LTTC 辦的，但小學英檢（GEPT Kids）是專為小學生設計的 A1 級測驗，全民英檢初級是 A2 級。難度差一級，考法也不同：小學英檢筆試口試可分開報、成績用太陽數量呈現不分及格；初級分初試複試，兩關都過才有證書。"
