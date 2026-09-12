@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # 讓 IndexNow 腳本能 diff 上一個 commit 改到的文章
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -28,3 +30,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           command: pages deploy dist --project-name=chparenting
+      - name: IndexNow submit (Bing / Yahoo)
+        # 剛上線或剛更新的文章即時送進 Bing 系索引；失敗不擋部署
+        run: node scripts/indexnow-submit.mjs
+        continue-on-error: true
