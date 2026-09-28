@@ -22,6 +22,18 @@ author: "薇佳媽咪"
 
 不是。**全民英檢初級分兩階段：聽讀是初試、說寫是複試，兩個都過才有證書。** 這件事很多第一次幫孩子報名的家長不知道，考完聽讀才發現還有一關。這篇講兩階段各考什麼、差在哪、費用、以及國小生最省力的排法。
 
+
+## 免費線上練習：直接開始
+
+這篇提到的練習，下面都可以直接做，全部免費：
+
+| 想練什麼 | 直接開始 |
+|---|---|
+| 初試｜聽力與單字：從 Unit 1 開始 | [開始練習](https://learn.chparenting.com/elementary/unit/1) |
+| 初試｜模擬測驗 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
+| 複試｜口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
+| 複試｜寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing) |
+
 ## 全民英檢初級的兩階段：初試和複試
 
 先把結構講清楚：

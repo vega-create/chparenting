@@ -29,6 +29,20 @@ GEPT 全民英檢，以前感覺是國中、高中的事。但現在越來越多
 
 這篇是上篇，先把「**該不該考、什麼時候考**」講清楚；下篇再分享 [GEPT 初級怎麼準備？國小生在家不補習通過初試的方法](/posts/gept初級怎麼準備國小生在家不補習通過初試方法-gp4xv8mq/)。
 
+
+## 免費線上練習：直接開始
+
+這篇提到的練習，下面都可以直接做，全部免費：
+
+| 想練什麼 | 直接開始 |
+|---|---|
+| 初級題庫：20 個主題單元 | [開始練習](https://learn.chparenting.com/elementary) |
+| 先試一個單元（單字＋聽力） | [開始練習](https://learn.chparenting.com/elementary/unit/1) |
+| 模擬測驗：看看現在的程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
+| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
+| 寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing) |
+| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game) |
+
 ## GEPT 初級到底考什麼？難不難？
 
 GEPT 初級（Elementary）對應的是國中畢業的英文程度（CEFR A2），考試分兩關：

@@ -22,6 +22,18 @@ author: "薇佳媽咪"
 
 不是同一個。**小學英檢（GEPT Kids）和全民英檢初級是兩個不同的考試**，都是 LTTC 辦的，但等級、考法、成績呈現都不一樣。這篇把兩個放在一起比，講差別在哪、各自的費用和 2026 場次、以及國小生怎麼選。
 
+
+## 免費線上練習：直接開始
+
+這篇提到的練習，下面都可以直接做，全部免費：
+
+| 想練什麼 | 直接開始 |
+|---|---|
+| 全民英檢初級題庫 | [開始練習](https://learn.chparenting.com/elementary) |
+| 模擬測驗：先測程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
+| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
+| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game) |
+
 ## 小學英檢是什麼
 
 小學英檢的正式名稱是「全民英檢學童版」，英文叫 GEPT Kids，是 LTTC（全民英檢的主辦單位）**專為台灣小學生設計**的英語測驗。官網的說法是：融合台灣學童的生活經驗與學習內容、參照課綱的標準化學童英語測驗。
