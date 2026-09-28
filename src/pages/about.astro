@@ -13,19 +13,45 @@ const sections = [
 
 // 多元背景 credentials
 const credentials = [
-  '兩個孩子的媽——女兒 2016 年生，兒子 2019 年生',
-  '東海大學 數位創新管理碩士在學中',
-  '7+ 年網路行銷經驗（內容、品牌、AI 工具整合）',
-  '前兒童美語老師——多年陪伴 4-12 歲孩子學習，輔以日文研修背景',
-  '長期接觸心靈、自我成長與身心修復相關工作',
-  'AiMommyWisdom 創辦人——幫媽媽把 AI 帶進育兒、工作和生活',
+  '兩個國小孩子的媽媽——一個五年級、一個一年級',
+  '東海大學 數位創新碩士學程畢業',
+  '7 年數位行銷經驗（內容、品牌、AI 工具整合）',
+  '曾任英語補習班教師、國小代課教師',
+  '經濟部 iPAS AI 應用規劃師（初級）、資策會 生成式 AI 能力認證',
+  '經營 chparenting 親子網站、冒險英語兒童美語自學平台、「原來會這樣！」品格互動繪本',
 ];
+
+// 作者結構化資料：四個網站（主站／冒險英語／learn／品格站）用同一份，讓搜尋引擎把作者認成同一個人
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: '薇佳媽媽',
+  alternateName: ['Vega', '薇佳媽咪'],
+  url: `${siteConfig.url}/about/`,
+  image: 'https://character.chparenting.com/src/img/author.jpg',
+  email: 'mailto:hello@chparenting.com',
+  description: '兩個國小孩子的媽媽，數位創新碩士，用故事陪孩子練習好品格',
+  alumniOf: { '@type': 'CollegeOrUniversity', name: '東海大學數位創新碩士學程' },
+  hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', name: '經濟部 iPAS AI 應用規劃師（初級）', recognizedBy: { '@type': 'Organization', name: '經濟部產業人才能力鑑定' } },
+    { '@type': 'EducationalOccupationalCredential', name: '資策會 生成式 AI 能力認證', recognizedBy: { '@type': 'Organization', name: '資訊工業策進會' } },
+  ],
+  knowsAbout: ['品格教育', '親子教育', '兒童英語教學', '數位創新', '生成式 AI'],
+  worksFor: { '@type': 'Organization', name: '智慧媽咪國際有限公司', url: 'https://chparenting.com/' },
+  sameAs: [
+    'https://chparenting.com/',
+    'https://english.chparenting.com/',
+    'https://learn.chparenting.com/',
+    'https://character.chparenting.com/about/',
+  ],
+};
 ---
 
 <BaseLayout
   title="關於薇佳媽咪 — 媽媽生活復原力 Lab"
   description="嗨，我是薇佳媽咪。一個相信「媽媽不需要完美」的空間，陪妳一起走過育兒、工作、家庭與自己的每一天。"
 >
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(personSchema)} />
   <!-- ═══════════════ HERO ═══════════════ -->
   <section class="bg-gradient-to-b from-peach-50 to-peach-100 overflow-hidden">
     <div class="max-w-7xl mx-auto px-5 pt-10 md:pt-14 pb-12 md:pb-16 grid lg:grid-cols-2 gap-10 items-center">
@@ -115,6 +141,12 @@ const credentials = [
           </li>
         ))}
       </ul>
+      <p class="text-center text-sm text-warmgray-700 mt-6 max-w-2xl mx-auto leading-relaxed">
+        我也經營「原來會這樣！」品格互動繪本，用羊毛氈 3D 故事陪孩子練習好品格：<a href="https://character.chparenting.com/" class="text-peach-600 font-semibold underline">看更多</a>
+      </p>
+      <p class="text-center text-xs text-warmgray-600 mt-3">
+        聯絡：<a href="mailto:hello@chparenting.com" class="underline">hello@chparenting.com</a>
+      </p>
       <p class="text-center text-xs text-warmgray-500 mt-6 max-w-2xl mx-auto leading-relaxed">
         這個網站的所有內容都經過仔細整理，參考台灣權威來源（衛福部、國民健康署、台灣兒科醫學會、親子天下）以及國際資源（AAP、WHO、ACOG）。
       </p>

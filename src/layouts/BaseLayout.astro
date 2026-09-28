@@ -36,6 +36,7 @@ const { title, description, image, type, publishDate, noindex } = Astro.props;
 
   <!-- WebSite + Organization Schema (every page, family-wide sameAs) -->
   <WebSiteSchema />
+  <slot name="head" />
 </head>
 <body class="min-h-screen flex flex-col">
   <Header />
