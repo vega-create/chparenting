@@ -15,7 +15,7 @@ faq:
     a: "看主詞是誰。「My pants are blue.」主詞是 pants，複數，用 are。「A pair of pants is on the bed.」主詞是 a pair，單數，用 is。國小階段先會第一種就好。"
   - q: "這個會考嗎？"
     a: "會，而且常考。GEPT 初級衣服與外表單元的老師的話特別標了這一條。考法通常是選 is 還是 are、或者填 a pair of。"
-author: "薇佳媽咪"
+author: "薇佳媽媽"
 ---
 
 國小英文的衣服單元裡有一個小規則叫 a pair of。孩子寫「I have a new pant.」你改成「a new pair of pants」，他問：「為什麼？我只有一件褲子啊。」

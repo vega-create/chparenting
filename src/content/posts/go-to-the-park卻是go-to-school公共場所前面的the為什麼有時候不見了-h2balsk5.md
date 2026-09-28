@@ -15,7 +15,7 @@ faq:
     a: "不是錯，是意思不同。go to the school 是去那棟學校建築（例如家長去學校開會），go to school 是去上學。孩子說自己上學，用 go to school。"
   - q: "這一條會考嗎？"
     a: "會，而且常常跟 by bus 不加 the 一起考。兩條都是「the 什麼時候不見」的問題，一起記比較不會混。"
-author: "薇佳媽咪"
+author: "薇佳媽媽"
 ---
 
 國小英文作業上，孩子寫「I go to the school every day.」你改掉 the。他問：「可是你上次說 go to the park 要有 the。」

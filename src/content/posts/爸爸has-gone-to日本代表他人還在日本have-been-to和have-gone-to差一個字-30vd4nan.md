@@ -15,7 +15,7 @@ faq:
     a: "可以說，但意思是「我去日本了、人還在日本」。如果你人在台灣跟朋友說這句話，邏輯不通——你明明在這裡。所以第一人稱幾乎都用 have been to。"
   - q: "孩子一直搞混怎麼辦？"
     a: "用一個固定的句子當錨點：「爸爸 has gone to Japan 代表他人還在日本。」每次混的時候回到這句。一個句子記牢了，其他的用它推。"
-author: "薇佳媽咪"
+author: "薇佳媽媽"
 ---
 
 國小英文考卷上常見的一題 have been to 和 have gone to 的選擇：「My father ___ to Japan. He will come back next week.」選項有 has been 和 has gone。

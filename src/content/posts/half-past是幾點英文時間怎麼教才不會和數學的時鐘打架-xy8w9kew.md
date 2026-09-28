@@ -15,7 +15,7 @@ faq:
     a: "quarter 是四分之一。一小時 60 分，四分之一是 15 分。孩子如果學過分數，這一點一講就通；沒學過的話，用時鐘的圓分四塊給他看，每一塊就是一個 quarter。"
   - q: "three thirty 和 half past three 哪個對？"
     a: "都對。three thirty 是直接唸數字的說法，half past three 是英式的傳統說法。孩子先會 three thirty 就夠用，half past 是聽力會出現、要聽得懂的。"
-author: "薇佳媽咪"
+author: "薇佳媽媽"
 ---
 
 英文時間這件事，在國小是兩個科目同時在教的：**數學教看時鐘，英文教 half past 和 quarter。** 兩邊各教各的，孩子常常兩邊都卡——數學的時鐘還沒看熟，英文老師已經在講 half past three。

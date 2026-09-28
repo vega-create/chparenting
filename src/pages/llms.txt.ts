@@ -13,7 +13,7 @@ export const GET: APIRoute = async () => {
   lines.push('');
   lines.push(`> ${siteConfig.description}`);
   lines.push('');
-  lines.push('chparenting.com 是台灣媽媽的舒壓與支持平台，提供喘息工具（呼吸練習、正能量卡片、壓力測驗、白噪音、崩潰語錄、心情日記）、媽媽心聲文章、以及實用的情緒支持資源。內容由 薇佳媽咪 撰寫，關注點是幫助媽媽在育兒壓力下找回自己。');
+  lines.push('chparenting.com 是台灣媽媽的舒壓與支持平台，提供喘息工具（呼吸練習、正能量卡片、壓力測驗、白噪音、崩潰語錄、心情日記）、媽媽心聲文章、以及實用的情緒支持資源。內容由 薇佳媽媽 撰寫，關注點是幫助媽媽在育兒壓力下找回自己。');
   lines.push('');
   lines.push('## 主要分類');
   lines.push('');
@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
   lines.push('## 主要頁面');
   lines.push('');
   lines.push(`- [首頁](${origin}/): 平台總覽、最新文章、舒壓工具`);
-  lines.push(`- [關於](${origin}/about/): 關於薇佳媽咪與這個平台`);
+  lines.push(`- [關於](${origin}/about/): 關於薇佳媽媽與這個平台`);
   lines.push(`- [隱私權](${origin}/privacy/)`);
   lines.push('');
 

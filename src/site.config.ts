@@ -3,7 +3,7 @@ export const siteConfig = {
   nameEn: 'Mom Life Recovery Lab',
   description: '媽媽不需要完美，只需要一個能喘口氣的空間。舒壓工具、笑話放鬆、心理支持，讓媽媽找回自己。',
   url: 'https://chparenting.com',
-  author: '薇佳媽咪',
+  author: '薇佳媽媽',
   lang: 'zh-TW',
   
   // Brand colors

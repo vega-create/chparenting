@@ -16,7 +16,7 @@ export const GET: APIRoute = async () => {
   lines.push('');
   lines.push(`Source: ${origin}/`);
   lines.push('');
-  lines.push('這個平台為疲憊的媽媽提供喘息工具與心理支持：呼吸練習、正能量卡片、壓力測驗、白噪音、崩潰語錄、心情日記，以及 薇佳媽咪 撰寫的育兒心聲文章。');
+  lines.push('這個平台為疲憊的媽媽提供喘息工具與心理支持：呼吸練習、正能量卡片、壓力測驗、白噪音、崩潰語錄、心情日記，以及 薇佳媽媽 撰寫的育兒心聲文章。');
   lines.push('');
   lines.push('## 主要入口');
   lines.push('');
