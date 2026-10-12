@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 古埃及的第一個為什麼：為什麼在尼羅河邊
 
-[世界歷史練習](https://learn.chparenting.com/history-geo/world/world-history)的解說是這樣寫的：**尼羅河每年定期氾濫，退水後留下肥沃的土壤，使古埃及能發展農業，被稱為「埃及的禮物」。**
+[世界歷史練習](https://learn.chparenting.com/history-geo/world/world-history?utm_source=chparenting&utm_medium=article&utm_campaign=t84iwoe8)的解說是這樣寫的：**尼羅河每年定期氾濫，退水後留下肥沃的土壤，使古埃及能發展農業，被稱為「埃及的禮物」。**
 
 拆開來看：
 
@@ -82,7 +82,7 @@ author: "薇佳媽媽"
 1. 讀課本一小節。
 2. 在**世界地圖**上找到尼羅河和兩河流域——這兩個地方孩子通常不知道在哪。
 3. 在**時間軸**上放上去（古埃及和美索不達米亞差不多同時，比中國的夏商早一點）。
-4. 做十題[世界歷史練習](https://learn.chparenting.com/history-geo/world/world-history)，錯的看解說。
+4. 做十題[世界歷史練習](https://learn.chparenting.com/history-geo/world/world-history?utm_source=chparenting&utm_medium=article&utm_campaign=t84iwoe8)，錯的看解說。
 5. 用「如果沒有尼羅河會怎樣」這種反問，練「為什麼」。
 
 第五步是這一課的重點。能推出「為什麼」的孩子，世界歷史不是背科。
@@ -95,4 +95,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-同樣是「最早的文字」，中國的甲骨文在[夏商周秦怎麼記？中國朝代用三個「第一次」抓住開頭](/posts/夏商周秦怎麼記中國朝代對國小生太多用三個第一次抓住開頭-5w30mvod/)；尼羅河、兩河在哪一洲、七大洲怎麼記，在[世界地理怎麼開始？](/posts/世界地理怎麼開始七大洲五大洋先把最大和最小記起來-7p96amfm/)。世界篇的歷史、地理、文化都在[歷史地理專區](https://learn.chparenting.com/history-geo)。
+同樣是「最早的文字」，中國的甲骨文在[夏商周秦怎麼記？中國朝代用三個「第一次」抓住開頭](/posts/夏商周秦怎麼記中國朝代對國小生太多用三個第一次抓住開頭-5w30mvod/)；尼羅河、兩河在哪一洲、七大洲怎麼記，在[世界地理怎麼開始？](/posts/世界地理怎麼開始七大洲五大洋先把最大和最小記起來-7p96amfm/)。世界篇的歷史、地理、文化都在[歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=t84iwoe8)。

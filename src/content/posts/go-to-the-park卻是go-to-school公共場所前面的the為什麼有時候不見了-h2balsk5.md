@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## go to the park 的規則：公共場所前面要加 the
 
-[GEPT 初級的社區環境與公共場所單元](https://learn.chparenting.com/elementary/unit/20)的老師的話是這樣寫的：**公共場所前面通常要加 the：go to the library、go to the park。但 go to school 和 go home 反而不加 the，這組例外要分開記。**
+[GEPT 初級的社區環境與公共場所單元](https://learn.chparenting.com/elementary/unit/20?utm_source=chparenting&utm_medium=article&utm_campaign=h2balsk5)的老師的話是這樣寫的：**公共場所前面通常要加 the：go to the library、go to the park。但 go to school 和 go home 反而不加 the，這組例外要分開記。**
 
 先講規則的部分。去一個公共場所，前面加 the：
 
@@ -101,7 +101,7 @@ author: "薇佳媽媽"
 
 早上：「I go to school at seven.」放學：「I go home at four.」週末：「We go to the park.」「We go to the library.」晚上：「I go to bed at nine.」
 
-一天下來，加 the 和不加 the 的都用到了。真的行程比練習題有感，而且每天都會再用一次。寫的部分，[初級單元](https://learn.chparenting.com/elementary)的社區與公共場所練習有這一條的題目。
+一天下來，加 the 和不加 the 的都用到了。真的行程比練習題有感，而且每天都會再用一次。寫的部分，[初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=h2balsk5)的社區與公共場所練習有這一條的題目。
 
 ## go to the park 這一類，還有兩個延伸
 

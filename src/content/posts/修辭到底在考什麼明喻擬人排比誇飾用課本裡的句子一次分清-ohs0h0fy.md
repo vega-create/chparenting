@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 判斷點：**句子裡有沒有喻詞——像、如、彷彿、宛如、好像。**
 
-「月亮像一面圓盤。」——有「像」，把月亮比喻成圓盤，是明喻。[修辭練習](https://learn.chparenting.com/chinese-lang/high/grammar)的解說是這樣寫的：「用『像』把月亮比喻成圓盤，是明喻（比喻的一種）。明喻的特徵是有『像、如、彷彿、宛如』等喻詞。」
+「月亮像一面圓盤。」——有「像」，把月亮比喻成圓盤，是明喻。[修辭練習](https://learn.chparenting.com/chinese-lang/high/grammar?utm_source=chparenting&utm_medium=article&utm_campaign=ohs0h0fy)的解說是這樣寫的：「用『像』把月亮比喻成圓盤，是明喻（比喻的一種）。明喻的特徵是有『像、如、彷彿、宛如』等喻詞。」
 
 孩子看到句子，第一件事就是找這些字。找到了，八成是明喻。
 
@@ -101,7 +101,7 @@ author: "薇佳媽媽"
 
 課文裡到處都是修辭。每天讀課文的時候，請孩子找出一個修辭句，說出是哪一種、判斷點在哪。一天一個，一課下來就找了好幾個，而且都是他會考到的課文。
 
-找完課文，再做[修辭練習](https://learn.chparenting.com/chinese-lang/high/grammar)的題目確認。每一題答完都有解說，解說會把判斷點寫出來。答錯的，回去看是哪一步的判斷漏了。
+找完課文，再做[修辭練習](https://learn.chparenting.com/chinese-lang/high/grammar?utm_source=chparenting&utm_medium=article&utm_campaign=ohs0h0fy)的題目確認。每一題答完都有解說，解說會把判斷點寫出來。答錯的，回去看是哪一步的判斷漏了。
 
 ## 修辭學會了，作文要不要用
 
@@ -121,4 +121,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-修辭和成語都是高年級國語的「辨析題」，邏輯類似——不是背定義，是建立判斷點，[成語怎麼學才不會只會背意思？](/posts/成語怎麼學才不會只會背意思從守株待兔的故事講起-w52jfd26/)講的是成語那一邊。高年級國語還有[成語進階](https://learn.chparenting.com/chinese-lang/high/idioms)和閱讀理解，全部在[國語學習專區](https://learn.chparenting.com/chinese-lang)。
+修辭和成語都是高年級國語的「辨析題」，邏輯類似——不是背定義，是建立判斷點，[成語怎麼學才不會只會背意思？](/posts/成語怎麼學才不會只會背意思從守株待兔的故事講起-w52jfd26/)講的是成語那一邊。高年級國語還有[成語進階](https://learn.chparenting.com/chinese-lang/high/idioms?utm_source=chparenting&utm_medium=article&utm_campaign=ohs0h0fy)和閱讀理解，全部在[國語學習專區](https://learn.chparenting.com/chinese-lang?utm_source=chparenting&utm_medium=article&utm_campaign=ohs0h0fy)。

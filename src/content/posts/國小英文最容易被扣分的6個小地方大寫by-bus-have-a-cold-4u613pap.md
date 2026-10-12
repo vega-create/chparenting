@@ -22,7 +22,7 @@ author: "薇佳媽媽"
 
 是那些很小的規則——大寫忘了、the 多加了、a 漏掉了。孩子明明會，就是在這些地方一直掉分。而這些規則學校常常只是帶過，沒有人特別講。
 
-這篇把六個最常扣分的小地方整理出來。每一條都很小，每一條都是 [learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary)裡對應主題的「老師的話」。
+這篇把六個最常扣分的小地方整理出來。每一條都很小，每一條都是 [learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=4u613pap)裡對應主題的「老師的話」。
 
 ## 國小英文扣分最多的，是這六個小地方
 
@@ -108,14 +108,14 @@ mouse → mice，fish → fish，child → children——**不規則複數不加
 
 **There is / There are**：看後面的名詞是單數還是複數。There is a cat、There are two cats。孩子常常全部用 There is。
 
-這兩條在[初級單元](https://learn.chparenting.com/elementary/unit/14)這類主題頁的老師的話裡都有提，跟前面六條一樣，一句話可以講清楚。
+這兩條在[初級單元](https://learn.chparenting.com/elementary/unit/14?utm_source=chparenting&utm_medium=article&utm_campaign=4u613pap)這類主題頁的老師的話裡都有提，跟前面六條一樣，一句話可以講清楚。
 
 ## 國小英文考卷回家後怎麼訂正
 
 這六條規則的價值，是在訂正的時候用。考卷回家，不要只看分數，做三件事：
 
 1. **把扣分的地方分類。** 是這六條裡的哪一條？孩子自己分。分類的過程他會發現「我都錯同一種」。
-2. **找到對應的單元，看老師的話。** 例如 call to me 錯了，去[電話與網路通訊那個單元](https://learn.chparenting.com/elementary/unit/18)看那一段，那裡會寫「call me 不加 to」。
+2. **找到對應的單元，看老師的話。** 例如 call to me 錯了，去[電話與網路通訊那個單元](https://learn.chparenting.com/elementary/unit/18?utm_source=chparenting&utm_medium=article&utm_campaign=4u613pap)看那一段，那裡會寫「call me 不加 to」。
 3. **做那個單元的練習題五題。** 不用全做，五題就好，確認這一條會了。
 
 一張考卷訂正一種錯就夠。三張考卷之後，你會看到那一種錯不見了，然後換下一種。國小英文的扣分點就這幾條，一條一條清，清完考卷上就只剩真的不會的題目，而那才是該花時間的地方。

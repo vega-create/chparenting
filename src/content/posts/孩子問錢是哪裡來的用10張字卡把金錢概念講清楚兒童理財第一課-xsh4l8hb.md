@@ -22,7 +22,7 @@ author: "薇佳媽媽"
 
 這個問題很多孩子在幼兒園到低年級之間會問。而家長的回答，常常決定了他對錢的第一個印象。
 
-兒童理財的第一課，不是存錢、不是零用錢，是**「錢是什麼」**。這個概念沒建好，後面談存錢、談需要想要，孩子都是在執行指令，不是在理解。這篇用 [learn.chparenting.com 認識金錢](https://learn.chparenting.com/finance/money-basics)的 10 張字卡，把金錢的基本概念一次講清楚——每一張一句話，低年級聽得懂。
+兒童理財的第一課，不是存錢、不是零用錢，是**「錢是什麼」**。這個概念沒建好，後面談存錢、談需要想要，孩子都是在執行指令，不是在理解。這篇用 [learn.chparenting.com 認識金錢](https://learn.chparenting.com/finance/money-basics?utm_source=chparenting&utm_medium=article&utm_campaign=xsh4l8hb)的 10 張字卡，把金錢的基本概念一次講清楚——每一張一句話，低年級聽得懂。
 
 ## 兒童理財為什麼要從「錢是什麼」開始
 
@@ -110,4 +110,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-概念有了，下一步是零用錢——先分類再比例再目標，在[孩子零用錢一拿到就花光？先教「需要 vs 想要」，再談存錢](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)。理財區的其他練習——零用錢分配、儲蓄計算機、紅包理財、記帳——全部在[兒童理財專區](https://learn.chparenting.com/finance)。
+概念有了，下一步是零用錢——先分類再比例再目標，在[孩子零用錢一拿到就花光？先教「需要 vs 想要」，再談存錢](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)。理財區的其他練習——零用錢分配、儲蓄計算機、紅包理財、記帳——全部在[兒童理財專區](https://learn.chparenting.com/finance?utm_source=chparenting&utm_medium=article&utm_campaign=xsh4l8hb)。

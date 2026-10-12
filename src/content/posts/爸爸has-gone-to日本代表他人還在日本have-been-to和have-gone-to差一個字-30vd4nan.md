@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## have been to 和 have gone to：差別在「人現在在哪」
 
-[GEPT 初級的旅遊與住宿單元](https://learn.chparenting.com/elementary/unit/15)的老師的話是這樣寫的：**have been to（去過，人已經回來了）和 have gone to（去了，人還在那裡）差一個字意思差很多。可以用「爸爸 has gone to Japan 代表他人還在日本」來記。**
+[GEPT 初級的旅遊與住宿單元](https://learn.chparenting.com/elementary/unit/15?utm_source=chparenting&utm_medium=article&utm_campaign=30vd4nan)的老師的話是這樣寫的：**have been to（去過，人已經回來了）和 have gone to（去了，人還在那裡）差一個字意思差很多。可以用「爸爸 has gone to Japan 代表他人還在日本」來記。**
 
 兩句放在一起看：
 
@@ -130,4 +130,4 @@ been 用照片練、gone 用「現在不在家的人」練。兩個情境分開�
 
 ## 延伸閱讀
 
-國小英文的文法就那幾條——a/an、加不加 s、there is/are——have been to 是其中比較特別的一條，其他的在[國小英文文法要不要學？](/posts/國小英文文法要不要學a和an加不加s這種小規則怎麼教-8130pzbs/)；同一系列的「明明會卻扣分」的小地方，在[國小英文最容易被扣分的 6 個小地方](/posts/國小英文最容易被扣分的6個小地方大寫by-bus-have-a-cold-4u613pap/)。旅遊單元的單字和練習在[初級專區](https://learn.chparenting.com/elementary)。
+國小英文的文法就那幾條——a/an、加不加 s、there is/are——have been to 是其中比較特別的一條，其他的在[國小英文文法要不要學？](/posts/國小英文文法要不要學a和an加不加s這種小規則怎麼教-8130pzbs/)；同一系列的「明明會卻扣分」的小地方，在[國小英文最容易被扣分的 6 個小地方](/posts/國小英文最容易被扣分的6個小地方大寫by-bus-have-a-cold-4u613pap/)。旅遊單元的單字和練習在[初級專區](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=30vd4nan)。

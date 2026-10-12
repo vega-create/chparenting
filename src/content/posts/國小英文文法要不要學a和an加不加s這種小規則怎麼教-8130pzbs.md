@@ -86,7 +86,7 @@ I like to swim 和 I like swimming 都對。有些家長或老師會說一個對
 
 ## 這些英文文法規則在哪裡練
 
-上面每一條，都是 [learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary)裡對應主題的「老師的話」——[職業單元](https://learn.chparenting.com/elementary/unit/17)講 a/an、[食物單元](https://learn.chparenting.com/elementary/unit/3)講可數不可數、居家單元講 there is/are、社區單元講 the、嗜好單元講 like to/V-ing、購物單元講 dollar。
+上面每一條，都是 [learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=8130pzbs)裡對應主題的「老師的話」——[職業單元](https://learn.chparenting.com/elementary/unit/17?utm_source=chparenting&utm_medium=article&utm_campaign=8130pzbs)講 a/an、[食物單元](https://learn.chparenting.com/elementary/unit/3?utm_source=chparenting&utm_medium=article&utm_campaign=8130pzbs)講可數不可數、居家單元講 there is/are、社區單元講 the、嗜好單元講 like to/V-ing、購物單元講 dollar。
 
 孩子做那個單元的練習之前，先看那一段，兩分鐘。做完練習，錯的題目看解說。**規則出現在它會被用到的地方，孩子才記得住。** 抽出來變成一張文法表，他會覺得那是另一個要背的東西。
 

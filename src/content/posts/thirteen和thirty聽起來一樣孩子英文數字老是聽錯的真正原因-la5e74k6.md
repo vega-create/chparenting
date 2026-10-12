@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 英文數字聽錯，是國小英文最常見的聽力失分
 
-[GEPT 初級的數字、日期與月份單元](https://learn.chparenting.com/elementary/unit/9)的老師的話，第一句就是這件事：**thirteen 和 thirty 容易混淆，可以提醒孩子 -teen 是十幾、-ty 是幾十。**
+[GEPT 初級的數字、日期與月份單元](https://learn.chparenting.com/elementary/unit/9?utm_source=chparenting&utm_medium=article&utm_campaign=la5e74k6)的老師的話，第一句就是這件事：**thirteen 和 thirty 容易混淆，可以提醒孩子 -teen 是十幾、-ty 是幾十。**
 
 為什麼會被特別寫出來？因為它是這個單元、也是整個初級聽力裡最穩定的失分點。數字在真實對話裡到處都是——幾點、幾歲、多少錢、幾號——所以聽力題一定會考，而 -teen 和 -ty 這兩組數字，孩子幾乎每一次都要猜。
 
@@ -65,7 +65,7 @@ author: "薇佳媽媽"
 
 ## 數字之外，同一個單元還有兩個常錯點
 
-[初級單元](https://learn.chparenting.com/elementary)的數字、日期與月份，除了 -teen / -ty，還有兩個聽力常錯的地方：
+[初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=la5e74k6)的數字、日期與月份，除了 -teen / -ty，還有兩個聽力常錯的地方：
 
 **月份的重音**：September、October、November、December 都是重音在第二音節，孩子容易平平地唸，聽的時候就對不上。
 

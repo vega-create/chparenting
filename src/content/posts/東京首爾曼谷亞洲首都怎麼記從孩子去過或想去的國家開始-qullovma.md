@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 從去過的國家開始：東京
 
-[亞洲地理練習](https://learn.chparenting.com/history-geo/asia/asia-geography)的第一則解說是：**東京是日本的首都，也是全球人口最多的都市圈之一。**
+[亞洲地理練習](https://learn.chparenting.com/history-geo/asia/asia-geography?utm_source=chparenting&utm_medium=article&utm_campaign=qullovma)的第一則解說是：**東京是日本的首都，也是全球人口最多的都市圈之一。**
 
 台灣孩子去過日本的很多。去過的孩子，東京不用背——他有畫面：迪士尼、晴空塔、擠滿人的車站。「全球人口最多的都市圈之一」他一聽就懂，因為他擠過。
 
@@ -92,7 +92,7 @@ author: "薇佳媽媽"
 
 1. **先問「你去過哪些國家？想去哪裡？」** 從那幾個開始。
 2. **一個國家配一個鉤子。** 寫在便利貼上，貼在地圖的那個位置。
-3. **做十題[亞洲地理練習](https://learn.chparenting.com/history-geo/asia/asia-geography)。** 解說寫的是關係（「位於漢江沿岸」「名稱最長」），錯的看解說，再回地圖指一次。
+3. **做十題[亞洲地理練習](https://learn.chparenting.com/history-geo/asia/asia-geography?utm_source=chparenting&utm_medium=article&utm_campaign=qullovma)。** 解說寫的是關係（「位於漢江沿岸」「名稱最長」），錯的看解說，再回地圖指一次。
 4. **一週後蓋住便利貼，指地圖說首都。** 說得出來的就過了。
 
 ## 亞洲首都的十個，一張表加十個鉤子
@@ -126,4 +126,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-亞洲之外，七大洲五大洋的「最大最小」怎麼記，在[世界地理怎麼開始？](/posts/世界地理怎麼開始七大洲五大洋先把最大和最小記起來-7p96amfm/)；亞洲歷史那一冊（夏商周秦）的讀法在[夏商周秦怎麼記？](/posts/夏商周秦怎麼記中國朝代對國小生太多用三個第一次抓住開頭-5w30mvod/)。亞洲篇的歷史和地理都在[歷史地理專區](https://learn.chparenting.com/history-geo)。
+亞洲之外，七大洲五大洋的「最大最小」怎麼記，在[世界地理怎麼開始？](/posts/世界地理怎麼開始七大洲五大洋先把最大和最小記起來-7p96amfm/)；亞洲歷史那一冊（夏商周秦）的讀法在[夏商周秦怎麼記？](/posts/夏商周秦怎麼記中國朝代對國小生太多用三個第一次抓住開頭-5w30mvod/)。亞洲篇的歷史和地理都在[歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=qullovma)。

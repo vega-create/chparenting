@@ -28,7 +28,7 @@ author: "薇佳媽媽"
 
 ## 音程是什麼：兩個音的距離
 
-[樂理的音程單元](https://learn.chparenting.com/music/basic/intervals)分四個觀念：什麼是音程、音程的計算、音程的種類、協和與不協和。
+[樂理的音程單元](https://learn.chparenting.com/music/basic/intervals?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)分四個觀念：什麼是音程、音程的計算、音程的種類、協和與不協和。
 
 先講第一個。**音程就是兩個音之間的距離**，單位是「度」。就像兩個地方之間的距離用公里算，兩個音之間的距離用度算。
 
@@ -108,7 +108,7 @@ author: "薇佳媽媽"
 1. **鍵盤數度數**：你說兩個音，孩子在鍵盤上一個一個點，數出度數。從 C 開始，只用白鍵。十題。
 2. **反過來**：你說「從 C 往上五度」，他找到 G。
 3. **聽協和不協和**：你彈兩個音，他說「舒服」還是「緊張」。不用說度數。
-4. **做題**：[樂理練習](https://learn.chparenting.com/music)的音程題目，做完看解說。
+4. **做題**：[樂理練習](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)的音程題目，做完看解說。
 
 前三步不需要會彈琴，有鍵盤就行。第一步練到手指自動從「一」開始，這一課就過了一半。
 
@@ -122,4 +122,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-音程的大小跟大調小調是同一件事，在 [C 大調為什麼全是白鍵？音階和調號](/posts/C大調為什麼全是白鍵音階和調號孩子第一次遇到升降記號之前要懂的事-d8xk8zbd/)；數音程要先會音名（C D E），音名和唱名的對照在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)。音程的下一課是和弦，在[音階與調性](https://learn.chparenting.com/music/basic/scales)之後，全部在[樂理專區](https://learn.chparenting.com/music)。
+音程的大小跟大調小調是同一件事，在 [C 大調為什麼全是白鍵？音階和調號](/posts/C大調為什麼全是白鍵音階和調號孩子第一次遇到升降記號之前要懂的事-d8xk8zbd/)；數音程要先會音名（C D E），音名和唱名的對照在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)。音程的下一課是和弦，在[音階與調性](https://learn.chparenting.com/music/basic/scales?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)之後，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)。

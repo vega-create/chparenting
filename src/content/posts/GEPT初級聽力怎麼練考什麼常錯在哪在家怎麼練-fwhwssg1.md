@@ -28,7 +28,7 @@ GEPT 初級聽力，是很多國小生人生第一個正式的英文聽力考試
 
 先講題型。初級聽力大致分成幾種：**看圖辨義**（聽一句話，選符合的圖）、**問答**（聽一個問句，選正確的回答）、**簡短對話**（聽兩個人的對話，回答問題）、**短文聽解**（聽一段短文，回答問題）。全部是選擇題。
 
-語速比平常說話慢一點，內容是日常生活——時間、地點、天氣、購物、學校。**確切的題型和題數以 LTTC 官方公告為準**，我這裡講的是大致的樣子，報名前請到官方網站確認，[報考資訊頁](https://learn.chparenting.com/exam-info)也有整理。
+語速比平常說話慢一點，內容是日常生活——時間、地點、天氣、購物、學校。**確切的題型和題數以 LTTC 官方公告為準**，我這裡講的是大致的樣子，報名前請到官方網站確認，[報考資訊頁](https://learn.chparenting.com/exam-info?utm_source=chparenting&utm_medium=article&utm_campaign=fwhwssg1)也有整理。
 
 重點是：**沒有一種題型需要很難的單字。** 初級聽力考的是「聽得出來」，不是「懂很多」。
 
@@ -38,7 +38,7 @@ GEPT 初級聽力，是很多國小生人生第一個正式的英文聽力考試
 
 孩子看到 weather 知道是天氣，考卷上寫也會寫，但聽到 /ˈwɛðɚ/ 的時候反應不過來。**因為他學這個字的時候是用眼睛學的**——看拼字、看中文、抄寫，耳朵從來沒有參與。
 
-解法不是多背單字，是把會的字用耳朵再學一次。[learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary)每個單字都有發音，讓孩子不看字、只聽，說出中文；說對了再看字。一天 10 個，全部是他已經認得的字。
+解法不是多背單字，是把會的字用耳朵再學一次。[learn.chparenting.com 初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=fwhwssg1)每個單字都有發音，讓孩子不看字、只聽，說出中文；說對了再看字。一天 10 個，全部是他已經認得的字。
 
 ## 常錯的第二個地方：數字
 
@@ -82,7 +82,7 @@ thirteen 和 thirty、fourteen 和 forty、fifteen 和 fifty——唸快了幾�
 
 前面的練習可以聽三次，因為在建立能力。**考前一個月，要改成只聽一次就作答**——因為考場就是這樣。
 
-這一個月用[模擬測驗](https://learn.chparenting.com/elementary/mock-test)，照考試的方式做：不暫停、不重聽、做完再檢討。孩子第一次這樣做分數會掉，這是正常的，掉的那些就是「還需要多聽幾次才聽得懂」的部分，剛好是考前要補的。
+這一個月用[模擬測驗](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=fwhwssg1)，照考試的方式做：不暫停、不重聽、做完再檢討。孩子第一次這樣做分數會掉，這是正常的，掉的那些就是「還需要多聽幾次才聽得懂」的部分，剛好是考前要補的。
 
 ## 聽力答錯了怎麼檢討
 

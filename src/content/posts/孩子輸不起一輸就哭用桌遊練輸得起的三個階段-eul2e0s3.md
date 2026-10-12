@@ -40,7 +40,7 @@ author: "薇佳媽媽"
 
 這個階段的遊戲只有一個對手——上一次的自己。沒有人贏你，只有紀錄有沒有破。
 
-[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence)是燈光一輪多一個，記錯就結束，看能撐幾輪。[數學衝刺](https://learn.chparenting.com/board-games/math-rush)是限時算題，答錯扣分。這兩款「輸」的時候，沒有一個人在你對面笑，只有一個數字比上次低——**這是最輕的輸。**
+[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)是燈光一輪多一個，記錯就結束，看能撐幾輪。[數學衝刺](https://learn.chparenting.com/board-games/math-rush?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)是限時算題，答錯扣分。這兩款「輸」的時候，沒有一個人在你對面笑，只有一個數字比上次低——**這是最輕的輸。**
 
 在這個階段，你的目標是讓孩子經歷「紀錄沒破，但我還想再玩一次」。當他自己按下再來一次的時候，他已經在學怎麼跟那個感覺相處了。
 
@@ -48,7 +48,7 @@ author: "薇佳媽媽"
 
 紀錄沒破他能接受了，下一步是「這一關過不了」。
 
-[迷宮探險](https://learn.chparenting.com/board-games/maze-runner)走進死路要退回來、[表情密碼](https://learn.chparenting.com/board-games/emoji-puzzle)算錯要重推。這種輸比第一階段重一點——**有一個明確的「失敗」，不只是分數低**——但還是沒有對手，關卡不會嘲笑你。
+[迷宮探險](https://learn.chparenting.com/board-games/maze-runner?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)走進死路要退回來、[表情密碼](https://learn.chparenting.com/board-games/emoji-puzzle?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)算錯要重推。這種輸比第一階段重一點——**有一個明確的「失敗」，不只是分數低**——但還是沒有對手，關卡不會嘲笑你。
 
 這個階段很適合練「失敗之後怎麼辦」。走進死路的時候，不要幫他，問一句「剛剛哪個路口可以換邊？」讓他自己回頭。他會發現：失敗不是結束，是一個資訊。
 
@@ -56,7 +56,7 @@ author: "薇佳媽媽"
 
 有輸有贏、有人在你對面的遊戲，這是最重的輸。
 
-[圍棋](https://learn.chparenting.com/board-games/go-game)和[跳棋](https://learn.chparenting.com/board-games/chinese-checkers)都是跟 AI 對弈，輸了就是輸了，AI 不會放水。**但正因為對手是 AI，孩子輸給它的感覺比輸給哥哥或爸爸輕很多**——沒有人際關係的成分。這是很好的過渡：先習慣輸給一個不會笑你的對手，再面對會的。
+[圍棋](https://learn.chparenting.com/board-games/go-game?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)和[跳棋](https://learn.chparenting.com/board-games/chinese-checkers?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)都是跟 AI 對弈，輸了就是輸了，AI 不會放水。**但正因為對手是 AI，孩子輸給它的感覺比輸給哥哥或爸爸輕很多**——沒有人際關係的成分。這是很好的過渡：先習慣輸給一個不會笑你的對手，再面對會的。
 
 跳棋的規則比圍棋單純，國小低年級就能上手；圍棋 9×9 的入門盤面，中年級以上比較能理解「氣」的概念。
 
@@ -98,4 +98,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-如果孩子的螢幕時間大多花在看影片，桌遊是一個把「被動看」換成「主動玩」的方式，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)談的是這個。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games)，免費、不用註冊。
+如果孩子的螢幕時間大多花在看影片，桌遊是一個把「被動看」換成「主動玩」的方式，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)談的是這個。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=eul2e0s3)，免費、不用註冊。

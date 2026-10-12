@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## a pair of 的邏輯：英文把這些東西看成「兩個」
 
-[GEPT 初級的衣服與外表描述單元](https://learn.chparenting.com/elementary/unit/13)的老師的話是這樣寫的：**pants, shoes, glasses 這些字永遠是複數形，要說 a pair of pants，一開始不習慣是正常的。**
+[GEPT 初級的衣服與外表描述單元](https://learn.chparenting.com/elementary/unit/13?utm_source=chparenting&utm_medium=article&utm_campaign=524i1ta0)的老師的話是這樣寫的：**pants, shoes, glasses 這些字永遠是複數形，要說 a pair of pants，一開始不習慣是正常的。**
 
 為什麼永遠是複數？因為英文看這些東西的方式跟中文不一樣：
 
@@ -90,7 +90,7 @@ author: "薇佳媽媽"
 
 真的衣服、真的鞋子，每天都會用到。一週下來 a pair of 和 are 會自然地出來。
 
-寫的部分，[初級單元](https://learn.chparenting.com/elementary)的衣服與外表練習有這一條的題目，做十題，錯的看解說。
+寫的部分，[初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=524i1ta0)的衣服與外表練習有這一條的題目，做十題，錯的看解說。
 
 ## 同一個單元的另外兩個常錯點
 

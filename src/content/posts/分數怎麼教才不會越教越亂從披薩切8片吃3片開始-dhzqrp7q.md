@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 從披薩開始：分母和分子是什麼
 
-[learn.chparenting.com 分數單元](https://learn.chparenting.com/math/fractions)的第一個示範題是這樣的：
+[learn.chparenting.com 分數單元](https://learn.chparenting.com/math/fractions?utm_source=chparenting&utm_medium=article&utm_campaign=dhzqrp7q)的第一個示範題是這樣的：
 
 > 一個披薩切成 8 片，吃了 3 片，吃了幾分之幾？
 
@@ -79,7 +79,7 @@ author: "薇佳媽媽"
 
 1/4、0.25、25%，是同一個東西。小數單元的第一題就是「0.7 表示什麼」——答案是 7 個 0.1，也就是 7/10。百分比單元的第一題是「25% 等於多少分數」——25/100，化簡是 1/4。
 
-孩子如果在三年級把分數的畫面建好了，四年級學[小數](https://learn.chparenting.com/math/decimals)的時候，你只要告訴他「小數就是分母是 10、100 的分數換一種寫法」；五年級學[百分比](https://learn.chparenting.com/math/percentages)的時候，「百分比就是分母固定是 100 的分數」。**三個單元變成一個概念，而不是三套要背的規則。**
+孩子如果在三年級把分數的畫面建好了，四年級學[小數](https://learn.chparenting.com/math/decimals?utm_source=chparenting&utm_medium=article&utm_campaign=dhzqrp7q)的時候，你只要告訴他「小數就是分母是 10、100 的分數換一種寫法」；五年級學[百分比](https://learn.chparenting.com/math/percentages?utm_source=chparenting&utm_medium=article&utm_campaign=dhzqrp7q)的時候，「百分比就是分母固定是 100 的分數」。**三個單元變成一個概念，而不是三套要背的規則。**
 
 反過來，如果分數是背規則背過去的，小數和百分比就會變成另外兩套要背的規則，越到高年級越亂。這就是為什麼三年級的分數要慢慢教。
 
@@ -95,7 +95,7 @@ author: "薇佳媽媽"
 
 3/8 加 2/8 等於多少？他能畫出一個切成 8 份的圓、塗 3 份、再塗 2 份，就是真的懂了。畫不出來、只會寫算式的，是背規則，這種在異分母的時候一定會出事。
 
-[learn.chparenting.com 的分數練習](https://learn.chparenting.com/math/fractions)每一題都有解說，解說裡會把「分成幾份、拿幾份」寫出來，跟你在旁邊問是一樣的。孩子自己做的時候，答錯了看解說，看不懂再來問你。
+[learn.chparenting.com 的分數練習](https://learn.chparenting.com/math/fractions?utm_source=chparenting&utm_medium=article&utm_campaign=dhzqrp7q)每一題都有解說，解說裡會把「分成幾份、拿幾份」寫出來，跟你在旁邊問是一樣的。孩子自己做的時候，答錯了看解說，看不懂再來問你。
 
 ## 延伸閱讀
 

@@ -38,7 +38,7 @@ author: "薇佳媽媽"
 
 中文沒有重音，所以這是台灣孩子最不習慣的。
 
-[中級單元](https://learn.chparenting.com/intermediate)裡有幾個典型的例子：
+[中級單元](https://learn.chparenting.com/intermediate?utm_source=chparenting&utm_medium=article&utm_campaign=usvymvmq)裡有幾個典型的例子：
 
 - **technology**：重音在第三音節，tech-NO-lo-gy。孩子常唸成 TECH-nology，重音放錯整個字就變了。
 - **medicine**：重音在第一音節，MED-i-cine。
@@ -116,4 +116,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-初級的準備和幾年級適合考，在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)；聽力在中級的比重更高，練法在[孩子英文聽力練不起來？](/posts/孩子英文聽力練不起來國小三到六年級在家練聽力的免費做法-ie9ynidt/)。[初級單元](https://learn.chparenting.com/elementary)穩了再進中級，兩個等級的單元都免費、不用註冊。
+初級的準備和幾年級適合考，在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)；聽力在中級的比重更高，練法在[孩子英文聽力練不起來？](/posts/孩子英文聽力練不起來國小三到六年級在家練聽力的免費做法-ie9ynidt/)。[初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=usvymvmq)穩了再進中級，兩個等級的單元都免費、不用註冊。

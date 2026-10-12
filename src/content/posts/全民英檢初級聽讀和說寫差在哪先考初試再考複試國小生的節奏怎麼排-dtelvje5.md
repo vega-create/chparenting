@@ -29,10 +29,10 @@ author: "薇佳媽媽"
 
 | 想練什麼 | 直接開始 |
 |---|---|
-| 初試｜聽力與單字：從 Unit 1 開始 | [開始練習](https://learn.chparenting.com/elementary/unit/1) |
-| 初試｜模擬測驗 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
-| 複試｜口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
-| 複試｜寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing) |
+| 初試｜聽力與單字：從 Unit 1 開始 | [開始練習](https://learn.chparenting.com/elementary/unit/1?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5) |
+| 初試｜模擬測驗 | [開始練習](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5) |
+| 複試｜口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5) |
+| 複試｜寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5) |
 
 ## 全民英檢初級的兩階段：初試和複試
 
@@ -98,9 +98,9 @@ author: "薇佳媽媽"
 
 說寫的準備有一個原則：**先練形式，再練內容。**
 
-**口說**：讓孩子習慣「聽到提示音、對著設備講」這件事。[learn 的初級口說練習](https://learn.chparenting.com/elementary/speaking)有複誦、朗讀、回答問題三種題型，用手機錄下來讓他自己聽。第一次聽到自己的錄音孩子會很害羞，第三次就習慣了。重點不是講得多好，是「嗶聲之後不要空白」。
+**口說**：讓孩子習慣「聽到提示音、對著設備講」這件事。[learn 的初級口說練習](https://learn.chparenting.com/elementary/speaking?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5)有複誦、朗讀、回答問題三種題型，用手機錄下來讓他自己聽。第一次聽到自己的錄音孩子會很害羞，第三次就習慣了。重點不是講得多好，是「嗶聲之後不要空白」。
 
-**寫作**：從單句開始。[初級寫作練習](https://learn.chparenting.com/elementary/writing)的四種題型——句子重組、中翻英、段落排序、引導式寫作——正好對應複試的單句寫作和段落寫作。段落寫作先練「照四個提示各寫一句」，四句就是一段，之前在[孩子英文作文沒東西寫](/posts/孩子英文作文沒東西寫國小英文寫作從句子重組和四個提示開始-papgvsud/)講過那個階梯。
+**寫作**：從單句開始。[初級寫作練習](https://learn.chparenting.com/elementary/writing?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5)的四種題型——句子重組、中翻英、段落排序、引導式寫作——正好對應複試的單句寫作和段落寫作。段落寫作先練「照四個提示各寫一句」，四句就是一段，之前在[孩子英文作文沒東西寫](/posts/孩子英文作文沒東西寫國小英文寫作從句子重組和四個提示開始-papgvsud/)講過那個階梯。
 
 每週口說兩三次、寫作一篇，半年下來說寫不會是問題。
 
@@ -115,10 +115,10 @@ author: "薇佳媽媽"
 
 ## 2027 年的說寫場次
 
-2026 年初級說寫的兩場（3/14–15、9/12–13）都結束了。11/7 聽讀過的孩子，下一個說寫場次要等 2027 年上半年——LTTC 通常 9 月底到 10 月公告下一年的日程，公告後我會更新到 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info)。
+2026 年初級說寫的兩場（3/14–15、9/12–13）都結束了。11/7 聽讀過的孩子，下一個說寫場次要等 2027 年上半年——LTTC 通常 9 月底到 10 月公告下一年的日程，公告後我會更新到 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5)。
 
 從 11 月到明年三四月，剛好有四五個月可以練輸出。這個時間差不是壞事，是這個節奏最好的地方。
 
 ## 延伸閱讀
 
-11/7 聽讀的報名、費用與八週準備，在[全民英檢初級 11/7 場次報名 9/16 截止](/posts/全民英檢初級11月7日場次報名9月16日截止國小生要不要報還來得及怎麼準備-7tm90k8w/)；要不要考、幾年級考，在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)。初級全部單元、口說、寫作、模擬測驗都在 [learn 的初級專區](https://learn.chparenting.com/elementary)，免費、不用註冊。
+11/7 聽讀的報名、費用與八週準備，在[全民英檢初級 11/7 場次報名 9/16 截止](/posts/全民英檢初級11月7日場次報名9月16日截止國小生要不要報還來得及怎麼準備-7tm90k8w/)；要不要考、幾年級考，在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)。初級全部單元、口說、寫作、模擬測驗都在 [learn 的初級專區](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=dtelvje5)，免費、不用註冊。

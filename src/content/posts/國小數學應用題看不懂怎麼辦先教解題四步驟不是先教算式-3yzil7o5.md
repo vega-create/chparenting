@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 ## 數學應用題的解題四步驟：已知、要求、算式、檢查
 
-我用的是最基本的四步驟，[learn.chparenting.com 的應用題單元](https://learn.chparenting.com/math/word-problems)裡的示範解題也是照這個走。拿剛才那題來說：
+我用的是最基本的四步驟，[learn.chparenting.com 的應用題單元](https://learn.chparenting.com/math/word-problems?utm_source=chparenting&utm_medium=article&utm_campaign=3yzil7o5)裡的示範解題也是照這個走。拿剛才那題來說：
 
 **第一步：已知——題目告訴我們什麼？**
 原本有 35 元，花了 12 元。
@@ -106,7 +106,7 @@ author: "薇佳媽媽"
 
 當他做題的時候，你發現他會自己小聲唸「題目說……要算……」——那就是四步驟已經進到他腦子裡了。這時候不用再要求他說出聲，讓他自己做，你只看最後的檢查步驟有沒有做。
 
-[learn.chparenting.com 的數學練習](https://learn.chparenting.com/math)每一題答完都有解說，解說裡會把「已知、要求、算式」寫出來，孩子自己對照，跟你在旁邊問是一樣的效果。免費、不用註冊。
+[learn.chparenting.com 的數學練習](https://learn.chparenting.com/math?utm_source=chparenting&utm_medium=article&utm_campaign=3yzil7o5)每一題答完都有解說，解說裡會把「已知、要求、算式」寫出來，孩子自己對照，跟你在旁邊問是一樣的效果。免費、不用註冊。
 
 ## 延伸閱讀
 

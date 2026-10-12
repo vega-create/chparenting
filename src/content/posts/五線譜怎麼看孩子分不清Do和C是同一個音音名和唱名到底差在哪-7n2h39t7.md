@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## 五線譜是什麼：音的高低寫在紙上
 
-[樂理入門的音高與譜號單元](https://learn.chparenting.com/music/intro/pitch)先講一件事：**音高就是聲音的高低，由物體震動的快慢（頻率）來決定。**
+[樂理入門的音高與譜號單元](https://learn.chparenting.com/music/intro/pitch?utm_source=chparenting&utm_medium=article&utm_campaign=7n2h39t7)先講一件事：**音高就是聲音的高低，由物體震動的快慢（頻率）來決定。**
 
 震動快，音高；震動慢，音低。孩子可以用橡皮筋試：拉緊彈，音高；放鬆彈，音低。
 
@@ -86,7 +86,7 @@ author: "薇佳媽媽"
 
 四步各幾分鐘。第四步是目標——**看到位置，說得出兩個名字，唱得出音。**
 
-[樂理練習](https://learn.chparenting.com/music)裡音高與譜號的題目就是這四步的組合，答完有解說。
+[樂理練習](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=7n2h39t7)裡音高與譜號的題目就是這四步的組合，答完有解說。
 
 ## 一個提醒：五線譜和鍵盤要一起看
 
@@ -110,4 +110,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-五線譜的音符除了位置（音高），還有長短（拍子），長短那一半在[音符為什麼有黑有白、有尾巴？](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)和[拍號 4 分之 4 是什麼意思？](/posts/拍號4分之4是什麼意思上面的數字和下面的數字各在說什麼-vwspwrb3/)。音高、音符、拍號三個合起來，就是讀譜的全部基礎，都在[樂理專區](https://learn.chparenting.com/music)。
+五線譜的音符除了位置（音高），還有長短（拍子），長短那一半在[音符為什麼有黑有白、有尾巴？](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)和[拍號 4 分之 4 是什麼意思？](/posts/拍號4分之4是什麼意思上面的數字和下面的數字各在說什麼-vwspwrb3/)。音高、音符、拍號三個合起來，就是讀譜的全部基礎，都在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=7n2h39t7)。

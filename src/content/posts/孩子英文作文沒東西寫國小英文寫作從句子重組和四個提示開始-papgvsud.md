@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 國小英文寫作的四個階梯
 
-[learn.chparenting.com 的寫作練習](https://learn.chparenting.com/elementary/writing)分成四種題型，難度是接著上去的：
+[learn.chparenting.com 的寫作練習](https://learn.chparenting.com/elementary/writing?utm_source=chparenting&utm_medium=article&utm_campaign=papgvsud)分成四種題型，難度是接著上去的：
 
 1. **句子重組**：給你打亂的單字，排成一句話。
 2. **中翻英**：給你一句中文，寫出英文。
@@ -83,7 +83,7 @@ author: "薇佳媽媽"
 
 每天 15 分鐘的話，不要四種都做。**一週前三天做第一、二階，後兩天做第三、四階。** 前面的階梯要一直練，不是過了就不做了——句子重組和翻譯是在維持「英文句子的感覺」，那是後面兩階的地基。
 
-GEPT 初級的寫作練習有句子重組 60 題、翻譯 40 題、段落排序 20 題、引導式寫作 15 題，[中級](https://learn.chparenting.com/intermediate/writing)的難度再上一階。國小階段，初級的做熟就很夠了。
+GEPT 初級的寫作練習有句子重組 60 題、翻譯 40 題、段落排序 20 題、引導式寫作 15 題，[中級](https://learn.chparenting.com/intermediate/writing?utm_source=chparenting&utm_medium=article&utm_campaign=papgvsud)的難度再上一階。國小階段，初級的做熟就很夠了。
 
 ## 英文寫作最常見的三個中式錯誤
 

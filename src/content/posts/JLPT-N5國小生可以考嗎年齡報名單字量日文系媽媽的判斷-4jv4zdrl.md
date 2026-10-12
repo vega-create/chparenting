@@ -41,13 +41,13 @@ N5 的程度大約是「能理解基本的日語」——看得懂平假名、�
 - **100 個漢字**——對台灣孩子來說是優勢，很多字認得，只是唸法不同。
 - **基礎文法**——です／ます、助詞（は、が、を、に、で）、動詞的基本變化。
 
-[learn.chparenting.com 的 N5 單元](https://learn.chparenting.com/jlpt-n5)有 20 個單元，就是照這個範圍排的，從打招呼、自我介紹、數字、家族一路到旅行和電話。每個單元有單字、文法、聽力和練習題，每個單元下面還有給家長看的陪伴說明。
+[learn.chparenting.com 的 N5 單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=4jv4zdrl)有 20 個單元，就是照這個範圍排的，從打招呼、自我介紹、數字、家族一路到旅行和電話。每個單元有單字、文法、聽力和練習題，每個單元下面還有給家長看的陪伴說明。
 
 ## 該不該考：三個判斷
 
 **第一個判斷：五十音穩了嗎？**
 
-穩的定義是：隨機指一個假名兩秒內唸得出來、聽到音指得出字、看到簡單的詞（ねこ、さかな）能一個一個唸。三個都過，才有討論考試的基礎。還沒穩的話，先回去把[五十音](https://learn.chparenting.com/jlpt-n5/gojuon)練熟，考試的事等三個月後再說。
+穩的定義是：隨機指一個假名兩秒內唸得出來、聽到音指得出字、看到簡單的詞（ねこ、さかな）能一個一個唸。三個都過，才有討論考試的基礎。還沒穩的話，先回去把[五十音](https://learn.chparenting.com/jlpt-n5/gojuon?utm_source=chparenting&utm_medium=article&utm_campaign=4jv4zdrl)練熟，考試的事等三個月後再說。
 
 **第二個判斷：是誰想考？**
 

@@ -62,7 +62,7 @@ author: "薇佳媽媽"
 
 在家怎麼做：**每一個假名都要聽過，而且要跟著唸出聲。** 這件事自己不會日文的家長最擔心——「我唸錯了怎麼辦？」——其實不用你唸。用有真人發音的工具，讓工具負責唸，你負責陪他一起跟著唸。
 
-我自己做的 [learn.chparenting.com 五十音頁面](https://learn.chparenting.com/jlpt-n5/gojuon)每個假名點下去都有發音，就是為了這件事。孩子點一個、跟著唸一個，比抄十遍有用。你在旁邊跟著唸，他反而更放心，因為你們是一起學的。
+我自己做的 [learn.chparenting.com 五十音頁面](https://learn.chparenting.com/jlpt-n5/gojuon?utm_source=chparenting&utm_medium=article&utm_campaign=l8h3ensv)每個假名點下去都有發音，就是為了這件事。孩子點一個、跟著唸一個，比抄十遍有用。你在旁邊跟著唸，他反而更放心，因為你們是一起學的。
 
 ## 那幾個一定會搞混的字
 
@@ -99,7 +99,7 @@ author: "薇佳媽媽"
 
 平假名認熟了、片假名也過了，下一步不是繼續背更多字，是**開始用**。這一步很多人跳過，結果五十音背完就停了，半年後全忘光。
 
-[JLPT N5 的單元](https://learn.chparenting.com/jlpt-n5)從「我是學生」「這是什麼」這類最基本的句子開始，每個單元的單字都有發音和例句、有聽力練習，而且每個單元下面都有一段給家長看的陪伴說明——今天練什麼、怎麼陪、大概要多久。
+[JLPT N5 的單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=l8h3ensv)從「我是學生」「這是什麼」這類最基本的句子開始，每個單元的單字都有發音和例句、有聽力練習，而且每個單元下面都有一段給家長看的陪伴說明——今天練什麼、怎麼陪、大概要多久。
 
 這部分我特別花了心思寫，因為我知道大部分陪孩子學日文的家長自己不會日文。那段話就是寫給你看的，你不需要會日文也能知道今天要陪他做什麼。
 

@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 1. learn.chparenting.com｜GEPT 題庫練習
 
-如果孩子目標是備考全民英檢，或者只是想系統性地練英文，**[learn.chparenting.com](https://learn.chparenting.com/elementary/) 的 GEPT 初級題庫是我目前找到最完整的免費中文界面練習平台**。
+如果孩子目標是備考全民英檢，或者只是想系統性地練英文，**[learn.chparenting.com](https://learn.chparenting.com/elementary/?utm_source=chparenting&utm_medium=article&utm_campaign=bk3mx9tz) 的 GEPT 初級題庫是我目前找到最完整的免費中文界面練習平台**。
 
 單字、文法、聽力、閱讀四個題型都有，每個單元做完還可以下載練習單 PDF 列印出來，讓孩子在紙上再寫一次。對習慣紙本練習的孩子特別友善。
 

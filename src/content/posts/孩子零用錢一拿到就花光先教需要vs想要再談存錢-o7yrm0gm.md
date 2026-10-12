@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 聽起來很簡單，但**大人和孩子分出來的結果常常不一樣**，這正是它好用的地方——分歧的地方就是可以聊的地方。
 
-[learn.chparenting.com 的「需要 vs 想要」練習](https://learn.chparenting.com/finance/needs-vs-wants)有 30 個生活物品讓孩子分，每一項分完會說明為什麼。像「營養午餐」是需要，因為吃飯是維持身體運作的必需；「教科書」是需要，因為上學學習需要課本。孩子分錯的時候，先聽他的理由，再看解說——有些答案其實有討論空間，那個討論就是理財教育。
+[learn.chparenting.com 的「需要 vs 想要」練習](https://learn.chparenting.com/finance/needs-vs-wants?utm_source=chparenting&utm_medium=article&utm_campaign=o7yrm0gm)有 30 個生活物品讓孩子分，每一項分完會說明為什麼。像「營養午餐」是需要，因為吃飯是維持身體運作的必需；「教科書」是需要，因為上學學習需要課本。孩子分錯的時候，先聽他的理由，再看解說——有些答案其實有討論空間，那個討論就是理財教育。
 
 ## 為什麼要先分類再談比例
 
@@ -42,7 +42,7 @@ author: "薇佳媽媽"
 
 「零用錢的 30% 存起來」這句話，對一個不知道錢分哪幾類的孩子來說，就是一個數字。但如果他已經知道錢有「需要的」「想要的」「存起來的」「分享的」四種用途，那「每一種要放多少」就是一個他自己可以思考的問題，而不是一個被規定的數字。
 
-[零用錢分配的練習](https://learn.chparenting.com/finance/allowance-budget)就是這個邏輯：選一個金額，拉動四個用途的比例，看每一份是多少錢。**預設的比例只是參考，讓孩子自己調。** 調完問他為什麼這樣分，他自己想出來的比例，就算不理想也會執行；你規定的，他會找方法繞過去。
+[零用錢分配的練習](https://learn.chparenting.com/finance/allowance-budget?utm_source=chparenting&utm_medium=article&utm_campaign=o7yrm0gm)就是這個邏輯：選一個金額，拉動四個用途的比例，看每一份是多少錢。**預設的比例只是參考，讓孩子自己調。** 調完問他為什麼這樣分，他自己想出來的比例，就算不理想也會執行；你規定的，他會找方法繞過去。
 
 ## 第一次給零用錢，會發生什麼
 
@@ -86,13 +86,13 @@ author: "薇佳媽媽"
 
 不要一開始就要求完整記帳，那會變成另一項功課。從只記一類開始——例如只記「零食」——記一週，然後一起看：「你這週零食花了多少？意外嗎？」那個「意外」的表情，就是記帳的意義。
 
-[記帳小達人](https://learn.chparenting.com/finance/expense-tracker)是模擬 7 天的記帳流程，把每一筆花費歸到分類裡，記完看得到錢花到哪去了。先用模擬的練一次流程，再記真的錢，孩子比較不會覺得麻煩。**記帳的重點從來不是記得完整，是記完之後有回頭看。**
+[記帳小達人](https://learn.chparenting.com/finance/expense-tracker?utm_source=chparenting&utm_medium=article&utm_campaign=o7yrm0gm)是模擬 7 天的記帳流程，把每一筆花費歸到分類裡，記完看得到錢花到哪去了。先用模擬的練一次流程，再記真的錢，孩子比較不會覺得麻煩。**記帳的重點從來不是記得完整，是記完之後有回頭看。**
 
 ## 什麼時候可以談存錢的目標
 
 當三個罐子運作了一兩個月，「存起來」那一罐開始有東西的時候，就可以問他：「這一罐你想存到什麼時候？想拿來做什麼？」
 
-有了目標，存錢就從一個被要求的動作，變成他自己的計畫。[儲蓄計算機](https://learn.chparenting.com/finance/savings-calculator)可以讓他選一個目標、設定每天存多少，算出要存幾天——看到「要存 24 天」的當下，比大人說一百次「存錢很慢」有感。
+有了目標，存錢就從一個被要求的動作，變成他自己的計畫。[儲蓄計算機](https://learn.chparenting.com/finance/savings-calculator?utm_source=chparenting&utm_medium=article&utm_campaign=o7yrm0gm)可以讓他選一個目標、設定每天存多少，算出要存幾天——看到「要存 24 天」的當下，比大人說一百次「存錢很慢」有感。
 
 ## 延伸閱讀
 

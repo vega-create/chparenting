@@ -55,7 +55,7 @@ author: "薇佳媽媽"
 
 ## 長方形周長的解題步驟
 
-[learn.chparenting.com 幾何單元](https://learn.chparenting.com/math/geometry)的示範題是這樣：
+[learn.chparenting.com 幾何單元](https://learn.chparenting.com/math/geometry?utm_source=chparenting&utm_medium=article&utm_campaign=tu006lwf)的示範題是這樣：
 
 > 長方形長 8 公分、寬 5 公分，求周長。
 
@@ -91,7 +91,7 @@ author: "薇佳媽媽"
 2. **再做判斷題**：只問「這題是周長還是面積？」不算。十題。
 3. **然後才算**。周長五題、面積五題、混合五題。
 
-[幾何練習](https://learn.chparenting.com/math/geometry)每一題都有解說，解說裡會把步驟寫出來。答錯的先問「這題是繞還是數？」多數錯在判斷，不在計算。
+[幾何練習](https://learn.chparenting.com/math/geometry?utm_source=chparenting&utm_medium=article&utm_campaign=tu006lwf)每一題都有解說，解說裡會把步驟寫出來。答錯的先問「這題是繞還是數？」多數錯在判斷，不在計算。
 
 ## 正方形的周長和面積：同一個邊長，兩個答案
 
@@ -105,7 +105,7 @@ author: "薇佳媽媽"
 
 單純算周長、算面積的題目，孩子練幾次就會。真正拉開差距的是應用題——題目不說「求周長」，說「圍籬笆要多長」。
 
-這時候前面那句口訣就是關鍵：先判斷是繞還是蓋。判斷之後，才進入「已知、要求、算式、檢查」的步驟。[數學專區](https://learn.chparenting.com/math)的應用題單元有一批這種題目，題幹是生活情境、答案要自己判斷用哪個公式。
+這時候前面那句口訣就是關鍵：先判斷是繞還是蓋。判斷之後，才進入「已知、要求、算式、檢查」的步驟。[數學專區](https://learn.chparenting.com/math?utm_source=chparenting&utm_medium=article&utm_campaign=tu006lwf)的應用題單元有一批這種題目，題幹是生活情境、答案要自己判斷用哪個公式。
 
 最後的「檢查」那一步在幾何特別重要：算出來的周長是 26 公分，合理嗎？一個長 8、寬 5 的長方形繞一圈，比 8+5 多、比 8×5 少——26 在中間，合理。算出 40 的話（用到面積公式了），就該回頭看。
 

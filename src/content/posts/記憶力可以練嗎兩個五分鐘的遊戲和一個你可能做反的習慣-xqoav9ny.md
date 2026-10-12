@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 ## 第一個遊戲：記憶翻牌——教「記位置」
 
-[記憶翻牌](https://learn.chparenting.com/board-games/memory-match)的規則很簡單：翻兩張，一樣就留下，不一樣蓋回去。翻的次數越少、速度越快，分數越高。
+[記憶翻牌](https://learn.chparenting.com/board-games/memory-match?utm_source=chparenting&utm_medium=article&utm_campaign=xqoav9ny)的規則很簡單：翻兩張，一樣就留下，不一樣蓋回去。翻的次數越少、速度越快，分數越高。
 
 新手的玩法是亂翻，翻到一樣的靠運氣。**會玩的人記的不是圖案，是位置**——「左上角那張是貓，我剛剛翻過」。這就是這個遊戲教的策略：記憶要有一個「掛勾」，位置就是最直觀的掛勾。
 
@@ -46,7 +46,7 @@ author: "薇佳媽媽"
 
 ## 第二個遊戲：記憶旋律——教「分段和出聲」
 
-[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence)是看燈光閃爍的順序，再照同樣順序點回去。每過一輪多一個燈，記錯就結束，看能撐幾輪。
+[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence?utm_source=chparenting&utm_medium=article&utm_campaign=xqoav9ny)是看燈光閃爍的順序，再照同樣順序點回去。每過一輪多一個燈，記錯就結束，看能撐幾輪。
 
 前幾輪很簡單，三個、四個燈誰都記得住。到了七、八個，**默記的人會開始出錯，出聲的人可以繼續**。因為聲音是一個額外的記憶通道——眼睛看到、嘴巴唸出、耳朵聽到，三個通道一起記，比只用眼睛牢得多。
 
@@ -102,4 +102,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-記憶和專注是連在一起的——分心的時候什麼都記不住，[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)講的是專注力那一半。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+記憶和專注是連在一起的——分心的時候什麼都記不住，[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)講的是專注力那一半。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=xqoav9ny)。

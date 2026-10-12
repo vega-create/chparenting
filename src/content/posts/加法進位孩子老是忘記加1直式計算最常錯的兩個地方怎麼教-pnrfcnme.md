@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 用 36 + 47 拆一次
 
-[基礎運算單元](https://learn.chparenting.com/math/basic-arithmetic)的練習題解說是這樣寫的：**個位 6+7=13，進位 1；十位 3+4+1=8，所以答案是 83。**
+[基礎運算單元](https://learn.chparenting.com/math/basic-arithmetic?utm_source=chparenting&utm_medium=article&utm_campaign=pnrfcnme)的練習題解說是這樣寫的：**個位 6+7=13，進位 1；十位 3+4+1=8，所以答案是 83。**
 
 跟孩子一起做的時候，把它拆成四句話：
 
@@ -87,7 +87,7 @@ author: "薇佳媽媽"
 
 概念穩了，才練速度，順序不能反。
 
-[數學衝刺](https://learn.chparenting.com/board-games/math-rush)是限時心算，答對難度會自動往上調，從一位數加法到多位數運算都有。它有一個設計很適合這個階段：**答錯會扣分並中斷連勝**，所以孩子會學到「寧可慢一秒也不要亂猜」——這正好是直式計算需要的態度。
+[數學衝刺](https://learn.chparenting.com/board-games/math-rush?utm_source=chparenting&utm_medium=article&utm_campaign=pnrfcnme)是限時心算，答對難度會自動往上調，從一位數加法到多位數運算都有。它有一個設計很適合這個階段：**答錯會扣分並中斷連勝**，所以孩子會學到「寧可慢一秒也不要亂猜」——這正好是直式計算需要的態度。
 
 進位概念沒穩就玩，會變成越玩越猜；穩了再玩，速度會上來。
 
@@ -118,4 +118,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-直式計算是應用題的地基，「已知、要求、算式、檢查」的第四步「檢查」在這裡就可以開始練——算完 36+47=83，用 83−47 驗算回去，在[國小數學應用題看不懂怎麼辦？](/posts/國小數學應用題看不懂怎麼辦先教解題四步驟不是先教算式-3yzil7o5/)有講。全部數學主題在[數學專區](https://learn.chparenting.com/math)。
+直式計算是應用題的地基，「已知、要求、算式、檢查」的第四步「檢查」在這裡就可以開始練——算完 36+47=83，用 83−47 驗算回去，在[國小數學應用題看不懂怎麼辦？](/posts/國小數學應用題看不懂怎麼辦先教解題四步驟不是先教算式-3yzil7o5/)有講。全部數學主題在[數學專區](https://learn.chparenting.com/math?utm_source=chparenting&utm_medium=article&utm_campaign=pnrfcnme)。

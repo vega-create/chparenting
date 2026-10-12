@@ -38,7 +38,7 @@ author: "薇佳媽媽"
 
 > **先把相鄰兩數的差寫下來。**
 
-這是[數列探險](https://learn.chparenting.com/board-games/sequence-quest)遊戲頁面給的第一個提示：**先把相鄰兩數的差寫下來，多數題目差本身就有規律。** 這句話是數列題的全部秘密。
+這是[數列探險](https://learn.chparenting.com/board-games/sequence-quest?utm_source=chparenting&utm_medium=article&utm_campaign=itvwyfm8)遊戲頁面給的第一個提示：**先把相鄰兩數的差寫下來，多數題目差本身就有規律。** 這句話是數列題的全部秘密。
 
 ## 用四種數列各做一次
 
@@ -117,4 +117,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-找規律這條線的前兩站在[數獨幾歲可以玩？用水果代替數字的迷你數獨，和找規律的圖案大師](/posts/數獨幾歲可以玩用水果代替數字的迷你數獨和找規律的圖案大師-xvvc28ru/)。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games)；[圖案大師](https://learn.chparenting.com/board-games/pattern-master)是這條線的起點。
+找規律這條線的前兩站在[數獨幾歲可以玩？用水果代替數字的迷你數獨，和找規律的圖案大師](/posts/數獨幾歲可以玩用水果代替數字的迷你數獨和找規律的圖案大師-xvvc28ru/)。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=itvwyfm8)；[圖案大師](https://learn.chparenting.com/board-games/pattern-master?utm_source=chparenting&utm_medium=article&utm_campaign=itvwyfm8)是這條線的起點。

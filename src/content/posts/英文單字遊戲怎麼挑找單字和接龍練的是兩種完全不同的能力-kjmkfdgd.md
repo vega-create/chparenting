@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 單字搜尋：練「認」，低年級就能玩
 
-[單字搜尋](https://learn.chparenting.com/board-games/word-search)是在 10×10 的字母方陣裡找出藏起來的英文單字，可能橫的、直的、斜的。
+[單字搜尋](https://learn.chparenting.com/board-games/word-search?utm_source=chparenting&utm_medium=article&utm_campaign=kjmkfdgd)是在 10×10 的字母方陣裡找出藏起來的英文單字，可能橫的、直的、斜的。
 
 它練的是**「認」**——在一堆字母裡認出某個單字的形狀。遊戲頁面列的能力：字母序列的視覺辨識、有系統地掃描而不是亂找、拼字的形狀記憶。
 
@@ -46,7 +46,7 @@ author: "薇佳媽媽"
 
 ## 單字接龍：練「想」，要有字彙量
 
-[接龍大師](https://learn.chparenting.com/board-games/word-chain)是英文單字接龍：用上一個單字的最後一個字母開頭，接出新的單字。單字不能重複，也要真的存在於字典裡。每回合限時，三條命。
+[接龍大師](https://learn.chparenting.com/board-games/word-chain?utm_source=chparenting&utm_medium=article&utm_campaign=kjmkfdgd)是英文單字接龍：用上一個單字的最後一個字母開頭，接出新的單字。單字不能重複，也要真的存在於字典裡。每回合限時，三條命。
 
 它練的是**「想」**——什麼提示都沒有，只有一個字母，你要從腦中把單字叫出來。遊戲頁面列的能力：從既有字彙中快速搜尋、英文拼字、在時間壓力下回想單字。
 
@@ -95,4 +95,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-三年級剛開始學英文、字彙量還在建立的階段怎麼走，在[小三英文跟不上怎麼辦](/posts/小三英文跟不上怎麼辦先別急著補習在家15分鐘做這3件事-3nxrleeu/)；「把字拿出來用」背後的原理——提取練習——在[記憶力可以練嗎？](/posts/記憶力可以練嗎兩個五分鐘的遊戲和一個你可能做反的習慣-xqoav9ny/)。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+三年級剛開始學英文、字彙量還在建立的階段怎麼走，在[小三英文跟不上怎麼辦](/posts/小三英文跟不上怎麼辦先別急著補習在家15分鐘做這3件事-3nxrleeu/)；「把字拿出來用」背後的原理——提取練習——在[記憶力可以練嗎？](/posts/記憶力可以練嗎兩個五分鐘的遊戲和一個你可能做反的習慣-xqoav9ny/)。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=kjmkfdgd)。

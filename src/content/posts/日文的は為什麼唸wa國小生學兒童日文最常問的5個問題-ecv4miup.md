@@ -49,7 +49,7 @@ author: "薇佳媽媽"
 
 一個是「往哪裡」，一個是「在哪裡做」。跟孩子講的時候，用手比：に是一個箭頭指過去，で是一個圈圈把地方框起來、在裡面做事。
 
-這種助詞的差別，**背規則不如多看例句**。[N5 的場所與方向單元](https://learn.chparenting.com/jlpt-n5)裡有很多に和で的句子，看十個例句，感覺就出來了。
+這種助詞的差別，**背規則不如多看例句**。[N5 的場所與方向單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=ecv4miup)裡有很多に和で的句子，看十個例句，感覺就出來了。
 
 ## 問題四：日文漢字可以用中文唸嗎？
 
@@ -82,9 +82,9 @@ author: "薇佳媽媽"
 
 ## 這些問題在哪裡練
 
-上面每一個問題，都對應 [N5 的一個單元](https://learn.chparenting.com/jlpt-n5)：打招呼、數字、場所與方向、學校、家與房間。每個單元有單字（附發音）、文法、聽力和練習，單元下面有給家長看的陪伴說明——今天練什麼、怎麼陪、大概要多久。
+上面每一個問題，都對應 [N5 的一個單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=ecv4miup)：打招呼、數字、場所與方向、學校、家與房間。每個單元有單字（附發音）、文法、聽力和練習，單元下面有給家長看的陪伴說明——今天練什麼、怎麼陪、大概要多久。
 
-還沒開始的話，先從[五十音](https://learn.chparenting.com/jlpt-n5/gojuon)開始，五十音穩了這五個問題才會出現。
+還沒開始的話，先從[五十音](https://learn.chparenting.com/jlpt-n5/gojuon?utm_source=chparenting&utm_medium=article&utm_campaign=ecv4miup)開始，五十音穩了這五個問題才會出現。
 
 ## 兒童日文的問題為什麼都集中在前三個月
 

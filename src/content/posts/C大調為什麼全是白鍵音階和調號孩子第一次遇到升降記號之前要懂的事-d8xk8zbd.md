@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 先講音階：一組排好的音
 
-[樂理的音階與調性單元](https://learn.chparenting.com/music/basic/scales)講的第一件事是：什麼是音階。
+[樂理的音階與調性單元](https://learn.chparenting.com/music/basic/scales?utm_source=chparenting&utm_medium=article&utm_campaign=d8xk8zbd)講的第一件事是：什麼是音階。
 
 音階就是**一組音照高低順序排好**。最熟悉的就是 Do Re Mi Fa Sol La Si Do——七個音往上走，第八個回到高一個八度的 Do。
 
@@ -90,7 +90,7 @@ author: "薇佳媽媽"
 
 四步各幾分鐘。第三步是重點——自己走出第一個升記號的孩子，之後看到調號不會怕。
 
-[樂理練習](https://learn.chparenting.com/music)的音階與調性題目，做完會有解說。
+[樂理練習](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=d8xk8zbd)的音階與調性題目，做完會有解說。
 
 ## C 大調之後：第二個調怎麼選
 
@@ -110,4 +110,4 @@ C 大調穩了之後，下一個調通常是 **G 大調**（一個升記號 F♯
 
 ## 延伸閱讀
 
-音階建立在「音的高低」和「五線譜怎麼看」的基礎上，那一課在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)；音的長短（拍子）那一半在[音符為什麼有黑有白](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)。音高與譜號、音符、音階三個合起來，孩子就能看懂一首簡單曲子的譜，全部在[樂理專區](https://learn.chparenting.com/music)。
+音階建立在「音的高低」和「五線譜怎麼看」的基礎上，那一課在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)；音的長短（拍子）那一半在[音符為什麼有黑有白](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)。音高與譜號、音符、音階三個合起來，孩子就能看懂一首簡單曲子的譜，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=d8xk8zbd)。

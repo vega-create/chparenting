@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## 迷宮遊戲在練的三件事
 
-[迷宮探險](https://learn.chparenting.com/board-games/maze-runner)的規則很簡單：從左上角走到右下角。但它的計分方式藏著重點：**移動次數越少、用時越短，分數越高，所以走之前先看路比較划算。**
+[迷宮探險](https://learn.chparenting.com/board-games/maze-runner?utm_source=chparenting&utm_medium=article&utm_campaign=oby94ojz)的規則很簡單：從左上角走到右下角。但它的計分方式藏著重點：**移動次數越少、用時越短，分數越高，所以走之前先看路比較划算。**
 
 這個計分方式在獎勵三件事：
 
@@ -70,7 +70,7 @@ author: "薇佳媽媽"
 
 ## 迷宮和程式路徑：先看再走的兩個階段
 
-迷宮探險和[程式路徑](https://learn.chparenting.com/board-games/code-path)是一組的，它們練的是同一件事的兩個階段：
+迷宮探險和[程式路徑](https://learn.chparenting.com/board-games/code-path?utm_source=chparenting&utm_medium=article&utm_campaign=oby94ojz)是一組的，它們練的是同一件事的兩個階段：
 
 - **迷宮**：邊走邊看。可以走一步看一步，走錯了馬上回頭。
 - **程式路徑**：先全部想好再執行。指令要一次排完，跑了才知道對不對，中途不能改。
@@ -106,4 +106,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-迷宮之後的下一步——程式路徑、迴圈、邏輯閘三個程式概念——在[國小生學程式要從哪裡開始？](/posts/國小生學程式要從哪裡開始不用電腦課也能先懂的兒童程式三個概念-fcrydtjg/)；另一條「找規律」的線（圖案大師、迷你數獨、數列探險）在[數列題怎麼從「猜」變成「算」](/posts/2-4-6-8下一個是什麼數列題怎麼從猜變成算給中年級以上的孩子-itvwyfm8/)。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+迷宮之後的下一步——程式路徑、迴圈、邏輯閘三個程式概念——在[國小生學程式要從哪裡開始？](/posts/國小生學程式要從哪裡開始不用電腦課也能先懂的兒童程式三個概念-fcrydtjg/)；另一條「找規律」的線（圖案大師、迷你數獨、數列探險）在[數列題怎麼從「猜」變成「算」](/posts/2-4-6-8下一個是什麼數列題怎麼從猜變成算給中年級以上的孩子-itvwyfm8/)。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=oby94ojz)。

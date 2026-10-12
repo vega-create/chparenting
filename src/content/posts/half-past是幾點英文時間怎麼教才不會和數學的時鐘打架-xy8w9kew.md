@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## 英文時間為什麼會卡：兩個科目沒接起來
 
-先看 [GEPT 初級的日常作息與時間單元](https://learn.chparenting.com/elementary/unit/5)的老師的話：**half past（半點）和 quarter（15 分）一開始會覺得難，先學整點就好，之後再慢慢加。**
+先看 [GEPT 初級的日常作息與時間單元](https://learn.chparenting.com/elementary/unit/5?utm_source=chparenting&utm_medium=article&utm_campaign=xy8w9kew)的老師的話：**half past（半點）和 quarter（15 分）一開始會覺得難，先學整點就好，之後再慢慢加。**
 
 這句話點出了英文時間的關鍵：**它有三層，不能一起教。**
 
@@ -38,7 +38,7 @@ author: "薇佳媽媽"
 
 教英文時間之前，先做一個測試：拿一個有指針的時鐘（不是電子鐘），轉到三點半，問孩子「幾點？」
 
-答得出「三點半」，可以開始英文時間。答不出來、或者要想很久，先回去數學那邊。[時間與計量單元](https://learn.chparenting.com/math/time-measurement)有時鐘和時間換算的練習，先把「時針指哪裡、分針指哪裡」弄清楚。
+答得出「三點半」，可以開始英文時間。答不出來、或者要想很久，先回去數學那邊。[時間與計量單元](https://learn.chparenting.com/math/time-measurement?utm_source=chparenting&utm_medium=article&utm_campaign=xy8w9kew)有時鐘和時間換算的練習，先把「時針指哪裡、分針指哪裡」弄清楚。
 
 這個順序很重要。很多孩子的英文時間學不好，根源不在英文，在他其實還不太會看時鐘——只是沒有人發現，因為數學考卷上的時鐘題他用猜的猜對了。
 
@@ -115,4 +115,4 @@ quarter 是四分之一。一小時 60 分，四分之一是 15 分。
 
 ## 延伸閱讀
 
-時間裡的數字——thirty、fifteen、forty-five——本身就是聽力的難點，在 [thirteen 和 thirty 聽起來一樣？](/posts/thirteen和thirty聽起來一樣孩子英文數字老是聽錯的真正原因-la5e74k6/)。數學那邊的時間換算和時鐘練習在[時間與計量](https://learn.chparenting.com/math/time-measurement)，其他初級單元在[初級專區](https://learn.chparenting.com/elementary)。
+時間裡的數字——thirty、fifteen、forty-five——本身就是聽力的難點，在 [thirteen 和 thirty 聽起來一樣？](/posts/thirteen和thirty聽起來一樣孩子英文數字老是聽錯的真正原因-la5e74k6/)。數學那邊的時間換算和時鐘練習在[時間與計量](https://learn.chparenting.com/math/time-measurement?utm_source=chparenting&utm_medium=article&utm_campaign=xy8w9kew)，其他初級單元在[初級專區](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=xy8w9kew)。

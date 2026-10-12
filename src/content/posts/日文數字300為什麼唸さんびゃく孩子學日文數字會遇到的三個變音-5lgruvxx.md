@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 日文數字的第一個坎不在 1 到 10，在 100 以上
 
-[N5 購物單元](https://learn.chparenting.com/jlpt-n5)的老師的話是這樣寫的：**日文的大數字唸法和中文不同（例如 10000 是一万），百和千的唸法有些不規則變化（如 300 是さんびゃく不是さんひゃく）。**
+[N5 購物單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=5lgruvxx)的老師的話是這樣寫的：**日文的大數字唸法和中文不同（例如 10000 是一万），百和千的唸法有些不規則變化（如 300 是さんびゃく不是さんひゃく）。**
 
 這句話點出兩件事：**大數字的進位方式**、和**百千的變音**。前者對台灣孩子其實是好消息，後者需要花一點時間。先講後者。
 
@@ -130,4 +130,4 @@ N5 階段，日文數字的目標不是「全部會」，是三件事：
 
 ## 延伸閱讀
 
-日文入門期孩子會問的其他問題——は為什麼唸 wa、に和で怎麼分——在[國小生學兒童日文最常問的 5 個問題](/posts/日文的は為什麼唸wa國小生學兒童日文最常問的5個問題-ecv4miup/)。數字在[N5 的數字與日期單元](https://learn.chparenting.com/jlpt-n5)和購物單元都有練習，每個數字可以按了聽發音；N5 穩了之後，[N4](https://learn.chparenting.com/jlpt-n4) 的購物單元會再加上比較價格的句型。
+日文入門期孩子會問的其他問題——は為什麼唸 wa、に和で怎麼分——在[國小生學兒童日文最常問的 5 個問題](/posts/日文的は為什麼唸wa國小生學兒童日文最常問的5個問題-ecv4miup/)。數字在[N5 的數字與日期單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=5lgruvxx)和購物單元都有練習，每個數字可以按了聽發音；N5 穩了之後，[N4](https://learn.chparenting.com/jlpt-n4?utm_source=chparenting&utm_medium=article&utm_campaign=5lgruvxx) 的購物單元會再加上比較價格的句型。

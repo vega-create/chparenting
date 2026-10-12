@@ -57,7 +57,7 @@ author: "薇佳媽媽"
 
 抄十遍沒有用，我看過太多孩子抄完十遍下一分鐘還是拼錯。因為抄寫是手在動、腦沒在看。
 
-在家怎麼做：每天挑 5 個字，玩「找單字」——把字母打亂讓他排回來，或者在一堆字母裡把這個字圈出來。[learn.chparenting.com 的單字搜尋遊戲](https://learn.chparenting.com/board-games/word-search)就是這個邏輯，10×10 的字母方陣裡藏著單字，橫的、直的、斜的都有。找的過程眼睛會一個字母一個字母掃過去，**這才是拼寫記憶真正建立的方式**。
+在家怎麼做：每天挑 5 個字，玩「找單字」——把字母打亂讓他排回來，或者在一堆字母裡把這個字圈出來。[learn.chparenting.com 的單字搜尋遊戲](https://learn.chparenting.com/board-games/word-search?utm_source=chparenting&utm_medium=article&utm_campaign=3nxrleeu)就是這個邏輯，10×10 的字母方陣裡藏著單字，橫的、直的、斜的都有。找的過程眼睛會一個字母一個字母掃過去，**這才是拼寫記憶真正建立的方式**。
 
 5 分鐘就好。他找到的那一刻會很有成就感，那個感覺比拼對本身重要。
 
@@ -75,7 +75,7 @@ author: "薇佳媽媽"
 
 你看，每一個都很小。但如果沒有人把它們一個一個講出來，孩子就是在幾十個這種小洞裡到處掉。
 
-這些「這個單元最常卡在哪」的點，我後來整理進了 [learn.chparenting.com 的每個初級單元](https://learn.chparenting.com/elementary)裡，就寫在練習題下面，叫「老師的話」。**你陪孩子做那個單元之前，先看那一段，兩分鐘，就知道今天要盯什麼。** 不用你自己懂英文文法，那段話就是寫給不懂的家長看的。
+這些「這個單元最常卡在哪」的點，我後來整理進了 [learn.chparenting.com 的每個初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=3nxrleeu)裡，就寫在練習題下面，叫「老師的話」。**你陪孩子做那個單元之前，先看那一段，兩分鐘，就知道今天要盯什麼。** 不用你自己懂英文文法，那段話就是寫給不懂的家長看的。
 
 ## 卡點三：一錯就被糾正，孩子開始躲
 
@@ -126,4 +126,4 @@ author: "薇佳媽媽"
 
 但如果你還陪得住、孩子還願意碰，先試一個月在家的版本。**多數小三的「跟不上」，是規則沒人拆開講，不是孩子學不會。** 這件事不需要花錢，需要的是每天那 15 分鐘。
 
-想開始的話，[GEPT 初級的 20 個單元](https://learn.chparenting.com/elementary)從打招呼、家人、食物這些最基本的主題起，每個單元都有練習題和「老師的話」，免費、不用註冊、練習單可以印。從 Unit 1 開始就好，不用急，也不用跟學校進度對齊——先把洞補起來比較重要。
+想開始的話，[GEPT 初級的 20 個單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=3nxrleeu)從打招呼、家人、食物這些最基本的主題起，每個單元都有練習題和「老師的話」，免費、不用註冊、練習單可以印。從 Unit 1 開始就好，不用急，也不用跟學校進度對齊——先把洞補起來比較重要。

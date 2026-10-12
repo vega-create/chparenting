@@ -44,13 +44,13 @@ author: "薇佳媽媽"
 
 **第一個遊戲：記憶翻牌，看「撐得久」。**
 
-[記憶翻牌](https://learn.chparenting.com/board-games/memory-match)的規則很簡單：翻兩張，一樣就留下，不一樣蓋回去。它需要的專注力是「記住位置、一直記到配對完」——中途分心一次，前面記的就沒用了。
+[記憶翻牌](https://learn.chparenting.com/board-games/memory-match?utm_source=chparenting&utm_medium=article&utm_campaign=fiao3s71)的規則很簡單：翻兩張，一樣就留下，不一樣蓋回去。它需要的專注力是「記住位置、一直記到配對完」——中途分心一次，前面記的就沒用了。
 
 觀察什麼：他能不能玩完一局？中途有沒有開始亂翻？如果他前半段很專心、後半段開始亂翻，那是「撐不久」——注意力可以聚焦，但持續時間短。
 
 **第二個遊戲：色彩快手，看「不被干擾」。**
 
-[色彩快手](https://learn.chparenting.com/board-games/color-tap)是心理學上的 Stroop 效應：螢幕出現「紅」這個字，但字本身是藍色的，你要點的是顏色（藍），不是字義（紅）。讀字是自動反應，要壓下它需要抗干擾的能力。
+[色彩快手](https://learn.chparenting.com/board-games/color-tap?utm_source=chparenting&utm_medium=article&utm_campaign=fiao3s71)是心理學上的 Stroop 效應：螢幕出現「紅」這個字，但字本身是藍色的，你要點的是顏色（藍），不是字義（紅）。讀字是自動反應，要壓下它需要抗干擾的能力。
 
 觀察什麼：這個遊戲大人也會一直錯，所以不看對錯率，看**他錯了之後會不會調整**。錯了幾次之後開始慢下來、開始對了，是正常的；錯了幾次之後越來越快、越來越亂，是抗干擾比較弱。
 
@@ -70,7 +70,7 @@ author: "薇佳媽媽"
 
 **專注是「注意力被一個目標拉住」的狀態**，最好的練法是有明確目標、有即時回饋的活動——做對了馬上知道、做錯了馬上知道。遊戲剛好就是這樣。
 
-實際的做法：每天一個五分鐘的遊戲，[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence)也很適合——燈光一輪多一個，記錯就結束，孩子會想撐到下一輪。從他能撐的長度開始，不要一開始就要求十分鐘。
+實際的做法：每天一個五分鐘的遊戲，[記憶旋律](https://learn.chparenting.com/board-games/memory-sequence?utm_source=chparenting&utm_medium=article&utm_campaign=fiao3s71)也很適合——燈光一輪多一個，記錯就結束，孩子會想撐到下一輪。從他能撐的長度開始，不要一開始就要求十分鐘。
 
 練了兩三週，把「專注」的感覺練出來之後，再把這個感覺搬到功課上：「寫這一頁的時候，就像玩翻牌那樣，記住現在在做什麼。」
 
@@ -102,4 +102,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-專注力的另一個大敵是被動的螢幕時間，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)講的是怎麼把「被動看」換成「主動做」。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+專注力的另一個大敵是被動的螢幕時間，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)講的是怎麼把「被動看」換成「主動做」。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=fiao3s71)。

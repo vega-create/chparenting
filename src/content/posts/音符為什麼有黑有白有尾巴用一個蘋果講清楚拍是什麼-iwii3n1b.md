@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 音符是什麼：記錄聲音「多長」的符號
 
-[樂理入門的音符與休止符單元](https://learn.chparenting.com/music/intro/notes)第一個觀念是：**音符是用來記錄聲音長短的符號，由符頭、符桿和符尾三個部分組成。**
+[樂理入門的音符與休止符單元](https://learn.chparenting.com/music/intro/notes?utm_source=chparenting&utm_medium=article&utm_campaign=iwii3n1b)第一個觀念是：**音符是用來記錄聲音長短的符號，由符頭、符桿和符尾三個部分組成。**
 
 先讓孩子認這三個部分：
 - **符頭**：那個橢圓形，有空心的、有實心的。
@@ -88,7 +88,7 @@ author: "薇佳媽媽"
 2. **拍音符**：你說「四分音符」他拍手一下，「二分音符」他拍手一下然後數到 2，「全音符」拍一下數到 4。用身體記長度。
 3. **認音符**：看譜上的音符說出名字和拍數。這是最後一步，前兩步有了才做。
 
-三步各幾分鐘。第三步用[樂理練習](https://learn.chparenting.com/music)的題目，答完有解說，錯的回去對蘋果。
+三步各幾分鐘。第三步用[樂理練習](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=iwii3n1b)的題目，答完有解說，錯的回去對蘋果。
 
 ## 什麼時候會有感覺
 
@@ -115,4 +115,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-學樂器之前要不要先學樂理、樂理三個階段怎麼排，在[學樂器之前要先學樂理嗎？](/posts/學樂器之前要先學樂理嗎五線譜拍子音符先認識哪個-j1btt4m2/)。這一課是樂理入門的第一站，後面接節拍與拍號、音高與譜號，全部在[樂理專區](https://learn.chparenting.com/music)。
+學樂器之前要不要先學樂理、樂理三個階段怎麼排，在[學樂器之前要先學樂理嗎？](/posts/學樂器之前要先學樂理嗎五線譜拍子音符先認識哪個-j1btt4m2/)。這一課是樂理入門的第一站，後面接節拍與拍號、音高與譜號，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=iwii3n1b)。

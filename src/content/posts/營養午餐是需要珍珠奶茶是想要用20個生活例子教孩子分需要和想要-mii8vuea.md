@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 需要的 10 個例子：沒有它會怎樣
 
-[需要 vs 想要練習](https://learn.chparenting.com/finance/needs-vs-wants)裡的分類題，「需要」那一邊是這些：
+[需要 vs 想要練習](https://learn.chparenting.com/finance/needs-vs-wants?utm_source=chparenting&utm_medium=article&utm_campaign=mii8vuea)裡的分類題，「需要」那一邊是這些：
 
 - **營養午餐**：吃飯是維持身體運作的必需。
 - **教科書**：上學學習需要課本。
@@ -88,7 +88,7 @@ author: "薇佳媽媽"
 
 ## 等一等原則：三天
 
-理財區的[零用錢分配](https://learn.chparenting.com/finance/allowance-budget)裡有一條建議，我覺得是整個兒童理財最實用的一條：**想買東西時，先等 3 天再決定，避免衝動消費。**
+理財區的[零用錢分配](https://learn.chparenting.com/finance/allowance-budget?utm_source=chparenting&utm_medium=article&utm_campaign=mii8vuea)裡有一條建議，我覺得是整個兒童理財最實用的一條：**想買東西時，先等 3 天再決定，避免衝動消費。**
 
 做法很簡單：孩子說想買，你說「好，我們記下來，三天後如果你還想要、錢也夠，就買。」把它寫在冰箱上的紙條。
 
@@ -116,4 +116,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-分得出需要和想要之後，下一步是零用錢的分類、比例和目標，在[孩子零用錢一拿到就花光？](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)；「錢是什麼」這一課如果還沒講，先看[用 10 張字卡把金錢概念講清楚](/posts/孩子問錢是哪裡來的用10張字卡把金錢概念講清楚兒童理財第一課-xsh4l8hb/)。理財區的全部練習在[兒童理財專區](https://learn.chparenting.com/finance)。
+分得出需要和想要之後，下一步是零用錢的分類、比例和目標，在[孩子零用錢一拿到就花光？](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)；「錢是什麼」這一課如果還沒講，先看[用 10 張字卡把金錢概念講清楚](/posts/孩子問錢是哪裡來的用10張字卡把金錢概念講清楚兒童理財第一課-xsh4l8hb/)。理財區的全部練習在[兒童理財專區](https://learn.chparenting.com/finance?utm_source=chparenting&utm_medium=article&utm_campaign=mii8vuea)。

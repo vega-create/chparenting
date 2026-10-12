@@ -42,7 +42,7 @@ author: "薇佳媽媽"
 - **從左到右**：「川」從左邊那一豎開始。
 - **先外後內**：「同」先寫外面的框，再寫裡面。
 
-[國字練習](https://learn.chparenting.com/chinese-lang/lower/characters)的解說會把每一個字的筆順寫出來——像「大」的筆順是橫、撇、捺，共 3 畫。孩子答錯的時候看到的不是叉，是那個字怎麼寫。
+[國字練習](https://learn.chparenting.com/chinese-lang/lower/characters?utm_source=chparenting&utm_medium=article&utm_campaign=43oen4ih)的解說會把每一個字的筆順寫出來——像「大」的筆順是橫、撇、捺，共 3 畫。孩子答錯的時候看到的不是叉，是那個字怎麼寫。
 
 在家怎麼看：孩子寫字的時候，**看他的第一筆從哪裡開始**。第一筆對了，後面通常不會太離譜。第一筆就錯（例如「大」從撇開始），那整個字的順序都會亂。
 
@@ -104,8 +104,8 @@ author: "薇佳媽媽"
 
 二年級開始出現合體字——左右結構的「河」、上下結構的「花」、包圍結構的「同」。這時候筆順多了「先左後右」「先上後下」「先外後內」的判斷，部首的概念也在這時候變得重要——因為合體字的其中一半通常就是部首。
 
-所以一年級顧筆順、二年級加部首，不是隨便排的，是跟著國字本身的結構在走。低年級國語的[國字練習](https://learn.chparenting.com/chinese-lang/lower/characters)分了筆畫、部首、字形辨識三種題型，剛好對應這三件事。
+所以一年級顧筆順、二年級加部首，不是隨便排的，是跟著國字本身的結構在走。低年級國語的[國字練習](https://learn.chparenting.com/chinese-lang/lower/characters?utm_source=chparenting&utm_medium=article&utm_campaign=43oen4ih)分了筆畫、部首、字形辨識三種題型，剛好對應這三件事。
 
 ## 延伸閱讀
 
-國字和注音是低年級國語的兩條腿，注音那一邊在[注音學不好，跟英文拼音會打架嗎？](/posts/注音學不好跟英文拼音會打架嗎低年級同時學兩套拼音的觀察-9k2wjnzs/)；低年級國語還有[注音符號練習](https://learn.chparenting.com/chinese-lang/lower/zhuyin)和詞語練習，全部在[國語學習專區](https://learn.chparenting.com/chinese-lang)。
+國字和注音是低年級國語的兩條腿，注音那一邊在[注音學不好，跟英文拼音會打架嗎？](/posts/注音學不好跟英文拼音會打架嗎低年級同時學兩套拼音的觀察-9k2wjnzs/)；低年級國語還有[注音符號練習](https://learn.chparenting.com/chinese-lang/lower/zhuyin?utm_source=chparenting&utm_medium=article&utm_campaign=43oen4ih)和詞語練習，全部在[國語學習專區](https://learn.chparenting.com/chinese-lang?utm_source=chparenting&utm_medium=article&utm_campaign=43oen4ih)。

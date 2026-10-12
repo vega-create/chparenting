@@ -28,7 +28,7 @@ author: "薇佳媽媽"
 
 很多家長對反應力遊戲的印象是「比手速」。但真正有教育價值的反應力遊戲，練的是另一件事：**壓下自動反應。**
 
-[色彩快手](https://learn.chparenting.com/board-games/color-tap)的規則：螢幕出現一個顏色的「文字」，但字本身是別的顏色。要點的是文字的顏色，不是文字寫的字。
+[色彩快手](https://learn.chparenting.com/board-games/color-tap?utm_source=chparenting&utm_medium=article&utm_campaign=dh3hhmi1)的規則：螢幕出現一個顏色的「文字」，但字本身是別的顏色。要點的是文字的顏色，不是文字寫的字。
 
 為什麼會難？因為**讀字是自動的**——看到「紅」，腦袋已經讀出「紅」了，不用你決定。而辨認顏色要刻意去看。兩個訊號同時進來，自動的那個比較快，你要壓下它、選刻意的那個。
 
@@ -56,7 +56,7 @@ Stroop 效應是 1935 年就被發現的現象，九十年來無數實驗證實�
 
 ## 打地鼠：幼兒園版的「忍住」
 
-如果孩子還不認得顏色的國字（色彩快手建議中年級以上），[打地鼠](https://learn.chparenting.com/board-games/whack-a-mole)是同一件事的幼兒園版本。
+如果孩子還不認得顏色的國字（色彩快手建議中年級以上），[打地鼠](https://learn.chparenting.com/board-games/whack-a-mole?utm_source=chparenting&utm_medium=article&utm_campaign=dh3hhmi1)是同一件事的幼兒園版本。
 
 規則：地鼠冒出來就點，普通地鼠 +10 分、金色地鼠 +20 分。**但炸彈點下去 −20 分。**
 
@@ -106,4 +106,4 @@ Stroop 效應是 1935 年就被發現的現象，九十年來無數實驗證實�
 
 ## 延伸閱讀
 
-專注力整體怎麼看、是不是注意力不足、哪些狀況要找專業，在[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)；另一種「先想再動」的遊戲——迷宮——在[迷宮遊戲不是比手速](/posts/迷宮遊戲不是比手速孩子走迷宮的方式會告訴你他怎麼做計畫-oby94ojz/)。全部 18 款遊戲按能力分類在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+專注力整體怎麼看、是不是注意力不足、哪些狀況要找專業，在[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)；另一種「先想再動」的遊戲——迷宮——在[迷宮遊戲不是比手速](/posts/迷宮遊戲不是比手速孩子走迷宮的方式會告訴你他怎麼做計畫-oby94ojz/)。全部 18 款遊戲按能力分類在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=dh3hhmi1)。

@@ -34,7 +34,7 @@ author: "薇佳媽媽"
 
 ## 跳棋：低年級就能上手
 
-[跳棋](https://learn.chparenting.com/board-games/chinese-checkers)的規則單純，國小低年級就能玩。你執藍棋在下方，AI 執紅棋在上方。
+[跳棋](https://learn.chparenting.com/board-games/chinese-checkers?utm_source=chparenting&utm_medium=article&utm_campaign=cdogbbp3)的規則單純，國小低年級就能玩。你執藍棋在下方，AI 執紅棋在上方。
 
 跳棋真正的技巧只有一個：**連跳**。可以跳過別的棋子連續跳躍，找到一條能一次跳好幾格的路，比一格一格走快得多。孩子發現連跳的那一刻，這個遊戲對他就從「移棋子」變成「找路」了。
 
@@ -44,7 +44,7 @@ author: "薇佳媽媽"
 
 ## 圍棋：中年級以上，先懂「氣」
 
-[圍棋](https://learn.chparenting.com/board-games/go-game)用的是 9×9 的入門盤面——這是圍棋最常見的入門尺寸，正式的 19×19 對國小生太大了。你執黑先行，跟 AI 白棋輪流落子，用中國規則計分（地盤加棋子數）。
+[圍棋](https://learn.chparenting.com/board-games/go-game?utm_source=chparenting&utm_medium=article&utm_campaign=cdogbbp3)用的是 9×9 的入門盤面——這是圍棋最常見的入門尺寸，正式的 19×19 對國小生太大了。你執黑先行，跟 AI 白棋輪流落子，用中國規則計分（地盤加棋子數）。
 
 圍棋要先懂一個概念：**「氣」**。一顆棋子上下左右的空點就是它的氣，四邊都被圍住、沒有氣了，就會被提走。這個概念沒懂，圍棋玩起來就是亂放。
 
@@ -98,4 +98,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-輸不起怎麼分階段練，在[孩子輸不起、一輸就哭？用桌遊練「輸得起」的三個階段](/posts/孩子輸不起一輸就哭用桌遊練輸得起的三個階段-eul2e0s3/)；棋類之外的邏輯遊戲——數獨、圖案規律、數列——在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+輸不起怎麼分階段練，在[孩子輸不起、一輸就哭？用桌遊練「輸得起」的三個階段](/posts/孩子輸不起一輸就哭用桌遊練輸得起的三個階段-eul2e0s3/)；棋類之外的邏輯遊戲——數獨、圖案規律、數列——在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=cdogbbp3)。

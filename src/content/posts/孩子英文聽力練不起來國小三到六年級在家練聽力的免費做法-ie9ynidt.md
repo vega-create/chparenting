@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 這個階段孩子的單字量還不大，聽力練習的目標很單純：**聽到會的字，能反應出來。**
 
-在家怎麼做：每天 10 分鐘，拿他正在學的單元，用「聽」的方式過一遍單字。[learn.chparenting.com 的初級單元](https://learn.chparenting.com/elementary)每個單字都有發音鍵，點一下唸一次，讓孩子先不看字、只聽，說出中文；說對了再看字。
+在家怎麼做：每天 10 分鐘，拿他正在學的單元，用「聽」的方式過一遍單字。[learn.chparenting.com 的初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=ie9ynidt)每個單字都有發音鍵，點一下唸一次，讓孩子先不看字、只聽，說出中文；說對了再看字。
 
 一天 10 個字，全部都是他認得的字。**這個階段不要挑戰新字**，目標是建立「聲音 → 意思」的連結，不是學新東西。
 
@@ -50,7 +50,7 @@ author: "薇佳媽媽"
 2. **看著文字再聽一次**，把剛才沒聽到的字圈起來。
 3. **再聽一次，不看字**——這次通常能聽到七成。
 
-三次聽同一段，比聽三段不同的有效得多。初級和中級單元裡的聽力題就是短對話，每個單元有好幾段，[中級單元](https://learn.chparenting.com/intermediate)的對話會長一點、快一點，剛好接在初級後面。
+三次聽同一段，比聽三段不同的有效得多。初級和中級單元裡的聽力題就是短對話，每個單元有好幾段，[中級單元](https://learn.chparenting.com/intermediate?utm_source=chparenting&utm_medium=article&utm_campaign=ie9ynidt)的對話會長一點、快一點，剛好接在初級後面。
 
 ## 英文聽力每天 15 分鐘怎麼安排
 

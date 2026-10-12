@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 中國朝代對國小生太多，先抓「開頭」
 
-[亞洲歷史練習](https://learn.chparenting.com/history-geo/asia/asia-history)的三則解說，正好是三個「第一次」：
+[亞洲歷史練習](https://learn.chparenting.com/history-geo/asia/asia-history?utm_source=chparenting&utm_medium=article&utm_campaign=5w30mvod)的三則解說，正好是三個「第一次」：
 
 1. **夏朝**被認為是中國歷史上**第一個**朝代，由大禹建立。
 2. 商朝人在龜甲和獸骨上刻字，稱為甲骨文，是中國**最早的**成熟文字。
@@ -86,7 +86,7 @@ author: "薇佳媽媽"
 
 ## 在家怎麼練
 
-跟台灣歷史一樣的循環：讀課本一小節 → 在時間軸上放上去 → 做十題[亞洲歷史練習](https://learn.chparenting.com/history-geo/asia/asia-history) → 錯的看解說（解說寫的是「第一個」「最早的」「統一了什麼」這種關係）→ 回到時間軸再指一次。
+跟台灣歷史一樣的循環：讀課本一小節 → 在時間軸上放上去 → 做十題[亞洲歷史練習](https://learn.chparenting.com/history-geo/asia/asia-history?utm_source=chparenting&utm_medium=article&utm_campaign=5w30mvod) → 錯的看解說（解說寫的是「第一個」「最早的」「統一了什麼」這種關係）→ 回到時間軸再指一次。
 
 一次一個朝代。三個錨點先做，其他的跟著課本進度。
 
@@ -106,4 +106,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-台灣歷史那一冊的讀法——原住民 16 族怎麼從兩個錨點往外掛——在[台灣原住民 16 族孩子怎麼記？](/posts/台灣原住民16族孩子怎麼記從阿美族和泰雅族兩個為什麼開始-k33ttrn0/)，方法跟這裡一樣；社會科整體為什麼不能用背的，在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。亞洲篇還有亞洲地理，全部在[歷史地理專區](https://learn.chparenting.com/history-geo)。
+台灣歷史那一冊的讀法——原住民 16 族怎麼從兩個錨點往外掛——在[台灣原住民 16 族孩子怎麼記？](/posts/台灣原住民16族孩子怎麼記從阿美族和泰雅族兩個為什麼開始-k33ttrn0/)，方法跟這裡一樣；社會科整體為什麼不能用背的，在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。亞洲篇還有亞洲地理，全部在[歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=5w30mvod)。

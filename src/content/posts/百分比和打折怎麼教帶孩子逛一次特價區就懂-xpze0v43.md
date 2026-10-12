@@ -26,9 +26,9 @@ author: "薇佳媽媽"
 
 ## 百分比是什麼：先接回分數
 
-百分比不是新東西。[learn.chparenting.com 百分比單元](https://learn.chparenting.com/math/percentages)的第一個示範題就是「25% 等於多少分數？」——25/100，化簡是 1/4。
+百分比不是新東西。[learn.chparenting.com 百分比單元](https://learn.chparenting.com/math/percentages?utm_source=chparenting&utm_medium=article&utm_campaign=xpze0v43)的第一個示範題就是「25% 等於多少分數？」——25/100，化簡是 1/4。
 
-**百分比就是「分母固定是 100 的分數」。** 25% 是 100 份裡的 25 份，50% 是一半，100% 是全部。孩子如果[分數](https://learn.chparenting.com/math/fractions)的「切幾份、拿幾份」建穩了，這一句話就夠了；如果分數是背規則背過去的，百分比會變成另一套要背的東西。
+**百分比就是「分母固定是 100 的分數」。** 25% 是 100 份裡的 25 份，50% 是一半，100% 是全部。孩子如果[分數](https://learn.chparenting.com/math/fractions?utm_source=chparenting&utm_medium=article&utm_campaign=xpze0v43)的「切幾份、拿幾份」建穩了，這一句話就夠了；如果分數是背規則背過去的，百分比會變成另一套要背的東西。
 
 所以百分比學不好，我通常會先回頭看分數。
 
@@ -56,7 +56,7 @@ author: "薇佳媽媽"
 
 ## 回家之後：三種題型
 
-逛完回家，百分比的題目大致分三種，[練習](https://learn.chparenting.com/math/percentages)裡的觀念也是照這樣排的：
+逛完回家，百分比的題目大致分三種，[練習](https://learn.chparenting.com/math/percentages?utm_source=chparenting&utm_medium=article&utm_campaign=xpze0v43)裡的觀念也是照這樣排的：
 
 **認識百分比**：25% 是多少分數、0.4 是百分之幾。這是「換寫法」的練習，跟分數、小數互換。
 
@@ -91,7 +91,7 @@ author: "薇佳媽媽"
 3. **然後才是打折漲價**：先只做「求付多少」，再做「求省多少」，最後才混合。
 4. **最後做那題漲降回不回得去**，當成挑戰題。
 
-每一步 5 題，[百分比練習](https://learn.chparenting.com/math/percentages)每題都有解說。答錯的先問「題目要的是什麼」，多數不是算錯。
+每一步 5 題，[百分比練習](https://learn.chparenting.com/math/percentages?utm_source=chparenting&utm_medium=article&utm_campaign=xpze0v43)每題都有解說。答錯的先問「題目要的是什麼」，多數不是算錯。
 
 逛完那一趟，回家可以請孩子把當天看到的三個折扣寫下來，各算一次「付多少、省多少」。他自己看到的價格，比課本上的題目有感十倍。
 

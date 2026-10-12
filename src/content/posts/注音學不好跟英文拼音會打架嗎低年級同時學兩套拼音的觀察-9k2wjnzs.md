@@ -45,7 +45,7 @@ author: "薇佳媽媽"
 **卡點三：捲舌音。**
 ㄓㄔㄕㄖ 發音的時候舌頭要捲起來，很多孩子（其實很多大人也是）不捲，唸成 ㄗㄘㄙ。這一組要單獨練，不要跟其他的混在一起。
 
-這些解說在 [learn.chparenting.com 的注音符號練習](https://learn.chparenting.com/chinese-lang/lower/zhuyin)裡每一題答完都會出現——像「ㄅ和ㄆ都是雙唇音，發音部位相同，但ㄆ是送氣音」這種，答錯的時候看到的不是叉，是解釋。
+這些解說在 [learn.chparenting.com 的注音符號練習](https://learn.chparenting.com/chinese-lang/lower/zhuyin?utm_source=chparenting&utm_medium=article&utm_campaign=9k2wjnzs)裡每一題答完都會出現——像「ㄅ和ㄆ都是雙唇音，發音部位相同，但ㄆ是送氣音」這種，答錯的時候看到的不是叉，是解釋。
 
 ## 在家練注音的順序
 
@@ -88,7 +88,7 @@ author: "薇佳媽媽"
 
 注音穩了之後，英文的字母發音就可以正式開始。這時候你會發現一件有趣的事：**孩子學英文發音變快了**，因為他已經有「符號對應聲音」的概念，只是換一套符號。
 
-[learn.chparenting.com 初級英文的單元](https://learn.chparenting.com/elementary)每個單字都有發音，孩子可以用跟練注音一樣的方式——先聽、再唸、最後才寫——去學。兩套系統用同一種學法，反而是互相加分。
+[learn.chparenting.com 初級英文的單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=9k2wjnzs)每個單字都有發音，孩子可以用跟練注音一樣的方式——先聽、再唸、最後才寫——去學。兩套系統用同一種學法，反而是互相加分。
 
 ## 怎麼知道注音穩了
 

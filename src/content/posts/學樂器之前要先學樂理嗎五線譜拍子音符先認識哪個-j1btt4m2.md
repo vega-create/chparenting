@@ -37,7 +37,7 @@ author: "薇佳媽媽"
 
 ## 第一步：音符——聲音有多長
 
-[learn.chparenting.com 樂理入門的第一個主題](https://learn.chparenting.com/music/intro/notes)就是音符與休止符，觀念分成五塊：什麼是音符、什麼是「拍」、常見音符種類、休止符、附點音符。
+[learn.chparenting.com 樂理入門的第一個主題](https://learn.chparenting.com/music/intro/notes?utm_source=chparenting&utm_medium=article&utm_campaign=j1btt4m2)就是音符與休止符，觀念分成五塊：什麼是音符、什麼是「拍」、常見音符種類、休止符、附點音符。
 
 孩子要先懂的是**「音符是用來記錄聲音長短的符號」**——不是用來記錄音高的（那是它在五線譜上的位置的事）。一個音符由符頭、符桿、符尾組成，符頭實心是短音、空心是長音，符尾越多拍子越短。
 
@@ -47,7 +47,7 @@ author: "薇佳媽媽"
 
 ## 第二步：拍子——怎麼數
 
-音符的長短懂了，下一步是「一小節有幾拍」——這就是[拍號](https://learn.chparenting.com/music/intro/rhythm)。
+音符的長短懂了，下一步是「一小節有幾拍」——這就是[拍號](https://learn.chparenting.com/music/intro/rhythm?utm_source=chparenting&utm_medium=article&utm_campaign=j1btt4m2)。
 
 拍號寫在樂譜開頭、譜號之後，告訴我們每個小節有幾拍。最常見的 4/4 拍，就是每小節四拍。孩子先會數「一二三四、一二三四」，再學看拍號，順序不能反。
 
@@ -55,7 +55,7 @@ author: "薇佳媽媽"
 
 ## 第三步：五線譜——聲音有多高
 
-前兩步穩了，才進[五線譜](https://learn.chparenting.com/music/intro/pitch)。
+前兩步穩了，才進[五線譜](https://learn.chparenting.com/music/intro/pitch?utm_source=chparenting&utm_medium=article&utm_campaign=j1btt4m2)。
 
 五線譜顧名思義是五條水平的線，**從下面開始數**第一線到第五線——這一點孩子常常反過來數，要特別講。音符放在不同的線或間上，代表不同的高低。
 
@@ -63,7 +63,7 @@ author: "薇佳媽媽"
 
 ## 第四步：音階和調性——晚一點沒關係
 
-[音階與調性](https://learn.chparenting.com/music/basic/scales)是基礎篇的內容，可以等到孩子開始學樂器、開始有「這首曲子是什麼調」的需求時再學。
+[音階與調性](https://learn.chparenting.com/music/basic/scales?utm_source=chparenting&utm_medium=article&utm_campaign=j1btt4m2)是基礎篇的內容，可以等到孩子開始學樂器、開始有「這首曲子是什麼調」的需求時再學。
 
 一個有趣的入門點：C 大調是唯一沒有任何升降記號的大調，全部用白鍵。孩子如果家裡有鍵盤，讓他從中央 C 往右彈八個白鍵，那就是 C 大調音階。聽到了、彈到了，「調」這個概念就有畫面了。
 
@@ -101,4 +101,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-樂理是不用出門、不用花錢的課外學習之一，其他免費的選項在[暑假在家可以做什麼？10 個免費學習資源整理（國小版）](/posts/暑假在家可以做什麼10個免費學習資源整理-e6p0r3/)。全部樂理主題從入門到進階在[樂理基礎總覽](https://learn.chparenting.com/music)。
+樂理是不用出門、不用花錢的課外學習之一，其他免費的選項在[暑假在家可以做什麼？10 個免費學習資源整理（國小版）](/posts/暑假在家可以做什麼10個免費學習資源整理-e6p0r3/)。全部樂理主題從入門到進階在[樂理基礎總覽](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=j1btt4m2)。

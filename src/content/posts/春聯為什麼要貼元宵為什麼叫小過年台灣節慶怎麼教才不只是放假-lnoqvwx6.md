@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 台灣節慶的題目，考的是「為什麼」
 
-[台灣文化練習](https://learn.chparenting.com/history-geo/taiwan/taiwan-culture)的三則解說，每一則都是「習俗 + 意義」的結構：
+[台灣文化練習](https://learn.chparenting.com/history-geo/taiwan/taiwan-culture?utm_source=chparenting&utm_medium=article&utm_campaign=lnoqvwx6)的三則解說，每一則都是「習俗 + 意義」的結構：
 
 - 春聯上寫著吉祥話，貼在門口是**為了祈求**新的一年平安順利、福氣臨門。
 - 農曆正月十五日是元宵節，**又稱「小過年」**，這天有吃湯圓、賞花燈、猜燈謎等習俗。
@@ -91,7 +91,7 @@ author: "薇佳媽媽"
 ## 在家怎麼練
 
 - 每個節慶讀完課本那一段，用三個問句問一次。
-- 做十題[台灣文化練習](https://learn.chparenting.com/history-geo/taiwan/taiwan-culture)，錯的看解說——解說寫的是「習俗 + 意義」，正好是考的東西。
+- 做十題[台灣文化練習](https://learn.chparenting.com/history-geo/taiwan/taiwan-culture?utm_source=chparenting&utm_medium=article&utm_campaign=lnoqvwx6)，錯的看解說——解說寫的是「習俗 + 意義」，正好是考的東西。
 - 在家裡的月曆上把節慶圈起來，到了那一天再問一次「這天為什麼要……」。
 
 月曆這一招最有效，因為它把課本的知識放回真實的時間裡。孩子在元宵當天被問「為什麼叫小過年」，比在課本上讀到印象深十倍。
@@ -114,4 +114,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-台灣文化和台灣歷史、地理是同一本的三個部分，原住民那一章怎麼讀在[台灣原住民 16 族孩子怎麼記？](/posts/台灣原住民16族孩子怎麼記從阿美族和泰雅族兩個為什麼開始-k33ttrn0/)，地圖法在[台灣地理怎麼記？](/posts/台灣地理怎麼記從我們住的地方往外畫的地圖法-f9zd13g4/)；社會科整體的讀法在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。全部主題在[歷史地理專區](https://learn.chparenting.com/history-geo)。
+台灣文化和台灣歷史、地理是同一本的三個部分，原住民那一章怎麼讀在[台灣原住民 16 族孩子怎麼記？](/posts/台灣原住民16族孩子怎麼記從阿美族和泰雅族兩個為什麼開始-k33ttrn0/)，地圖法在[台灣地理怎麼記？](/posts/台灣地理怎麼記從我們住的地方往外畫的地圖法-f9zd13g4/)；社會科整體的讀法在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。全部主題在[歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=lnoqvwx6)。

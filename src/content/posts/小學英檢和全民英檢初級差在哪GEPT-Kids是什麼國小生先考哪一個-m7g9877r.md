@@ -29,10 +29,10 @@ author: "薇佳媽媽"
 
 | 想練什麼 | 直接開始 |
 |---|---|
-| 全民英檢初級題庫 | [開始練習](https://learn.chparenting.com/elementary) |
-| 模擬測驗：先測程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
-| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
-| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game) |
+| 全民英檢初級題庫 | [開始練習](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r) |
+| 模擬測驗：先測程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r) |
+| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r) |
+| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r) |
 
 ## 小學英檢是什麼
 
@@ -97,9 +97,9 @@ author: "薇佳媽媽"
 
 小學英檢考的是 A1 的生活英語，準備的方向跟初級一樣，只是難度低一級：
 
-- **單字**：日常生活主題——家人、學校、食物、動物、顏色、數字、時間。這些正好是 [learn 初級單元](https://learn.chparenting.com/elementary)前半段的主題（打招呼與自我介紹、家人、食物與飲料、學校生活、日常作息與時間）。初級的單字對 A1 來說偏多，但每個單元的前面幾十個字就是 A1 會考的核心。
+- **單字**：日常生活主題——家人、學校、食物、動物、顏色、數字、時間。這些正好是 [learn 初級單元](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r)前半段的主題（打招呼與自我介紹、家人、食物與飲料、學校生活、日常作息與時間）。初級的單字對 A1 來說偏多，但每個單元的前面幾十個字就是 A1 會考的核心。
 - **聽力**：聽得懂簡單的句子和短對話。初級單元的聽力練習可以直接用，聽不懂的先聽單字發音再回來。
-- **口試**：朗讀、看圖說話、簡短問答。跟孩子玩「看圖說一句話」——一張照片、一句英文，每天三張。[初級口說練習](https://learn.chparenting.com/elementary/speaking)的複誦和朗讀題型可以拿來練開口。
+- **口試**：朗讀、看圖說話、簡短問答。跟孩子玩「看圖說一句話」——一張照片、一句英文，每天三張。[初級口說練習](https://learn.chparenting.com/elementary/speaking?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r)的複誦和朗讀題型可以拿來練開口。
 - **寫作**：拼字和完成句子為主。單字會拼、句子會排，就差不多了。
 
 每天 15 分鐘，兩三個月，中年級的孩子準備小學英檢是夠的。
@@ -112,4 +112,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-初級 11/7 場次的報名與八週準備在[全民英檢初級 11/7 場次報名 9/16 截止](/posts/全民英檢初級11月7日場次報名9月16日截止國小生要不要報還來得及怎麼準備-7tm90k8w/)；初級要不要考、幾年級考在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)；初級的兩階段怎麼排在[初級聽讀和說寫差在哪？](/posts/全民英檢初級聽讀和說寫差在哪先考初試再考複試國小生的節奏怎麼排-dtelvje5/)。兩個考試的日程都可以在 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info)查（小學英檢的部分近期補上）。
+初級 11/7 場次的報名與八週準備在[全民英檢初級 11/7 場次報名 9/16 截止](/posts/全民英檢初級11月7日場次報名9月16日截止國小生要不要報還來得及怎麼準備-7tm90k8w/)；初級要不要考、幾年級考在[國小幾年級適合考 GEPT 初級？](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)；初級的兩階段怎麼排在[初級聽讀和說寫差在哪？](/posts/全民英檢初級聽讀和說寫差在哪先考初試再考複試國小生的節奏怎麼排-dtelvje5/)。兩個考試的日程都可以在 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info?utm_source=chparenting&utm_medium=article&utm_campaign=m7g9877r)查（小學英檢的部分近期補上）。

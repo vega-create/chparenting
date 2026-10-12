@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## 萬聖節英文的第一課：Halloween 要大寫
 
-[GEPT 初級的節日與慶典單元](https://learn.chparenting.com/elementary/unit/14)的老師的話是：**節日名稱要大寫（Christmas, Easter），月份和星期也要大寫。**
+[GEPT 初級的節日與慶典單元](https://learn.chparenting.com/elementary/unit/14?utm_source=chparenting&utm_medium=article&utm_campaign=r3g6km6n)的老師的話是：**節日名稱要大寫（Christmas, Easter），月份和星期也要大寫。**
 
 Halloween 是節日的名字，所以永遠大寫開頭——在句子中間也是。孩子寫「I like halloween.」就是錯的，要寫「I like Halloween.」
 
@@ -78,7 +78,7 @@ Halloween 是節日的名字，所以永遠大寫開頭——在句子中間也�
 
 1. **先說**。「What's your costume?」「My costume is a cat.」在準備裝扮的時候，用英文問答。
 2. **再寫**。寫一張卡片。三句話。
-3. **最後才看單字表**。[節日與慶典單元](https://learn.chparenting.com/elementary/unit/14)有這個主題的單字和練習，孩子已經會說會寫了，再看單字表是在確認和補充，不是從零開始背。
+3. **最後才看單字表**。[節日與慶典單元](https://learn.chparenting.com/elementary/unit/14?utm_source=chparenting&utm_medium=article&utm_campaign=r3g6km6n)有這個主題的單字和練習，孩子已經會說會寫了，再看單字表是在確認和補充，不是從零開始背。
 
 順序反過來，孩子是「先用再學」，跟學母語一樣。
 
@@ -128,4 +128,4 @@ Halloween 是節日的名字，所以永遠大寫開頭——在句子中間也�
 
 ## 延伸閱讀
 
-節日大寫是國小英文六個最常扣分的小地方之一，其他五個在[國小英文最容易被扣分的 6 個小地方](/posts/國小英文最容易被扣分的6個小地方大寫by-bus-have-a-cold-4u613pap/)；卡片之後想進一步寫短文，四個階梯在[孩子英文作文沒東西寫？](/posts/孩子英文作文沒東西寫國小英文寫作從句子重組和四個提示開始-papgvsud/)。[寫作練習](https://learn.chparenting.com/elementary/writing)裡有引導式寫作的題目，節日主題也在裡面。
+節日大寫是國小英文六個最常扣分的小地方之一，其他五個在[國小英文最容易被扣分的 6 個小地方](/posts/國小英文最容易被扣分的6個小地方大寫by-bus-have-a-cold-4u613pap/)；卡片之後想進一步寫短文，四個階梯在[孩子英文作文沒東西寫？](/posts/孩子英文作文沒東西寫國小英文寫作從句子重組和四個提示開始-papgvsud/)。[寫作練習](https://learn.chparenting.com/elementary/writing?utm_source=chparenting&utm_medium=article&utm_campaign=r3g6km6n)裡有引導式寫作的題目，節日主題也在裡面。

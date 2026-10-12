@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 ## 概念一：先想好再執行——程式路徑
 
-[程式路徑](https://learn.chparenting.com/board-games/code-path)是一個 5×5 的格子，你要先把方向指令一個一個排成一串，全部排完才按執行，看機器人怎麼走。
+[程式路徑](https://learn.chparenting.com/board-games/code-path?utm_source=chparenting&utm_medium=article&utm_campaign=fcrydtjg)是一個 5×5 的格子，你要先把方向指令一個一個排成一串，全部排完才按執行，看機器人怎麼走。
 
 **關鍵在那個「先排完才執行」。** 孩子不能邊走邊改，他必須在腦中先模擬一遍。走錯了不能中途救，只能回頭看是第幾個指令出的問題。這就是寫程式：先寫完、跑、發現錯、找出哪一行、改。
 
@@ -46,7 +46,7 @@ author: "薇佳媽媽"
 
 ## 概念二：重複——迴圈建造師
 
-[迴圈建造師](https://learn.chparenting.com/board-games/loop-builder)要設定三個參數：重複幾次、前進幾步、轉幾度，讓烏龜畫出目標圖形。
+[迴圈建造師](https://learn.chparenting.com/board-games/loop-builder?utm_source=chparenting&utm_medium=article&utm_campaign=fcrydtjg)要設定三個參數：重複幾次、前進幾步、轉幾度，讓烏龜畫出目標圖形。
 
 畫一個正方形，你可以寫「前進、右轉、前進、右轉、前進、右轉、前進、右轉」八個指令；也可以寫「重複四次：前進、右轉」。**後者就是迴圈**——用重複取代逐步指令。
 
@@ -56,7 +56,7 @@ author: "薇佳媽媽"
 
 ## 概念三：而且／或者——邏輯閘門
 
-[邏輯閘門](https://learn.chparenting.com/board-games/logic-gates)是看 AND、OR、NOT 三種閘的輸入，判斷輸出是 0 還是 1。進階題反過來，給輸出要推回輸入。
+[邏輯閘門](https://learn.chparenting.com/board-games/logic-gates?utm_source=chparenting&utm_medium=article&utm_campaign=fcrydtjg)是看 AND、OR、NOT 三種閘的輸入，判斷輸出是 0 還是 1。進階題反過來，給輸出要推回輸入。
 
 這是三個概念裡最抽象的，但規則最少：**AND 是「兩個都要」，OR 是「有一個就好」，NOT 是「相反」。** 用生活例子講——「要出去玩，要寫完功課『而且』天氣好」是 AND；「可以吃冰，如果是週末『或者』考試考得好」是 OR。
 
@@ -100,4 +100,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-這三款遊戲都是主動的螢幕時間，跟看影片完全不同，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)講的是那個差別。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+這三款遊戲都是主動的螢幕時間，跟看影片完全不同，[孩子暑假沉迷手機怎麼辦？換成這 4 種螢幕時間](/posts/孩子暑假沉迷手機怎麼辦4種螢幕時間-g8r2t7/)講的是那個差別。全部 18 款遊戲在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=fcrydtjg)。

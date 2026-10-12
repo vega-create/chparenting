@@ -70,7 +70,7 @@ author: "薇佳媽媽"
 
 ## 國小社會科在家可以怎麼練
 
-我後來把社會科的練習題整理到 [learn.chparenting.com 的歷史地理專區](https://learn.chparenting.com/history-geo)，分成台灣篇、亞洲篇、世界篇，台灣篇再分歷史、地理、文化，剛好對應五年級到六年級的範圍。
+我後來把社會科的練習題整理到 [learn.chparenting.com 的歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=tbpi3c0u)，分成台灣篇、亞洲篇、世界篇，台灣篇再分歷史、地理、文化，剛好對應五年級到六年級的範圍。
 
 它跟一般評量最大的不同是：**每一題答完都會出現一段解說**，不是只告訴你對錯。像上面泰雅族那一題，答完會看到「泰雅族以紋面文化著稱，男子獵首、女子織布達到標準後才能紋面」——這一句話就把「為什麼」補上了。
 
@@ -79,7 +79,7 @@ author: "薇佳媽媽"
 建議的用法：
 
 1. **先讀課本的一個小節**，讀完問一個「為什麼」。
-2. **做 10 題對應的練習**——[台灣歷史](https://learn.chparenting.com/history-geo/taiwan/taiwan-history)或[台灣地理](https://learn.chparenting.com/history-geo/taiwan/taiwan-geography)，看課本進度選。
+2. **做 10 題對應的練習**——[台灣歷史](https://learn.chparenting.com/history-geo/taiwan/taiwan-history?utm_source=chparenting&utm_medium=article&utm_campaign=tbpi3c0u)或[台灣地理](https://learn.chparenting.com/history-geo/taiwan/taiwan-geography?utm_source=chparenting&utm_medium=article&utm_campaign=tbpi3c0u)，看課本進度選。
 3. **錯的那幾題，把解說唸出來**，然後回去課本找那一段。
 
 一次 10 題就好，做完就停。社會科的記憶靠的是「懂了之後再遇到幾次」，不是一次做 50 題。

@@ -30,7 +30,7 @@ author: "薇佳媽媽"
 
 紅包和禮金不一樣：**金額大、不定期、有情感**。一筆 500 元對一個每週 50 元零用錢的孩子來說，是十週的量。他會認真對待這筆錢，而認真對待正是理財教育需要的狀態。
 
-[理財區的紅包分配練習](https://learn.chparenting.com/finance/red-envelope)列了八種情境，全部是這類「意外之財」：
+[理財區的紅包分配練習](https://learn.chparenting.com/finance/red-envelope?utm_source=chparenting&utm_medium=article&utm_campaign=2plmttfe)列了八種情境，全部是這類「意外之財」：
 
 - 過年紅包 600 元（基本款）、2000 元（大紅包）
 - 生日禮金 500 元
@@ -80,7 +80,7 @@ author: "薇佳媽媽"
 
 ## 五個原則，貼在罐子旁邊
 
-理財區的[零用錢分配練習](https://learn.chparenting.com/finance/allowance-budget)給了五條原則，每一條都適用在紅包和禮金上：
+理財區的[零用錢分配練習](https://learn.chparenting.com/finance/allowance-budget?utm_source=chparenting&utm_medium=article&utm_campaign=2plmttfe)給了五條原則，每一條都適用在紅包和禮金上：
 
 1. **先存後花**：拿到錢，先把要存的拿出來，再花剩下的。順序很重要——先花再存，通常存不到。
 2. **記錄花費**：花的那一份，每次花都記下來，週末看看錢去哪了。
@@ -124,4 +124,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-分配之前要先分得出需要和想要，在[營養午餐是需要、珍珠奶茶是想要](/posts/營養午餐是需要珍珠奶茶是想要用20個生活例子教孩子分需要和想要-mii8vuea/)；定期的零用錢怎麼開始、比例怎麼定，在[孩子零用錢一拿到就花光？](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)。理財區的全部練習在[兒童理財專區](https://learn.chparenting.com/finance)。
+分配之前要先分得出需要和想要，在[營養午餐是需要、珍珠奶茶是想要](/posts/營養午餐是需要珍珠奶茶是想要用20個生活例子教孩子分需要和想要-mii8vuea/)；定期的零用錢怎麼開始、比例怎麼定，在[孩子零用錢一拿到就花光？](/posts/孩子零用錢一拿到就花光先教需要vs想要再談存錢-o7yrm0gm/)。理財區的全部練習在[兒童理財專區](https://learn.chparenting.com/finance?utm_source=chparenting&utm_medium=article&utm_campaign=2plmttfe)。

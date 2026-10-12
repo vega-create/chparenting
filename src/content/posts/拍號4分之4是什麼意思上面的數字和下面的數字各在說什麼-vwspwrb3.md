@@ -24,7 +24,7 @@ author: "薇佳媽媽"
 
 ## 拍號在講什麼：先從心跳說起
 
-[樂理入門的節拍與拍號單元](https://learn.chparenting.com/music/intro/rhythm)第一個觀念是：**節拍是音樂中規律的強弱交替，就像心跳一樣穩定地跳動。**
+[樂理入門的節拍與拍號單元](https://learn.chparenting.com/music/intro/rhythm?utm_source=chparenting&utm_medium=article&utm_campaign=vwspwrb3)第一個觀念是：**節拍是音樂中規律的強弱交替，就像心跳一樣穩定地跳動。**
 
 讓孩子把手放在胸口感覺心跳：咚、咚、咚、咚。穩定的、一下一下的。音樂裡也有這樣的東西，叫節拍。每一下就是一拍。
 
@@ -75,7 +75,7 @@ author: "薇佳媽媽"
 2. **數拍子。** 邊聽邊數「1 2 3 4、1 2 3 4」。數到重音的時候剛好回到 1，就是對的。
 3. **看譜對照。** 看譜上的拍號，說出「每小節幾拍」。然後數一個小節的音符加起來對不對。
 
-三步各幾分鐘。前兩步不用譜，用耳朵和手；第三步才用[樂理練習](https://learn.chparenting.com/music/intro/notes)的題目。
+三步各幾分鐘。前兩步不用譜，用耳朵和手；第三步才用[樂理練習](https://learn.chparenting.com/music/intro/notes?utm_source=chparenting&utm_medium=article&utm_campaign=vwspwrb3)的題目。
 
 ## 常見的兩個誤解
 
@@ -107,4 +107,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-拍號建立在「音符長度」的基礎上——先知道四分音符是一拍、全音符是四拍，拍號才有意義，在[音符為什麼有黑有白、有尾巴？](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)；樂理三個階段怎麼排，在[學樂器之前要先學樂理嗎？](/posts/學樂器之前要先學樂理嗎五線譜拍子音符先認識哪個-j1btt4m2/)。全部樂理主題在[樂理專區](https://learn.chparenting.com/music)。
+拍號建立在「音符長度」的基礎上——先知道四分音符是一拍、全音符是四拍，拍號才有意義，在[音符為什麼有黑有白、有尾巴？](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)；樂理三個階段怎麼排，在[學樂器之前要先學樂理嗎？](/posts/學樂器之前要先學樂理嗎五線譜拍子音符先認識哪個-j1btt4m2/)。全部樂理主題在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=vwspwrb3)。

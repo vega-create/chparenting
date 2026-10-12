@@ -36,12 +36,12 @@ GEPT 全民英檢，以前感覺是國中、高中的事。但現在越來越多
 
 | 想練什麼 | 直接開始 |
 |---|---|
-| 初級題庫：20 個主題單元 | [開始練習](https://learn.chparenting.com/elementary) |
-| 先試一個單元（單字＋聽力） | [開始練習](https://learn.chparenting.com/elementary/unit/1) |
-| 模擬測驗：看看現在的程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test) |
-| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking) |
-| 寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing) |
-| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game) |
+| 初級題庫：20 個主題單元 | [開始練習](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
+| 先試一個單元（單字＋聽力） | [開始練習](https://learn.chparenting.com/elementary/unit/1?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
+| 模擬測驗：看看現在的程度 | [開始練習](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
+| 口說練習（可錄音） | [開始練習](https://learn.chparenting.com/elementary/speaking?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
+| 寫作練習 | [開始練習](https://learn.chparenting.com/elementary/writing?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
+| 單字遊戲 | [開始練習](https://learn.chparenting.com/elementary/game?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) |
 
 ## GEPT 初級到底考什麼？難不難？
 
@@ -96,7 +96,7 @@ GEPT 初級（Elementary）對應的是國中畢業的英文程度（CEFR A2）�
 
 ## 接下來：怎麼準備？
 
-2026 年初級聽讀最後一場是 11/7（報名延長到 9/16），完整場次、報名費與 2027 日程更新都在 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info)。
+2026 年初級聽讀最後一場是 11/7（報名延長到 9/16），完整場次、報名費與 2027 日程更新都在 [learn 的考試資訊頁](https://learn.chparenting.com/exam-info?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef)。
 
 判斷完「該不該考、什麼時候考」之後，下一步就是「怎麼準備」。下篇文章我整理了：
 
@@ -107,4 +107,4 @@ GEPT 初級（Elementary）對應的是國中畢業的英文程度（CEFR A2）�
 
 👉 [GEPT 初級怎麼準備？國小生在家不補習通過初試的方法（下篇）](/posts/gept初級怎麼準備國小生在家不補習通過初試方法-gp4xv8mq/)
 
-如果想先讓孩子試試 GEPT 初級題型，可以到 [learn.chparenting.com](https://learn.chparenting.com/elementary) 玩幾題看看。孩子如果做得有趣，備考就已經成功一半了。
+如果想先讓孩子試試 GEPT 初級題型，可以到 [learn.chparenting.com](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=ab1cd2ef) 玩幾題看看。孩子如果做得有趣，備考就已經成功一半了。

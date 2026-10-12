@@ -36,7 +36,7 @@ author: "薇佳媽媽"
 
 ## 用 2 小時 30 分 = 150 分鐘拆一次
 
-[時間與計量單元](https://learn.chparenting.com/math/time-measurement)的示範題就是這一題，步驟是：**2 小時 = 2 × 60 = 120 分鐘，120 + 30 = 150 分鐘。**
+[時間與計量單元](https://learn.chparenting.com/math/time-measurement?utm_source=chparenting&utm_medium=article&utm_campaign=wxxz0re8)的示範題就是這一題，步驟是：**2 小時 = 2 × 60 = 120 分鐘，120 + 30 = 150 分鐘。**
 
 跟孩子拆成三句：
 
@@ -88,7 +88,7 @@ author: "薇佳媽媽"
 
 - **每天問一次「幾分鐘」**：「還有 1 小時 20 分就要出門，是幾分鐘？」用真的時間問。
 - **用時鐘轉**：讓他轉分針，一圈說「60 分、1 小時」，兩圈說「120 分、2 小時」。轉五次就有感覺了。
-- **做[時間與計量單元](https://learn.chparenting.com/math/time-measurement)的練習**：每題有步驟解說，錯的看是哪一步——多數錯在「2 小時是 2 個 60」那一步。
+- **做[時間與計量單元](https://learn.chparenting.com/math/time-measurement?utm_source=chparenting&utm_medium=article&utm_campaign=wxxz0re8)的練習**：每題有步驟解說，錯的看是哪一步——多數錯在「2 小時是 2 個 60」那一步。
 
 一週左右，230 那種錯會消失。
 
@@ -130,4 +130,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-時間換算跟英文的 half past、quarter 是同一個概念的兩種語言——half 是 30 分、quarter 是 15 分，在 [half past 是幾點？英文時間怎麼教](/posts/half-past是幾點英文時間怎麼教才不會和數學的時鐘打架-xy8w9kew/)；換算裡的乘法（2 × 60）和「數幾個 60」的除法，是[國小數學應用題](/posts/國小數學應用題看不懂怎麼辦先教解題四步驟不是先教算式-3yzil7o5/)裡「算式」那一步的基礎。全部數學主題在[數學專區](https://learn.chparenting.com/math)。
+時間換算跟英文的 half past、quarter 是同一個概念的兩種語言——half 是 30 分、quarter 是 15 分，在 [half past 是幾點？英文時間怎麼教](/posts/half-past是幾點英文時間怎麼教才不會和數學的時鐘打架-xy8w9kew/)；換算裡的乘法（2 × 60）和「數幾個 60」的除法，是[國小數學應用題](/posts/國小數學應用題看不懂怎麼辦先教解題四步驟不是先教算式-3yzil7o5/)裡「算式」那一步的基礎。全部數學主題在[數學專區](https://learn.chparenting.com/math?utm_source=chparenting&utm_medium=article&utm_campaign=wxxz0re8)。

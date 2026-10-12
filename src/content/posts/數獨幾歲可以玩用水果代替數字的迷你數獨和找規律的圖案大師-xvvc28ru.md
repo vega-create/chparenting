@@ -26,7 +26,7 @@ author: "薇佳媽媽"
 
 ## 數獨的規則，其實只有一句話
 
-[迷你數獨](https://learn.chparenting.com/board-games/mini-sudoku)是一個 4×4 的格子，用四種水果代替數字。規則是：**每一行、每一列、每個 2×2 宮格裡，四種水果都只能出現一次。**
+[迷你數獨](https://learn.chparenting.com/board-games/mini-sudoku?utm_source=chparenting&utm_medium=article&utm_campaign=xvvc28ru)是一個 4×4 的格子，用四種水果代替數字。規則是：**每一行、每一列、每個 2×2 宮格裡，四種水果都只能出現一次。**
 
 就這樣。沒有加法、沒有乘法，不需要會算任何東西。孩子只要認得四種水果、知道「不能重複」是什麼意思，就能玩。
 
@@ -54,7 +54,7 @@ author: "薇佳媽媽"
 
 ## 圖案大師：找規律，比數獨更早可以開始
 
-如果迷你數獨對孩子還太早，或者想要更溫和的起點，[圖案大師](https://learn.chparenting.com/board-games/pattern-master)可以更早開始——幼兒園大班就可以。
+如果迷你數獨對孩子還太早，或者想要更溫和的起點，[圖案大師](https://learn.chparenting.com/board-games/pattern-master?utm_source=chparenting&utm_medium=article&utm_campaign=xvvc28ru)可以更早開始——幼兒園大班就可以。
 
 規則：每題給一個 3×3 的圖案方格，其中一格是空的，從選項裡找出符合規律的圖案。規律可能藏在同一列、同一行，或整體的排列順序裡。每局 10 題。
 
@@ -86,10 +86,10 @@ author: "薇佳媽媽"
 
 ## 數獨穩了之後，下一個邏輯遊戲是什麼
 
-迷你數獨玩到能講出每一格的理由，下一階是[數列探險](https://learn.chparenting.com/board-games/sequence-quest)——給一段數列，推出下一個數字。等差的題目國小中年級可以做，等比和費氏數列高年級以上。
+迷你數獨玩到能講出每一格的理由，下一階是[數列探險](https://learn.chparenting.com/board-games/sequence-quest?utm_source=chparenting&utm_medium=article&utm_campaign=xvvc28ru)——給一段數列，推出下一個數字。等差的題目國小中年級可以做，等比和費氏數列高年級以上。
 
 它跟圖案大師是同一件事：找規律。只是圖案換成了數字，規律從「看」變成「算」。從圖案大師到數列探險，孩子走的是「圖形規律 → 數字規律」的路，這條路的終點就是數學裡的數列和函數。三個遊戲排成一條線：圖案大師（幼兒園大班起）→ 迷你數獨（低年級）→ 數列探險（中年級起）。
 
 ## 延伸閱讀
 
-邏輯遊戲需要專注力，兩個遊戲都是「主動的專注」，跟看影片的被動不同，[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)講的是那個差別。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games)。
+邏輯遊戲需要專注力，兩個遊戲都是「主動的專注」，跟看影片的被動不同，[孩子專注力很短，是注意力不足嗎？](/posts/孩子專注力很短是注意力不足嗎先用兩個五分鐘小遊戲看看是哪一種-fiao3s71/)講的是那個差別。全部 18 款遊戲按能力分類，在[教育桌遊專區](https://learn.chparenting.com/board-games?utm_source=chparenting&utm_medium=article&utm_campaign=xvvc28ru)。

@@ -57,7 +57,7 @@ author: "薇佳媽媽"
 
 ### 4. 善用免費線上資源
 
-現在有很多免費的 GEPT 練習平台，不用特別買昂貴的測驗書。**[learn.chparenting.com](https://learn.chparenting.com/elementary) 有完整的 GEPT 初級練習題**，涵蓋單字、文法、聽力、閱讀，每個單元還附練習單可以直接下載列印，孩子可以自己練，家長也可以輕鬆對答案。
+現在有很多免費的 GEPT 練習平台，不用特別買昂貴的測驗書。**[learn.chparenting.com](https://learn.chparenting.com/elementary?utm_source=chparenting&utm_medium=article&utm_campaign=gp4xv8mq) 有完整的 GEPT 初級練習題**，涵蓋單字、文法、聽力、閱讀，每個單元還附練習單可以直接下載列印，孩子可以自己練，家長也可以輕鬆對答案。
 
 如果還想找其他免費資源搭配，可以看 [不花補習費在家陪孩子學英文的 5 個免費資源](/posts/不花補習費在家陪孩子學英文的5個免費資源-bk3mx9tz/) 這篇整理。
 

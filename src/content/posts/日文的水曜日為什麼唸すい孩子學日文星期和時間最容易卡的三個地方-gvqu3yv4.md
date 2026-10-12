@@ -28,7 +28,7 @@ author: "薇佳媽媽"
 
 ## 日文星期的第一個坑：看得懂，唸不對
 
-[N5 時間與曜日單元](https://learn.chparenting.com/jlpt-n5)的老師的話寫得很清楚：**星期的唸法和漢字不同（如水曜日的水唸すい），而且 4 時是よじ、9 時是くじ，這些特殊唸法要特別記。**
+[N5 時間與曜日單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=gvqu3yv4)的老師的話寫得很清楚：**星期的唸法和漢字不同（如水曜日的水唸すい），而且 4 時是よじ、9 時是くじ，這些特殊唸法要特別記。**
 
 日文的七天是：日曜日、月曜日、火曜日、水曜日、木曜日、金曜日、土曜日。台灣孩子看到這七個漢字，意思全懂——日、月、火、水、木、金、土。**這是優勢，也是陷阱。**
 
@@ -106,7 +106,7 @@ N5 階段，分的變音先不用全記。先會「幾點」和「幾點半」�
 
 - **每天早上問「今天星期幾」**，用日文答。七天輪一輪，一週就會。牆上貼一張七曜的表，旁邊畫太陽月亮和五顆星。
 - **看時鐘報時**。指一個時間，用日文說。特別多指 4 點、7 點、9 點。
-- **用 [N5 時間與曜日單元](https://learn.chparenting.com/jlpt-n5)的發音**。每個星期和時間都可以按了聽，孩子跟著唸。すい、もく、きん這些音讀，聽了才會準。
+- **用 [N5 時間與曜日單元](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=gvqu3yv4)的發音**。每個星期和時間都可以按了聽，孩子跟著唸。すい、もく、きん這些音讀，聽了才會準。
 
 兩週左右，星期和整點會穩。分的部分可以再等等。
 
@@ -143,4 +143,4 @@ N5 階段，分的變音先不用全記。先會「幾點」和「幾點半」�
 
 ## 延伸閱讀
 
-日文數字的變音（300 是さんびゃく）跟「分」的變音是同一類的事，在[日文數字 300 為什麼唸さんびゃく？](/posts/日文數字300為什麼唸さんびゃく孩子學日文數字會遇到的三個變音-5lgruvxx/)；日文入門期其他常見的問題，在[國小生學兒童日文最常問的 5 個問題](/posts/日文的は為什麼唸wa國小生學兒童日文最常問的5個問題-ecv4miup/)。星期和時間在 [N5](https://learn.chparenting.com/jlpt-n5) 的時間與曜日單元，[N4](https://learn.chparenting.com/jlpt-n4) 會再加上「幾點到幾點」的句型。
+日文數字的變音（300 是さんびゃく）跟「分」的變音是同一類的事，在[日文數字 300 為什麼唸さんびゃく？](/posts/日文數字300為什麼唸さんびゃく孩子學日文數字會遇到的三個變音-5lgruvxx/)；日文入門期其他常見的問題，在[國小生學兒童日文最常問的 5 個問題](/posts/日文的は為什麼唸wa國小生學兒童日文最常問的5個問題-ecv4miup/)。星期和時間在 [N5](https://learn.chparenting.com/jlpt-n5?utm_source=chparenting&utm_medium=article&utm_campaign=gvqu3yv4) 的時間與曜日單元，[N4](https://learn.chparenting.com/jlpt-n4?utm_source=chparenting&utm_medium=article&utm_campaign=gvqu3yv4) 會再加上「幾點到幾點」的句型。

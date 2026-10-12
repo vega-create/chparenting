@@ -32,7 +32,7 @@ author: "薇佳媽媽"
 
 ## 先記三個「最」
 
-[世界地理練習](https://learn.chparenting.com/history-geo/world/world-geography)裡有幾個數字，孩子不用全記，但下面這三個關係要記住：
+[世界地理練習](https://learn.chparenting.com/history-geo/world/world-geography?utm_source=chparenting&utm_medium=article&utm_campaign=7p96amfm)裡有幾個數字，孩子不用全記，但下面這三個關係要記住：
 
 **亞洲是最大的洲**，面積約 4,457 萬平方公里，佔全球陸地的三分之一。我們就住在這個洲上——這是唯一一個孩子有身體感覺的錨點。
 
@@ -109,4 +109,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-世界地理的方法跟台灣地理是一樣的，只是地圖放大了，[台灣地理怎麼記？從「我們住的地方」往外畫的地圖法](/posts/台灣地理怎麼記從我們住的地方往外畫的地圖法-f9zd13g4/)講的是五年級那一段；社會科整體為什麼不能用背的，在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。世界篇還有[世界歷史](https://learn.chparenting.com/history-geo/world/world-history)和世界文化，全部在[歷史地理專區](https://learn.chparenting.com/history-geo)。
+世界地理的方法跟台灣地理是一樣的，只是地圖放大了，[台灣地理怎麼記？從「我們住的地方」往外畫的地圖法](/posts/台灣地理怎麼記從我們住的地方往外畫的地圖法-f9zd13g4/)講的是五年級那一段；社會科整體為什麼不能用背的，在[國小社會科怎麼讀？](/posts/國小社會科怎麼讀台灣歷史地理背不起來的3個原因-tbpi3c0u/)。世界篇還有[世界歷史](https://learn.chparenting.com/history-geo/world/world-history?utm_source=chparenting&utm_medium=article&utm_campaign=7p96amfm)和世界文化，全部在[歷史地理專區](https://learn.chparenting.com/history-geo?utm_source=chparenting&utm_medium=article&utm_campaign=7p96amfm)。
