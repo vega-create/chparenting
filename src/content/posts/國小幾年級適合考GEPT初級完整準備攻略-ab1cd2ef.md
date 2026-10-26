@@ -5,7 +5,7 @@ publishDate: 2026-03-11
 modifiedDate: 2026-09-13
 category: "kids-learning"
 tags: ["GEPT初級", "全民英檢", "國小英文", "英檢準備", "免費學習資源"]
-image: "https://images.pexels.com/photos/5905968/pexels-photo-5905968.jpeg"
+image: "/images/covers/pexels-5905968.jpg"
 imageAlt: "小學生坐在書桌前認真練習英文，桌上有單字卡和平板"
 faq:
   - q: "GEPT 初級幾歲可以考？小學可以考全民英檢嗎？"

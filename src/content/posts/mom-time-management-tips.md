@@ -4,7 +4,7 @@ description: "覺得每天24小時根本不夠用？試試這 5 個專為忙碌�
 publishDate: "2025-02-06"
 category: "practical-life"
 tags: ["時間管理", "媽媽生活", "自我照顧", "生活技巧"]
-image: "https://images.pexels.com/photos/4474042/pexels-photo-4474042.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-4474042.jpg"
 imageAlt: "一位媽媽在安靜的角落喝咖啡"
 faq:
   - q: "覺得自己完全沒有自己的時間怎麼辦？"

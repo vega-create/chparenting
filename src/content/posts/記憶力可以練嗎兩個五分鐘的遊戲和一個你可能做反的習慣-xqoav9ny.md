@@ -4,7 +4,7 @@ description: "孩子記憶力差，多半是「記的方式」不對，不是腦
 publishDate: 2026-09-30
 category: "kids-learning"
 tags: ["記憶力", "記憶力訓練", "孩子記憶力差", "記憶遊戲", "學習方法", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/7943703/pexels-photo-7943703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7943703.jpg"
 imageAlt: "小女孩在桌上玩記憶翻牌"
 faq:
   - q: "孩子記憶力差是天生的嗎？"

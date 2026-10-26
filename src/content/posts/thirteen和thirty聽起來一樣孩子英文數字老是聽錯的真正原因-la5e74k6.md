@@ -4,7 +4,7 @@ description: "英文數字是國小英文聽力最常掉分的地方：thirteen 
 publishDate: 2026-10-09
 category: "kids-learning"
 tags: ["英文數字", "國小英文", "英文聽力", "thirteen thirty", "GEPT初級", "免費英文練習"]
-image: "https://images.pexels.com/photos/311268/pexels-photo-311268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-311268.jpg"
 imageAlt: "彩色的數字積木"
 faq:
   - q: "thirteen 和 thirty 到底怎麼分？"

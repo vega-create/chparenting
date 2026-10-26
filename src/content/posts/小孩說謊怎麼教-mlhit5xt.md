@@ -4,7 +4,7 @@ description: "在一個陽光明媚的下午，阿芳帶著她的五歲女兒小
 publishDate: 2026-02-13
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/9210509/pexels-photo-9210509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-9210509.jpg"
 imageAlt: "Happy girl enjoying a sunny day in a hammock, capturing the essence of childhood leisure."
 faq:
   - q: "小孩為什麼會說謊？"

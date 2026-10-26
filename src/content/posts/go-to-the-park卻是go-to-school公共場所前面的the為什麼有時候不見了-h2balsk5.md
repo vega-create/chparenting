@@ -4,7 +4,7 @@ description: "去公園是 go to the park，去學校卻是 go to school。這�
 publishDate: 2026-11-20
 category: "kids-learning"
 tags: ["go to the park", "國小英文", "定冠詞the", "英文文法", "公共場所英文", "免費英文練習"]
-image: "https://images.pexels.com/photos/37098586/pexels-photo-37098586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-37098586.jpg"
 imageAlt: "背著書包走路上學的小學生"
 faq:
   - q: "為什麼 go to the park 有 the，go to school 沒有？"

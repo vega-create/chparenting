@@ -4,7 +4,7 @@ description: "同樣是英文單字遊戲，單字搜尋練「認」，接龍練
 publishDate: 2026-11-30
 category: "kids-learning"
 tags: ["英文單字遊戲", "國小英文", "背單字", "單字接龍", "英文拼字", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/695571/pexels-photo-695571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-695571.jpg"
 imageAlt: "拼出 WORDS 的英文字母方塊"
 faq:
   - q: "單字搜尋和單字接龍差在哪？"

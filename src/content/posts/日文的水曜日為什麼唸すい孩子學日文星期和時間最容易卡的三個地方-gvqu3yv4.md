@@ -4,7 +4,7 @@ description: "日文的星期用日月火水木金土，孩子看漢字懂意思
 publishDate: 2026-10-29
 category: "kids-learning"
 tags: ["日文星期", "兒童日文", "日文時間", "JLPT N5", "曜日", "免費日文練習"]
-image: "https://images.pexels.com/photos/273153/pexels-photo-273153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-273153.jpg"
 imageAlt: "印著星期的月曆頁"
 faq:
   - q: "日文的星期為什麼是日月火水木金土？"

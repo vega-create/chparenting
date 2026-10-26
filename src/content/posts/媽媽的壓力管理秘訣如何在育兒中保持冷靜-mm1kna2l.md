@@ -4,7 +4,7 @@ description: "這篇文章將幫助媽媽們了解如何在育兒中管理壓力
 publishDate: 2026-03-03
 category: "生活實用"
 tags: ["育兒壓力", "媽媽心情", "冷靜育兒"]
-image: "https://img.b2bpic.net/free-photo/asian-mother-daughter-spending-time-together-home_23-2150259992.jpg"
+image: "/images/covers/asian-mother-daughter-spending-time-together-home23-21502599.jpg"
 imageAlt: "Asian mother and daughter spending time together at home"
 faq:
   - q: "如何判斷自己需要尋求專業幫助？"

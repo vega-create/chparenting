@@ -4,7 +4,7 @@ description: "數列題是國小數學和智力測驗都會出現的題型，孩
 publishDate: 2026-10-21
 category: "kids-learning"
 tags: ["數列", "邏輯遊戲", "找規律", "等差數列", "數學思維", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/1329296/pexels-photo-1329296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-1329296.jpg"
 imageAlt: "排成一列的木製數字"
 faq:
   - q: "數列題幾年級會遇到？"

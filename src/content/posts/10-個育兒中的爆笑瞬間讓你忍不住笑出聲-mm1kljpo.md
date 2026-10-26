@@ -4,7 +4,7 @@ description: "育兒生活中充滿了爆笑瞬間，這篇文章帶你看看10�
 publishDate: 2026-02-27
 category: "生活實用"
 tags: ["育兒趣事", "媽媽心情", "親子關係"]
-image: "https://img.b2bpic.net/free-photo/group-friends-having-fun-living-room-singing-song-together_1150-5265.jpg"
+image: "/images/covers/group-friends-having-fun-living-room-singing-song-together11.jpg"
 imageAlt: "Group of friends having fun at living room singing a song together"
 faq:
   - q: "育兒中最常見的爆笑瞬間是什麼？"

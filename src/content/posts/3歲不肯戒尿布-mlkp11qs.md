@@ -4,7 +4,7 @@ description: "面對三歲不肯戒尿布的孩子，媽媽們常常感到焦慮
 publishDate: 2026-02-14
 category: "育兒崩潰"
 tags: ["育兒崩潰", "戒尿布", "育兒支持"]
-image: "https://img.b2bpic.net/premium-photo/smiling-mother-baby-look-camera-while-watching-videos-mobile-phones-toilet-bathroom_8595-20607.jpg"
+image: "/images/covers/smiling-mother-baby-look-camera-while-watching-videos-mobile.jpg"
 imageAlt: "Smiling mother and baby look at the camera while watching videos on mobile phones on the toilet in the bathroom"
 faq:
   - q: "孩子不肯戒尿布的原因是什麼？"

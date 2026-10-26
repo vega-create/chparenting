@@ -4,7 +4,7 @@ description: "職業媽媽面臨時間管理的挑戰，本文提供多種實用
 publishDate: 2026-02-21
 category: "媽媽情緒"
 tags: ["時間管理", "職業媽媽", "媽媽情緒"]
-image: "https://img.b2bpic.net/premium-photo/asian-woman-working-while-taking-care-children_8595-2896.jpg"
+image: "/images/covers/asian-woman-working-while-taking-care-children8595-2896.jpg"
 imageAlt: "Asian woman working while taking care of children"
 faq:
   - q: "如何記錄自己的時間使用狀況？"

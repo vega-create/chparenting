@@ -4,7 +4,7 @@ description: "孩子該睡了還在玩、怎麼哄都沒用？從睡前儀式、
 publishDate: 2026-02-16
 category: "育兒崩潰"
 tags: ["小孩不睡覺", "小孩不肯睡覺", "幼兒睡眠問題", "睡前儀式", "哄睡方法"]
-image: "https://images.pexels.com/photos/34889327/pexels-photo-34889327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-34889327.jpg"
 imageAlt: "寶寶睡覺示意圖"
 faq:
   - q: "小孩不睡覺一直玩是正常的嗎？"

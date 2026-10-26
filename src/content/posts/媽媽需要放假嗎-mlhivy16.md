@@ -4,7 +4,7 @@ description: "在一個陽光明媚的周末早晨，阿雅正忙著為她的兩
 publishDate: 2026-02-20
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/4474009/pexels-photo-4474009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-4474009.jpg"
 imageAlt: "Happy family watching TV together on a comfortable sofa, enjoying some leisure time indoors."
 faq:
   - q: "媽媽放假該去哪裡？"

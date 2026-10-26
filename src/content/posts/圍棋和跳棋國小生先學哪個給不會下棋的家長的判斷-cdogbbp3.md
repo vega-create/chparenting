@@ -4,7 +4,7 @@ description: "圍棋和跳棋練的東西不同、上手年齡也不同：跳棋
 publishDate: 2026-10-04
 category: "kids-learning"
 tags: ["圍棋", "跳棋", "兒童圍棋", "棋類遊戲", "邏輯思維", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/39036855/pexels-photo-39036855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-39036855.jpg"
 imageAlt: "圍棋盤與黑白棋子俯拍"
 faq:
   - q: "家長不會下棋，可以陪孩子學嗎？"

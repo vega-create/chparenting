@@ -4,7 +4,7 @@ description: "迷宮是最被低估的教育遊戲，練的不是反應，是先
 publishDate: 2026-11-04
 category: "kids-learning"
 tags: ["迷宮遊戲", "邏輯遊戲", "路徑規劃", "空間感", "兒童益智", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/7352811/pexels-photo-7352811.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7352811.jpg"
 imageAlt: "孩子用手指走紙上的迷宮"
 faq:
   - q: "迷宮在練什麼能力？"

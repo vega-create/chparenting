@@ -4,7 +4,7 @@ description: "在一個陽光明媚的週末，阿嬌正準備帶著她的寶寶
 publishDate: 2026-02-07
 category: "解壓笑一個"
 tags: []
-image: "https://images.pexels.com/photos/9734168/pexels-photo-9734168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-9734168.jpg"
 imageAlt: "A father and son wearing animal print costumes in a jungle-themed setting, showcasing family togetherness."
 faq:
   - q: "育兒過程中為什麼會有這麼多搞笑時刻？"

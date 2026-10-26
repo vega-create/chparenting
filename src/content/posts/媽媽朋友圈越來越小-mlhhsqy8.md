@@ -4,7 +4,7 @@ description: "在一個陽光明媚的午後，阿芬坐在全聯的咖啡區，
 publishDate: 2026-02-11
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/5990479/pexels-photo-5990479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5990479.jpg"
 imageAlt: "Mother and daughter having a cozy breakfast with waffles and strawberries indoors."
 faq:
   - q: "為什麼媽媽的朋友圈會縮小？"

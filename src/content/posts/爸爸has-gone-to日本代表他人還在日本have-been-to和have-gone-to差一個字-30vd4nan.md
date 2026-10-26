@@ -4,7 +4,7 @@ description: "have been to（去過，人回來了）和 have gone to（去了�
 publishDate: 2026-11-06
 category: "kids-learning"
 tags: ["have been to", "國小英文", "現在完成式", "英文文法", "GEPT初級", "免費英文練習"]
-image: "https://images.pexels.com/photos/1381415/pexels-photo-1381415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-1381415.jpg"
 imageAlt: "拉著行李箱站在機場窗前的人"
 faq:
   - q: "have been to 和 have gone to 到底差在哪？"

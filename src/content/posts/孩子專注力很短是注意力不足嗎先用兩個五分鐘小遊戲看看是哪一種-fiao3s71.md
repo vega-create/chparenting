@@ -4,7 +4,7 @@ description: "專注力短有好幾種原因，多數不是注意力不足。用
 publishDate: 2026-09-21
 category: "kids-learning"
 tags: ["專注力", "注意力", "孩子專注力不足", "專注力訓練", "親子遊戲", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/12944620/pexels-photo-12944620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-12944620.jpg"
 imageAlt: "男孩專注地在桌上拼積木"
 faq:
   - q: "孩子專注力短，是不是注意力不足過動症？"

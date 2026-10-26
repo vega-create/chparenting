@@ -4,7 +4,7 @@ description: "在一個寧靜的夜晚，阿芳終於把孩子哄睡了，心裡
 publishDate: 2026-02-15
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/4504005/pexels-photo-4504005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-4504005.jpg"
 imageAlt: "A serene image of a newborn baby peacefully sleeping on their mother's chest, capturing a moment of comfort and love."
 faq:
   - q: "媽媽半夜睡不好有哪些原因？"

@@ -4,7 +4,7 @@ description: "從初級跨到 GEPT 中級，孩子常說「單字突然變很難
 publishDate: 2026-10-07
 category: "kids-learning"
 tags: ["GEPT 中級", "中級英檢", "英檢單字", "全民英檢中級", "國中英文", "免費英檢練習"]
-image: "https://images.pexels.com/photos/5265389/pexels-photo-5265389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5265389.jpg"
 imageAlt: "學生翻閱字典查英文單字"
 faq:
   - q: "GEPT 中級大概是什麼程度？"

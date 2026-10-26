@@ -4,7 +4,7 @@ description: "在某個陽光明媚的下午，阿婷正在全聯裡忙著選購
 publishDate: 2026-03-26
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/4868633/pexels-photo-4868633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-4868633.jpg"
 imageAlt: "Asian mother kneeling down to comfort her toddler during a tantrum outdoors"
 faq:
   - q: "叛逆期會持續多久？"

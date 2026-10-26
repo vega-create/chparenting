@@ -4,7 +4,7 @@ description: "樂譜開頭的兩個數字叫拍號，孩子常以為是分數。
 publishDate: 2026-10-19
 category: "kids-learning"
 tags: ["拍號", "樂理", "兒童樂理", "節拍", "四四拍", "免費樂理練習"]
-image: "https://images.pexels.com/photos/32545976/pexels-photo-32545976.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-32545976.jpg"
 imageAlt: "指揮家在樂團前打拍子"
 faq:
   - q: "拍號 4/4 上面和下面的 4 各是什麼意思？"

@@ -4,7 +4,7 @@ description: "在一個陽光明媚的午後，妍妍正在全聯裡推著購物
 publishDate: 2026-02-14
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/6669802/pexels-photo-6669802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-6669802.jpg"
 imageAlt: "A young woman holds her head in distress while sitting indoors, capturing an emotional moment."
 faq:
   - q: "我該如何克服自我懷疑？"

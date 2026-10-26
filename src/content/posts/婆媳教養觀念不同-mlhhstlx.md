@@ -4,7 +4,7 @@ description: "在一個陽光明媚的週末早上，阿美正忙著準備午餐
 publishDate: 2026-02-12
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/7705893/pexels-photo-7705893.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7705893.jpg"
 imageAlt: "Smiling family with toddler using a laptop for a video call indoors, fostering connection."
 faq:
   - q: "婆媳教養觀念不同的常見原因是什麼？"

@@ -4,7 +4,7 @@ description: "育兒的過程中，許多媽媽感到疲憊和孤獨。這篇文
 publishDate: 2026-02-14
 category: "媽媽情緒"
 tags: ["育兒壓力", "媽媽情緒", "家庭支持"]
-image: "https://img.b2bpic.net/premium-photo/happy-mother-son-swing-park_35691-8263.jpg"
+image: "/images/covers/happy-mother-son-swing-park35691-8263.jpg"
 imageAlt: "Happy mother and son on the swing in the park"
 faq:
   - q: "如何知道自己是否過度疲憊？"

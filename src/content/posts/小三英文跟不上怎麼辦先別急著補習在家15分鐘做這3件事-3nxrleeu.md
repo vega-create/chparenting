@@ -4,7 +4,7 @@ description: "小三英文跟不上，多半不是能力問題，是三個具體
 publishDate: 2026-09-08
 category: "kids-learning"
 tags: ["小三英文", "國小英文", "英文跟不上", "在家學英文", "免費英文練習", "GEPT初級"]
-image: "https://images.pexels.com/photos/7334320/pexels-photo-7334320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7334320.jpg"
 imageAlt: "孩子用木製字母教具排列英文字母"
 faq:
   - q: "小三英文跟不上，是不是太晚開始了？"

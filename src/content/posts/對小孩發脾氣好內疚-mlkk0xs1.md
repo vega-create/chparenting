@@ -4,7 +4,7 @@ description: "許多媽媽在育兒過程中難免會對孩子發脾氣，隨之
 publishDate: 2026-02-19
 category: "媽媽情緒"
 tags: ["媽媽情緒", "育兒壓力", "情緒管理"]
-image: "https://img.b2bpic.net/premium-photo/asian-lesbian-couple-arguing-sofa_1500998-173.jpg"
+image: "/images/covers/asian-lesbian-couple-arguing-sofa1500998-173.jpg"
 imageAlt: "Asian lesbian couple arguing on the sofa"
 faq:
   - q: "為什麼我對小孩發脾氣後會感到內疚？"

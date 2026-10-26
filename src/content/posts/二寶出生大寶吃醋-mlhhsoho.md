@@ -4,7 +4,7 @@ description: "在一個陽光明媚的早晨，林小姐正忙著為她的新生
 publishDate: 2026-03-21
 category: "親子關係"
 tags: []
-image: "https://images.pexels.com/photos/5692264/pexels-photo-5692264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5692264.jpg"
 imageAlt: "Asian mother happily playing with two young children on the bed at home"
 faq:
   - q: "大寶吃醋會持續多久？"

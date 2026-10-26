@@ -4,7 +4,7 @@ description: "分數是國小數學第一個真正的坎。越教越亂通常是
 publishDate: 2026-09-13
 category: "kids-learning"
 tags: ["分數", "國小數學", "分數教學", "三年級數學", "在家教數學", "免費練習"]
-image: "https://images.pexels.com/photos/5907902/pexels-photo-5907902.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5907902.jpg"
 imageAlt: "切成等分的披薩與披薩刀"
 faq:
   - q: "分數幾年級開始學？"

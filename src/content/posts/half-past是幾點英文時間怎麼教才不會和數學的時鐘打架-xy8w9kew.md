@@ -4,7 +4,7 @@ description: "英文時間是國小英文和數學同時在教的東西：數學
 publishDate: 2026-10-16
 category: "kids-learning"
 tags: ["英文時間", "國小英文", "half past", "時間換算", "國小數學", "免費英文練習"]
-image: "https://images.pexels.com/photos/745365/pexels-photo-745365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-745365.jpg"
 imageAlt: "黑板上畫的時鐘"
 faq:
   - q: "half past 和 quarter 一定要學嗎？"

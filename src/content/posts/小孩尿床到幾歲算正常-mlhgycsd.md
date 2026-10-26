@@ -4,7 +4,7 @@ description: "在一個繁忙的週末早晨，阿娟正忙著準備早餐，卻
 publishDate: 2026-02-20
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/5082954/pexels-photo-5082954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5082954.jpg"
 imageAlt: "Cute toddler sits in a high chair enjoying a meal, while parents cook in the background of a modern kitchen."
 faq:
   - q: "小孩尿床的常見年齡範圍是什麼？"

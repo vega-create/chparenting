@@ -4,7 +4,7 @@ description: "在一個陽光明媚的早晨，阿玲正在全聯購物，心裡
 publishDate: 2026-02-20
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/34045791/pexels-photo-34045791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-34045791.jpg"
 imageAlt: "Mother and children embrace cultural traditions in Lào Cai, Vietnam."
 faq:
   - q: "為什麼當媽媽後會感到失去自我？"

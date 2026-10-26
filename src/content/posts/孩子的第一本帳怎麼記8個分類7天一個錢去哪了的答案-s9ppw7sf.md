@@ -4,7 +4,7 @@ description: "記帳不是為了省錢，是為了回答「我的錢去哪了」
 publishDate: 2026-12-02
 category: "kids-learning"
 tags: ["兒童記帳", "兒童理財", "記帳", "零用錢", "金錢教育", "免費理財練習"]
-image: "https://images.pexels.com/photos/6328966/pexels-photo-6328966.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-6328966.jpg"
 imageAlt: "在帳本上記錄花費，旁邊放著硬幣"
 faq:
   - q: "孩子幾歲可以開始記帳？"

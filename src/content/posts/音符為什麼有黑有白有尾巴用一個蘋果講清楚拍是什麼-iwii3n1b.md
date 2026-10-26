@@ -4,7 +4,7 @@ description: "孩子學樂理第一關是音符：全音符、二分音符、四
 publishDate: 2026-10-12
 category: "kids-learning"
 tags: ["音符", "樂理", "兒童樂理", "拍子", "休止符", "免費樂理練習"]
-image: "https://images.pexels.com/photos/210764/pexels-photo-210764.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-210764.jpg"
 imageAlt: "放在鋼琴鍵上的樂譜"
 faq:
   - q: "全音符、二分音符、四分音符怎麼分？"

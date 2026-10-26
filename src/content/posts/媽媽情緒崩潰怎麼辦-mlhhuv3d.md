@@ -4,7 +4,7 @@ description: "在一個陽光明媚的早晨，阿妤正忙著為她的小寶貝
 publishDate: 2026-02-18
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/4474029/pexels-photo-4474029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-4474029.jpg"
 imageAlt: "A tired mother working remotely on her laptop while children play in the background."
 faq:
   - q: "媽媽情緒崩潰的常見原因是什麼？"

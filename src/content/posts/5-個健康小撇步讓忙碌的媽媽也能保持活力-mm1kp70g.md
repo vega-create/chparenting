@@ -4,7 +4,7 @@ description: "探索五個簡單的健康小撇步，幫助忙碌的媽媽在日
 publishDate: 2026-03-06
 category: "生活實用"
 tags: ["健康生活", "忙碌媽媽", "育兒小撇步"]
-image: "https://img.b2bpic.net/premium-photo/image-asian-mother-daughter-exercise-park_926199-2895070.jpg"
+image: "/images/covers/image-asian-mother-daughter-exercise-park926199-2895070.jpg"
 imageAlt: "Image of asian mother and daughter exercise at park"
 faq:
   - q: "如何制定合理的飲食計劃？"

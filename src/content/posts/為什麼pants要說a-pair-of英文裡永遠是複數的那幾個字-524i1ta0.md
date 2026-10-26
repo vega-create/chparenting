@@ -4,7 +4,7 @@ description: "pants、shoes、glasses 這些字英文永遠是複數，一件褲
 publishDate: 2026-10-23
 category: "kids-learning"
 tags: ["a pair of", "國小英文", "英文複數", "衣服英文", "GEPT初級", "免費英文練習"]
-image: "https://images.pexels.com/photos/21920108/pexels-photo-21920108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-21920108.jpg"
 imageAlt: "一雙小小的童鞋"
 faq:
   - q: "為什麼 pants 是複數？褲子明明是一件。"

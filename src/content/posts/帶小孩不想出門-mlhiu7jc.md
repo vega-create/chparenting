@@ -4,7 +4,7 @@ description: "在一個陽光明媚的週末早晨，媽咪小莉望著窗外的
 publishDate: 2026-02-16
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/7677589/pexels-photo-7677589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-7677589.jpg"
 imageAlt: "A mother and child bonding while lying on a bed in a cozy bedroom setting."
 faq:
   - q: "為什麼我總是不想帶小孩出門？"

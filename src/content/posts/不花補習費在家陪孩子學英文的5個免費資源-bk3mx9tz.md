@@ -4,7 +4,7 @@ description: "補習班費用高、孩子又不愛去？這篇整理了 5 個在
 publishDate: 2026-03-11
 category: "kids-learning"
 tags: ["在家學英文", "免費英文資源", "國小英文", "英文自學", "親子學習"]
-image: "https://images.pexels.com/photos/4474043/pexels-photo-4474043.jpeg"
+image: "/images/covers/pexels-4474043.jpg"
 imageAlt: "媽媽和小孩一起坐在沙發上看平板學英文，氣氛溫馨輕鬆"
 faq:
   - q: "在家學英文真的有效嗎？"

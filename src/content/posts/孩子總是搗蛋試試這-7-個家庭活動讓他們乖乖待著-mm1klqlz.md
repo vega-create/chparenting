@@ -4,7 +4,7 @@ description: "探索 7 個家庭活動，讓孩子們乖乖待著，增進親子
 publishDate: 2026-02-26
 category: "生活實用"
 tags: ["親子活動", "家庭互動", "育兒技巧"]
-image: "https://img.b2bpic.net/premium-photo/happy-asian-family-that-enjoys-beach-activities-summer-holidays-parent-generative-ai_1254992-100831.jpg"
+image: "/images/covers/happy-asian-family-that-enjoys-beach-activities-summer-holid.jpg"
 imageAlt: "Happy asian family that enjoys beach activities during the summer holidays Parent an Generative AI"
 faq:
   - q: "這些活動適合什麼年齡的孩子？"

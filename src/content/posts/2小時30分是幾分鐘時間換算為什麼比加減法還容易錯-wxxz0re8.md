@@ -4,7 +4,7 @@ description: "時間換算是低年級數學最容易「會算卻算錯」的單
 publishDate: 2026-10-25
 category: "kids-learning"
 tags: ["時間換算", "國小數學", "時間單位", "低年級數學", "小時分鐘", "免費數學練習"]
-image: "https://images.pexels.com/photos/8542828/pexels-photo-8542828.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-8542828.jpg"
 imageAlt: "一個人高舉著一面掛鐘"
 faq:
   - q: "時間換算為什麼比一般的加減法難？"

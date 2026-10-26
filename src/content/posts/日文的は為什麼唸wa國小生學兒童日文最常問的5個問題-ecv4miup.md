@@ -4,7 +4,7 @@ description: "孩子學兒童日文的前幾個月，會問的問題幾乎都一
 publishDate: 2026-09-29
 category: "kids-learning"
 tags: ["兒童日文", "國小學日文", "日文入門", "JLPT N5", "日文助詞", "免費日文練習"]
-image: "https://images.pexels.com/photos/7605917/pexels-photo-7605917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7605917.jpg"
 imageAlt: "寫著平假名的小黑板與蘋果"
 faq:
   - q: "こんにちは的「は」為什麼唸 wa 不唸 ha？"

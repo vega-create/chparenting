@@ -4,7 +4,7 @@ description: "許多媽媽面臨老公不幫忙帶小孩的困擾，這篇文章
 publishDate: 2026-02-20
 category: "媽媽情緒"
 tags: ["育兒", "夫妻溝通", "媽媽情緒"]
-image: "https://img.b2bpic.net/free-photo/little-asian-girl-spending-time-home-with-her-mother_23-2150259929.jpg"
+image: "/images/covers/little-asian-girl-spending-time-home-with-her-mother23-21502.jpg"
 imageAlt: "Little asian girl spending time at home with her mother"
 faq:
   - q: "如何與老公溝通育兒分工？"

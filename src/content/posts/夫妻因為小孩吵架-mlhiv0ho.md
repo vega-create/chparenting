@@ -4,7 +4,7 @@ description: "在一個平常的星期五晚上，阿芳和阿強本想享受一
 publishDate: 2026-02-18
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/8780508/pexels-photo-8780508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-8780508.jpg"
 imageAlt: "A couple engaged in a heated argument at home, expressing strong emotions."
 faq:
   - q: "夫妻吵架會影響孩子嗎？"

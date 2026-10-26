@@ -4,7 +4,7 @@ description: "透過這 6 個簡單的居家整理技巧，讓你輕鬆維持整
 publishDate: 2026-03-05
 category: "生活實用"
 tags: ["居家整理", "生活實用", "家庭整理技巧"]
-image: "https://img.b2bpic.net/premium-photo/asian-kid-boy-packing-clothes-into-suitcase-home-child-preparing-luggage-travel-vacation-indoors-kid-learning-pack-his-own-bag-trip_1032820-8407.jpg"
+image: "/images/covers/asian-kid-boy-packing-clothes-into-suitcase-home-child-prepa.jpg"
 imageAlt: "Asian Kid Boy Packing Clothes into a Suitcase at Home Child Preparing Luggage for Travel or Vacation Indoors Kid Learning to Pack His Own Bag for a Trip"
 faq:
   - q: "如何開始居家整理？"

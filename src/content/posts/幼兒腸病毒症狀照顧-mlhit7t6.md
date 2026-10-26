@@ -4,7 +4,7 @@ description: "在某個熱情的夏日午後，阿美正忙著準備為她的寶
 publishDate: 2026-02-12
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/7970144/pexels-photo-7970144.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7970144.jpg"
 imageAlt: "A child wearing a protective face mask sits indoors, focusing on safety and health measures."
 faq:
   - q: "腸病毒的主要症狀是什麼？"

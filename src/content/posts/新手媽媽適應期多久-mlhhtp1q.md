@@ -4,7 +4,7 @@ description: "在某個晴朗的早晨，小婷坐在全聯的商店裡，手裡
 publishDate: 2026-02-16
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/7973667/pexels-photo-7973667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-7973667.jpg"
 imageAlt: "A mother and baby lying on a bed, sharing a moment with a smartphone indoors."
 faq:
   - q: "新手媽媽的適應期有多長？"

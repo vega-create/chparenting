@@ -4,7 +4,7 @@ description: "孩子背了忘、忘了背，GEPT 初級單字到底怎麼記才�
 publishDate: 2026-03-10
 category: "kids-learning"
 tags: ["GEPT初級", "英文單字", "國小英文", "單字記憶", "英檢準備"]
-image: "https://images.pexels.com/photos/8423081/pexels-photo-8423081.jpeg"
+image: "/images/covers/pexels-8423081.jpg"
 imageAlt: "國小生手拿英文單字卡在練習，桌上有彩色筆和筆記本"
 faq:
   - q: "GEPT 初級要背多少單字？"

@@ -4,7 +4,7 @@ description: "在繁忙的育兒生活中，找時間放鬆是關鍵。這篇文
 publishDate: 2026-02-28
 category: "生活實用"
 tags: ["育兒放鬆", "忙碌媽媽", "生活實用"]
-image: "https://img.b2bpic.net/premium-photo/young-asian-mother-little-daughter-lying-bed-using-smartphone-reading-book-they-are-having-relaxing-time-home_1138083-3393.jpg"
+image: "/images/covers/young-asian-mother-little-daughter-lying-bed-using-smartphon.jpg"
 imageAlt: "Young Asian mother and little daughter lying on the bed using smartphone and reading book they are having a relaxing time at home"
 faq:
   - q: "如何開始創造我的放鬆小角落？"

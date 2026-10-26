@@ -4,7 +4,7 @@ description: "在一個陽光明媚的下午，阿玲正忙著準備晚餐，突
 publishDate: 2026-02-15
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/4473621/pexels-photo-4473621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-4473621.jpg"
 imageAlt: "Young boy in red shirt watching television in cozy living room, remote in hand."
 faq:
   - q: "小孩一天看電視多久算正常？"

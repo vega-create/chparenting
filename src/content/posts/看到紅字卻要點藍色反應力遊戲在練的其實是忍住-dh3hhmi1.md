@@ -4,7 +4,7 @@ description: "螢幕出現「紅」這個字但字是藍色的，要點藍色。
 publishDate: 2026-11-16
 category: "kids-learning"
 tags: ["反應力遊戲", "專注力", "Stroop效應", "抑制控制", "兒童專注力訓練", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/12606708/pexels-photo-12606708.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-12606708.jpg"
 imageAlt: "男孩專注地在平板上玩反應遊戲"
 faq:
   - q: "Stroop 效應是什麼？"

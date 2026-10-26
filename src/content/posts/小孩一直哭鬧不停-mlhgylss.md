@@ -4,7 +4,7 @@ description: "在一個陽光明媚的早晨，媽媽小雯正忙著準備早餐
 publishDate: 2026-02-18
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/33065864/pexels-photo-33065864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-33065864.jpg"
 imageAlt: "Close-up black and white photograph of a crying newborn being cradled in arms."
 faq:
   - q: "小孩為什麼會一直哭鬧？"

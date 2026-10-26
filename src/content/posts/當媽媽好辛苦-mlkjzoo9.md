@@ -4,7 +4,7 @@ description: "當媽媽的辛苦與壓力常常被忽略，這篇文章將帶你
 publishDate: 2026-02-16
 category: "媽媽情緒"
 tags: ["媽媽情緒", "育兒壓力", "自我照顧"]
-image: "https://img.b2bpic.net/free-photo/front-view-smiley-mother-playing-hide-seek-home-with-her-children_23-2148890982.jpg"
+image: "/images/covers/front-view-smiley-mother-playing-hide-seek-home-with-her-chi.jpg"
 imageAlt: "Front view of smiley mother playing hide-and-seek at home with her children"
 faq:
   - q: "媽媽為什麼會感到壓力？"

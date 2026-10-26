@@ -4,7 +4,7 @@ description: "六年級的世界地理範圍突然變大，孩子容易被地名
 publishDate: 2026-10-02
 category: "kids-learning"
 tags: ["世界地理", "七大洲", "國小社會", "六年級社會", "五大洋", "免費練習題"]
-image: "https://images.pexels.com/photos/9440832/pexels-photo-9440832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-9440832.jpg"
 imageAlt: "男孩用手指著地球儀"
 faq:
   - q: "世界地理幾年級學？"

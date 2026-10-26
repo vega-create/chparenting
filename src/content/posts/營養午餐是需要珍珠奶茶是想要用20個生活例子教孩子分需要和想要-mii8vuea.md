@@ -4,7 +4,7 @@ description: "「需要和想要」是兒童理財最重要的一課，但講定
 publishDate: 2026-10-15
 category: "kids-learning"
 tags: ["需要和想要", "兒童理財", "金錢教育", "國小理財", "消費觀念", "免費理財練習"]
-image: "https://images.pexels.com/photos/3985093/pexels-photo-3985093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-3985093.jpg"
 imageAlt: "媽媽和女兒在超市貨架前挑選商品"
 faq:
   - q: "需要和想要的定義是什麼？"

@@ -4,7 +4,7 @@ description: "英文聽力練不起來，常常是「聽的東西太難、聽的
 publishDate: 2026-09-12
 category: "kids-learning"
 tags: ["英文聽力", "國小英文", "英文聽力練習", "在家學英文", "免費英文資源", "GEPT初級"]
-image: "https://images.pexels.com/photos/3755500/pexels-photo-3755500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-3755500.jpg"
 imageAlt: "戴著耳機微笑的小女孩坐在書桌前"
 faq:
   - q: "孩子聽英文都說聽不懂，是不是要先把單字背多一點？"

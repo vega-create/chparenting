@@ -4,7 +4,7 @@ description: "探索如何在育兒的旅程中找到志同道合的媽媽社群
 publishDate: 2026-03-04
 category: "生活實用"
 tags: ["媽媽社群", "育兒平台", "親子活動"]
-image: "https://img.b2bpic.net/premium-photo/portrait-positive-senior-woman-with-glass-wine-her-friends-talking-background_274689-31044.jpg"
+image: "/images/covers/portrait-positive-senior-woman-with-glass-wine-her-friends-t.jpg"
 imageAlt: "Portrait of positive senior woman with glass on wine her friends talking in background"
 faq:
   - q: "如何找到適合我的媽媽社群？"

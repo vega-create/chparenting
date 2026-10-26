@@ -4,7 +4,7 @@ description: "在一個陽光明媚的下午，阿芬帶著她的四歲兒子小
 publishDate: 2026-02-15
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/3657154/pexels-photo-3657154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-3657154.jpg"
 imageAlt: "Young cricketer in white gear executing a sweep shot on a sunny day."
 faq:
   - q: "小孩打人的原因是什麼？"

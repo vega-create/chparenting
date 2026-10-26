@@ -4,7 +4,7 @@ description: "數獨不是高年級的專利。4×4 的水果數獨不用會加�
 publishDate: 2026-10-14
 category: "kids-learning"
 tags: ["數獨", "邏輯遊戲", "兒童數獨", "邏輯思維", "找規律", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/7296812/pexels-photo-7296812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7296812.jpg"
 imageAlt: "大人陪孩子玩木製邏輯拼圖"
 faq:
   - q: "數獨要會數學才能玩嗎？"

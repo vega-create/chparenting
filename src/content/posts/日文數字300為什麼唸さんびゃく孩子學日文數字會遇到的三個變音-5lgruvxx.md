@@ -4,7 +4,7 @@ description: "日文數字 1 到 10 不難，難的是往上：300 是さんび�
 publishDate: 2026-10-18
 category: "kids-learning"
 tags: ["日文數字", "兒童日文", "JLPT N5", "日文入門", "日文買東西", "免費日文練習"]
-image: "https://images.pexels.com/photos/5212724/pexels-photo-5212724.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5212724.jpg"
 imageAlt: "日本市場上標著日圓價格的牌子"
 faq:
   - q: "日文數字為什麼會變音？"

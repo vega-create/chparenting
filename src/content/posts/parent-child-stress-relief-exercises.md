@@ -4,7 +4,7 @@ description: "孩子在公共場合大哭大鬧讓你崩潰？與其壓抑情緒
 publishDate: "2025-02-06"
 category: "parent-child"
 tags: ["親子舒壓", "情緒管理", "兒童情緒", "親子互動"]
-image: "https://images.pexels.com/photos/7105605/pexels-photo-7105605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7105605.jpg"
 imageAlt: "媽媽和孩子一起做伸展運動"
 faq:
   - q: "孩子幾歲可以開始學習情緒管理？"

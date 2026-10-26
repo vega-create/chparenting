@@ -4,7 +4,7 @@ description: "在一個陽光燦爛的週末，阿美帶著她的寶寶小宇，
 publishDate: 2026-02-17
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/5853832/pexels-photo-5853832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-5853832.jpg"
 imageAlt: "Pregnant woman lying on a comfortable sofa, embracing calm and relaxation"
 faq:
   - q: "腰痠背痛會影響育兒嗎？"

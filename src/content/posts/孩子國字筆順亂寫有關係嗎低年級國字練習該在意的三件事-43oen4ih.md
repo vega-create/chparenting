@@ -4,7 +4,7 @@ description: "低年級國字練習，家長盯的是漂不漂亮，真正該在
 publishDate: 2026-10-03
 category: "kids-learning"
 tags: ["國字筆順", "低年級國語", "國字練習", "筆畫", "部首", "免費國語練習"]
-image: "https://images.pexels.com/photos/12356915/pexels-photo-12356915.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-12356915.jpg"
 imageAlt: "在格線紙上練習書寫國字"
 faq:
   - q: "筆順寫錯真的有關係嗎？"

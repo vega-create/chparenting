@@ -4,7 +4,7 @@ description: "忙碌的媽媽們常常感到沒有自己的時間，這篇文章
 publishDate: 2026-02-18
 category: "媽媽情緒"
 tags: ["媽媽情緒", "自我關懷", "育兒生活"]
-image: "https://img.b2bpic.net/premium-photo/loving-young-mother-enjoying-company-her-child_259150-70471.jpg"
+image: "/images/covers/loving-young-mother-enjoying-company-her-child259150-70471.jpg"
 imageAlt: "Loving young mother enjoying the company of her child"
 faq:
   - q: "為什麼媽媽常常覺得沒有自己的時間？"

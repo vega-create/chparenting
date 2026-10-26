@@ -4,7 +4,7 @@ description: "在某個陽光明媚的早晨，瑩瑩坐在餐桌前，望著正
 publishDate: 2026-02-17
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/7705710/pexels-photo-7705710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-7705710.jpg"
 imageAlt: "A joyful mother and child laughing together at home on a cozy sofa, enjoying quality time."
 faq:
   - q: "如何調整心態準備回到工作？"

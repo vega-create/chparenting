@@ -4,7 +4,7 @@ description: "本文分享了媽媽如何紓壓放鬆的實用方法，讓你在
 publishDate: 2026-02-22
 category: "媽媽情緒"
 tags: ["媽媽情緒", "育兒紓壓", "心理健康"]
-image: "https://img.b2bpic.net/premium-photo/happy-asian-mom-child-relaxing-sofa-enjoying-video-digital-tablet_35674-34172.jpg"
+image: "/images/covers/happy-asian-mom-child-relaxing-sofa-enjoying-video-digital-t.jpg"
 imageAlt: "Happy Asian mom and child relaxing on the sofa and enjoying a video on digital tablet"
 faq:
   - q: "如何放鬆心情?"

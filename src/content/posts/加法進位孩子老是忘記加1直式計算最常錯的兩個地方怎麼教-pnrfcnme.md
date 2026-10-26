@@ -4,7 +4,7 @@ description: "低年級數學的直式加減，錯最多的是進位忘記加 1�
 publishDate: 2026-10-10
 category: "kids-learning"
 tags: ["加法進位", "低年級數學", "直式計算", "退位減法", "二年級數學", "免費數學練習"]
-image: "https://images.pexels.com/photos/8612925/pexels-photo-8612925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-8612925.jpg"
 imageAlt: "小女孩用算盤學加法"
 faq:
   - q: "孩子進位老是忘記加 1，是粗心嗎？"

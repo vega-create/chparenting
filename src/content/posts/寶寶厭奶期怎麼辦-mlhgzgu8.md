@@ -4,7 +4,7 @@ description: "在全聯的嬰兒用品區，阿靜正焦急地翻找著各種奶
 publishDate: 2026-03-17
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/5593128/pexels-photo-5593128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5593128.jpg"
 imageAlt: "Asian mother gently feeding her baby with a bottle in a warm home setting"
 faq:
   - q: "寶寶厭奶期一般會持續多久？"

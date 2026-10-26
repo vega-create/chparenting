@@ -4,7 +4,7 @@ description: "兒童理財第一課不是存錢，是「錢是什麼」。錢是
 publishDate: 2026-10-06
 category: "kids-learning"
 tags: ["兒童理財", "金錢教育", "理財啟蒙", "國小理財", "金錢觀", "免費理財練習"]
-image: "https://images.pexels.com/photos/12955547/pexels-photo-12955547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-12955547.jpg"
 imageAlt: "男孩把硬幣投進小豬存錢筒"
 faq:
   - q: "兒童理財從幾歲開始？"

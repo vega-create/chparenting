@@ -4,7 +4,7 @@ description: "國小英文寫作不是一開始就要寫一篇，是四種題型
 publishDate: 2026-09-27
 category: "kids-learning"
 tags: ["國小英文寫作", "英文寫作", "英文作文", "GEPT初級寫作", "在家學英文", "免費英文練習"]
-image: "https://images.pexels.com/photos/5905476/pexels-photo-5905476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5905476.jpg"
 imageAlt: "孩子在筆記本上寫英文"
 faq:
   - q: "國小生就要練英文寫作嗎？"

@@ -4,7 +4,7 @@ description: "了解產後憂鬱的症狀、成因及應對方法，幫助新手
 publishDate: 2026-02-17
 category: "媽媽情緒"
 tags: ["產後憂鬱", "媽媽情緒", "育兒支持"]
-image: "https://img.b2bpic.net/premium-photo/mother-daughter-against-window_43525-2672.jpg"
+image: "/images/covers/mother-daughter-against-window43525-2672.jpg"
 imageAlt: "Mother and daughter against window"
 faq:
   - q: "產後憂鬱的主要症狀是什麼？"

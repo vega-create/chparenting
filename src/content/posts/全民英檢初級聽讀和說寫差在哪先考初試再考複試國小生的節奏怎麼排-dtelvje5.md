@@ -4,7 +4,7 @@ description: "全民英檢初級分兩階段：聽讀是初試、說寫是複試
 publishDate: 2026-09-14
 category: "kids-learning"
 tags: ["全民英檢初級", "初試複試", "GEPT初級說寫", "英檢口說寫作", "GEPT 2026", "國小英檢"]
-image: "https://images.pexels.com/photos/5303516/pexels-photo-5303516.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5303516.jpg"
 imageAlt: "男孩在書桌前對著麥克風練習"
 faq:
   - q: "全民英檢初級的初試和複試是什麼？"

@@ -4,7 +4,7 @@ description: "在一個寧靜的夜晚，媽媽小珍正疲憊地坐在沙發上
 publishDate: 2026-03-24
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/755028/pexels-photo-755028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-755028.jpg"
 imageAlt: "Asian mother comforting her crying baby at night in a dimly lit room"
 faq:
   - q: "小孩半夜哭鬧正常嗎？"

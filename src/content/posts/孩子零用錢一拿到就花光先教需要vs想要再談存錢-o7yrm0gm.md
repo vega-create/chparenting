@@ -4,7 +4,7 @@ description: "零用錢拿到就花光，直接要求「先存起來」通常沒
 publishDate: 2026-09-17
 category: "kids-learning"
 tags: ["零用錢", "兒童理財", "需要vs想要", "金錢教育", "國小理財", "免費練習"]
-image: "https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-1602726.jpg"
 imageAlt: "把硬幣投進藍色小豬存錢筒"
 faq:
   - q: "零用錢幾歲開始給？"

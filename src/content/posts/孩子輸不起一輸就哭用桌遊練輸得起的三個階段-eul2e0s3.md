@@ -4,7 +4,7 @@ description: "孩子輸不起，硬要他「沒關係再來一次」通常沒用
 publishDate: 2026-09-14
 category: "kids-learning"
 tags: ["輸不起", "情緒教養", "挫折忍受", "桌遊", "親子遊戲", "免費教育遊戲"]
-image: "https://images.pexels.com/photos/7296490/pexels-photo-7296490.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-7296490.jpg"
 imageAlt: "孩子們趴在地板上玩桌遊"
 faq:
   - q: "孩子輸不起是個性問題嗎？"

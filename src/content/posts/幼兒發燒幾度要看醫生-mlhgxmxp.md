@@ -4,7 +4,7 @@ description: "在一個陽光明媚的下午，阿靜剛把剛滿三歲的小明
 publishDate: 2026-02-17
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/9396667/pexels-photo-9396667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-9396667.jpg"
 imageAlt: "An Asian mother happily feeds her baby with a bottle during the Christmas holiday season."
 faq:
   - q: "幼兒發燒幾度需要就醫？"

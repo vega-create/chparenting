@@ -4,7 +4,7 @@ description: "在一個陽光明媚的午後，媽媽小雅帶著她的3歲兒�
 publishDate: 2026-02-19
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/5990480/pexels-photo-5990480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5990480.jpg"
 imageAlt: "Heartwarming scene of mother and daughter enjoying breakfast together at home."
 faq:
   - q: "3歲的孩子應該會說多少話？"

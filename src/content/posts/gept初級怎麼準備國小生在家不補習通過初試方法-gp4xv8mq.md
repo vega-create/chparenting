@@ -5,7 +5,7 @@ publishDate: 2026-06-05
 modifiedDate: 2026-06-05
 category: "kids-learning"
 tags: ["GEPT初級", "全民英檢", "國小英文", "英檢準備", "免費學習資源"]
-image: "https://images.pexels.com/photos/8054854/pexels-photo-8054854.jpeg"
+image: "/images/covers/pexels-8054854.jpg"
 imageAlt: "亞洲媽媽陪小學生坐在沙發上讀英文書，桌上有筆記本與單字卡"
 faq:
   - q: "準備 GEPT 初級一定要補習嗎？"

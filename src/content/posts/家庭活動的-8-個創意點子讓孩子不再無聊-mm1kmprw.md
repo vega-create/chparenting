@@ -4,7 +4,7 @@ description: "探索八個創意家庭活動，讓孩子不再無聊，增進親
 publishDate: 2026-03-01
 category: "生活實用"
 tags: ["家庭活動", "親子關係", "創意點子"]
-image: "https://img.b2bpic.net/premium-photo/asian-family-green-public-park_926199-3970093.jpg"
+image: "/images/covers/asian-family-green-public-park926199-3970093.jpg"
 imageAlt: "Asian family at green public park"
 faq:
   - q: "這些活動適合什麼年齡的孩子？"

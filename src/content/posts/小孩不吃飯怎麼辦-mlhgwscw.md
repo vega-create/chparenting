@@ -4,7 +4,7 @@ description: "在某個下午的陽光下，阿芬正坐在餐桌前，心情忐
 publishDate: 2026-03-28
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/5083233/pexels-photo-5083233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5083233.jpg"
 imageAlt: "Asian mother patiently feeding her toddler at the dining table"
 faq:
   - q: "小孩一餐吃多少才夠？"

@@ -4,7 +4,7 @@ description: "全職媽媽的壓力難以言喻，本文將深入探討壓力來
 publishDate: 2026-02-15
 category: "媽媽情緒"
 tags: ["全職媽媽", "情緒管理", "壓力釋放"]
-image: "https://img.b2bpic.net/free-photo/medium-shot-woman-working-from-home_23-2150232463.jpg"
+image: "/images/covers/medium-shot-woman-working-from-home23-2150232463.jpg"
 imageAlt: "Medium shot woman working from home"
 faq:
   - q: "全職媽媽如何應對壓力？"

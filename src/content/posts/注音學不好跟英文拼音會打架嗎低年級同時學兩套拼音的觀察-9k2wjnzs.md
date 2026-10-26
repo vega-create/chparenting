@@ -4,7 +4,7 @@ description: "注音還沒穩，英文又開始教字母發音，兩套會不會
 publishDate: 2026-09-16
 category: "kids-learning"
 tags: ["注音", "注音符號", "低年級國語", "注音拼讀", "英文自然發音", "免費練習"]
-image: "https://images.pexels.com/photos/8613121/pexels-photo-8613121.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-8613121.jpg"
 imageAlt: "小女孩看著牆上的數字與英文字母海報"
 faq:
   - q: "注音和英文自然發音會不會互相干擾？"

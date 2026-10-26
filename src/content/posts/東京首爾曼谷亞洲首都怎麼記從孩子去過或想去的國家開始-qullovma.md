@@ -4,7 +4,7 @@ description: "六年級社會的亞洲地理，孩子最常被國家和首都的
 publishDate: 2026-11-14
 category: "kids-learning"
 tags: ["亞洲首都", "國小社會", "亞洲地理", "六年級社會", "國家首都", "免費練習題"]
-image: "https://images.pexels.com/photos/20378127/pexels-photo-20378127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-20378127.jpg"
 imageAlt: "東京晴空塔與市區天際線"
 faq:
   - q: "亞洲首都要背幾個？"

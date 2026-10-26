@@ -4,7 +4,7 @@ description: "學樂器前要不要先學樂理，答案是：不用「先」，
 publishDate: 2026-09-22
 category: "kids-learning"
 tags: ["樂理", "學樂器", "兒童樂理", "五線譜", "音樂啟蒙", "免費樂理練習"]
-image: "https://images.pexels.com/photos/11368512/pexels-photo-11368512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-11368512.jpg"
 imageAlt: "小女孩看著樂譜彈鋼琴"
 faq:
   - q: "學樂器一定要先學樂理嗎？"

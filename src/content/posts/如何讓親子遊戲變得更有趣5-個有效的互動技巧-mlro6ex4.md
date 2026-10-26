@@ -4,7 +4,7 @@ description: "透過五個有效的互動技巧，讓親子遊戲變得更有趣
 publishDate: 2026-02-19
 category: "生活實用"
 tags: ["親子遊戲", "親子互動", "育兒技巧"]
-image: "https://img.b2bpic.net/premium-photo/mother-child-building-colorful-block-tower-together-laughing-as-it-teeters_693425-30622.jpg"
+image: "/images/covers/mother-child-building-colorful-block-tower-together-laughing.jpg"
 imageAlt: "A mother and child building a colorful block tower together laughing as it teeters"
 faq:
   - q: "如何選擇適合孩子的遊戲？"

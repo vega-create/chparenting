@@ -4,7 +4,7 @@ description: "讓晚餐不再煩惱！這十道快速食譜，專為忙碌媽媽
 publishDate: 2026-03-02
 category: "生活實用"
 tags: ["快速食譜", "忙碌媽媽", "家庭晚餐"]
-image: "https://img.b2bpic.net/free-photo/little-asian-girl-spending-home-kitchen-with-her-mother_23-2150259954.jpg"
+image: "/images/covers/little-asian-girl-spending-home-kitchen-with-her-mother23-21.jpg"
 imageAlt: "Little asian girl spending at home in the kitchen with her mother"
 faq:
   - q: "這些食譜需要多少準備時間？"

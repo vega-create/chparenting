@@ -4,7 +4,7 @@ description: "數學應用題看不懂，多半不是算不出來，是不知道
 publishDate: 2026-09-11
 category: "kids-learning"
 tags: ["數學應用題", "國小數學", "應用題", "解題步驟", "在家教數學", "免費練習"]
-image: "https://images.pexels.com/photos/5905965/pexels-photo-5905965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5905965.jpg"
 imageAlt: "小學生在白板上解數學題"
 faq:
   - q: "孩子計算都會，就是應用題不會，正常嗎？"

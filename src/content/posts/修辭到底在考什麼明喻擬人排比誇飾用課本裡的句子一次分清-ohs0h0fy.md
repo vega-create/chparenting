@@ -4,7 +4,7 @@ description: "高年級國語考修辭，孩子常四種都會背定義就是分
 publishDate: 2026-10-08
 category: "kids-learning"
 tags: ["修辭", "國小國語", "修辭法", "高年級國語", "明喻擬人", "免費國語練習"]
-image: "https://images.pexels.com/photos/34344662/pexels-photo-34344662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-34344662.jpg"
 imageAlt: "攤開的手寫詩集與秋天的落葉"
 faq:
   - q: "修辭幾年級開始考？"

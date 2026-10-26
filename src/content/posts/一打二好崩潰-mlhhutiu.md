@@ -4,7 +4,7 @@ description: "在一個平常的週末早晨，小雯正忙著準備早餐，心
 publishDate: 2026-02-19
 category: "媽媽情緒"
 tags: []
-image: "https://images.pexels.com/photos/6182925/pexels-photo-6182925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "/images/covers/pexels-6182925.jpg"
 imageAlt: "Asian mother with her two daughters enjoying a tender moment indoors, showcasing love and affection."
 faq:
   - q: "如何應對孩子同時哭鬧的情況？"

@@ -4,7 +4,7 @@ description: "學會這七個家庭整理小妙招，讓你輕鬆擁有整潔空
 publishDate: 2026-02-20
 category: "生活實用"
 tags: ["家庭整理", "生活實用", "清理技巧"]
-image: "https://img.b2bpic.net/premium-photo/asian-family-smiling-happily-preparing-food-kitchen_39345-32.jpg"
+image: "/images/covers/asian-family-smiling-happily-preparing-food-kitchen39345-32.jpg"
 imageAlt: "Asian family smiling happily preparing food in the kitchen"
 faq:
   - q: "如何開始家庭整理？"

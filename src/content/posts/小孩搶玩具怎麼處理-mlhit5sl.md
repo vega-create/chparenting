@@ -4,7 +4,7 @@ description: "在某個陽光明媚的週末，阿芳帶著她的三歲寶貝小
 publishDate: 2026-02-11
 category: "育兒崩潰"
 tags: []
-image: "https://images.pexels.com/photos/5692245/pexels-photo-5692245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "/images/covers/pexels-5692245.jpg"
 imageAlt: "Grandmother cuddles with two children, reading and browsing in bed."
 faq:
   - q: "小孩搶玩具是正常行為嗎？"

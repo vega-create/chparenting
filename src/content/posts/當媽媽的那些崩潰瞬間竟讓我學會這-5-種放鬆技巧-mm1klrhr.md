@@ -4,7 +4,7 @@ description: "在育兒的崩潰瞬間，學會放鬆技巧是關鍵！這篇文
 publishDate: 2026-02-25
 category: "生活實用"
 tags: ["育兒崩潰", "媽媽情緒", "放鬆技巧"]
-image: "https://img.b2bpic.net/premium-photo/asian-family-mother-with-girl-patio-sofa-bonding-support-growth-child-development-parent-kid-happy-childhood-memories-trust-care-home-together_590464-418129.jpg"
+image: "/images/covers/asian-family-mother-with-girl-patio-sofa-bonding-support-gro.jpg"
 imageAlt: "Above Asian family and mother with girl in patio on sofa for bonding support and growth for child development Parent kid and happy for childhood memories trust and care at home together"
 faq:
   - q: "如何處理孩子的情緒崩潰？"
