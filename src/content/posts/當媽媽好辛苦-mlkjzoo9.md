@@ -4,8 +4,8 @@ description: "當媽媽的辛苦與壓力常常被忽略，這篇文章將帶你
 publishDate: 2026-02-16
 category: "媽媽情緒"
 tags: ["媽媽情緒", "育兒壓力", "自我照顧"]
-image: "/images/covers/front-view-smiley-mother-playing-hide-seek-home-with-her-chi.jpg"
-imageAlt: "Front view of smiley mother playing hide-and-seek at home with her children"
+image: "/images/covers/pexels-4473454.jpg"
+imageAlt: "媽媽陪著兩個孩子在家，一邊顧哥哥一邊顧妹妹"
 faq:
   - q: "媽媽為什麼會感到壓力？"
     a: "媽媽在育兒過程中需面對多重角色與責任，常常感到疲憊與焦慮。社會期待與自我要求也會增加壓力。"

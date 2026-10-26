@@ -4,8 +4,8 @@ description: "產後身材的變化讓許多媽媽感到沮喪，但這是一個
 publishDate: 2026-02-14
 category: "媽媽情緒"
 tags: ["產後身材", "媽媽情緒", "自我接納"]
-image: "/images/covers/pregnant-young-woman-by-window-black-underwear-background-ol.jpg"
-imageAlt: "Pregnant young woman by  window in black underwear on background old white wall"
+image: "/images/covers/pexels-27177604.jpg"
+imageAlt: "產後媽媽抱著新生兒坐在沙發上休息"
 faq:
   - q: "產後身材變化是正常的嗎？"
     a: "是的，產後身體經歷了許多變化，這是自然的過程。每位媽媽的恢復時間不同，給自己一些耐心與空間。"

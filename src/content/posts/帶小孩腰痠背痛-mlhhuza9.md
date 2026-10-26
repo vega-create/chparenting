@@ -4,8 +4,8 @@ description: "在一個陽光燦爛的週末，阿美帶著她的寶寶小宇，
 publishDate: 2026-02-17
 category: "媽媽情緒"
 tags: []
-image: "/images/covers/pexels-5853832.jpg"
-imageAlt: "Pregnant woman lying on a comfortable sofa, embracing calm and relaxation"
+image: "/images/covers/pexels-11352554.jpg"
+imageAlt: "媽媽用手按著痠痛的後頸"
 faq:
   - q: "腰痠背痛會影響育兒嗎？"
     a: "是的，腰痠背痛不僅影響媽媽的身體健康，也可能影響到育兒的心情和效率，甚至可能影響和小孩的互動。"

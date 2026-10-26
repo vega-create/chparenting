@@ -4,8 +4,8 @@ description: "在一個寧靜的夜晚，媽媽小珍正疲憊地坐在沙發上
 publishDate: 2026-03-24
 category: "育兒崩潰"
 tags: []
-image: "/images/covers/pexels-755028.jpg"
-imageAlt: "Asian mother comforting her crying baby at night in a dimly lit room"
+image: "/images/covers/pexels-20776873.jpg"
+imageAlt: "媽媽在夜裡抱著寶寶站在陽台上"
 faq:
   - q: "小孩半夜哭鬧正常嗎？"
     a: "是的，尤其在 0～3 歲階段很常見。嬰兒的睡眠週期只有 45～60 分鐘，每次進入淺眠都可能醒來哭鬧，這是正常的生理現象。"

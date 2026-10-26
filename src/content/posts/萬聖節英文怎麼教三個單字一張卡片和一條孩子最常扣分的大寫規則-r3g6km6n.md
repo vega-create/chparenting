@@ -4,8 +4,8 @@ description: "萬聖節是孩子最有感的節日之一，正好用來教節日
 publishDate: 2026-10-27
 category: "kids-learning"
 tags: ["萬聖節英文", "國小英文", "節日英文", "Halloween", "英文卡片", "免費英文練習"]
-image: "/images/covers/pexels-12955832.jpg"
-imageAlt: "小男孩坐在兩顆大南瓜旁"
+image: "/images/covers/pexels-5607360.jpg"
+imageAlt: "戴面具、穿萬聖節裝扮的女孩在戶外笑"
 faq:
   - q: "Halloween 為什麼要大寫？"
     a: "因為它是節日的名字。英文裡節日名稱永遠大寫開頭：Halloween、Christmas、Easter。同樣的規則也用在月份和星期。這是 GEPT 初級節日與慶典單元特別標出來的考點。"

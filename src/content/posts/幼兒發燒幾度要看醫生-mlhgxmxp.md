@@ -4,8 +4,8 @@ description: "在一個陽光明媚的下午，阿靜剛把剛滿三歲的小明
 publishDate: 2026-02-17
 category: "育兒崩潰"
 tags: []
-image: "/images/covers/pexels-9396667.jpg"
-imageAlt: "An Asian mother happily feeds her baby with a bottle during the Christmas holiday season."
+image: "/images/covers/pexels-3873214.jpg"
+imageAlt: "床上的體溫計和藥片"
 faq:
   - q: "幼兒發燒幾度需要就醫？"
     a: "通常幼兒發燒超過38.5度時，建議儘快就醫。如果有其他不適症狀，如持續哭鬧、食慾不振等，也需考慮就醫。"

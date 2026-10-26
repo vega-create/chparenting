@@ -4,8 +4,8 @@ description: "覺得壓力好大、喘不過氣？這篇文章分享 5 個簡單
 publishDate: 2025-02-06
 category: "mom-emotions"
 tags: ["壓力", "放鬆", "舒壓", "媽媽"]
-image: "/images/covers/pexels-4551028.jpg"
-imageAlt: "一個正在放鬆的女性"
+image: "/images/covers/pexels-8872807.jpg"
+imageAlt: "媽媽雙手扶著額頭，看起來壓力很大"
 faq:
   - q: "媽媽壓力大是正常的嗎？"
     a: "完全正常！育兒、家務、工作多重角色讓媽媽承受很大壓力。重要的是學會適時釋放壓力，照顧好自己才能照顧好家人。"

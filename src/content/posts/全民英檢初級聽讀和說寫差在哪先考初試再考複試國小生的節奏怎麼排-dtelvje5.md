@@ -4,8 +4,8 @@ description: "全民英檢初級分兩階段：聽讀是初試、說寫是複試
 publishDate: 2026-09-14
 category: "kids-learning"
 tags: ["全民英檢初級", "初試複試", "GEPT初級說寫", "英檢口說寫作", "GEPT 2026", "國小英檢"]
-image: "/images/covers/pexels-5303516.jpg"
-imageAlt: "男孩在書桌前對著麥克風練習"
+image: "/images/covers/pexels-8055832.jpg"
+imageAlt: "女孩在書桌前看著平板上課、一邊寫筆記"
 faq:
   - q: "全民英檢初級的初試和複試是什麼？"
     a: "初試是聽力加閱讀（聽讀），複試是口說加寫作（說寫）。要先通過初試，才能報複試；兩個都通過，LTTC 才核發初級證書。只過初試會有成績單，但不是證書。"

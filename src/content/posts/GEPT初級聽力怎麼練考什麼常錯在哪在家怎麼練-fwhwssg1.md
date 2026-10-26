@@ -4,8 +4,8 @@ description: "GEPT 初級聽力是很多國小生第一個正式的英文聽力�
 publishDate: 2026-09-24
 category: "kids-learning"
 tags: ["GEPT 初級聽力", "GEPT 初級", "英檢聽力", "全民英檢初級", "英文聽力練習", "免費英檢練習"]
-image: "/images/covers/pexels-5303515.jpg"
-imageAlt: "孩子戴著耳機寫英文練習卷"
+image: "/images/covers/pexels-8055148.jpg"
+imageAlt: "女孩在餐桌前寫英文練習，爸爸在後面廚房做菜"
 faq:
   - q: "GEPT 初級聽力大概考什麼？"
     a: "大致分成看圖、問答、簡短對話、短文聽解幾種題型，全部是選擇題，語速比平常說話慢一點。確切的題型和題數以 LTTC 官方公告為準，每年可能微調。"

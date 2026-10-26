@@ -4,8 +4,8 @@ description: "你是不是也覺得當媽之後笑點變低了？其實，笑是
 publishDate: "2025-02-06"
 category: "mom-emotions"
 tags: ["媽媽笑話", "育兒日常", "解壓", "媽媽心聲"]
-image: "/images/covers/pexels-5637812.jpg"
-imageAlt: "一位媽媽開心的笑著"
+image: "/images/covers/pexels-7943706.jpg"
+imageAlt: "媽媽從背後抱住女兒，兩人在沙發上笑成一團"
 faq:
   - q: "為什麼當媽後特別需要笑？"
     a: "研究顯示，笑可以降低皮質醇（壓力荷爾蒙）水平、釋放腦內啡，對於長期處於高壓狀態的媽媽來說，笑是最天然的解壓藥。"

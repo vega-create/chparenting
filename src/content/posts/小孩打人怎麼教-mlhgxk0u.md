@@ -4,8 +4,8 @@ description: "在一個陽光明媚的下午，阿芬帶著她的四歲兒子小
 publishDate: 2026-02-15
 category: "育兒崩潰"
 tags: []
-image: "/images/covers/pexels-3657154.jpg"
-imageAlt: "Young cricketer in white gear executing a sweep shot on a sunny day."
+image: "/images/covers/pexels-32029135.jpg"
+imageAlt: "小男孩嘟著嘴、一臉不服氣"
 faq:
   - q: "小孩打人的原因是什麼？"
     a: "小孩打人通常是因為他們還不懂如何用語言表達情緒，或者是模仿周圍的行為。情緒調節能力尚未成熟的孩子，可能會用打人來解決問題。"

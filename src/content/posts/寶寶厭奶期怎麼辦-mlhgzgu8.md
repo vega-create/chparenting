@@ -4,8 +4,8 @@ description: "在全聯的嬰兒用品區，阿靜正焦急地翻找著各種奶
 publishDate: 2026-03-17
 category: "育兒崩潰"
 tags: []
-image: "/images/covers/pexels-5593128.jpg"
-imageAlt: "Asian mother gently feeding her baby with a bottle in a warm home setting"
+image: "/images/covers/pexels-17677948.jpg"
+imageAlt: "坐在餐椅上的寶寶雙手捧著奶瓶喝奶"
 faq:
   - q: "寶寶厭奶期一般會持續多久？"
     a: "寶寶厭奶期通常持續 2 週到 1 個月左右，少數寶寶可能延長至 2 個月。如果超過 2 個月且體重明顯下降，建議就醫檢查。"

@@ -4,8 +4,8 @@ description: "在一個陽光明媚的早晨，媽媽小雯正忙著準備早餐
 publishDate: 2026-02-18
 category: "育兒崩潰"
 tags: []
-image: "/images/covers/pexels-33065864.jpg"
-imageAlt: "Close-up black and white photograph of a crying newborn being cradled in arms."
+image: "/images/covers/pexels-7973656.jpg"
+imageAlt: "躺在床上的寶寶張大嘴哭"
 faq:
   - q: "小孩為什麼會一直哭鬧？"
     a: "小孩哭鬧的原因有很多，可能是生理需求、情緒不穩、身體不適或過度刺激等。了解這些原因後，媽媽們能更有效地應對。"

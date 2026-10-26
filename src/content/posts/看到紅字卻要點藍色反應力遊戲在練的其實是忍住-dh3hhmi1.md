@@ -4,8 +4,8 @@ description: "螢幕出現「紅」這個字但字是藍色的，要點藍色。
 publishDate: 2026-11-16
 category: "kids-learning"
 tags: ["反應力遊戲", "專注力", "Stroop效應", "抑制控制", "兒童專注力訓練", "免費教育遊戲"]
-image: "/images/covers/pexels-12606708.jpg"
-imageAlt: "男孩專注地在平板上玩反應遊戲"
+image: "/images/covers/pexels-5692262.jpg"
+imageAlt: "兩個孩子一起在平板上玩遊戲"
 faq:
   - q: "Stroop 效應是什麼？"
     a: "看到一個顏色的「字」，但字本身是別的顏色，要說出字的顏色而不是字的意思。例如「紅」這個字印成藍色，正確答案是藍色。因為讀字是自動的、辨色要刻意，兩個訊號打架，反應會變慢、容易錯。這是心理學上很經典的現象。"
