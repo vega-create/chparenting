@@ -4,8 +4,8 @@ description: "寒假數學要複習什麼？與其買整本講義，不如先找
 publishDate: 2026-12-09
 category: "kids-learning"
 tags: ["國小數學", "寒假", "數學複習", "分年級", "免費練習"]
-image: "/images/covers/pexels-8055159.jpg"
-imageAlt: "國小女孩低頭在作業本上寫數學題目"
+image: "/images/covers/gen-q4m8t2xe.jpg"
+imageAlt: "爸爸陪兒子在書桌前用彩色分數圓片和積木做數學"
 faq:
   - q: "寒假數學要不要先預習下學期？"
     a: "多數孩子不需要。寒假比較值得做的是把上學期沒弄懂的單元補起來，因為下學期的內容常常建立在上學期的基礎上，地基穩了，預習的效果才會出來。"

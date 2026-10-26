@@ -4,8 +4,8 @@ description: "開學前一週才發現寒假作業還有一大半？先別急著
 publishDate: 2026-12-30
 category: "kids-learning"
 tags: ["寒假作業", "時間管理", "開學", "國小", "讀書計畫"]
-image: "/images/covers/pexels-8055128.jpg"
-imageAlt: "女孩坐在明亮的餐桌前寫作業"
+image: "/images/covers/gen-k9b4f6tr.jpg"
+imageAlt: "女兒把便利貼貼到牆上的月曆排寒假作業進度，媽媽在旁指著其中一天"
 faq:
   - q: "寒假作業做不完，家長要不要幫忙寫？"
     a: "不建議代寫。可以幫忙的是「排順序」和「陪著開始」，但寫的部分交給孩子。真的來不及的部分，讓孩子自己跟老師說明，也是一種學習。"
