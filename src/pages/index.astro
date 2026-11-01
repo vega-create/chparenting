@@ -41,17 +41,19 @@ const categoryIcons: Record<string, string> = {
   <!-- 鼓勵短句列（低動態跑馬燈，見 Marquee.astro） -->
   <Marquee />
 
-  <div class="tl-wrap pt-8 sm:pt-12">
-
-    <!-- Hero -->
-    <section class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_420px] lg:items-center mb-8 sm:mb-10">
+  <!-- Hero：滿版 banner（純色淺橘底，不用漸層） -->
+  <section class="w-full" style="background:#FBF3EA; border-bottom:1px solid #F0DDC9;">
+    <div class="tl-wrap grid gap-4 lg:gap-8 lg:grid-cols-[minmax(0,1fr)_440px] items-center py-8 sm:py-12 lg:py-14">
       <div class="text-center lg:text-left">
         <h1 class="text-[32px] sm:text-[44px] font-bold leading-tight text-warmgray-800 mb-2">媽媽不需要完美</h1>
         <p class="text-xl sm:text-2xl font-medium text-warmgray-700 mb-3">只需要一個能喘口氣的空間</p>
         <p class="tl-muted max-w-md mx-auto lg:mx-0">在這裡，你可以放下忙碌、緩一口氣，找回屬於自己的節奏。</p>
       </div>
-      <img src="/images/ui/hero-cup.webp" alt="" width="420" height="315" class="w-full max-w-[320px] lg:max-w-[420px] mx-auto" loading="eager" fetchpriority="high" />
-    </section>
+      <img src="/images/ui/hero-cup.webp" alt="" width="440" height="330" class="w-full max-w-[300px] lg:max-w-[440px] mx-auto" loading="eager" fetchpriority="high" />
+    </div>
+  </section>
+
+  <div class="tl-wrap pt-8 sm:pt-12">
 
     <!-- 心情卡 + 立即喘息推薦 -->
     <section class="mb-12 sm:mb-16">

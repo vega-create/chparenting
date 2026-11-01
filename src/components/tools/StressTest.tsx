@@ -86,6 +86,7 @@ export default function StressTest() {
   if (stage === 'intro') {
     return (
       <div className="text-center">
+        <img src="/images/ui/illustration-mom.webp" alt="" width="200" height="200" className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-2" />
         <p className="text-lg font-bold text-warmgray-800">10 題・約 2 分鐘</p>
         <p className="tl-muted mt-1">依最近一週的感受作答</p>
         <div className="mt-5 text-left">
@@ -109,6 +110,7 @@ export default function StressTest() {
           <div className="tl-progress" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}><span style={{ width: '100%' }} /></div>
         </div>
 
+        <img src="/images/ui/illustration-mom.webp" alt="" width="160" height="160" className="w-36 h-36 mx-auto mb-2" />
         <h2 ref={resultRef} tabIndex={-1} className="text-2xl font-bold text-warmgray-800 text-center outline-none">
           先照顧現在的自己
         </h2>
@@ -166,6 +168,7 @@ export default function StressTest() {
         <div className="tl-progress" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}><span style={{ width: `${progress}%` }} /></div>
       </div>
 
+      <img src="/images/ui/illus/thinking-mom.webp" alt="" width="160" height="160" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-3" />
       <h2 ref={questionRef} tabIndex={-1} id="stress-question" className="text-xl font-bold text-warmgray-800 leading-snug mb-4 outline-none">
         {questions[current]}
       </h2>

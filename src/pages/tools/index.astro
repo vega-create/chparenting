@@ -11,23 +11,27 @@ const groups = toolCategories.map((cat) => ({
 ---
 
 <BaseLayout title="喘息工具館" description="媽媽專屬的喘息工具：呼吸練習、壓力自我檢視、白噪音、正能量卡片、心情日記、笑話與語錄、時間與待辦整理，共 13 項，免費使用。" image="/images/og-default.jpg">
-  <div class="tl-wrap pt-6 pb-4 sm:pt-10">
-    <!-- 標題 + 精選 -->
-    <section class="grid gap-6 lg:grid-cols-[1fr_minmax(0,420px)] lg:items-center mb-8">
+  <!-- 滿版 banner（純色淺橘底）：標題 + 精選呼吸卡 + 插圖 -->
+  <section class="w-full" style="background:#FBF3EA; border-bottom:1px solid #F0DDC9;">
+    <div class="tl-wrap grid gap-4 lg:gap-8 lg:grid-cols-[minmax(0,1fr)_380px] items-center py-8 sm:py-12">
       <div class="text-center lg:text-left">
-        <h1 class="text-[30px] sm:text-[42px] font-bold leading-tight text-warmgray-800 mb-3">喘息工具館</h1>
-        <p class="text-lg tl-muted mb-6">選一個你現在需要的工具，給自己幾分鐘的喘息時間</p>
+        <h1 class="text-[30px] sm:text-[42px] font-bold leading-tight text-warmgray-800 mb-2">留一點時間，給自己</h1>
+        <p class="text-lg tl-muted mb-6">選一個你現在需要的工具，慢慢來就好。</p>
         <a href={featured.href} class="tl-card !p-4 sm:!p-5 flex items-center gap-4 text-left hover:border-peach-400 transition-colors group">
           <img src={featured.icon} alt="" width="56" height="56" class="w-14 h-14 shrink-0 object-contain" loading="eager" />
           <span class="min-w-0 flex-1">
             <span class="block font-bold text-warmgray-800 text-lg">先從 3 分鐘呼吸開始</span>
             <span class="block text-sm tl-muted">給自己一段安靜的時間，跟著節奏，慢慢呼吸。</span>
           </span>
-          <span class="tl-btn tl-btn-primary !min-h-[44px] !px-4 text-sm shrink-0 hidden sm:inline-flex">開始練習</span>
+          <span class="tl-btn tl-btn-primary !min-h-[44px] !px-4 text-sm shrink-0 hidden sm:inline-flex">開始練習 →</span>
         </a>
       </div>
-      <img src="/images/ui/illustration-mom.webp" alt="" width="420" height="420" class="hidden lg:block w-full max-w-[420px] mx-auto" loading="eager" />
-    </section>
+      <img src="/images/ui/illustration-mom.webp" alt="" width="380" height="380" class="w-full max-w-[220px] lg:max-w-[380px] mx-auto" loading="eager" />
+    </div>
+  </section>
+
+  <div class="tl-wrap pt-6 pb-4">
+    <h2 class="sr-only">喘息工具館</h2>
 
     <!-- 分類錨點 -->
     <nav class="sticky top-16 z-30 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 py-2 mb-6 bg-cream/95 backdrop-blur" aria-label="工具分類">
