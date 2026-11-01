@@ -16,8 +16,10 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await post.render();
+// 中文約每分鐘 400 字
+const readingMinutes = Math.max(1, Math.round((post.body || '').replace(/\s+/g, '').length / 400));
 ---
 
-<PostLayout frontmatter={post.data} headings={headings}>
+<PostLayout frontmatter={post.data} headings={headings} readingMinutes={readingMinutes}>
   <Content />
 </PostLayout>

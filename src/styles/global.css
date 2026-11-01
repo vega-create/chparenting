@@ -72,6 +72,40 @@
   .prose-warm img {
     @apply rounded-2xl my-6;
   }
+
+  /* 文章頁內文（版型比照 learn.chparenting.com 文章頁） */
+  .post-prose { font-size: 17px; line-height: 1.9; }
+  .post-prose p, .post-prose li { color: #4A3E34; line-height: 1.9; }
+  .post-prose h2 {
+    @apply text-[22px] md:text-2xl font-bold mt-12 mb-4 pl-3 leading-snug scroll-mt-24;
+    border-left: 4px solid #E8A87C;
+    color: #3A2E24;
+  }
+  .post-prose h3 { @apply text-lg md:text-xl mt-8 mb-3 scroll-mt-24; color: #3A2E24; }
+  .post-prose a { @apply font-semibold no-underline hover:underline; color: #C07D52; }
+  .post-prose strong { color: #3A2E24; }
+  .post-prose ul { @apply list-disc; }
+  .post-prose ol { @apply list-decimal; }
+  .post-prose li { @apply my-1; }
+  .post-prose blockquote { @apply not-italic font-normal; color: #4A3E34; background: #FDF9F4; }
+  .post-prose img { @apply w-full my-8 border border-warmgray-200; }
+  .post-prose hr { @apply my-10 border-warmgray-200; }
+  .post-prose table {
+    @apply w-full my-7 text-[15px] leading-relaxed border-separate rounded-xl overflow-hidden;
+    border-spacing: 0;
+    border: 1px solid #F5DCC6;
+  }
+  .post-prose th {
+    @apply px-4 py-2.5 font-bold text-left align-top;
+    background: #FBF0E5; color: #3A2E24; border-bottom: 1px solid #F5DCC6;
+  }
+  .post-prose td { @apply px-4 py-2.5 align-top; border-top: 1px solid #F5F0EB; color: #4A3E34; }
+  .post-prose tr:first-child td { border-top: 0; }
+  /* 手機：表格太寬時可左右滑，不撐破版面 */
+  @media (max-width: 767px) {
+    .post-prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .post-prose th { white-space: nowrap; }
+  }
 }
 
 /* Animations */
