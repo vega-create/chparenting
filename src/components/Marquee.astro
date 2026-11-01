@@ -13,13 +13,24 @@ const affirmations = [
 const doubled = [...affirmations, ...affirmations];
 ---
 
-<div class="overflow-hidden bg-peach-400/8 py-3 border-y border-peach-400/10">
-  <div class="animate-marquee whitespace-nowrap inline-flex">
+<!-- 低動態跑馬燈：放慢、滑鼠移上／鍵盤聚焦時暫停；系統「減少動態」時改成靜態換行顯示 -->
+<div class="marquee-wrap overflow-hidden py-2.5 border-b border-warmgray-200/70" aria-label="給媽媽的鼓勵">
+  <div class="marquee-track animate-marquee whitespace-nowrap inline-flex">
     {doubled.map((text, i) => (
-      <span class="inline-flex items-center mx-6 text-sm text-warmgray-500 font-display">
-        <span class="text-peach-400 mr-2">✦</span>
+      <span class="inline-flex items-center mx-5 text-sm tl-muted" aria-hidden={i >= affirmations.length ? 'true' : undefined}>
+        <img src="/images/ui/tools/sprout.png" alt="" width="16" height="16" class="w-4 h-4 mr-1.5" loading="lazy" />
         {text}
       </span>
     ))}
   </div>
 </div>
+
+<style>
+  .marquee-track { animation-duration: 60s; }
+  .marquee-wrap:hover .marquee-track,
+  .marquee-wrap:focus-within .marquee-track { animation-play-state: paused; }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track { animation: none; white-space: normal; display: flex; flex-wrap: wrap; justify-content: center; }
+    .marquee-track > span[aria-hidden] { display: none; }
+  }
+</style>
