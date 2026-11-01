@@ -1,10 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MoodCheck from '../components/tools/MoodCheck';
-import Marquee from '../components/Marquee.astro';
 import PostCard from '../components/PostCard.astro';
 import { siteConfig } from '../site.config';
 import { getCollection } from 'astro:content';
+import { getTool, homeToolIds, homeToolLabels } from '../data/tools';
 
 // Get published posts (filter future dates for scheduled publishing)
 const now = new Date();
@@ -15,176 +15,128 @@ const latestPosts = allPosts
   .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
   .slice(0, 6);
 
-const tools = [
-  { icon: '🫁', name: '呼吸練習', desc: '3分鐘放鬆', href: '/tools/breathing/', color: 'bg-peach-400', size: 'col-span-2 row-span-2' },
-  { icon: '✨', name: '正能量卡片', desc: '每日一句暖心話', href: '/tools/affirmation/', color: 'bg-amber-400', size: 'col-span-1' },
-  { icon: '📊', name: '壓力測驗', desc: '了解你的壓力指數', href: '/tools/stress-test/', color: 'bg-rose-300', size: 'col-span-1' },
-  { icon: '🌧️', name: '白噪音', desc: '助眠放鬆', href: '/tools/white-noise/', color: 'bg-sage-400', size: 'col-span-1 row-span-2' },
-  { icon: '😂', name: '崩潰語錄', desc: '媽媽內心OS', href: '/tools/quotes/', color: 'bg-orange-300', size: 'col-span-1' },
-  { icon: '📝', name: '心情日記', desc: '記錄每天的心情', href: '/tools/mood-diary/', color: 'bg-warmgray-300', size: 'col-span-1' },
+const homeTools = homeToolIds.map((id) => ({ ...getTool(id), label: homeToolLabels[id] }));
+
+// 孩子的免費學習平台（薇佳媽媽自己開發的免費子站）
+// 刻意放在首頁上半部：learn 子網域被 Google 停止檢索，需要主站首頁這種
+// 每天被爬的頁面給它明確的入口與描述性錨文字。
+const learnLinks = [
+  { name: 'GEPT 英檢練習', desc: '初級・中級・中高級題庫', href: 'https://learn.chparenting.com/elementary', icon: '/images/ui/learn/book.png' },
+  { name: 'JLPT 日文練習', desc: '五十音到 N1', href: 'https://learn.chparenting.com/jlpt-n5', icon: '/images/ui/learn/torii.png' },
+  { name: '國小數學練習', desc: '觀念講解＋逐步解題', href: 'https://learn.chparenting.com/math', icon: '/images/ui/learn/ruler.png' },
+  { name: '教育桌遊', desc: '18 款邏輯・記憶・程式遊戲', href: 'https://learn.chparenting.com/board-games', icon: '/images/ui/learn/puzzle.png' },
 ];
+
+const categoryIcons: Record<string, string> = {
+  'parenting-crisis': '/images/ui/cat/bear.png',
+  'mom-emotions': '/images/ui/cat/heart.png',
+  'parent-child': '/images/ui/cat/family.png',
+  'kids-learning': '/images/ui/cat/cap.png',
+  'practical-life': '/images/ui/cat/leaf.png',
+};
 ---
 
 <BaseLayout>
-  <!-- Marquee -->
-  <Marquee />
+  <!-- 鼓勵短句列（靜態） -->
+  <p class="text-center text-sm tl-muted py-2.5 border-b border-warmgray-200/70 px-4">
+    <img src="/images/ui/tools/sprout.png" alt="" width="18" height="18" class="inline-block w-[18px] h-[18px] align-[-4px] mr-1" />
+    慢一點沒關係，你已經做得很好了。
+  </p>
 
-  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <div class="tl-wrap pt-8 sm:pt-12">
 
-    <!-- Hero Section -->
-    <section class="py-12 sm:py-16 text-center">
-      <div class="animate-fade-in-up">
-        <p class="text-peach-400 font-display font-semibold text-sm tracking-widest mb-3 uppercase">
-          Mom Life Recovery Lab
-        </p>
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-warmgray-800 leading-tight mb-4">
-          媽媽不需要完美
-        </h1>
-        <p class="text-xl sm:text-2xl text-warmgray-400 font-display font-light mb-8">
-          只需要一個能喘口氣的空間
-        </p>
+    <!-- Hero -->
+    <section class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_420px] lg:items-center mb-8 sm:mb-10">
+      <div class="text-center lg:text-left">
+        <h1 class="text-[32px] sm:text-[44px] font-bold leading-tight text-warmgray-800 mb-2">媽媽不需要完美</h1>
+        <p class="text-xl sm:text-2xl font-medium text-warmgray-700 mb-3">只需要一個能喘口氣的空間</p>
+        <p class="tl-muted max-w-md mx-auto lg:mx-0">在這裡，你可以放下忙碌、緩一口氣，找回屬於自己的節奏。</p>
       </div>
-
-      <!-- Mood Check -->
-      <div class="max-w-xl mx-auto animate-fade-in-up stagger-2">
-        <MoodCheck client:visible />
-      </div>
+      <img src="/images/ui/hero-cup.webp" alt="" width="420" height="315" class="w-full max-w-[320px] lg:max-w-[420px] mx-auto" loading="eager" fetchpriority="high" />
     </section>
 
-    <!-- 孩子學習平台（薇佳媽媽自己開發的免費子站）
-         刻意放在首頁上半部：learn 子網域被 Google 停止檢索，需要主站首頁這種
-         每天被爬的頁面給它明確的入口與描述性錨文字。 -->
-    <section class="mb-16">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-display font-bold text-warmgray-800 flex items-center gap-2">
-          <span>🎓</span> 孩子的免費學習平台
-        </h2>
-        <a href="https://learn.chparenting.com/" class="text-sm text-peach-400 hover:text-peach-500 font-display font-medium transition-colors">
-          全部科目 →
-        </a>
+    <!-- 心情卡 + 立即喘息推薦 -->
+    <section class="mb-12 sm:mb-16">
+      <MoodCheck client:load />
+    </section>
+
+    <!-- 喘息工具箱 -->
+    <section class="mb-12 sm:mb-16">
+      <div class="flex items-end justify-between gap-4 mb-5">
+        <div>
+          <h2 class="tl-section-title">喘息工具箱</h2>
+          <p class="text-sm tl-muted">小小的練習，給忙碌的你一點喘息的空間。</p>
+        </div>
+        <a href="/tools/" class="text-sm font-bold text-peach-700 hover:underline shrink-0 min-h-[44px] inline-flex items-center">全部工具 →</a>
       </div>
-      <p class="text-warmgray-500 text-sm mb-5 max-w-2xl">
+      <ul class="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 list-none p-0 m-0">
+        {homeTools.map((t) => (
+          <li>
+            <a href={t.href} class="tl-card !p-4 sm:!p-5 flex flex-col gap-3 h-full hover:border-peach-400 transition-colors group">
+              <img src={t.icon} alt="" width="48" height="48" class="w-12 h-12 object-contain" loading="lazy" />
+              <span>
+                <span class="block font-bold text-warmgray-800 group-hover:text-peach-600 transition-colors">{t.label}</span>
+                <span class="block text-sm tl-muted">{t.short}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- 孩子的免費學習平台 -->
+    <section class="mb-12 sm:mb-16">
+      <div class="flex items-end justify-between gap-4 mb-3">
+        <div>
+          <h2 class="tl-section-title">孩子的免費學習平台</h2>
+          <p class="text-sm tl-muted">精選優質學習資源，陪伴孩子快樂成長。</p>
+        </div>
+        <a href="https://learn.chparenting.com/" class="text-sm font-bold text-peach-700 hover:underline shrink-0 min-h-[44px] inline-flex items-center">全部科目 →</a>
+      </div>
+      <p class="tl-muted text-sm mb-5 max-w-2xl">
         我為自己的孩子準備英檢時做的練習平台，完全免費、不用註冊、練習單可以直接列印。
         英檢、日檢、數學、國語、樂理、社會科都有，每一題都附解說。
       </p>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 auto-rows-[120px] sm:auto-rows-[140px]">
-        <a href="https://learn.chparenting.com/elementary" class="bento-card group">
-          <div class="absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15] bg-peach-400"></div>
-          <div class="relative z-10 h-full flex flex-col justify-between">
-            <span class="text-3xl sm:text-4xl block mb-2">📚</span>
-            <div>
-              <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">GEPT 英檢練習</h3>
-              <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">初級・中級・中高級題庫</p>
-            </div>
-          </div>
-        </a>
-        <a href="https://learn.chparenting.com/jlpt-n5" class="bento-card group">
-          <div class="absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15] bg-rose-300"></div>
-          <div class="relative z-10 h-full flex flex-col justify-between">
-            <span class="text-3xl sm:text-4xl block mb-2">🇯🇵</span>
-            <div>
-              <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">JLPT 日文練習</h3>
-              <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">五十音到 N1</p>
-            </div>
-          </div>
-        </a>
-        <a href="https://learn.chparenting.com/math" class="bento-card group">
-          <div class="absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15] bg-sage-400"></div>
-          <div class="relative z-10 h-full flex flex-col justify-between">
-            <span class="text-3xl sm:text-4xl block mb-2">🔢</span>
-            <div>
-              <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">國小數學練習</h3>
-              <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">觀念講解＋逐步解題</p>
-            </div>
-          </div>
-        </a>
-        <a href="https://learn.chparenting.com/board-games" class="bento-card group">
-          <div class="absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15] bg-amber-400"></div>
-          <div class="relative z-10 h-full flex flex-col justify-between">
-            <span class="text-3xl sm:text-4xl block mb-2">🎲</span>
-            <div>
-              <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">教育桌遊</h3>
-              <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">18 款邏輯・記憶・程式遊戲</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Bento Grid Tools -->
-    <section class="mb-16">
-      <div class="flex items-center justify-between mb-8">
-        <h2 class="text-2xl font-display font-bold text-warmgray-800 flex items-center gap-2">
-          <span>🧰</span> 喘息工具箱
-        </h2>
-        <a href="/tools/" class="text-sm text-peach-400 hover:text-peach-500 font-display font-medium transition-colors">
-          全部工具 →
-        </a>
-      </div>
-
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 auto-rows-[120px] sm:auto-rows-[140px]">
-        {tools.map((tool, i) => (
-          <a
-            href={tool.href}
-            class:list={[
-              'bento-card group',
-              tool.size,
-              'animate-fade-in-up',
-            ]}
-            style={`animation-delay: ${i * 0.08}s; opacity: 0;`}
-          >
-            <div class:list={[
-              'absolute inset-0 opacity-[0.08] rounded-bento transition-opacity group-hover:opacity-[0.15]',
-              tool.color,
-            ]} />
-            <div class="relative z-10 h-full flex flex-col justify-between">
-              <span class="text-3xl sm:text-4xl block mb-2">{tool.icon}</span>
-              <div>
-                <h3 class="font-display font-bold text-warmgray-800 text-sm sm:text-base">
-                  {tool.name}
-                </h3>
-                <p class="text-xs text-warmgray-400 mt-0.5 hidden sm:block">
-                  {tool.desc}
-                </p>
-              </div>
-            </div>
-          </a>
+      <ul class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 list-none p-0 m-0">
+        {learnLinks.map((l) => (
+          <li>
+            <a href={l.href} class="tl-card !p-4 flex items-center gap-3 h-full hover:border-peach-400 transition-colors group">
+              <img src={l.icon} alt="" width="44" height="44" class="w-11 h-11 shrink-0 object-contain" loading="lazy" />
+              <span class="min-w-0">
+                <span class="block font-bold text-warmgray-800 text-[15px] group-hover:text-peach-600 transition-colors">{l.name}</span>
+                <span class="block text-xs tl-muted">{l.desc}</span>
+              </span>
+            </a>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
 
-    <!-- Categories Quick Nav -->
-    <section class="mb-16">
-      <h2 class="text-2xl font-display font-bold text-warmgray-800 mb-8 flex items-center gap-2">
-        <span>🗂️</span> 探索分類
-      </h2>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
-        {siteConfig.categories.map((cat, i) => (
-          <a
-            href={`/category/${cat.slug}/`}
-            class="bg-white/60 rounded-2xl p-5 border border-white/80 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 text-center group"
-            style={`animation-delay: ${i * 0.1}s;`}
-          >
-            <span class="text-3xl block mb-2">{cat.emoji}</span>
-            <h3 class="font-display font-bold text-warmgray-700 text-sm group-hover:text-peach-500 transition-colors">
+    <!-- 探索分類 -->
+    <section class="mb-12 sm:mb-16">
+      <h2 class="tl-section-title mb-1">探索分類</h2>
+      <p class="text-sm tl-muted mb-5">從生活中找到共鳴，發現更多適合你的內容。</p>
+      <ul class="flex flex-wrap gap-2.5 list-none p-0 m-0">
+        {siteConfig.categories.map((cat) => (
+          <li>
+            <a href={`/category/${cat.slug}/`} class="tl-option !min-h-[48px] !px-4 font-bold text-[15px] hover:text-peach-600">
+              <img src={categoryIcons[cat.slug]} alt="" width="24" height="24" class="w-6 h-6" loading="lazy" />
               {cat.name}
-            </h3>
-            <p class="text-xs text-warmgray-400 mt-1">{cat.description}</p>
-          </a>
+            </a>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
 
-    <!-- Latest Articles -->
+    <!-- 最新文章 -->
     {latestPosts.length > 0 && (
-      <section class="mb-16">
-        <div class="flex items-center justify-between mb-8">
-          <h2 class="text-2xl font-display font-bold text-warmgray-800 flex items-center gap-2">
-            <span>📖</span> 最新文章
-          </h2>
-          <a href="/blog/" class="text-sm text-peach-400 hover:text-peach-500 font-display font-medium transition-colors">
-            全部文章 →
-          </a>
+      <section class="mb-12 sm:mb-16">
+        <div class="flex items-end justify-between gap-4 mb-5">
+          <div>
+            <h2 class="tl-section-title">最新文章</h2>
+            <p class="text-sm tl-muted">從真實的經驗出發，陪你一起找到更輕鬆的生活節奏。</p>
+          </div>
+          <a href="/blog/" class="text-sm font-bold text-peach-700 hover:underline shrink-0 min-h-[44px] inline-flex items-center">更多文章 →</a>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {latestPosts.map((post) => (
@@ -201,22 +153,15 @@ const tools = [
       </section>
     )}
 
-    <!-- CTA Section -->
-    <section class="mb-16 text-center">
-      <div class="bg-gradient-to-br from-peach-400/10 to-sage-100 rounded-3xl p-8 sm:p-12 border border-peach-400/10">
-        <span class="text-5xl block mb-4">💛</span>
-        <h2 class="text-2xl font-display font-bold text-warmgray-800 mb-3">
-          你不是一個人
-        </h2>
-        <p class="text-warmgray-500 max-w-md mx-auto mb-6 leading-relaxed">
-          每個媽媽都需要被理解和支持。這裡是你的喘息空間，隨時回來充電。
-        </p>
-        <a
-          href="/tools/"
-          class="inline-flex items-center gap-2 bg-peach-400 text-white px-6 py-3 rounded-full font-display font-semibold hover:bg-peach-500 transition-colors shadow-lg shadow-peach-400/20"
-        >
-          開始放鬆 🧡
-        </a>
+    <!-- 支持訊息 -->
+    <section class="mb-16">
+      <div class="tl-card flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+        <img src="/images/ui/illustration-mom.webp" alt="" width="160" height="160" class="w-32 h-32 sm:w-40 sm:h-40 shrink-0" loading="lazy" />
+        <div class="flex-1">
+          <h2 class="tl-section-title mb-2">你不是一個人</h2>
+          <p class="tl-muted mb-5">我們都在這裡，陪你一起走。這裡是你的喘息空間，隨時回來休息。</p>
+          <a href="/tools/" class="tl-btn tl-btn-primary">給自己一點時間吧 →</a>
+        </div>
       </div>
     </section>
 

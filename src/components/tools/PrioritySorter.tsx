@@ -1,247 +1,271 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import { CopyButton, Notice, track } from './ui';
+
+// 只在記憶體：沒有 localStorage、沒有伺服器，離頁即消失。
+const MAX_LEN = 100;
+const MAX_ITEMS = 30;
 
 type Priority = 'must' | 'later' | 'drop';
 type TodoItem = { id: string; text: string; priority: Priority | null };
 
-const priorities: Record<Priority, { label: string; emoji: string; color: string; desc: string }> = {
-  must: { label: '今天必做', emoji: '✅', color: '#8BA888', desc: '不做會怎樣的事' },
-  later: { label: '可以晚點', emoji: '⏳', color: '#D4B896', desc: '重要但不急的事' },
-  drop: { label: '放掉吧', emoji: '🎈', color: '#E8A87C', desc: '其實不做也不會怎樣' },
-};
+const priorities: { key: Priority; label: string; desc: string; color: string }[] = [
+  { key: 'must', label: '今天必做', desc: '不做會怎樣的事', color: '#C0582F' },
+  { key: 'later', label: '可以晚點', desc: '重要但不急的事', color: '#B07A2A' },
+  { key: 'drop', label: '今天先放下', desc: '其實不做也不會怎樣', color: '#6E8E6A' },
+];
+const labelOf = (p: Priority) => priorities.find((x) => x.key === p)!.label;
+
+let seq = 0;
+const newId = () => (typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `item-${++seq}-${Date.now()}`);
 
 export default function PrioritySorter() {
   const [items, setItems] = useState<TodoItem[]>([]);
   const [input, setInput] = useState('');
+  const [inputMsg, setInputMsg] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editText, setEditText] = useState('');
+  const [removed, setRemoved] = useState<{ item: TodoItem; index: number } | null>(null);
   const [done, setDone] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const resultRef = useRef<HTMLHeadingElement>(null);
+  const undoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => { if (done) resultRef.current?.focus(); }, [done]);
+  useEffect(() => () => { if (undoTimer.current) clearTimeout(undoTimer.current); }, []);
 
   const addItem = () => {
-    if (!input.trim()) return;
-    setItems([...items, { id: Date.now().toString(), text: input.trim(), priority: null }]);
+    const text = input.trim();
+    if (!text) { setInputMsg('請先輸入內容'); return; }
+    if (text.length > MAX_LEN) { setInputMsg(`每項最多 ${MAX_LEN} 字，目前 ${text.length} 字`); return; }
+    if (items.length >= MAX_ITEMS) { setInputMsg(`最多 ${MAX_ITEMS} 項，先整理現有的吧`); return; }
+    setItems((list) => [...list, { id: newId(), text, priority: null }]);
     setInput('');
+    setInputMsg(null);
+    inputRef.current?.focus();
+    if (items.length === 0) track('tool_start', { tool_id: 'priority' });
   };
 
-  const setPriority = (id: string, p: Priority) => {
-    setItems(items.map((item) => item.id === id ? { ...item, priority: p } : item));
-  };
+  const setPriority = (id: string, p: Priority) =>
+    setItems((list) => list.map((it) => (it.id === id ? { ...it, priority: p } : it)));
 
   const removeItem = (id: string) => {
-    setItems(items.filter((item) => item.id !== id));
+    const index = items.findIndex((it) => it.id === id);
+    if (index < 0) return;
+    setRemoved({ item: items[index], index });
+    setItems((list) => list.filter((it) => it.id !== id));
+    if (editingId === id) setEditingId(null);
+    if (undoTimer.current) clearTimeout(undoTimer.current);
+    undoTimer.current = setTimeout(() => setRemoved(null), 6000);
   };
 
-  const allSorted = items.length > 0 && items.every((item) => item.priority !== null);
-
-  const getResultText = () => {
-    const today = new Date().toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
-    let text = `📋 媽媽的待辦清單\n📅 ${today}\n\n`;
-    const must = items.filter((i) => i.priority === 'must');
-    const later = items.filter((i) => i.priority === 'later');
-    const drop = items.filter((i) => i.priority === 'drop');
-    if (must.length) { text += `✅ 今天必做：\n`; must.forEach((i) => { text += `  • ${i.text}\n`; }); text += `\n`; }
-    if (later.length) { text += `⏳ 可以晚點：\n`; later.forEach((i) => { text += `  • ${i.text}\n`; }); text += `\n`; }
-    if (drop.length) { text += `🎈 放掉吧：\n`; drop.forEach((i) => { text += `  • ${i.text}\n`; }); text += `\n`; }
-    text += `💬 專注「今天必做」就好，其他的放輕鬆 ♡\n\n`;
-    text += `—— Mom Life Recovery Lab 🧡\nchparenting.com/tools/priority`;
-    return text;
+  const undoRemove = () => {
+    if (!removed) return;
+    setItems((list) => {
+      const next = [...list];
+      next.splice(Math.min(removed.index, next.length), 0, removed.item);
+      return next;
+    });
+    setRemoved(null);
+    if (undoTimer.current) clearTimeout(undoTimer.current);
   };
 
-  const copyResult = async () => {
-    try {
-      await navigator.clipboard.writeText(getResultText());
-    } catch {
-      const ta = document.createElement('textarea');
-      ta.value = getResultText();
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
+  const startEdit = (it: TodoItem) => { setEditingId(it.id); setEditText(it.text); };
+  const saveEdit = () => {
+    const text = editText.trim();
+    if (!text || text.length > MAX_LEN) return;
+    setItems((list) => list.map((it) => (it.id === editingId ? { ...it, text } : it)));
+    setEditingId(null);
+  };
+  const cancelEdit = () => setEditingId(null);
+
+  const unsorted = items.filter((it) => it.priority === null);
+  const grouped = (p: Priority) => items.filter((it) => it.priority === p);
+
+  const resultText = () => {
+    const lines: string[] = ['媽媽的待辦清單', ''];
+    for (const p of priorities) {
+      const g = grouped(p.key);
+      lines.push(`${p.label}：${g.length}`);
+      if (g.length === 0) lines.push('　目前沒有');
+      g.forEach((it) => lines.push(`　• ${it.text}`));
+      lines.push('');
     }
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (unsorted.length) {
+      lines.push(`尚未分類：${unsorted.length}`);
+      unsorted.forEach((it) => lines.push(`　• ${it.text}`));
+      lines.push('');
+    }
+    return lines.join('\n').trimEnd();
   };
 
-  const shareResult = async () => {
-    if (navigator.share) {
-      try { await navigator.share({ title: '媽媽的待辦清單', text: getResultText() }); } catch {}
-    } else { copyResult(); }
+  const restart = () => {
+    if (items.length && !window.confirm('重新開始會清空目前所有事項，確定嗎？')) return;
+    setItems([]); setInput(''); setInputMsg(null); setEditingId(null); setRemoved(null); setDone(false);
   };
 
-  const reset = () => { setItems([]); setInput(''); setDone(false); setCopied(false); };
-
+  /* ── 完成畫面 ── */
   if (done) {
-    const must = items.filter((i) => i.priority === 'must');
-    const later = items.filter((i) => i.priority === 'later');
-    const drop = items.filter((i) => i.priority === 'drop');
-
     return (
-      <div style={{ padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif', maxWidth: 480, margin: '0 auto' }}>
-        <div style={{ background: '#FFFCF8', borderRadius: 24, padding: '2rem', border: '2px solid #E8A87C30', boxShadow: '0 4px 24px rgba(0,0,0,0.06)' }}>
-          <h3 style={{ fontSize: 20, fontWeight: 700, color: '#4A3E34', textAlign: 'center', fontFamily: 'Quicksand, Noto Sans TC, sans-serif', marginBottom: 20 }}>
-            📋 你的待辦清單整理好了！
-          </h3>
-
-          {[
-            { items: must, ...priorities.must },
-            { items: later, ...priorities.later },
-            { items: drop, ...priorities.drop },
-          ].map((group) => group.items.length > 0 && (
-            <div key={group.label} style={{ marginBottom: 16 }}>
-              <p style={{ fontSize: 14, fontWeight: 600, color: group.color, marginBottom: 8 }}>
-                {group.emoji} {group.label}
-              </p>
-              {group.items.map((item) => (
-                <div key={item.id} style={{
-                  padding: '10px 14px', borderRadius: 12, background: `${group.color}08`,
-                  border: `1px solid ${group.color}20`, marginBottom: 6, fontSize: 14, color: '#4A3E34',
-                }}>
-                  {item.text}
-                </div>
-              ))}
-            </div>
-          ))}
-
-          <div style={{ background: '#F0F7ED', borderRadius: 16, padding: '14px', marginTop: 16, textAlign: 'center' }}>
-            <p style={{ fontSize: 14, color: '#5A8F6A', lineHeight: 1.6 }}>
-              🌿 專注在「今天必做」的 {must.length} 件事就好，<br />其他的放輕鬆，妳已經很棒了 ♡
-            </p>
-          </div>
-
-          <p style={{ fontSize: 12, color: '#B8A99A', textAlign: 'center', marginTop: 12 }}>— Mom Life Recovery Lab 🧡 —</p>
+      <div className="max-w-md mx-auto">
+        <h2 ref={resultRef} tabIndex={-1} className="text-xl font-bold text-warmgray-800 text-center outline-none">今天的清單</h2>
+        <div className="mt-4 flex flex-col gap-3">
+          {priorities.map((p) => {
+            const g = grouped(p.key);
+            return (
+              <section key={p.key} className="rounded-2xl bg-white p-4" style={{ border: '1.5px solid #E8DFD5', borderLeft: `6px solid ${p.color}` }}>
+                <h3 className="font-bold text-warmgray-800">{p.label}：{g.length}</h3>
+                {g.length === 0 ? (
+                  <p className="text-sm tl-muted mt-1">目前沒有</p>
+                ) : (
+                  <ul className="mt-2 list-disc pl-5 text-[15px] text-warmgray-800 leading-relaxed">
+                    {g.map((it) => <li key={it.id} className="break-words">{it.text}</li>)}
+                  </ul>
+                )}
+              </section>
+            );
+          })}
+          {unsorted.length > 0 && (
+            <section className="rounded-2xl p-4" style={{ background: '#FCEFE6', border: '1.5px solid #E8DFD5' }}>
+              <h3 className="font-bold text-warmgray-800">尚未分類：{unsorted.length}</h3>
+              <ul className="mt-2 list-disc pl-5 text-[15px] text-warmgray-800 leading-relaxed">
+                {unsorted.map((it) => <li key={it.id} className="break-words">{it.text}</li>)}
+              </ul>
+              <p className="text-sm tl-muted mt-2">按「返回修改」可以替這些事項選分類。</p>
+            </section>
+          )}
         </div>
 
-        {/* Buttons */}
-        <div style={{ display: 'flex', gap: 8, marginTop: 16 }}>
-          <button onClick={copyResult} style={{
-            flex: 1, padding: '12px', borderRadius: 16, border: '2px solid #E8A87C',
-            background: copied ? '#E8A87C' : 'white', color: copied ? 'white' : '#E8A87C',
-            fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'Noto Sans TC, sans-serif', transition: 'all 0.2s',
-          }}>
-            {copied ? '✓ 已複製！' : '📋 複製清單'}
-          </button>
-          <button onClick={shareResult} style={{
-            flex: 1, padding: '12px', borderRadius: 16, border: 'none',
-            background: '#E8A87C', color: 'white', fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'Noto Sans TC, sans-serif',
-          }}>
-            📤 分享給朋友
-          </button>
+        <div className="flex flex-col gap-2.5 mt-5">
+          <CopyButton text={resultText()} label="複製清單" className="tl-btn tl-btn-primary w-full" toolId="priority" />
+          <button type="button" className="tl-btn tl-btn-secondary w-full" onClick={() => setDone(false)}>返回修改</button>
+          <button type="button" className="tl-btn tl-btn-ghost w-full" onClick={restart}>重新開始</button>
         </div>
-        <button onClick={reset} style={{
-          width: '100%', marginTop: 8, padding: '10px', borderRadius: 16,
-          border: '1px solid #EDE5DB', background: 'transparent', color: '#9A8A7A', fontSize: 13, cursor: 'pointer',
-        }}>
-          🔄 重新排序
-        </button>
-        <p style={{ fontSize: 12, color: '#B8A99A', textAlign: 'center', marginTop: 12 }}>
-          💡 複製後可以貼到 LINE 或備忘錄，隨時提醒自己今天的重點！
-        </p>
+        <div className="mt-4">
+          <Notice>此頁不提供跨裝置保存，請複製保存。</Notice>
+        </div>
       </div>
     );
   }
 
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif', maxWidth: 480, margin: '0 auto' }}>
-      {/* Input */}
-      <div style={{ display: 'flex', gap: 8, marginBottom: 24 }}>
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && addItem()}
-          placeholder="輸入待辦事項⋯"
-          style={{
-            flex: 1, padding: '12px 16px', borderRadius: 16, border: '2px solid #EDE5DB',
-            fontSize: 14, color: '#4A3E34', outline: 'none', fontFamily: 'Noto Sans TC, sans-serif',
-          }}
-          onFocus={(e) => (e.target.style.borderColor = '#E8A87C')}
-          onBlur={(e) => (e.target.style.borderColor = '#EDE5DB')}
-        />
-        <button onClick={addItem} style={{
-          padding: '12px 20px', borderRadius: 16, border: 'none', background: '#E8A87C', color: 'white',
-          fontSize: 14, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap' as const,
-        }}>
-          + 加入
-        </button>
-      </div>
-
-      {/* Unsorted items */}
-      {items.filter((i) => !i.priority).length > 0 && (
-        <div style={{ marginBottom: 20 }}>
-          <p style={{ fontSize: 13, color: '#9A8A7A', marginBottom: 8, fontWeight: 500 }}>📝 點選分類：</p>
-          {items.filter((i) => !i.priority).map((item) => (
-            <div key={item.id} style={{
-              display: 'flex', alignItems: 'center', gap: 8, padding: '10px 14px',
-              borderRadius: 12, background: 'white', border: '1px solid #EDE5DB', marginBottom: 6,
-            }}>
-              <span style={{ flex: 1, fontSize: 14, color: '#4A3E34' }}>{item.text}</span>
-              {Object.entries(priorities).map(([key, p]) => (
-                <button key={key} onClick={() => setPriority(item.id, key as Priority)} style={{
-                  padding: '4px 8px', borderRadius: 8, border: '1px solid #EDE5DB', background: 'white',
-                  fontSize: 11, cursor: 'pointer', color: p.color, fontWeight: 500,
-                }} title={p.label}>
-                  {p.emoji}
+  /* ── 編輯畫面 ── */
+  const renderItem = (it: TodoItem) => {
+    const isEditing = editingId === it.id;
+    return (
+      <li key={it.id} className="rounded-2xl bg-white p-3" style={{ border: '1.5px solid #E8DFD5' }}>
+        {isEditing ? (
+          <div>
+            <label htmlFor={`edit-${it.id}`} className="sr-only">編輯事項</label>
+            <input
+              id={`edit-${it.id}`}
+              value={editText}
+              maxLength={MAX_LEN}
+              onChange={(e) => setEditText(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') saveEdit(); if (e.key === 'Escape') cancelEdit(); }}
+              autoFocus
+              className="w-full h-11 rounded-xl px-3 text-[15px] text-warmgray-800 outline-none tl-focus"
+              style={{ border: '1.5px solid #8BA888' }}
+            />
+            <p className="text-xs tl-muted mt-1 text-right">{editText.length}/{MAX_LEN}</p>
+            <div className="flex gap-2 mt-2">
+              <button type="button" className="tl-btn tl-btn-primary !min-h-[44px] !px-4 text-sm flex-1" onClick={saveEdit} disabled={!editText.trim()}>儲存</button>
+              <button type="button" className="tl-btn tl-btn-secondary !min-h-[44px] !px-4 text-sm flex-1" onClick={cancelEdit}>取消</button>
+            </div>
+          </div>
+        ) : (
+          <>
+            <p className="text-[15px] text-warmgray-800 break-words">{it.text}</p>
+            <div className="flex flex-wrap gap-1.5 mt-2">
+              {priorities.map((p) => (
+                <button
+                  key={p.key}
+                  type="button"
+                  className="tl-option !min-h-[40px] !px-3 !rounded-xl text-sm"
+                  aria-pressed={it.priority === p.key}
+                  onClick={() => setPriority(it.id, p.key)}
+                >
+                  {it.priority === p.key ? `✓ ${p.label}` : p.label}
                 </button>
               ))}
-              <button onClick={() => removeItem(item.id)} style={{
-                padding: '4px 8px', border: 'none', background: 'transparent', cursor: 'pointer', color: '#B8A99A', fontSize: 16,
-              }}>×</button>
             </div>
-          ))}
+            <div className="flex gap-1.5 mt-2">
+              <button type="button" className="tl-btn tl-btn-ghost !min-h-[40px] !px-3 text-sm" onClick={() => startEdit(it)}>編輯</button>
+              <button type="button" className="tl-btn tl-btn-ghost !min-h-[40px] !px-3 text-sm" onClick={() => removeItem(it.id)}>移除</button>
+            </div>
+          </>
+        )}
+      </li>
+    );
+  };
+
+  return (
+    <div className="max-w-md mx-auto">
+      <p className="text-[15px] text-warmgray-800 text-center">把待辦寫下來，再由你決定先做什麼。</p>
+
+      <div className="mt-4">
+        <label htmlFor="todo-input" className="sr-only">新增待辦事項</label>
+        <div className="flex gap-2">
+          <input
+            id="todo-input"
+            ref={inputRef}
+            value={input}
+            maxLength={MAX_LEN}
+            onChange={(e) => { setInput(e.target.value); setInputMsg(null); }}
+            onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); addItem(); } }}
+            placeholder="例如：接孩子、整理書桌"
+            className="flex-1 min-w-0 h-12 rounded-xl bg-white px-4 text-[15px] text-warmgray-800 outline-none tl-focus"
+            style={{ border: '1.5px solid #E8DFD5' }}
+          />
+          <button type="button" className="tl-btn tl-btn-primary shrink-0" onClick={addItem}>加入</button>
+        </div>
+        <div className="flex justify-between text-sm tl-muted mt-1">
+          <span role="status">{inputMsg ?? ''}</span>
+          <span>{items.length}/{MAX_ITEMS} 項・{input.length}/{MAX_LEN} 字</span>
+        </div>
+      </div>
+
+      {removed && (
+        <div className="mt-3 tl-notice justify-between items-center" role="status">
+          <span>已移除「{removed.item.text}」</span>
+          <button type="button" className="tl-btn tl-btn-secondary !min-h-[40px] !px-3 text-sm shrink-0" onClick={undoRemove}>復原</button>
         </div>
       )}
 
-      {/* Sorted groups */}
-      {Object.entries(priorities).map(([key, p]) => {
-        const groupItems = items.filter((i) => i.priority === key);
-        if (groupItems.length === 0) return null;
+      {items.length === 0 && (
+        <p className="text-sm tl-muted text-center mt-6">先寫下一件事，再替它選「今天必做」「可以晚點」或「今天先放下」。</p>
+      )}
+
+      {unsorted.length > 0 && (
+        <section className="mt-5">
+          <h2 className="font-bold text-warmgray-800 mb-2">尚未分類：{unsorted.length}</h2>
+          <ul className="list-none p-0 m-0 flex flex-col gap-2">{unsorted.map(renderItem)}</ul>
+        </section>
+      )}
+
+      {priorities.map((p) => {
+        const g = grouped(p.key);
+        if (g.length === 0) return null;
         return (
-          <div key={key} style={{
-            marginBottom: 16, padding: '16px', borderRadius: 20,
-            background: `${p.color}06`, border: `1px solid ${p.color}20`,
-          }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
-              <span style={{ fontSize: 15, fontWeight: 700, color: p.color }}>{p.emoji} {p.label}</span>
-              <span style={{ fontSize: 12, color: '#B8A99A' }}>{p.desc}</span>
-            </div>
-            {groupItems.map((item) => (
-              <div key={item.id} style={{
-                display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px',
-                borderRadius: 10, background: 'white', border: '1px solid #EDE5DB', marginBottom: 4,
-              }}>
-                <span style={{ flex: 1, fontSize: 14, color: '#4A3E34' }}>{item.text}</span>
-                <button onClick={() => setPriority(item.id, key === 'must' ? 'later' : key === 'later' ? 'drop' : 'must')} style={{
-                  padding: '2px 6px', border: 'none', background: 'transparent', cursor: 'pointer', color: '#B8A99A', fontSize: 12,
-                }} title="移到其他分類">↔</button>
-                <button onClick={() => removeItem(item.id)} style={{
-                  padding: '2px 6px', border: 'none', background: 'transparent', cursor: 'pointer', color: '#B8A99A', fontSize: 14,
-                }}>×</button>
-              </div>
-            ))}
-          </div>
+          <section key={p.key} className="mt-5">
+            <h2 className="font-bold text-warmgray-800 mb-0.5" style={{ borderLeft: `6px solid ${p.color}`, paddingLeft: 10 }}>{p.label}：{g.length}</h2>
+            <p className="text-sm tl-muted mb-2 pl-4">{p.desc}</p>
+            <ul className="list-none p-0 m-0 flex flex-col gap-2">{g.map(renderItem)}</ul>
+          </section>
         );
       })}
 
-      {/* Finish button */}
-      {allSorted && (
-        <>
-          <p style={{ textAlign: 'center', fontSize: 14, color: '#8BA888', fontWeight: 500, marginBottom: 12 }}>
-            🎉 全部分好了！
-          </p>
-          <button onClick={finishSort} style={{
-            width: '100%', padding: '14px', borderRadius: 16, border: 'none',
-            background: '#E8A87C', color: 'white', fontSize: 15, fontWeight: 600, cursor: 'pointer',
-            fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-          }}>
-            ✨ 完成整理 → 複製 / 分享
+      {items.length > 0 && (
+        <div className="flex flex-col gap-2.5 mt-6">
+          <button type="button" className="tl-btn tl-btn-primary w-full" onClick={() => { track('tool_complete', { tool_id: 'priority' }); setDone(true); }}>
+            完成整理
           </button>
-        </>
+          {unsorted.length > 0 && <p className="text-sm tl-muted text-center">還有 {unsorted.length} 項未分類，完成時會列在「尚未分類」。</p>}
+          <button type="button" className="tl-btn tl-btn-ghost w-full" onClick={restart}>重新開始</button>
+        </div>
       )}
 
-      {items.length === 0 && (
-        <p style={{ textAlign: 'center', fontSize: 13, color: '#B8A99A', marginTop: 20 }}>
-          💡 把你腦中的待辦事項都輸入進來，<br />我幫你分出哪些是「今天真的要做的」！
-        </p>
-      )}
+      <div className="mt-5">
+        <Notice>此頁不提供跨裝置保存，請複製保存。</Notice>
+      </div>
     </div>
   );
-
-  function finishSort() { setDone(true); }
 }

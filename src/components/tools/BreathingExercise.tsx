@@ -1,190 +1,233 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { track } from './ui';
 
-type Phase = 'idle' | 'inhale' | 'hold' | 'exhale';
+// 4-4-6 節奏，13 循環 = 182 秒（約 3 分鐘）
+const PHASES = [
+  { key: 'inhale', label: '吸氣', seconds: 4 },
+  { key: 'hold', label: '停住', seconds: 4 },
+  { key: 'exhale', label: '吐氣', seconds: 6 },
+] as const;
+const CYCLE_MS = PHASES.reduce((s, p) => s + p.seconds, 0) * 1000;
+const TOTAL_CYCLES = 13;
+const TOTAL_MS = CYCLE_MS * TOTAL_CYCLES;
 
-const phases: { phase: Phase; duration: number; label: string; color: string }[] = [
-  { phase: 'inhale', duration: 4, label: '吸氣', color: '#E8A87C' },
-  { phase: 'hold', duration: 4, label: '停住', color: '#D4B896' },
-  { phase: 'exhale', duration: 6, label: '吐氣', color: '#8BA888' },
-];
+type Status = 'idle' | 'running' | 'paused' | 'completed';
+
+// 用經過時間推算目前階段，避免 setInterval 漂移；暫停時 elapsed 凍結
+function describe(elapsedMs: number) {
+  const e = Math.min(elapsedMs, TOTAL_MS);
+  const cycle = Math.min(Math.floor(e / CYCLE_MS), TOTAL_CYCLES - 1);
+  let within = e - cycle * CYCLE_MS;
+  let idx = 0;
+  while (idx < PHASES.length - 1 && within >= PHASES[idx].seconds * 1000) {
+    within -= PHASES[idx].seconds * 1000;
+    idx++;
+  }
+  const phaseMs = PHASES[idx].seconds * 1000;
+  const progress = Math.min(within / phaseMs, 1);
+  return {
+    cycle: cycle + 1,
+    phase: PHASES[idx],
+    phaseLeft: Math.max(1, Math.ceil((phaseMs - within) / 1000)),
+    progress,
+    remaining: Math.max(0, Math.ceil((TOTAL_MS - e) / 1000)),
+  };
+}
+
+const fmt = (s: number) => `${Math.floor(s / 60).toString().padStart(2, '0')}:${(s % 60).toString().padStart(2, '0')}`;
 
 export default function BreathingExercise() {
-  const [isRunning, setIsRunning] = useState(false);
-  const [currentPhase, setCurrentPhase] = useState<Phase>('idle');
-  const [timeLeft, setTimeLeft] = useState(0);
-  const [cycles, setCycles] = useState(0);
-  const [totalCycles] = useState(13); // ~3 minutes
-  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const phaseIndexRef = useRef(0);
+  const [status, setStatus] = useState<Status>('idle');
+  const [elapsed, setElapsed] = useState(0);
+  const [pausedByHide, setPausedByHide] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(false);
+  const accRef = useRef(0);              // 暫停前累積的毫秒
+  const startRef = useRef<number | null>(null);
+  const rafRef = useRef<number | null>(null);
+  const speedRef = useRef(1);            // ?speed=N 只用於測試完成畫面
 
   useEffect(() => {
-    if (!isRunning) return;
+    const s = Number(new URLSearchParams(location.search).get('speed'));
+    if (s > 1 && s <= 60) speedRef.current = s;
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setReduceMotion(mq.matches);
+  }, []);
 
-    if (cycles >= totalCycles) {
-      setIsRunning(false);
-      setCurrentPhase('idle');
-      setCycles(0);
+  const now = () => performance.now() * speedRef.current;
+
+  const stopLoop = () => {
+    if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+    rafRef.current = null;
+  };
+
+  const loop = useCallback(() => {
+    if (startRef.current === null) return;
+    const e = accRef.current + (now() - startRef.current);
+    if (e >= TOTAL_MS) {
+      accRef.current = TOTAL_MS;
+      startRef.current = null;
+      setElapsed(TOTAL_MS);
+      setStatus('completed');
+      track('tool_complete', { tool_id: 'breathing' });
       return;
     }
+    setElapsed(e);
+    rafRef.current = requestAnimationFrame(loop);
+  }, []);
 
-    const phase = phases[phaseIndexRef.current];
-    setCurrentPhase(phase.phase);
-    setTimeLeft(phase.duration);
-
-    intervalRef.current = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          // Move to next phase
-          phaseIndexRef.current = (phaseIndexRef.current + 1) % phases.length;
-          if (phaseIndexRef.current === 0) {
-            setCycles((c) => c + 1);
-          }
-          const nextPhase = phases[phaseIndexRef.current];
-          setCurrentPhase(nextPhase.phase);
-          return nextPhase.duration;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, [isRunning, cycles, totalCycles]);
+  const run = () => {
+    stopLoop();                          // 重複點擊不會產生多組計時
+    startRef.current = now();
+    setPausedByHide(false);
+    setStatus('running');
+    rafRef.current = requestAnimationFrame(loop);
+  };
 
   const start = () => {
-    phaseIndexRef.current = 0;
-    setCycles(0);
-    setIsRunning(true);
+    accRef.current = 0;
+    setElapsed(0);
+    track('tool_start', { tool_id: 'breathing' });
+    run();
   };
 
-  const stop = () => {
-    setIsRunning(false);
-    setCurrentPhase('idle');
-    if (intervalRef.current) clearInterval(intervalRef.current);
+  const pause = (byHide = false) => {
+    if (startRef.current === null) return;
+    accRef.current += now() - startRef.current;
+    startRef.current = null;
+    stopLoop();
+    setElapsed(accRef.current);
+    setPausedByHide(byHide);
+    setStatus('paused');
   };
 
-  const getScale = () => {
-    if (currentPhase === 'inhale') return 1.4;
-    if (currentPhase === 'hold') return 1.4;
-    if (currentPhase === 'exhale') return 1;
-    return 1;
+  const end = () => {
+    stopLoop();
+    startRef.current = null;
+    accRef.current = 0;
+    setElapsed(0);
+    setStatus('idle');
   };
 
-  const getColor = () => {
-    const phase = phases.find((p) => p.phase === currentPhase);
-    return phase?.color || '#E8A87C';
-  };
+  // 切到背景自動暫停；回來不自動繼續
+  useEffect(() => {
+    const onHide = () => { if (document.hidden && startRef.current !== null) pause(true); };
+    document.addEventListener('visibilitychange', onHide);
+    return () => { document.removeEventListener('visibilitychange', onHide); stopLoop(); };
+  }, []);
 
-  const getLabel = () => {
-    const phase = phases.find((p) => p.phase === currentPhase);
-    return phase?.label || '';
-  };
+  const info = describe(elapsed);
+  const active = status === 'running' || status === 'paused';
+
+  // 圓圈大小由進度推算，暫停時自然凍結
+  let scale = 1;
+  if (active && !reduceMotion) {
+    if (info.phase.key === 'inhale') scale = 1 + 0.22 * info.progress;
+    else if (info.phase.key === 'hold') scale = 1.22;
+    else scale = 1.22 - 0.22 * info.progress;
+  }
 
   return (
-    <div style={{ textAlign: 'center', padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif' }}>
-      {/* Breathing circle */}
-      <div style={{ position: 'relative', width: 240, height: 240, margin: '0 auto 2rem' }}>
+    <div className="text-center">
+      {/* 只在階段改變時通知螢幕閱讀器，不每秒朗讀 */}
+      <p className="sr-only" aria-live="polite">
+        {status === 'running' ? info.phase.label : status === 'paused' ? '已暫停' : status === 'completed' ? '練習完成' : ''}
+      </p>
+
+      <div className="relative mx-auto my-4 flex items-center justify-center" style={{ width: 'min(260px, 70vw)', aspectRatio: '1' }}>
+        <div className="absolute inset-0 rounded-full" style={{ background: '#EEF3EC' }} aria-hidden="true" />
         <div
-          style={{
-            width: '100%',
-            height: '100%',
-            borderRadius: '50%',
-            background: `radial-gradient(circle, ${getColor()}25, ${getColor()}08)`,
-            border: `3px solid ${getColor()}40`,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            transform: `scale(${getScale()})`,
-            transition: `transform ${currentPhase === 'inhale' ? '4s' : currentPhase === 'exhale' ? '6s' : '0.3s'} ease-in-out`,
-          }}
-        >
-          {isRunning ? (
+          className="tl-motion absolute rounded-full"
+          style={{ inset: '12%', background: '#DCE7D8', transform: `scale(${scale})` }}
+          aria-hidden="true"
+        />
+        <div className="relative z-10 flex flex-col items-center justify-center rounded-full bg-white" style={{ width: '58%', aspectRatio: '1', boxShadow: '0 2px 10px rgba(74,62,52,.06)' }}>
+          {status === 'idle' && (
             <>
-              <span style={{ fontSize: 32, fontWeight: 700, color: getColor(), fontFamily: 'Quicksand, sans-serif' }}>
-                {timeLeft}
-              </span>
-              <span style={{ fontSize: 16, color: '#5A4E42', marginTop: 4, fontWeight: 500 }}>
-                {getLabel()}
-              </span>
+              <img src="/images/ui/tools/breathing.png" alt="" width="56" height="56" className="w-14 h-14 object-contain" />
+              <span className="mt-1 font-bold text-warmgray-800">準備好了嗎？</span>
             </>
-          ) : (
+          )}
+          {status === 'running' && (
             <>
-              <span style={{ fontSize: 40 }}>🫁</span>
-              <span style={{ fontSize: 14, color: '#9A8A7A', marginTop: 8 }}>
-                {cycles > 0 ? '做得好！' : '準備好了嗎？'}
-              </span>
+              <span className="text-[22px] font-bold text-warmgray-800">{info.phase.label}</span>
+              <span className="text-[40px] leading-none font-bold mt-1" style={{ color: '#6E8E6A' }}>{info.phaseLeft}</span>
+            </>
+          )}
+          {status === 'paused' && (
+            <>
+              <span className="text-2xl font-bold" style={{ color: '#6E8E6A' }} aria-hidden="true">❚❚</span>
+              <span className="mt-1 font-bold text-warmgray-800">已暫停</span>
+              <span className="text-sm tl-muted">{info.phase.label}・{info.phaseLeft} 秒</span>
+            </>
+          )}
+          {status === 'completed' && (
+            <>
+              <span className="text-[34px] leading-none font-bold" style={{ color: '#6E8E6A' }} aria-hidden="true">✓</span>
+              <span className="mt-1 font-bold text-warmgray-800">完成</span>
             </>
           )}
         </div>
       </div>
 
-      {/* Progress */}
-      {isRunning && (
-        <div style={{ marginBottom: '1.5rem' }}>
-          <div style={{
-            width: 200, height: 4, background: '#EDE5DB', borderRadius: 2, margin: '0 auto',
-          }}>
-            <div style={{
-              width: `${(cycles / totalCycles) * 100}%`,
-              height: '100%',
-              background: '#E8A87C',
-              borderRadius: 2,
-              transition: 'width 0.5s',
-            }} />
-          </div>
-          <p style={{ fontSize: 12, color: '#9A8A7A', marginTop: 8 }}>
-            第 {cycles + 1} / {totalCycles} 次呼吸
-          </p>
+      {active && (
+        <div className="mb-4">
+          <p className="text-warmgray-800">剩餘 <span className="text-2xl font-bold tabular-nums">{fmt(info.remaining)}</span></p>
+          <p className="text-sm tl-muted">第 {info.cycle} / {TOTAL_CYCLES} 次呼吸</p>
         </div>
       )}
 
-      {/* Controls */}
-      <button
-        onClick={isRunning ? stop : start}
-        style={{
-          background: isRunning ? '#9A8A7A' : '#E8A87C',
-          color: 'white',
-          border: 'none',
-          padding: '12px 32px',
-          borderRadius: 999,
-          fontSize: 16,
-          fontWeight: 600,
-          cursor: 'pointer',
-          fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-          boxShadow: `0 4px 20px ${isRunning ? '#9A8A7A30' : '#E8A87C30'}`,
-          transition: 'all 0.3s',
-        }}
-      >
-        {isRunning ? '⏸ 暫停' : cycles > 0 ? '🔄 再來一次' : '▶ 開始呼吸'}
-      </button>
-
-      {/* Instructions */}
-      {!isRunning && cycles === 0 && (
-        <div style={{
-          marginTop: '2rem', padding: '1rem 1.5rem', background: '#F5F0EB',
-          borderRadius: 16, maxWidth: 360, margin: '2rem auto 0',
-        }}>
-          <p style={{ fontSize: 13, color: '#7A6E62', lineHeight: 1.8 }}>
-            吸氣 4 秒 → 停住 4 秒 → 吐氣 6 秒<br />
-            跟著圓圈的大小一起呼吸，大約 3 分鐘
-          </p>
+      {status === 'completed' && (
+        <div className="mb-4">
+          <h2 className="text-xl font-bold text-warmgray-800">謝謝你，留了時間給自己</h2>
+          <p className="tl-muted">這次練習已完成</p>
         </div>
       )}
 
-      {/* Completion */}
-      {!isRunning && cycles >= totalCycles && (
-        <div style={{
-          marginTop: '2rem', padding: '1.5rem', background: '#B8C4A015',
-          borderRadius: 16, border: '1px solid #B8C4A030', maxWidth: 360, margin: '2rem auto 0',
-        }}>
-          <p style={{ fontSize: 14, color: '#5A4E42', lineHeight: 1.8 }}>
-            🎉 太棒了！你完成了 3 分鐘的呼吸練習。<br />
-            感覺好一點了嗎？記得隨時回來充電 ♡
-          </p>
-        </div>
+      {pausedByHide && status === 'paused' && (
+        <p className="tl-notice justify-center mb-4">已暫停，準備好再繼續</p>
       )}
+
+      {/* 節奏說明 */}
+      <ol className="grid grid-cols-3 rounded-2xl mb-5 list-none p-0" style={{ background: '#FAF6F1' }} aria-label="這次的呼吸節奏">
+        {PHASES.map((p) => (
+          <li
+            key={p.key}
+            className="py-3 text-[15px]"
+            style={active && info.phase.key === p.key ? { color: '#4A3E34', fontWeight: 700 } : { color: '#716256' }}
+          >
+            {p.label}<br />{p.seconds} 秒
+          </li>
+        ))}
+      </ol>
+
+      <div className="flex flex-col gap-2.5 max-w-sm mx-auto">
+        {status === 'idle' && (
+          <>
+            <button type="button" className="tl-btn tl-btn-primary w-full" onClick={start}>開始練習</button>
+            <p className="text-sm tl-muted">吸 4 秒・停住 4 秒・吐 6 秒，共 13 次，約 3 分鐘</p>
+          </>
+        )}
+        {status === 'running' && (
+          <>
+            <button type="button" className="tl-btn tl-btn-primary w-full" onClick={() => pause()}>暫停</button>
+            <button type="button" className="tl-btn tl-btn-secondary w-full" onClick={end}>結束練習</button>
+          </>
+        )}
+        {status === 'paused' && (
+          <>
+            <button type="button" className="tl-btn tl-btn-primary w-full" onClick={run}>繼續練習</button>
+            <button type="button" className="tl-btn tl-btn-secondary w-full" onClick={end}>結束練習</button>
+          </>
+        )}
+        {status === 'completed' && (
+          <>
+            <button type="button" className="tl-btn tl-btn-primary w-full" onClick={start}>再練習一次</button>
+            <a href="/tools/" className="tl-btn tl-btn-secondary w-full">返回工具館</a>
+          </>
+        )}
+      </div>
+
+      <p className="text-sm tl-muted mt-5">以舒服的方式呼吸；若不舒服，可以隨時停止。</p>
     </div>
   );
 }

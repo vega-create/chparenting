@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "astro-dev",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "cd ~/Desktop/project/chparenting && exec node_modules/.bin/astro dev --port 4340"],
+      "port": 4340
+    }
+  ]
+}

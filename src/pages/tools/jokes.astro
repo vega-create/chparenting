@@ -1,30 +1,20 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import DailyJokes from '../../components/tools/DailyJokes';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="每日媽媽笑話" description="每天一則育兒笑話，笑一笑壓力少一半。分享給你的媽媽好友們！" image="/images/og-jokes.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">每日笑話</span>
-    </nav>
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🤣 每日媽媽笑話</h1>
-      <p class="text-warmgray-400">笑一笑，壓力少一半</p>
-    </div>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <DailyJokes client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>怎麼使用？</h2>
-      <p>每次進來都會看到一則媽媽/育兒笑話。覺得好笑就點「換一則」看更多，喜歡的話可以分享給你的媽媽好友們，一起笑一笑放鬆放鬆！</p>
-      <h2>笑一笑真的有用嗎？</h2>
-      <p>研究顯示，笑可以降低壓力荷爾蒙、釋放腦內啡，甚至提升免疫力。媽媽每天給自己幾分鐘的「笑時間」，是最簡單的充電方式。不需要理由，笑就對了！</p>
-    </div>
-      <ShareButtons title="😆 每日媽媽笑話" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="jokes"
+  description="每日媽媽笑話：先看題目，再揭曉答案，給忙碌的日常一點輕鬆。喜歡的可以複製分享。"
+  image="/images/og-jokes.jpg"
+  lead="給今天一點輕鬆。"
+>
+  <DailyJokes client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>先看題目，按「看答案」揭曉；看完按「下一則」換下一則笑話。喜歡的話按「複製這則笑話」，題目和答案會一起複製。</p>
+    <h2>關於這些笑話</h2>
+    <p>都是媽媽日常裡會心一笑的小事。每天的起始則不同，之後依序往下，不會緊接著重複。</p>
+  </Fragment>
+</ToolLayout>

@@ -1,25 +1,20 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import FortuneCard from '../../components/tools/FortuneCard';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="媽媽安心籤" description="每天一籤，給自己一句溫暖的話。媽媽專屬的安心籤，抽一籤為今天的自己加油打氣！" image="/images/og-fortune.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">媽媽安心籤</span>
-    </nav>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <FortuneCard client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>關於媽媽安心籤</h2>
-      <p>每天為自己抽一籤，不是迷信，而是給忙碌的自己一個暫停的瞬間。靜下心來，看看今天宇宙想對你說什麼。</p>
-      <p>每一支籤都是為媽媽寫的溫暖話語，抽完可以複製分享給朋友，把正能量傳遞出去 🧡</p>
-    </div>
-      <ShareButtons title="🔮 媽媽運勢卡" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="fortune"
+  description="媽媽安心籤：抽一籤，給自己一句溫暖的話。有籤詩、籤語和今日小行動，可以再抽、可以複製保存。"
+  image="/images/og-fortune.jpg"
+  lead="抽一籤，給自己一句溫暖的話。"
+>
+  <FortuneCard client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>按「抽一籤」會抽出一支籤，再按「解籤」看籤詩、籤語和今日小行動。想再抽一次就按「再抽一籤」；喜歡這支籤，可以按「複製籤詩」存到備忘錄。</p>
+    <h2>關於媽媽安心籤</h2>
+    <p>這是給忙碌的自己一個停下來的瞬間，籤語都是為媽媽寫的日常鼓勵，不提供對健康、財務或感情等未來的預測。</p>
+  </Fragment>
+</ToolLayout>

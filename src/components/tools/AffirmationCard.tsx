@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { CopyButton, track } from './ui';
 
 /* ── 心情分類語錄庫 ── */
 const moodQuotes: Record<string, { text: string; emoji: string }[]> = {
@@ -103,261 +104,106 @@ const weekdayThemes: Record<number, string> = {
   6: '週末快樂，今天放過自己吧',        // 六
 };
 
-const bgColors = ['#E8A87C', '#D4B896', '#B8C4A0', '#C4A0A0', '#8BA888', '#D4956A', '#A0B8C4'];
-
 const moods = [
-  { id: 'tired',   label: '😩 好累', color: '#B8C4D0' },
-  { id: 'anxious', label: '😰 焦慮', color: '#C4B8D0' },
-  { id: 'happy',   label: '😊 開心', color: '#C4D0A0' },
-  { id: 'angry',   label: '😤 生氣', color: '#D0B8A0' },
+  { id: 'tired',   label: '好累', icon: 'tired' },
+  { id: 'anxious', label: '焦慮', icon: 'scared' },
+  { id: 'happy',   label: '開心', icon: 'happy' },
+  { id: 'angry',   label: '生氣', icon: 'angry' },
 ];
+
+// 資料池多於一筆時避免緊接著重複
+const pickNext = (len: number, current: number) => {
+  if (len <= 1) return 0;
+  let n = Math.floor(Math.random() * len);
+  if (n === current) n = (n + 1) % len;
+  return n;
+};
 
 export default function AffirmationCard() {
   const [selectedMood, setSelectedMood] = useState<string | null>(null);
   const [current, setCurrent] = useState(0);
-  const [bgColor, setBgColor] = useState(bgColors[0]);
-  const [isFlipping, setIsFlipping] = useState(false);
   const [dailyMessage, setDailyMessage] = useState('');
   const [specialCard, setSpecialCard] = useState<{ text: string; emoji: string } | null>(null);
 
   useEffect(() => {
     const today = new Date();
-    const day = today.getDay();
-    setDailyMessage(weekdayThemes[day]);
+    setDailyMessage(weekdayThemes[today.getDay()]);
 
-    // Check special day
     const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
     const specials = specialDayQuotes[mmdd];
-    if (specials) {
-      setSpecialCard(specials[Math.floor(Math.random() * specials.length)]);
-    }
+    if (specials) setSpecialCard(specials[Math.floor(Math.random() * specials.length)]);
 
-    // Auto-select mood from URL param (from homepage MoodCheck)
-    const params = new URLSearchParams(window.location.search);
-    const moodParam = params.get('mood');
-    if (moodParam && moodQuotes[moodParam]) {
-      selectMood(moodParam);
-    }
+    // 首頁心情卡帶來的 ?mood= 參數
+    const moodParam = new URLSearchParams(window.location.search).get('mood');
+    if (moodParam && moodQuotes[moodParam]) selectMood(moodParam);
   }, []);
-
-  const getQuotes = () => {
-    if (!selectedMood) return [];
-    return moodQuotes[selectedMood] || [];
-  };
-
-  const nextCard = () => {
-    const quotes = getQuotes();
-    if (quotes.length === 0) return;
-    setIsFlipping(true);
-    setTimeout(() => {
-      const next = (current + 1) % quotes.length;
-      setCurrent(next);
-      setBgColor(bgColors[next % bgColors.length]);
-      setIsFlipping(false);
-    }, 200);
-  };
 
   const selectMood = (moodId: string) => {
     setSelectedMood(moodId);
-    // Use date + mood as seed for today's card
-    const today = new Date();
-    const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
     const quotes = moodQuotes[moodId] || [];
-    const idx = seed % quotes.length;
-    setCurrent(idx);
-    setBgColor(bgColors[idx % bgColors.length]);
+    setCurrent(Math.floor(Math.random() * quotes.length));
+    track('tool_start', { tool_id: 'affirmation' });
   };
 
-  const quotes = getQuotes();
+  const quotes = selectedMood ? moodQuotes[selectedMood] || [] : [];
   const card = quotes[current];
+  const moodInfo = moods.find((m) => m.id === selectedMood);
+  const copyText = card ? `${card.text}\n\n— 媽媽生活復原力Lab` : '';
 
   return (
-    <div style={{ textAlign: 'center', padding: '1.5rem', fontFamily: 'Noto Sans TC, sans-serif' }}>
+    <div className="text-center">
+      <p className="text-sm tl-muted mb-4">{dailyMessage}</p>
 
-      {/* Daily greeting */}
-      <div style={{
-        background: 'linear-gradient(135deg, #FFF8F0, #FFF3E6)',
-        borderRadius: 16,
-        padding: '16px 20px',
-        marginBottom: 24,
-        border: '1px solid #F0E0D0',
-      }}>
-        <p style={{ margin: 0, fontSize: 14, color: '#8A7A6A' }}>
-          📅 {dailyMessage}
-        </p>
-      </div>
-
-      {/* Special day banner */}
       {specialCard && (
-        <div style={{
-          background: 'linear-gradient(135deg, #FFE8E8, #FFF0E0)',
-          borderRadius: 16,
-          padding: '20px',
-          marginBottom: 24,
-          border: '2px solid #FFD0C0',
-        }}>
-          <span style={{ fontSize: 36 }}>{specialCard.emoji}</span>
-          <p style={{ margin: '8px 0 0', fontSize: 16, fontWeight: 600, color: '#6B4A3A' }}>
-            {specialCard.text}
-          </p>
+        <div className="tl-notice justify-center mb-5">
+          <span aria-hidden="true">{specialCard.emoji}</span>
+          <span className="font-bold">{specialCard.text}</span>
         </div>
       )}
 
-      {/* Mood selector */}
       {!selectedMood ? (
-        <div>
-          <p style={{ fontSize: 18, fontWeight: 600, color: '#5A4E42', marginBottom: 20 }}>
-            媽媽，你今天心情如何？
-          </p>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(2, 1fr)',
-            gap: 12,
-            maxWidth: 320,
-            margin: '0 auto',
-          }}>
-            {moods.map(m => (
+        <fieldset className="border-0 p-0 m-0">
+          <legend className="text-lg font-bold text-warmgray-800 mb-1 w-full">現在的你，心情如何？</legend>
+          <p className="text-sm tl-muted mb-4">選一個最接近的心情，為現在的你抽一句暖心話</p>
+          <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto">
+            {moods.map((m) => (
               <button
                 key={m.id}
+                type="button"
+                className="tl-option justify-center"
+                aria-pressed={false}
                 onClick={() => selectMood(m.id)}
-                style={{
-                  background: `linear-gradient(135deg, ${m.color}30, ${m.color}15)`,
-                  border: `2px solid ${m.color}50`,
-                  borderRadius: 16,
-                  padding: '18px 12px',
-                  fontSize: 18,
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  transition: 'all 0.2s',
-                  fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-                  color: '#4A3E34',
-                }}
               >
-                {m.label}
+                <img src={`/images/ui/moods/${m.icon}.png`} alt="" width={40} height={40} className="w-10 h-10 object-contain" />
+                <span className="font-bold">{m.label}</span>
               </button>
             ))}
           </div>
-          <p style={{ marginTop: 16, fontSize: 13, color: '#9A8A7A' }}>
-            選擇心情，為你抽一張專屬卡片 ♡
-          </p>
-        </div>
+        </fieldset>
       ) : (
         <div>
-          {/* Mood tag + change button */}
-          <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
-            <span style={{
-              background: moods.find(m => m.id === selectedMood)?.color + '30',
-              padding: '6px 16px',
-              borderRadius: 999,
-              fontSize: 14,
-              fontWeight: 600,
-              color: '#5A4E42',
-            }}>
-              {moods.find(m => m.id === selectedMood)?.label}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="inline-flex items-center gap-2 text-sm font-bold text-warmgray-800">
+              <img src={`/images/ui/moods/${moodInfo?.icon}.png`} alt="" width={28} height={28} className="w-7 h-7 object-contain" />
+              心情：{moodInfo?.label}
             </span>
-            <button
-              onClick={() => setSelectedMood(null)}
-              style={{
-                background: 'none',
-                border: '1px solid #DDD',
-                borderRadius: 999,
-                padding: '4px 12px',
-                fontSize: 12,
-                color: '#9A8A7A',
-                cursor: 'pointer',
-              }}
-            >
+            <button type="button" className="tl-btn tl-btn-ghost !min-h-[40px] !px-3 text-sm" onClick={() => setSelectedMood(null)}>
               換心情
             </button>
           </div>
 
-          {/* Card */}
           {card && (
-            <div
-              onClick={nextCard}
-              style={{
-                width: '100%',
-                maxWidth: 360,
-                margin: '0 auto 2rem',
-                padding: '3rem 2rem',
-                borderRadius: 24,
-                background: `linear-gradient(135deg, ${bgColor}20, ${bgColor}08)`,
-                border: `2px solid ${bgColor}30`,
-                cursor: 'pointer',
-                transition: 'all 0.3s',
-                transform: isFlipping ? 'scale(0.95) rotateY(10deg)' : 'scale(1)',
-                opacity: isFlipping ? 0.5 : 1,
-                minHeight: 200,
-                display: 'flex',
-                flexDirection: 'column' as const,
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <span style={{ fontSize: 48, display: 'block', marginBottom: 16 }}>{card.emoji}</span>
-              <p style={{
-                fontSize: 20,
-                fontWeight: 600,
-                color: '#4A3E34',
-                lineHeight: 1.6,
-                fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-              }}>
-                {card.text}
-              </p>
+            <div className="rounded-[20px] px-6 py-10 mb-5" style={{ background: '#FAF6F1', border: '1px solid #E8DFD5' }} aria-live="polite">
+              <p className="text-[22px] sm:text-2xl font-bold leading-relaxed text-warmgray-800 select-text">{card.text}</p>
             </div>
           )}
 
-          {/* Buttons */}
-          <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
-            <button
-              onClick={nextCard}
-              style={{
-                background: bgColor,
-                color: 'white',
-                border: 'none',
-                padding: '12px 28px',
-                borderRadius: 999,
-                fontSize: 15,
-                fontWeight: 600,
-                cursor: 'pointer',
-                fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-                boxShadow: `0 4px 20px ${bgColor}30`,
-              }}
-            >
-              🔄 換一張
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2.5">
+            <button type="button" className="tl-btn tl-btn-primary" onClick={() => setCurrent((c) => pickNext(quotes.length, c))}>
+              換一張
             </button>
-            <button
-              onClick={() => {
-                if (!card) return;
-                if (navigator.share) {
-                  navigator.share({
-                    title: '今日正能量',
-                    text: `${card.emoji} ${card.text}\n\n— 媽媽生活復原力Lab`,
-                  });
-                } else {
-                  navigator.clipboard.writeText(`${card.emoji} ${card.text}\n\n— 媽媽生活復原力Lab`);
-                  alert('已複製到剪貼簿！');
-                }
-              }}
-              style={{
-                background: 'white',
-                color: '#5A4E42',
-                border: '2px solid #EDE5DB',
-                padding: '12px 28px',
-                borderRadius: 999,
-                fontSize: 15,
-                fontWeight: 600,
-                cursor: 'pointer',
-                fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-              }}
-            >
-              📤 分享
-            </button>
+            <CopyButton text={copyText} label="複製這句話" toolId="affirmation" />
           </div>
-
-          <p style={{ marginTop: 24, fontSize: 13, color: '#9A8A7A' }}>
-            點擊卡片或按「換一張」看下一句 ♡
-          </p>
         </div>
       )}
     </div>

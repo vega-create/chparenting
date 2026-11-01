@@ -1,28 +1,22 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import StressTest from '../../components/tools/StressTest';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="媽媽壓力指數測驗" description="10 題快速測驗，了解你的壓力等級，獲得專屬建議。只需要 2 分鐘。" image="/images/og-stress-test.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">壓力測驗</span>
-    </nav>
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">📊 媽媽壓力指數測驗</h1>
-      <p class="text-warmgray-400">10 題快速測驗，只需要 2 分鐘</p>
-    </div>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <StressTest client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>關於這個測驗</h2>
-      <p>這是一個簡單的自我評估工具，幫助你了解目前的壓力狀態。它不是醫學診斷工具，但可以讓你更清楚自己需要什麼樣的支持。如果壓力持續很高，建議尋求專業的心理諮商協助。</p>
-    </div>
-      <ShareButtons title="📊 壓力指數測驗" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="stress-test"
+  description="10 題、約 2 分鐘，依最近一週的感受整理自己的狀態。生活自我覺察，非醫療診斷。"
+  image="/images/og-stress-test.jpg"
+  eyebrow="壓力自評"
+  lead="10 題，整理最近一週的感受。"
+>
+  <StressTest client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>按「開始檢視」後，每題依最近一週的感受選一個最接近的答案，再按「下一題」。可以隨時按「上一題」修改，最後一題按「查看結果」。</p>
+    <h2>題目與計分說明</h2>
+    <p>這 10 題是本站整理的生活自我覺察題目，不是經過驗證的心理量表。每題「從不、偶爾、經常、總是」分別計 0、1、2、3 分，總分 0–30 分；分數只作為你看見自己最近狀態的參考，不分等級，也不代表任何診斷。</p>
+    <p>若困擾持續影響生活，可以尋求合適的專業支持。</p>
+  </Fragment>
+</ToolLayout>

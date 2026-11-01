@@ -1,30 +1,22 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import MoodDiary from '../../components/tools/MoodDiary';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="心情日記" description="花一分鐘記錄今天的心情，收到一句暖心的話。可以複製到 LINE 或備忘錄保存！" image="/images/og-mood-diary.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">心情日記</span>
-    </nav>
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">📝 心情日記</h1>
-      <p class="text-warmgray-400">每天一分鐘，記錄你的心情</p>
-    </div>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <MoodDiary client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>怎麼使用？</h2>
-      <p>選擇今天的心情，可以寫一些想說的話（也可以不寫），按下記錄後就會產生你的心情卡片。點「複製紀錄」就能貼到 LINE、備忘錄或日記 App 保存，每天花一分鐘給自己一個小紀錄。</p>
-      <h2>為什麼記錄心情有幫助？</h2>
-      <p>情緒覺察是心理健康的第一步。寫下來不只是紀錄，更是一種釋放。當你養成記錄的習慣，會慢慢看見自己的情緒模式，知道什麼讓你開心、什麼讓你疲累。這份自我了解，就是改變的開始。</p>
-    </div>
-      <ShareButtons title="📝 心情日記" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="mood-diary"
+  description="選一個心情、寫下今天的小記，產生一張心情卡並複製保存到備忘錄或 LINE。此頁不保存歷史日記。"
+  image="/images/og-mood-diary.jpg"
+  lead="花一分鐘，記下今天的自己。"
+>
+  <MoodDiary client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>先選一個最接近的心情，想寫點什麼就寫在小記裡（也可以不寫），按「產生心情卡」就會看到今天的紀錄與一句回應。</p>
+    <h2>紀錄會保存在哪裡？</h2>
+    <p>這個頁面不會保存任何內容，離開頁面後本次紀錄就會消失。想留下來的話，請按「複製紀錄」貼到備忘錄、LINE 或日記 App。小記內容也不會放進網址或任何統計。</p>
+    <h2>為什麼記錄心情有幫助？</h2>
+    <p>把感受寫下來，是給自己一個停下來看看的機會。久了會慢慢看見自己的情緒模式，知道什麼讓你放鬆、什麼讓你疲累。</p>
+  </Fragment>
+</ToolLayout>

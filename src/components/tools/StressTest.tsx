@@ -1,16 +1,19 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { CopyButton, Notice, track } from './ui';
 
+// 站方自編的 10 題生活自我覺察題，沒有正式量表來源：
+// 每題 0–3 分、總分 0–30，只顯示分數作生活參考，不做低／中／高等級或診斷判定（改版規劃 8.1）。
 const questions = [
-  { q: '你最近是否常常覺得很疲累，即使睡了也不夠？', emoji: '😴' },
-  { q: '你是否經常對孩子或家人發脾氣，事後又後悔？', emoji: '😤' },
-  { q: '你是否覺得自己的時間永遠不夠用？', emoji: '⏰' },
-  { q: '你是否經常覺得自己「不夠好」？', emoji: '😞' },
-  { q: '你是否很少有完全屬於自己的時間？', emoji: '🙋‍♀️' },
-  { q: '你是否常常感到焦慮或擔心？', emoji: '😰' },
-  { q: '你是否覺得做家事是永遠做不完的循環？', emoji: '🏠' },
-  { q: '你是否很少跟朋友見面或聊天？', emoji: '📱' },
-  { q: '你是否覺得自己的興趣和夢想都放下了？', emoji: '🎨' },
-  { q: '你是否常常忘記好好吃一頓飯？', emoji: '🍽️' },
+  '你最近是否常常覺得很疲累，即使睡了也不夠？',
+  '你是否經常對孩子或家人發脾氣，事後又後悔？',
+  '你是否覺得自己的時間永遠不夠用？',
+  '你是否經常覺得自己「不夠好」？',
+  '你是否很少有完全屬於自己的時間？',
+  '你是否常常感到焦慮或擔心？',
+  '你是否覺得做家事是永遠做不完的循環？',
+  '你是否很少跟朋友見面或聊天？',
+  '你是否覺得自己的興趣和夢想都放下了？',
+  '你是否常常忘記好好吃一頓飯？',
 ];
 
 const options = [
@@ -20,182 +23,192 @@ const options = [
   { label: '總是', score: 3 },
 ];
 
-type Result = {
-  level: string;
-  emoji: string;
-  color: string;
-  message: string;
-  tips: string[];
-};
+const MAX_SCORE = questions.length * 3;
 
-const getResult = (score: number): Result => {
-  if (score <= 8) {
-    return {
-      level: '壓力尚可',
-      emoji: '😊',
-      color: '#B8C4A0',
-      message: '你的壓力指數在可控範圍內，繼續保持對自己的關注！',
-      tips: ['保持目前的自我照顧習慣', '偶爾給自己小獎勵', '持續和朋友保持聯繫'],
-    };
-  } else if (score <= 16) {
-    return {
-      level: '中等壓力',
-      emoji: '😐',
-      color: '#D4B896',
-      message: '你承受著不少壓力，是時候多花點時間照顧自己了。',
-      tips: ['每天留 10 分鐘給自己', '試試呼吸練習或冥想', '和信任的人聊聊你的感受', '減少不必要的待辦事項'],
-    };
-  } else if (score <= 24) {
-    return {
-      level: '壓力偏高',
-      emoji: '😮‍💨',
-      color: '#E8A87C',
-      message: '你的壓力已經很高了，請認真考慮為自己安排一些喘息時間。',
-      tips: ['每天做 3 分鐘呼吸練習', '試著說「不」，減少負擔', '找人幫忙分擔家務', '考慮找心理諮商師聊聊'],
-    };
-  } else {
-    return {
-      level: '壓力爆表',
-      emoji: '😢',
-      color: '#C4A0A0',
-      message: '你承受了太多壓力了！你不是一個人，請讓身邊的人幫你分擔。',
-      tips: ['立刻找一個信任的人傾訴', '考慮尋求專業心理諮商', '暫時放下「完美」的標準', '你的健康比任何事都重要'],
-    };
-  }
-};
+const actions = [
+  { title: '留 3 分鐘給自己', desc: '暫停一下，跟著節奏慢慢呼吸。', href: '/tools/breathing/' },
+  { title: '留下一件可以晚點做的事', desc: '把不急的事往後放，減少此刻的負擔。', href: '/tools/priority/' },
+  { title: '找信任的人聊聊', desc: '說出來，讓情緒有個出口。' },
+];
+
+type Stage = 'intro' | 'quiz' | 'result';
 
 export default function StressTest() {
-  const [answers, setAnswers] = useState<number[]>(new Array(questions.length).fill(-1));
-  const [showResult, setShowResult] = useState(false);
-  const [currentQ, setCurrentQ] = useState(0);
+  const [stage, setStage] = useState<Stage>('intro');
+  const [current, setCurrent] = useState(0);
+  const [answers, setAnswers] = useState<number[]>(() => new Array(questions.length).fill(-1));
+  const resultRef = useRef<HTMLHeadingElement>(null);
+  const questionRef = useRef<HTMLHeadingElement>(null);
 
-  const handleAnswer = (score: number) => {
-    const newAnswers = [...answers];
-    newAnswers[currentQ] = score;
-    setAnswers(newAnswers);
+  const answered = answers.filter((a) => a >= 0).length;
+  const total = answers.reduce((s, a) => s + (a >= 0 ? a : 0), 0);
+  const isLast = current === questions.length - 1;
+  const hasAnswer = answers[current] >= 0;
+  const progress = stage === 'result' ? 100 : Math.round((answered / questions.length) * 100);
 
-    if (currentQ < questions.length - 1) {
-      setTimeout(() => setCurrentQ(currentQ + 1), 200);
+  // 切到結果時把焦點移到結果標題；切題時移到題目
+  useEffect(() => {
+    if (stage === 'result') resultRef.current?.focus();
+  }, [stage]);
+  useEffect(() => {
+    if (stage === 'quiz') questionRef.current?.focus();
+  }, [stage, current]);
+
+  const select = (score: number) => {
+    // 改答只取代該題分數，不累加
+    setAnswers((prev) => prev.map((a, i) => (i === current ? score : a)));
+  };
+
+  const next = () => {
+    if (!hasAnswer) return;
+    if (isLast) {
+      track('tool_complete', { tool_id: 'stress-test' });
+      setStage('result');
+    } else {
+      setCurrent((c) => c + 1);
     }
   };
 
-  const totalScore = answers.reduce((a, b) => a + (b >= 0 ? b : 0), 0);
-  const allAnswered = answers.every((a) => a >= 0);
-  const result = getResult(totalScore);
+  const start = () => {
+    track('tool_start', { tool_id: 'stress-test' });
+    setStage('quiz');
+  };
 
-  if (showResult) {
+  const reset = () => {
+    setAnswers(new Array(questions.length).fill(-1));
+    setCurrent(0);
+    setStage('intro');
+  };
+
+  const today = new Date().toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' });
+  const copyText = `媽媽壓力自我檢視\n${today}\n自我檢視分數：${total} / ${MAX_SCORE}\n（生活自我覺察，不是醫療診斷）\nhttps://chparenting.com/tools/stress-test/`;
+
+  if (stage === 'intro') {
     return (
-      <div style={{ textAlign: 'center', padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif' }}>
-        <span style={{ fontSize: 64, display: 'block', marginBottom: 16 }}>{result.emoji}</span>
-        <h3 style={{ fontSize: 24, fontWeight: 700, color: result.color, fontFamily: 'Quicksand, Noto Sans TC, sans-serif', marginBottom: 8 }}>
-          {result.level}
-        </h3>
-        <p style={{ fontSize: 14, color: '#5A4E42', marginBottom: 8 }}>
-          壓力指數：{totalScore} / 30
-        </p>
-        <div style={{ width: 200, height: 8, background: '#EDE5DB', borderRadius: 4, margin: '0 auto 20px' }}>
-          <div style={{ width: `${(totalScore / 30) * 100}%`, height: '100%', background: result.color, borderRadius: 4, transition: 'width 1s' }} />
+      <div className="text-center">
+        <p className="text-lg font-bold text-warmgray-800">10 題・約 2 分鐘</p>
+        <p className="tl-muted mt-1">依最近一週的感受作答</p>
+        <div className="mt-5 text-left">
+          <Notice>
+            <strong>生活自我覺察，非醫療診斷。</strong>這份檢視只是幫助你看見自己最近的狀態，不是心理量表，也不會給你任何診斷。
+          </Notice>
         </div>
-        <p style={{ fontSize: 15, color: '#5A4E42', lineHeight: 1.8, marginBottom: 24, maxWidth: 400, margin: '0 auto 24px' }}>
-          {result.message}
-        </p>
+        <button type="button" className="tl-btn tl-btn-primary w-full max-w-sm mt-6" onClick={start}>開始檢視</button>
+      </div>
+    );
+  }
 
-        <div style={{ background: `${result.color}10`, borderRadius: 16, padding: '1.5rem', maxWidth: 400, margin: '0 auto 24px', textAlign: 'left' as const }}>
-          <p style={{ fontSize: 14, fontWeight: 600, color: '#4A3E34', marginBottom: 12 }}>💡 建議：</p>
-          {result.tips.map((tip, i) => (
-            <p key={i} style={{ fontSize: 14, color: '#5A4E42', lineHeight: 1.8, paddingLeft: 16, position: 'relative' as const }}>
-              <span style={{ position: 'absolute' as const, left: 0 }}>•</span>
-              {tip}
-            </p>
+  if (stage === 'result') {
+    return (
+      <div>
+        <div className="mb-5">
+          <div className="flex justify-between text-sm tl-muted mb-1.5">
+            <span>已完成 {questions.length} / {questions.length} 題</span>
+            <span>100%</span>
+          </div>
+          <div className="tl-progress" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}><span style={{ width: '100%' }} /></div>
+        </div>
+
+        <h2 ref={resultRef} tabIndex={-1} className="text-2xl font-bold text-warmgray-800 text-center outline-none">
+          先照顧現在的自己
+        </h2>
+        <p className="text-center mt-3 text-warmgray-800">
+          自我檢視分數
+          <span className="mx-2 text-4xl font-bold tabular-nums" style={{ color: '#C07D52' }}>{total}</span>
+          / {MAX_SCORE}
+        </p>
+        <p className="text-sm tl-muted text-center mt-2">這份結果只是生活自我覺察的參考，幫助你看見自己目前的狀態與需要，不是醫療診斷。</p>
+
+        <h3 className="font-bold text-warmgray-800 mt-6 mb-2">你可以試試看</h3>
+        <ul className="list-none p-0 m-0 flex flex-col gap-2">
+          {actions.map((a) => (
+            <li key={a.title}>
+              {a.href ? (
+                <a href={a.href} className="tl-option tl-focus no-underline py-3">
+                  <span>
+                    <span className="block font-bold">{a.title}</span>
+                    <span className="block text-sm tl-muted">{a.desc}</span>
+                  </span>
+                </a>
+              ) : (
+                <div className="tl-option cursor-default py-3">
+                  <span>
+                    <span className="block font-bold">{a.title}</span>
+                    <span className="block text-sm tl-muted">{a.desc}</span>
+                  </span>
+                </div>
+              )}
+            </li>
           ))}
-        </div>
+        </ul>
 
-        <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
-          <a href="/tools/breathing/" style={{
-            background: '#E8A87C', color: 'white', padding: '12px 24px', borderRadius: 999,
-            fontSize: 14, fontWeight: 600, textDecoration: 'none', fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-          }}>
-            🫁 試試呼吸練習
-          </a>
-          <button onClick={() => { setShowResult(false); setCurrentQ(0); setAnswers(new Array(questions.length).fill(-1)); }}
-            style={{ background: 'white', color: '#5A4E42', border: '2px solid #EDE5DB', padding: '12px 24px', borderRadius: 999, fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: 'Quicksand, Noto Sans TC, sans-serif' }}>
-            🔄 重新測驗
-          </button>
+        <p className="text-sm tl-muted mt-4">若困擾持續影響生活，可以尋求合適的專業支持。</p>
+
+        <div className="flex flex-col gap-2.5 max-w-sm mx-auto mt-6">
+          <a href="/tools/breathing/" className="tl-btn tl-btn-primary w-full">開始呼吸練習</a>
+          <CopyButton text={copyText} label="複製結果" className="tl-btn tl-btn-secondary w-full" toolId="stress-test" />
+        </div>
+        <div className="flex justify-center gap-2 mt-3">
+          <button type="button" className="tl-btn tl-btn-ghost text-sm" onClick={() => { setCurrent(questions.length - 1); setStage('quiz'); }}>修改答案</button>
+          <button type="button" className="tl-btn tl-btn-ghost text-sm" onClick={reset}>重新測驗</button>
         </div>
       </div>
     );
   }
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif' }}>
-      {/* Progress */}
-      <div style={{ marginBottom: 24 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-          <span style={{ fontSize: 13, color: '#9A8A7A' }}>第 {currentQ + 1} / {questions.length} 題</span>
-          <span style={{ fontSize: 13, color: '#9A8A7A' }}>{Math.round(((currentQ) / questions.length) * 100)}%</span>
+    <div>
+      <div className="mb-5">
+        <div className="flex justify-between text-sm tl-muted mb-1.5">
+          <span>第 {current + 1} / {questions.length} 題・已完成 {answered} 題</span>
+          <span>{progress}%</span>
         </div>
-        <div style={{ height: 6, background: '#EDE5DB', borderRadius: 3 }}>
-          <div style={{ width: `${(currentQ / questions.length) * 100}%`, height: '100%', background: '#E8A87C', borderRadius: 3, transition: 'width 0.3s' }} />
-        </div>
+        <div className="tl-progress" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}><span style={{ width: `${progress}%` }} /></div>
       </div>
 
-      {/* Question */}
-      <div style={{ textAlign: 'center', marginBottom: 32 }}>
-        <span style={{ fontSize: 40, display: 'block', marginBottom: 12 }}>{questions[currentQ].emoji}</span>
-        <p style={{ fontSize: 18, fontWeight: 600, color: '#4A3E34', lineHeight: 1.6 }}>
-          {questions[currentQ].q}
-        </p>
+      <h2 ref={questionRef} tabIndex={-1} id="stress-question" className="text-xl font-bold text-warmgray-800 leading-snug mb-4 outline-none">
+        {questions[current]}
+      </h2>
+
+      <div role="radiogroup" aria-labelledby="stress-question" className="flex flex-col gap-2">
+        {options.map((opt) => {
+          const checked = answers[current] === opt.score;
+          return (
+            <label
+              key={opt.label}
+              className={`tl-option focus-within:outline focus-within:outline-[3px] focus-within:outline-offset-2 focus-within:outline-sage-400 ${checked ? 'is-selected' : ''}`}
+            >
+              <input
+                type="radio"
+                name={`stress-q${current}`}
+                value={opt.score}
+                aria-label={opt.label}
+                checked={checked}
+                onChange={() => select(opt.score)}
+                className="sr-only"
+              />
+              <span
+                aria-hidden="true"
+                className="inline-flex w-5 h-5 rounded-full border-2 items-center justify-center shrink-0"
+                style={{ borderColor: checked ? '#8BA888' : '#D9CCBF' }}
+              >
+                {checked && <span className="w-2.5 h-2.5 rounded-full" style={{ background: '#8BA888' }} />}
+              </span>
+              <span className="font-medium">{opt.label}</span>
+            </label>
+          );
+        })}
       </div>
 
-      {/* Options */}
-      <div style={{ display: 'flex', flexDirection: 'column' as const, gap: 10, maxWidth: 360, margin: '0 auto' }}>
-        {options.map((opt) => (
-          <button
-            key={opt.label}
-            onClick={() => handleAnswer(opt.score)}
-            style={{
-              padding: '14px 20px',
-              borderRadius: 16,
-              border: answers[currentQ] === opt.score ? '2px solid #E8A87C' : '2px solid #EDE5DB',
-              background: answers[currentQ] === opt.score ? '#E8A87C10' : 'white',
-              color: '#4A3E34',
-              fontSize: 15,
-              fontWeight: 500,
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-              fontFamily: 'Noto Sans TC, sans-serif',
-            }}
-          >
-            {opt.label}
-          </button>
-        ))}
-      </div>
+      {!hasAnswer && <p className="text-sm tl-muted mt-3" role="status">請先選一個答案</p>}
 
-      {/* Navigation */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 24, maxWidth: 360, margin: '24px auto 0' }}>
-        <button
-          onClick={() => currentQ > 0 && setCurrentQ(currentQ - 1)}
-          disabled={currentQ === 0}
-          style={{ padding: '10px 20px', borderRadius: 12, border: 'none', background: currentQ === 0 ? '#EDE5DB' : '#F5F0EB', color: currentQ === 0 ? '#B8A99A' : '#5A4E42', cursor: currentQ === 0 ? 'default' : 'pointer', fontSize: 14, fontFamily: 'Noto Sans TC, sans-serif' }}
-        >
-          ← 上一題
+      <div className="flex gap-2.5 mt-5">
+        <button type="button" className="tl-btn tl-btn-secondary flex-1" onClick={() => setCurrent((c) => Math.max(0, c - 1))} disabled={current === 0}>
+          上一題
         </button>
-        {allAnswered ? (
-          <button
-            onClick={() => setShowResult(true)}
-            style={{ padding: '10px 24px', borderRadius: 12, border: 'none', background: '#E8A87C', color: 'white', cursor: 'pointer', fontSize: 14, fontWeight: 600, fontFamily: 'Quicksand, Noto Sans TC, sans-serif' }}
-          >
-            看結果 ✨
-          </button>
-        ) : currentQ < questions.length - 1 ? (
-          <button
-            onClick={() => answers[currentQ] >= 0 && setCurrentQ(currentQ + 1)}
-            disabled={answers[currentQ] < 0}
-            style={{ padding: '10px 20px', borderRadius: 12, border: 'none', background: answers[currentQ] >= 0 ? '#F5F0EB' : '#EDE5DB', color: answers[currentQ] >= 0 ? '#5A4E42' : '#B8A99A', cursor: answers[currentQ] >= 0 ? 'pointer' : 'default', fontSize: 14, fontFamily: 'Noto Sans TC, sans-serif' }}
-          >
-            下一題 →
-          </button>
-        ) : null}
+        <button type="button" className="tl-btn tl-btn-primary flex-1" onClick={next} disabled={!hasAnswer}>
+          {isLast ? '查看結果' : '下一題'}
+        </button>
       </div>
     </div>
   );

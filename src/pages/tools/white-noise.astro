@@ -1,29 +1,27 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import WhiteNoise from '../../components/tools/WhiteNoise';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="白噪音播放器" description="雨聲、海浪、森林、篝火⋯⋯選一個自然音效，幫助你放鬆或入睡。支援定時關閉。" image="/images/og-white-noise.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">白噪音</span>
-    </nav>
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">🌧️ 白噪音播放器</h1>
-      <p class="text-warmgray-400">選一個聲音，讓自己沉浸在自然的寧靜中</p>
-    </div>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <WhiteNoise client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>白噪音如何幫助放鬆？</h2>
-      <p>白噪音能夠遮蔽環境中的突然聲響，創造一個穩定的聲音環境。研究顯示，自然的白噪音（如雨聲、海浪）可以降低皮質醇水平、減緩心率，幫助入睡和提升專注力。</p>
-      <p>特別適合在孩子午睡時給自己幾分鐘的放鬆時間，或是睡前播放幫助入眠。</p>
-    </div>
-      <ShareButtons title="🌧️ 白噪音播放器" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="white-noise"
+  description="雨聲、海浪、森林、篝火、微風、夜晚六種背景聲，可調音量、可暫停、可設 5／15／30／60 分鐘定時停止。"
+  image="/images/og-white-noise.jpg"
+  lead="選一段聲音，陪自己安靜一會兒。"
+>
+  <WhiteNoise client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>點一種聲音就會開始播放；同一時間只播放一種，切換時會自動停掉前一種。主按鈕可以「暫停／繼續」，「停止播放」會把這次的定時一起清掉。</p>
+    <h2>定時停止</h2>
+    <p>選 5、15、30 或 60 分鐘，畫面會顯示剩餘時間；暫停時倒數也會暫停。重新選一個定時值，就從當下重新計時。</p>
+    <h2>小提醒</h2>
+    <ul>
+      <li>這些聲音是由瀏覽器即時合成的背景噪音，不是真實錄音。</li>
+      <li>戴上耳機、找一個舒服的位置，效果會更安靜。</li>
+      <li>手機鎖定螢幕或切到其他 App 時，瀏覽器可能會暫停播放，回來再按「繼續」即可。</li>
+      <li>離開這個頁面會自動停止播放。</li>
+    </ul>
+  </Fragment>
+</ToolLayout>

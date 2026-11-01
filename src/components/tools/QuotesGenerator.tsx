@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { CopyButton, track } from './ui';
 
 const quotes = [
   { text: '我只是想上個廁所，為什麼這也要開會？', category: '日常崩潰' },
@@ -23,67 +24,42 @@ const quotes = [
   { text: '我不是超人媽媽，我只是還沒倒下', category: '自我認知' },
 ];
 
+// 外層用「」，內文原有的「」改成內層『』，避免重複包裹
+const quoteInner = (text: string) => text.replace(/「/g, '『').replace(/」/g, '』');
+
+const pickNext = (len: number, current: number) => {
+  if (len <= 1) return 0;
+  let n = Math.floor(Math.random() * len);
+  if (n === current) n = (n + 1) % len;
+  return n;
+};
+
 export default function QuotesGenerator() {
-  const [current, setCurrent] = useState(() => Math.floor(Math.random() * quotes.length));
-  const [isAnimating, setIsAnimating] = useState(false);
+  // SSR 先固定第 0 句，掛載後再隨機，避免伺服器／瀏覽器輸出不一致
+  const [current, setCurrent] = useState(0);
+  useEffect(() => { setCurrent(pickNext(quotes.length, -1)); }, []);
+  const quote = quotes[current];
+  const display = `「${quoteInner(quote.text)}」`;
+  const copyText = `${display}\n— 媽媽內心 OS\n\n— 媽媽生活復原力Lab`;
 
   const next = () => {
-    setIsAnimating(true);
-    setTimeout(() => {
-      setCurrent((c) => (c + 1) % quotes.length);
-      setIsAnimating(false);
-    }, 150);
+    setCurrent((c) => pickNext(quotes.length, c));
+    track('tool_complete', { tool_id: 'quotes' });
   };
 
-  const quote = quotes[current];
-
   return (
-    <div style={{ textAlign: 'center', padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif' }}>
-      <div
-        style={{
-          maxWidth: 400,
-          margin: '0 auto 24px',
-          padding: '2.5rem 2rem',
-          borderRadius: 24,
-          background: 'linear-gradient(135deg, #D4956A15, #E8A87C08)',
-          border: '2px solid #D4956A20',
-          minHeight: 180,
-          display: 'flex',
-          flexDirection: 'column' as const,
-          alignItems: 'center',
-          justifyContent: 'center',
-          transition: 'all 0.2s',
-          transform: isAnimating ? 'scale(0.97)' : 'scale(1)',
-          opacity: isAnimating ? 0.5 : 1,
-        }}
-      >
-        <span style={{ fontSize: 12, color: '#D4956A', fontWeight: 600, letterSpacing: 2, marginBottom: 16, textTransform: 'uppercase' as const }}>
-          — {quote.category} —
-        </span>
-        <p style={{ fontSize: 20, fontWeight: 600, color: '#4A3E34', lineHeight: 1.8, fontFamily: 'Quicksand, Noto Sans TC, sans-serif' }}>
-          「{quote.text}」
+    <div className="max-w-md mx-auto text-center">
+      <div className="rounded-[20px] px-5 sm:px-7 py-8" style={{ background: '#FAF6F1', border: '1px solid #E8DFD5' }} aria-live="polite">
+        <p className="inline-block rounded-full px-3 py-1 text-sm font-bold mb-4" style={{ background: '#F3F7F1', color: '#6E8E6A' }}>
+          {quote.category}
         </p>
-        <p style={{ fontSize: 13, color: '#9A8A7A', marginTop: 16 }}>— 某位匿名媽媽</p>
+        <p className="text-xl sm:text-[22px] font-bold leading-relaxed text-warmgray-800 select-text">{display}</p>
+        <p className="text-sm tl-muted mt-4">— 媽媽內心 OS</p>
       </div>
 
-      <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
-        <button onClick={next} style={{
-          background: '#D4956A', color: 'white', border: 'none', padding: '12px 28px', borderRadius: 999,
-          fontSize: 15, fontWeight: 600, cursor: 'pointer', fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-          boxShadow: '0 4px 20px #D4956A30',
-        }}>
-          🎲 下一句
-        </button>
-        <button onClick={() => {
-          const text = `「${quote.text}」\n— 某位匿名媽媽\n\n#媽媽生活復原力Lab`;
-          if (navigator.share) { navigator.share({ text }); }
-          else { navigator.clipboard.writeText(text); alert('已複製！'); }
-        }} style={{
-          background: 'white', color: '#5A4E42', border: '2px solid #EDE5DB', padding: '12px 28px', borderRadius: 999,
-          fontSize: 15, fontWeight: 600, cursor: 'pointer', fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-        }}>
-          📤 分享
-        </button>
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2.5 mt-5">
+        <button type="button" className="tl-btn tl-btn-primary" onClick={next}>下一句</button>
+        <CopyButton text={copyText} label="複製這句話" toolId="quotes" />
       </div>
     </div>
   );

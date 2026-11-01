@@ -1,30 +1,22 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import TimeCalculator from '../../components/tools/TimeCalculator';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="媽媽時間分配計算器" description="輸入你每天做的事，算出留給自己的時間有多少。看看你有沒有好好照顧自己。" image="/images/og-time-calc.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">時間計算器</span>
-    </nav>
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-3">⏰ 媽媽時間分配計算器</h1>
-      <p class="text-warmgray-400">一天 24 小時，留給自己的有多少？</p>
-    </div>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <TimeCalculator client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>怎麼使用？</h2>
-      <p>填入你每天花在各種事情上的時間（睡眠、工作、照顧小孩、家事等），系統會自動算出你一天留給自己的時間。看到數字可能會嚇一跳——但這就是改變的第一步。</p>
-      <h2>為什麼要算？</h2>
-      <p>很多媽媽覺得「時間不夠用」，但從來沒有真正算過。當你看到具體的數字，才會意識到：原來我需要重新分配時間，留一點給自己。就算只有 15 分鐘，那也是屬於你的時間。</p>
-    </div>
-      <ShareButtons title="⏰ 角色時間計算器" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="time-calc"
+  description="填入每天花在睡眠、工作、家務、照顧孩子等活動的時間，整理一天 24 小時的分配，看看還有多少尚未安排的時間。"
+  image="/images/og-time-calc.jpg"
+  lead="整理一天的時間分配，看看還有多少尚未安排。"
+>
+  <TimeCalculator client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>每一項可以直接輸入小時數（例如 1.5），或用「－／＋」每次調整 15 分鐘，也可以拖動滑桿。全部填好後，下方會顯示合計與尚未安排的時間。</p>
+    <h2>同時進行的事怎麼算？</h2>
+    <p>一段時間只計一次。例如陪孩子的時候順便煮飯，就只算在其中一項；如果合計超過 24 小時，通常是同一段時間被重複計算了。</p>
+    <h2>為什麼要整理？</h2>
+    <p>很多媽媽覺得時間不夠用，但沒有真的算過。看見數字之後，比較容易知道哪裡可以挪一點出來，就算只有 15 分鐘，也是屬於你的時間。這只是粗略的整理，不代表你真的有完整空檔。</p>
+  </Fragment>
+</ToolLayout>

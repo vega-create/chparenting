@@ -1,0 +1,76 @@
+---
+/**
+ * 工具內頁共用版型（改版規劃第 6 節）：
+ * 麵包屑 → h1 → 一句用途 → 主操作卡 → 必要提示 → 使用說明（折疊）→ 分享工具連結 → 廣告（操作區之外）
+ */
+import BaseLayout from './BaseLayout.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import ToolShare from '../components/ToolShare.astro';
+import AdSense from '../components/AdSense.astro';
+import { getTool } from '../data/tools';
+
+interface Props {
+  toolId: string;
+  description: string;   // meta description
+  image?: string;
+  lead: string;          // h1 下方的一句用途
+  eyebrow?: string;      // h1 上方小標，例如「壓力自評」「趣味測驗」
+}
+
+const { toolId, description, image, lead, eyebrow } = Astro.props;
+const tool = getTool(toolId);
+const hasNotice = Astro.slots.has('notice');
+const hasGuide = Astro.slots.has('guide');
+---
+
+<BaseLayout title={tool.name} description={description} image={image}>
+  <BreadcrumbSchema items={[
+    { name: '首頁', url: '/' },
+    { name: '喘息工具館', url: '/tools/' },
+    { name: tool.name },
+  ]} />
+
+  <div class="tl-wrap-narrow pt-5 pb-4 sm:pt-8">
+    <nav class="google-anno-skip text-sm tl-muted mb-5" aria-label="breadcrumb">
+      <ol class="flex items-center list-none p-0 m-0 min-w-0">
+        <li class="shrink-0 hidden sm:block"><a href="/" class="hover:text-peach-600 transition-colors">首頁</a></li>
+        <li class="shrink-0 hidden sm:block" aria-hidden="true"><span class="mx-2 text-warmgray-300">›</span></li>
+        <li class="shrink-0">
+          <a href="/tools/" class="inline-flex items-center gap-1 min-h-[44px] sm:min-h-0 font-medium hover:text-peach-600 transition-colors">
+            <span class="sm:hidden" aria-hidden="true">‹</span><span class="sm:hidden">返回</span>喘息工具館
+          </a>
+        </li>
+        <li class="shrink-0 hidden sm:block" aria-hidden="true"><span class="mx-2 text-warmgray-300">›</span></li>
+        <li class="truncate min-w-0 hidden sm:block" aria-current="page">{tool.name}</li>
+      </ol>
+    </nav>
+
+    <header class="text-center mb-6 sm:mb-8">
+      {eyebrow && <p class="text-sm font-medium tl-muted mb-1">{eyebrow}</p>}
+      <h1 class="text-[28px] sm:text-[38px] font-bold leading-tight text-warmgray-800 mb-2">{tool.name}</h1>
+      <p class="text-base tl-muted">{lead}</p>
+    </header>
+
+    <section class="tl-card google-anno-skip" aria-label={`${tool.name}操作區`}>
+      <slot />
+    </section>
+
+    {hasNotice && <div class="mt-4"><slot name="notice" /></div>}
+
+    {hasGuide && (
+      <details class="tl-guide tl-card mt-6 !py-3">
+        <summary>使用說明</summary>
+        <div class="prose-warm pb-2">
+          <slot name="guide" />
+        </div>
+      </details>
+    )}
+
+    <ToolShare name={tool.name} />
+
+    <div class="mt-8">
+      <p class="text-xs text-center tl-muted mb-1">廣告</p>
+      <AdSense slot="tool-top" format="horizontal" />
+    </div>
+  </div>
+</BaseLayout>

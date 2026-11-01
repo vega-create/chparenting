@@ -1,0 +1,56 @@
+---
+/**
+ * 工具頁「分享工具連結」：只分享工具名稱與 canonical 網址，不帶任何使用者輸入或結果。
+ * 文章頁仍用 ShareButtons.astro，兩者分開，改這裡不影響文章頁。
+ */
+import { siteConfig } from '../site.config';
+
+interface Props { name: string }
+const { name } = Astro.props;
+
+const url = new URL(Astro.url.pathname, siteConfig.url).href;
+const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+const lineUrl = `https://line.me/R/msg/text/?${encodeURIComponent(`${name}\n${url}`)}`;
+---
+
+<aside class="tl-card mt-6 !py-5" aria-labelledby="tool-share-title" data-tool-share data-url={url} data-name={name}>
+  <h2 id="tool-share-title" class="font-bold text-warmgray-800">分享工具連結</h2>
+  <p class="text-sm tl-muted mt-0.5 mb-4">把「{name}」分享給需要喘口氣的朋友（只會分享工具網址）</p>
+  <div class="flex flex-wrap gap-2">
+    <a href={lineUrl} target="_blank" rel="noopener noreferrer" class="tl-btn tl-btn-secondary !min-h-[44px] !px-4 text-sm">LINE</a>
+    <a href={fbUrl} target="_blank" rel="noopener noreferrer" class="tl-btn tl-btn-secondary !min-h-[44px] !px-4 text-sm">Facebook</a>
+    <button type="button" class="tl-btn tl-btn-secondary !min-h-[44px] !px-4 text-sm" data-copy-link>複製連結</button>
+    <button type="button" class="tl-btn tl-btn-secondary !min-h-[44px] !px-4 text-sm hidden" data-native-share>其他分享方式</button>
+  </div>
+  <p class="text-sm mt-3 hidden" role="status" data-share-status></p>
+  <input type="text" readonly value={url} class="hidden mt-2 w-full rounded-xl border border-warmgray-200 px-3 py-2 text-sm" aria-label="工具網址，可手動複製" data-share-manual />
+</aside>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-tool-share]').forEach((box) => {
+    const url = box.dataset.url!;
+    const name = box.dataset.name!;
+    const status = box.querySelector<HTMLElement>('[data-share-status]')!;
+    const manual = box.querySelector<HTMLInputElement>('[data-share-manual]')!;
+    const say = (msg: string) => { status.textContent = msg; status.classList.remove('hidden'); };
+
+    box.querySelector('[data-copy-link]')?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        say('已複製工具連結');
+      } catch {
+        manual.classList.remove('hidden');
+        manual.select();
+        say('無法自動複製，請長按或選取下方網址手動複製');
+      }
+    });
+
+    const native = box.querySelector<HTMLButtonElement>('[data-native-share]')!;
+    if (typeof navigator.share === 'function') {
+      native.classList.remove('hidden');
+      native.addEventListener('click', async () => {
+        try { await navigator.share({ title: name, url }); } catch { /* 使用者取消分享不提示錯誤 */ }
+      });
+    }
+  });
+</script>

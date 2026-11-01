@@ -1,25 +1,20 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolLayout from '../../layouts/ToolLayout.astro';
 import CheerCard from '../../components/tools/CheerCard';
-import ShareButtons from '../../components/ShareButtons.astro';
-import AdSense from '../../components/AdSense.astro';
 ---
-<BaseLayout title="媽媽加油卡" description="寫下今天的心情，讓我們給你一句溫暖的加油話語。媽媽也需要被鼓勵，你很棒！" image="/images/og-cheer.jpg">
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
-    <nav class="text-sm text-warmgray-400 mb-6 font-display">
-      <a href="/" class="hover:text-peach-400 transition-colors">首頁</a><span class="mx-2">›</span>
-      <a href="/tools/" class="hover:text-peach-400 transition-colors">喘息工具館</a><span class="mx-2">›</span>
-      <span class="text-warmgray-500">媽媽加油卡</span>
-    </nav>
-    <AdSense slot="tool-top" format="horizontal" />
-    <div class="bg-white/60 rounded-3xl border border-white/80 shadow-sm overflow-hidden">
-      <CheerCard client:visible />
-    </div>
-    <div class="prose-warm mt-12">
-      <h2>為什麼媽媽需要被鼓勵？</h2>
-      <p>每天照顧家庭和孩子，媽媽很容易忘記自己也需要被看見、被肯定。寫下今天的心情，不只是紀錄，更是一種釋放。而那句為你準備的話，希望能讓你記得：你已經很棒了。</p>
-      <p>如果覺得溫暖，記得複製分享給身邊的媽媽朋友，讓正能量傳遞出去 🧡</p>
-    </div>
-      <ShareButtons title="💪 加油打氣卡" label="覺得這個工具不錯？分享給需要喘息的媽媽 💛" />
-  </div>
-</BaseLayout>
+
+<ToolLayout
+  toolId="cheer"
+  description="媽媽加油卡：選一個現在的心情，收下一句為你準備的鼓勵語。可以寫下心情小記，也可以只選心情。"
+  image="/images/og-cheer.jpg"
+  lead="為現在的心情，收下一句鼓勵。"
+>
+  <CheerCard client:visible />
+
+  <Fragment slot="guide">
+    <h2>怎麼使用？</h2>
+    <p>選一個現在的心情，想寫點什麼可以寫在小記裡（最多 500 字，也可以不寫），再按「給我一句加油的話」。結果頁可以「換一句」、「返回修改」保留心情與小記，「重新填寫」才會清空。</p>
+    <h2>小記會被怎麼處理？</h2>
+    <p>鼓勵語是依你選擇的心情提供的；小記只留在這個頁面，不會上傳，也不會用來分析內容。複製加油卡時，小記預設不會放進去，勾選後才會加入。</p>
+  </Fragment>
+</ToolLayout>

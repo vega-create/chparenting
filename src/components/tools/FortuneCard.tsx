@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CopyButton, track } from './ui';
 
 const fortunes = [
   { number: 1, title: '大吉', color: '#B8C4A0', poem: '春風輕拂暖心房', message: '今天會有意想不到的小確幸，保持開放的心迎接它吧！', advice: '放下手機 15 分鐘，好好享受一杯熱茶的時光。' },
@@ -23,274 +24,95 @@ const fortunes = [
   { number: 20, title: '吉', color: '#8BA888', poem: '松柏常青不畏寒', message: '你的堅持終究會被看見。繼續做對的事就好。', advice: '列出 3 個你很棒的優點，大聲唸出來。' },
 ];
 
+type Fortune = typeof fortunes[number];
+type Step = 'idle' | 'drawn' | 'revealed';
+
+// 資料池多於一筆時避免緊接著重複
+const pickNext = (len: number, current: number) => {
+  if (len <= 1) return 0;
+  let n = Math.floor(Math.random() * len);
+  if (n === current) n = (n + 1) % len;
+  return n;
+};
+
 export default function FortuneCard() {
-  const [fortune, setFortune] = useState<typeof fortunes[number] | null>(null);
-  const [isDrawing, setIsDrawing] = useState(false);
-  const [isRevealed, setIsRevealed] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [index, setIndex] = useState(-1);
+  const [step, setStep] = useState<Step>('idle');
+  const fortune: Fortune | null = index >= 0 ? fortunes[index] : null;
 
   const draw = () => {
-    setIsDrawing(true);
-    setIsRevealed(false);
-    setFortune(null);
-
-    // Simulate shaking/drawing animation
-    setTimeout(() => {
-      const randomIndex = Math.floor(Math.random() * fortunes.length);
-      setFortune(fortunes[randomIndex]);
-      setIsDrawing(false);
-    }, 1500);
+    setIndex((i) => pickNext(fortunes.length, i));
+    setStep('drawn');
+    track('tool_start', { tool_id: 'fortune' });
   };
 
   const reveal = () => {
-    setIsRevealed(true);
+    setStep('revealed');
+    track('tool_complete', { tool_id: 'fortune' });
   };
 
-  const getResultText = () => {
-    if (!fortune) return '';
-    const today = new Date().toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' });
-    let text = `🏮 媽媽安心籤 第${fortune.number}籤 🏮\n`;
-    text += `📅 ${today}\n\n`;
-    text += `【${fortune.title}】\n`;
-    text += `📜 ${fortune.poem}\n\n`;
-    text += `💌 ${fortune.message}\n\n`;
-    text += `🌿 今日建議：${fortune.advice}\n\n`;
-    text += `—— 來自 Mom Life Recovery Lab 🧡\n`;
-    text += `每天一籤 👉 chparenting.com/tools/fortune`;
-    return text;
-  };
-
-  const copyResult = async () => {
-    try {
-      await navigator.clipboard.writeText(getResultText());
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch {
-      const textarea = document.createElement('textarea');
-      textarea.value = getResultText();
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    }
-  };
-
-  const shareResult = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: '媽媽安心籤', text: getResultText() });
-      } catch {}
-    } else {
-      copyResult();
-    }
-  };
-
-  const reset = () => {
-    setFortune(null);
-    setIsRevealed(false);
-    setCopied(false);
-  };
+  const copyText = fortune
+    ? `媽媽安心籤 第 ${fortune.number} 籤【${fortune.title}】\n` +
+      `籤詩：${fortune.poem}\n` +
+      `籤語：${fortune.message}\n` +
+      `今日小行動：${fortune.advice}\n\n` +
+      `— 媽媽生活復原力Lab\nhttps://chparenting.com/tools/fortune/`
+    : '';
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Noto Sans TC, sans-serif', maxWidth: 420, margin: '0 auto', textAlign: 'center' }}>
-      {/* Title */}
-      <div style={{ marginBottom: 24 }}>
-        <span style={{ fontSize: 40, display: 'block', marginBottom: 8 }}>🏮</span>
-        <h3 style={{ fontSize: 22, fontWeight: 700, color: '#4A3E34', fontFamily: 'Quicksand, Noto Sans TC, sans-serif' }}>
-          媽媽安心籤
-        </h3>
-        <p style={{ fontSize: 13, color: '#9A8A7A', marginTop: 6 }}>
-          每天一籤，給自己一句溫暖的話
-        </p>
-      </div>
-
-      {!fortune && !isDrawing && (
+    <div className="text-center max-w-md mx-auto">
+      {step === 'idle' && (
         <>
-          {/* Fortune Box */}
-          <div style={{
-            width: 200, height: 260, margin: '0 auto 24px', borderRadius: 20,
-            background: 'linear-gradient(180deg, #E8A87C, #D4956A)', position: 'relative',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 8px 32px rgba(232, 168, 124, 0.3)',
-          }}>
-            <div style={{
-              width: 60, height: 60, borderRadius: '50%', background: '#FFF5ED',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              position: 'absolute', top: -15,
-            }}>
-              <span style={{ fontSize: 10, color: '#E8A87C', fontWeight: 700 }}>安心籤</span>
-            </div>
-            <div style={{ color: 'white', padding: 20 }}>
-              <p style={{ fontSize: 48, marginBottom: 8 }}>🙏</p>
-              <p style={{ fontSize: 14, fontWeight: 500, opacity: 0.9 }}>誠心默念</p>
-              <p style={{ fontSize: 14, fontWeight: 500, opacity: 0.9 }}>再點下方抽籤</p>
-            </div>
-          </div>
-
-          <button
-            onClick={draw}
-            style={{
-              padding: '14px 48px', borderRadius: 20, border: 'none',
-              background: 'linear-gradient(135deg, #E8A87C, #D4956A)', color: 'white',
-              fontSize: 18, fontWeight: 700, cursor: 'pointer',
-              fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-              boxShadow: '0 4px 16px rgba(232, 168, 124, 0.4)',
-              transition: 'transform 0.2s',
-            }}
-            onMouseDown={(e) => (e.currentTarget.style.transform = 'scale(0.95)')}
-            onMouseUp={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-          >
-            🏮 抽一籤
-          </button>
+          <img src="/images/ui/tools/fortune.png" alt="" width={72} height={72} className="w-16 h-16 mx-auto mb-3 object-contain" />
+          <p className="text-lg font-bold text-warmgray-800 mb-1">抽一籤，給自己一句溫暖的話</p>
+          <p className="text-sm tl-muted mb-6">靜下來，想著現在的自己，再按下方抽籤。</p>
+          <button type="button" className="tl-btn tl-btn-primary w-full sm:w-auto sm:px-10" onClick={draw}>抽一籤</button>
         </>
       )}
 
-      {/* Drawing Animation */}
-      {isDrawing && (
-        <div style={{ padding: '60px 0' }}>
-          <div style={{
-            width: 80, height: 80, margin: '0 auto', borderRadius: '50%',
-            background: '#E8A87C20', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            animation: 'shake 0.3s infinite alternate',
-          }}>
-            <span style={{ fontSize: 48 }}>🏮</span>
-          </div>
-          <p style={{ fontSize: 16, color: '#E8A87C', fontWeight: 600, marginTop: 20 }}>
-            誠心抽籤中⋯
-          </p>
-          <style>{`@keyframes shake { 0% { transform: rotate(-5deg); } 100% { transform: rotate(5deg); } }`}</style>
-        </div>
-      )}
-
-      {/* Fortune Stick (before reveal) */}
-      {fortune && !isRevealed && (
+      {step === 'drawn' && fortune && (
         <>
-          <div style={{
-            width: 80, height: 200, margin: '0 auto 24px',
-            background: 'linear-gradient(180deg, #F5D5BD, #E8A87C)',
-            borderRadius: '8px 8px 4px 4px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 4px 16px rgba(232, 168, 124, 0.3)',
-            transform: 'rotate(-5deg)',
-          }}>
-            <div style={{
-              writingMode: 'vertical-rl' as const, color: 'white', fontSize: 18, fontWeight: 700,
-              letterSpacing: 8,
-            }}>
+          <div
+            className="mx-auto mb-5 flex items-center justify-center rounded-2xl"
+            style={{ width: 96, height: 200, background: '#FBF0E5', border: '1px solid #E8DFD5' }}
+            aria-hidden="true"
+          >
+            <span className="text-xl font-bold tracking-[0.4em] text-warmgray-800" style={{ writingMode: 'vertical-rl' }}>
               第{fortune.number}籤
-            </div>
+            </span>
           </div>
-
-          <button
-            onClick={reveal}
-            style={{
-              padding: '14px 48px', borderRadius: 20, border: 'none',
-              background: '#E8A87C', color: 'white',
-              fontSize: 16, fontWeight: 700, cursor: 'pointer',
-              fontFamily: 'Quicksand, Noto Sans TC, sans-serif',
-              boxShadow: '0 4px 16px rgba(232, 168, 124, 0.3)',
-            }}
-          >
-            🔮 解籤
-          </button>
+          <p className="text-lg font-bold text-warmgray-800 mb-5" role="status">你抽到第 {fortune.number} 籤</p>
+          <button type="button" className="tl-btn tl-btn-primary w-full sm:w-auto sm:px-10" onClick={reveal}>解籤</button>
         </>
       )}
 
-      {/* Revealed Fortune */}
-      {fortune && isRevealed && (
+      {step === 'revealed' && fortune && (
         <>
-          <div style={{
-            background: '#FFFCF8', borderRadius: 24, padding: '2rem',
-            border: `2px solid ${fortune.color}40`, textAlign: 'center',
-            boxShadow: '0 4px 24px rgba(0,0,0,0.06)',
-          }}>
-            {/* Header */}
-            <p style={{ fontSize: 12, color: '#9A8A7A', marginBottom: 4 }}>第 {fortune.number} 籤</p>
-            <div style={{
-              display: 'inline-block', padding: '6px 24px', borderRadius: 12,
-              background: `${fortune.color}15`, border: `1px solid ${fortune.color}40`, marginBottom: 16,
-            }}>
-              <span style={{ fontSize: 22, fontWeight: 800, color: fortune.color, fontFamily: 'Quicksand, Noto Sans TC, sans-serif' }}>
+          <article className="rounded-[20px] p-5 sm:p-7 text-left" style={{ background: '#FAF6F1', border: '1px solid #E8DFD5' }} aria-live="polite">
+            <header className="text-center mb-5">
+              <p className="text-sm tl-muted">第 {fortune.number} 籤</p>
+              <p className="inline-block rounded-xl px-5 py-1.5 mt-1 text-xl font-bold text-warmgray-800" style={{ background: '#F3F7F1', border: '1px solid #8BA888' }}>
                 {fortune.title}
-              </span>
-            </div>
-
-            {/* Poem */}
-            <div style={{
-              background: 'white', borderRadius: 16, padding: '16px', marginBottom: 16,
-              border: '1px solid #EDE5DB',
-            }}>
-              <p style={{ fontSize: 11, color: '#B8A99A', marginBottom: 4 }}>📜 籤詩</p>
-              <p style={{ fontSize: 18, color: '#4A3E34', fontWeight: 600, letterSpacing: 2 }}>
-                {fortune.poem}
               </p>
-            </div>
+            </header>
+            <section className="mb-4">
+              <h2 className="text-sm font-bold tl-muted mb-1">籤詩</h2>
+              <p className="text-xl font-bold tracking-widest text-warmgray-800">{fortune.poem}</p>
+            </section>
+            <section className="mb-4">
+              <h2 className="text-sm font-bold tl-muted mb-1">籤語</h2>
+              <p className="text-base leading-relaxed text-warmgray-800">{fortune.message}</p>
+            </section>
+            <section className="rounded-2xl px-4 py-3" style={{ background: '#F3F7F1' }}>
+              <h2 className="text-sm font-bold mb-1" style={{ color: '#6E8E6A' }}>今日小行動</h2>
+              <p className="text-base leading-relaxed text-warmgray-800">{fortune.advice}</p>
+            </section>
+          </article>
 
-            {/* Message */}
-            <div style={{
-              background: `${fortune.color}08`, borderRadius: 16, padding: '16px', marginBottom: 16,
-              border: `1px solid ${fortune.color}20`,
-            }}>
-              <p style={{ fontSize: 11, color: fortune.color, marginBottom: 4, fontWeight: 600 }}>💌 籤語</p>
-              <p style={{ fontSize: 15, color: '#4A3E34', lineHeight: 1.8 }}>{fortune.message}</p>
-            </div>
-
-            {/* Advice */}
-            <div style={{
-              background: '#F0F7ED', borderRadius: 16, padding: '16px',
-              border: '1px solid #D4EDDA',
-            }}>
-              <p style={{ fontSize: 11, color: '#8BA888', marginBottom: 4, fontWeight: 600 }}>🌿 今日建議</p>
-              <p style={{ fontSize: 14, color: '#4A3E34', lineHeight: 1.8 }}>{fortune.advice}</p>
-            </div>
-
-            <p style={{ fontSize: 12, color: '#B8A99A', marginTop: 16 }}>
-              — Mom Life Recovery Lab 🧡 —
-            </p>
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2.5 mt-5">
+            <button type="button" className="tl-btn tl-btn-primary" onClick={draw}>再抽一籤</button>
+            <CopyButton text={copyText} label="複製籤詩" toolId="fortune" />
           </div>
-
-          {/* Action Buttons */}
-          <div style={{ display: 'flex', gap: 8, marginTop: 16 }}>
-            <button
-              onClick={copyResult}
-              style={{
-                flex: 1, padding: '12px', borderRadius: 16, border: '2px solid #E8A87C',
-                background: copied ? '#E8A87C' : 'white', color: copied ? 'white' : '#E8A87C',
-                fontSize: 14, fontWeight: 600, cursor: 'pointer',
-                fontFamily: 'Noto Sans TC, sans-serif', transition: 'all 0.2s',
-              }}
-            >
-              {copied ? '✓ 已複製！' : '📋 複製籤詩'}
-            </button>
-            <button
-              onClick={shareResult}
-              style={{
-                flex: 1, padding: '12px', borderRadius: 16, border: 'none',
-                background: '#E8A87C', color: 'white',
-                fontSize: 14, fontWeight: 600, cursor: 'pointer',
-                fontFamily: 'Noto Sans TC, sans-serif',
-              }}
-            >
-              📤 分享給朋友
-            </button>
-          </div>
-
-          <button
-            onClick={reset}
-            style={{
-              width: '100%', marginTop: 8, padding: '10px', borderRadius: 16,
-              border: '1px solid #EDE5DB', background: 'transparent',
-              color: '#9A8A7A', fontSize: 13, cursor: 'pointer',
-              fontFamily: 'Noto Sans TC, sans-serif',
-            }}
-          >
-            🔄 再抽一籤
-          </button>
-
-          <p style={{ fontSize: 12, color: '#B8A99A', marginTop: 12, lineHeight: 1.6 }}>
-            💡 點「複製籤詩」可以貼到 LINE 分享給朋友喔！
-          </p>
         </>
       )}
     </div>
