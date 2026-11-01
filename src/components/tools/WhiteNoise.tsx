@@ -176,6 +176,7 @@ export default function WhiteNoise() {
               aria-pressed={on}
               onClick={() => (on ? pause() : play(s.id))}
             >
+              <img src={`/images/ui/sounds/${s.id}.png`} alt="" width="40" height="40" className="w-10 h-10" />
               <span className="font-bold text-[15px]">{s.name}{on ? ' ✓' : ''}</span>
               <span className="text-xs tl-muted">{s.desc}</span>
             </button>

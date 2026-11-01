@@ -55,6 +55,7 @@ export default function QuotesGenerator() {
         </p>
         <p className="text-xl sm:text-[22px] font-bold leading-relaxed text-warmgray-800 select-text">{display}</p>
         <p className="text-sm tl-muted mt-4">— 媽媽內心 OS</p>
+        <img src="/images/ui/illus/mom-sigh.webp" alt="" width="160" height="160" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mt-4" />
       </div>
 
       <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2.5 mt-5">

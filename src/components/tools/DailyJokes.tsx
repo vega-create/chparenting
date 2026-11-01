@@ -46,6 +46,7 @@ export default function DailyJokes() {
   return (
     <div className="max-w-md mx-auto">
       <div className="rounded-[20px] p-5 sm:p-6" style={{ background: '#FAF6F1', border: '1px solid #E8DFD5' }}>
+        <img src="/images/ui/illus/cat-laugh.webp" alt="" width="96" height="96" className="w-24 h-24 ml-auto -mt-2 -mb-3" />
         <div className="flex gap-3 items-start">
           <span className="shrink-0 w-9 h-9 rounded-full flex items-center justify-center font-bold text-warmgray-800" style={{ background: '#F3F7F1' }} aria-label="題目">Q</span>
           <p className="text-lg font-bold leading-relaxed text-warmgray-800 pt-1">{joke.setup}</p>

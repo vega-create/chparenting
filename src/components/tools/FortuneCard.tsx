@@ -63,7 +63,7 @@ export default function FortuneCard() {
     <div className="text-center max-w-md mx-auto">
       {step === 'idle' && (
         <>
-          <img src="/images/ui/tools/fortune.png" alt="" width={72} height={72} className="w-16 h-16 mx-auto mb-3 object-contain" />
+          <img src="/images/ui/illus/fortune-window.webp" alt="" width={200} height={200} className="w-44 h-44 sm:w-52 sm:h-52 mx-auto mb-2 object-contain" />
           <p className="text-lg font-bold text-warmgray-800 mb-1">抽一籤，給自己一句溫暖的話</p>
           <p className="text-sm tl-muted mb-6">靜下來，想著現在的自己，再按下方抽籤。</p>
           <button type="button" className="tl-btn tl-btn-primary w-full sm:w-auto sm:px-10" onClick={draw}>抽一籤</button>

@@ -194,6 +194,7 @@ export default function AffirmationCard() {
 
           {card && (
             <div className="rounded-[20px] px-6 py-10 mb-5" style={{ background: '#FAF6F1', border: '1px solid #E8DFD5' }} aria-live="polite">
+              <img src="/images/ui/illus/heart-sprout.webp" alt="" width="64" height="64" className="w-16 h-16 mx-auto mb-4" />
               <p className="text-[22px] sm:text-2xl font-bold leading-relaxed text-warmgray-800 select-text">{card.text}</p>
             </div>
           )}

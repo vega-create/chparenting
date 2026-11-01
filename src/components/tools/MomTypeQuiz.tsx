@@ -122,6 +122,7 @@ export default function MomTypeQuiz() {
 
     return (
       <div>
+        <img src="/images/ui/illus/mom-hug.webp" alt="" width="160" height="160" className="w-36 h-36 mx-auto mb-1" />
         <p className="text-sm tl-muted text-center">趣味測驗，沒有好壞之分</p>
         <h2 ref={resultRef} tabIndex={-1} className="text-center mt-3 outline-none">
           <span className="inline-block rounded-full px-6 py-2.5 text-2xl font-bold text-white" style={{ background: '#8BA888' }}>
@@ -157,6 +158,7 @@ export default function MomTypeQuiz() {
 
   return (
     <div>
+      <img src="/images/ui/illus/mom-hug.webp" alt="" width="176" height="176" className="w-36 h-36 sm:w-44 sm:h-44 mx-auto mb-1" />
       <p className="text-sm tl-muted text-center mb-4">趣味測驗，沒有好壞之分，只是不同的生活風格與特質。</p>
       <div className="mb-5">
         <div className="flex justify-between text-sm tl-muted mb-1.5">
