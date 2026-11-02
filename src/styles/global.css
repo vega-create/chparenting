@@ -90,21 +90,22 @@
   .post-prose blockquote { @apply not-italic font-normal; color: #4A3E34; background: #FDF9F4; }
   .post-prose img { @apply w-full my-8 border border-warmgray-200; }
   .post-prose hr { @apply my-10 border-warmgray-200; }
-  .post-prose table {
+  /* 表格：文章頁與工具頁使用說明共用 */
+  .post-prose table, .prose-warm table {
     @apply w-full my-7 text-[15px] leading-relaxed border-separate rounded-xl overflow-hidden;
     border-spacing: 0;
     border: 1px solid #F5DCC6;
   }
-  .post-prose th {
+  .post-prose th, .prose-warm th {
     @apply px-4 py-2.5 font-bold text-left align-top;
     background: #FBF0E5; color: #3A2E24; border-bottom: 1px solid #F5DCC6;
   }
-  .post-prose td { @apply px-4 py-2.5 align-top; border-top: 1px solid #F5F0EB; color: #4A3E34; }
-  .post-prose tr:first-child td { border-top: 0; }
+  .post-prose td, .prose-warm td { @apply px-4 py-2.5 align-top; border-top: 1px solid #F5F0EB; color: #4A3E34; }
+  .post-prose tr:first-child td, .prose-warm tr:first-child td { border-top: 0; }
   /* 手機：表格太寬時可左右滑，不撐破版面 */
   @media (max-width: 767px) {
-    .post-prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-    .post-prose th { white-space: nowrap; }
+    .post-prose table, .prose-warm table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .post-prose th, .prose-warm th { white-space: nowrap; }
   }
 
   /* ── 首頁／工具館／工具頁改版共用元件（tl- 前綴，不影響文章頁） ── */
