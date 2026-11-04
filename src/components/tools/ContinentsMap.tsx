@@ -44,6 +44,7 @@ const FACT_QUESTIONS: Question[] = [
   { prompt: '哪一個洲和亞洲連在同一塊陸地上？', answer: 'europe' },
 ];
 const QUIZ_LENGTH = 12;
+const LEARN_URL = 'https://learn.chparenting.com/history-geo/world/world-geography';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -326,6 +327,11 @@ export default function ContinentsMap() {
                 <button type="button" className="tl-btn tl-btn-primary" onClick={startQuiz}>再測一次</button>
                 <CopyButton text={resultText} label="複製結果" toolId={TOOL_ID} />
               </div>
+              <p className="mt-4 pt-3 border-t border-[#E8DFD5] text-[15px] text-warmgray-800 mb-0">
+                想再練 10 題選擇題？到親子學習平台的
+                <a href={LEARN_URL} className="font-bold underline underline-offset-2 text-peach-600">世界地理練習</a>
+                做一回，考前驗收最剛好。
+              </p>
             </div>
           )}
 
@@ -341,6 +347,9 @@ export default function ContinentsMap() {
                 ))}
               </div>
               <p className="text-xs tl-muted mt-3 mb-0">口訣是我們自己整理的方便記法，不是課本的官方說法。</p>
+              <p className="mt-3 text-[15px] text-warmgray-800 mb-0">
+                背完口訣，去親子學習平台的<a href={LEARN_URL} className="font-bold underline underline-offset-2 text-peach-600">世界地理選擇題</a>驗收一下。
+              </p>
             </div>
           )}
         </aside>
