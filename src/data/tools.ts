@@ -1,4 +1,4 @@
-// 喘息工具館 14 項工具的共同資料源：工具館目錄、首頁快速入口、工具頁標題都從這裡取，
+// 喘息工具館 15 項工具的共同資料源：工具館目錄、首頁快速入口、工具頁標題都從這裡取，
 // 避免名稱與網址在各處漂移。icon 圖檔由 Canva 生圖後裁切，放在 public/images/ui/。
 
 export type ToolCategoryId = 'rest' | 'smile' | 'life';
@@ -33,6 +33,7 @@ export const tools: Tool[] = [
   { id: 'priority', name: '待辦優先排序', short: '由你決定必做與可以晚點的事', href: '/tools/priority/', icon: '/images/ui/tools/priority.png', category: 'life' },
   { id: 'emotion-card', name: '情緒安撫卡', short: '孩子和媽媽都能認識情緒', href: '/tools/emotion-card/', icon: '/images/ui/tools/emotion-card.png', category: 'life' },
   { id: 'growth-chart', name: '兒童生長曲線計算器', short: '輸入身高體重，查 WHO 百分位', href: '/tools/growth-chart/', icon: '/images/ui/tools/growth-chart.png', category: 'life' },
+  { id: 'continents-oceans', name: '七大洲五大洋互動地圖', short: '點地圖認識洲與洋，12 題測驗＋可列印', href: '/tools/continents-oceans/', icon: '/images/ui/tools/continents-oceans.png', category: 'life' },
 ];
 
 export const getTool = (id: string): Tool => {

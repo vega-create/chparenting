@@ -1,0 +1,101 @@
+---
+import ToolLayout from '../../layouts/ToolLayout.astro';
+import FAQSchema from '../../components/FAQSchema.astro';
+import ContinentsMap from '../../components/tools/ContinentsMap';
+
+const faqs = [
+  {
+    q: '幾大洲幾大洋？',
+    a: '七大洲五大洋。七大洲是亞洲、非洲、北美洲、南美洲、南極洲、歐洲、大洋洲；五大洋是太平洋、大西洋、印度洋、南冰洋、北冰洋。常有人記反成「五大洲七大洋」，記法是「洲比洋多」：陸地被海洋切成七塊，海洋則連成一片只分成五個。',
+  },
+  {
+    q: '最大的洲是哪一個？最小的洲呢？',
+    a: '最大的洲是亞洲，面積約 4,461 萬平方公里，佔全球陸地將近三成，台灣也在亞洲；最小的洲是大洋洲，約 851 萬平方公里，主要是澳洲再加上紐西蘭和太平洋上的島國。最大的洋是太平洋，最小的洋是北冰洋。',
+  },
+  {
+    q: '七大洲五大洋怎麼背？',
+    a: '先背面積排名再對照地圖。七大洲從大到小：「亞非北南美，南極歐大洋」；五大洋從大到小：「太大印南北」（太平洋、大西洋、印度洋、南冰洋、北冰洋）。背熟之後打開地圖，用手指一邊念一邊指出位置，再用本頁的測驗模式練習點選，通常兩三次就記住了。',
+  },
+  {
+    q: '南極洲算一個洲嗎？',
+    a: '算。南極洲是一整塊被冰層覆蓋的大陸，面積約 1,420 萬平方公里，比歐洲和大洋洲都大，排第五。它沒有國家、也沒有長住的居民，只有各國的研究站，但在地理上仍然是七大洲之一。北極則不是洲，北極點位在北冰洋的海面上。',
+  },
+  {
+    q: '五大洋以前不是四大洋嗎？',
+    a: '是的。早期的課本只有太平洋、大西洋、印度洋、北冰洋四大洋，環繞南極洲的海域分別歸給前三個洋。2000 年國際水道測量組織（IHO）正式把南緯 60 度以南的海域列為「南冰洋」（也叫南極海、南大洋），之後的教科書多改為五大洋。如果家裡長輩記得是四大洋，並沒有記錯，只是後來多認定了一個。',
+  },
+];
+---
+
+<ToolLayout
+  toolId="continents-oceans"
+  description="七大洲五大洋互動地圖：點地圖看每個洲與洋的中英文名稱、面積與排名，12 題測驗模式練習點選，附面積排名表、記憶口訣與可列印的空白地圖。國小社會科複習七大洲五大洋的免費工具。"
+  image="/images/og-default.jpg"
+  eyebrow="國小社會"
+  lead="點一點地圖，認識七大洲五大洋；背完口訣再來測驗一回合。"
+>
+  <FAQSchema faqs={faqs} />
+  <ContinentsMap client:load />
+
+  <Fragment slot="guide">
+    <h2>七大洲五大洋是什麼？</h2>
+    <p>答案是「七大洲五大洋」，不是「五大洲七大洋」。地球表面大約七成是海洋、三成是陸地。陸地被海洋分隔成七塊大陸，我們叫它們七大洲：亞洲、非洲、北美洲、南美洲、南極洲、歐洲、大洋洲；海洋雖然連成一整片，但依照位置分成五個大洋：太平洋、大西洋、印度洋、南冰洋、北冰洋。孩子常常把數字記反，可以這樣提醒：洲是「被切開的陸地」，塊數比較多，所以是七；洋是「連在一起的海」，分得比較少，所以是五。</p>
+
+    <h2>每個洲一句話</h2>
+    <p><strong>亞洲</strong>是最大的洲，台灣、日本、中國、印度都在這裡，世界最高峰聖母峰也在亞洲。<strong>非洲</strong>第二大，赤道從中間穿過，有世界最大的熱帶沙漠撒哈拉。<strong>北美洲</strong>第三大，美國、加拿大、墨西哥在這裡，世界最大的島格陵蘭也算北美洲。<strong>南美洲</strong>第四大，有亞馬遜河和亞馬遜雨林，形狀像一顆倒過來的水滴。<strong>南極洲</strong>第五大，整片被冰覆蓋，沒有國家也沒有長住的人，只有企鵝和研究站。<strong>歐洲</strong>第六大，面積小但國家很多，和亞洲連在同一塊陸地上，以烏拉山為界。<strong>大洋洲</strong>最小，主要是澳洲，加上紐西蘭和太平洋上的許多小島。</p>
+
+    <h2>每個洋一句話</h2>
+    <p><strong>太平洋</strong>最大也最深，台灣的東邊就是太平洋，一個太平洋比全世界的陸地加起來還大。<strong>大西洋</strong>第二，在美洲和歐洲、非洲之間，形狀像一個大 S；因為台灣課本的地圖把太平洋放中間，大西洋會被切成左右兩半，孩子第一次看常會以為是兩個洋。<strong>印度洋</strong>第三，北邊是印度，大部分在南半球。<strong>南冰洋</strong>第四，一整圈環繞著南極洲，也叫南極海。<strong>北冰洋</strong>最小最淺，在地球最北端，北極點就在它的海面上，大部分海面整年結冰。</p>
+
+    <h2>國小社會怎麼考？</h2>
+    <p>七大洲五大洋通常出現在國小中高年級的社會課，常見的考法有四種。第一種是看地圖填名稱：給一張空白世界地圖，標上編號，請孩子寫出洲名或洋名，這是最常見、也最容易因為方向感不好而失分的題型。第二種是比大小：最大的洲、最小的洲、最大的洋、最小的洋，偶爾會問第二大的洲是誰。第三種是找位置：台灣在哪一個洲、哪一個洋的旁邊；亞洲和歐洲以什麼為界；南極洲和北極有什麼不同。第四種是數量與名稱的搭配題，像是「下列哪一個不是五大洋之一」。這四種題型本頁都能練到：認識模式看位置和特徵，口訣與排名記大小順序，測驗模式則混合了「請點出某個洲」和「哪一個是最大的洋」兩類題目。</p>
+
+    <h2>怎麼陪孩子用這個地圖？</h2>
+    <p>建議分三次、每次十分鐘，不要一口氣背完。第一次只用認識模式：讓孩子自己點，每點一個就念出中文名稱，再看一眼右邊的「好記一句話」，先把台灣所在的亞洲和旁邊的太平洋記住，從自己的位置往外認識會比較有感覺。第二次切到口訣與排名：一起拍手念「亞非北南美，南極歐大洋」和「太大印南北」，念順之後請孩子照順序在地圖上指出來，指錯了就回到認識模式再看一次。第三次用測驗模式跑完 12 題，錯的題目會列在最後，可以按「複製結果」傳給自己留存，隔天再測一次比較分數。最後按「列印空白地圖」印一張只有輪廓和編號的地圖，讓孩子不看螢幕寫一次名稱，這和學校考卷的題型是一樣的。</p>
+
+    <h2>常見問題</h2>
+    {faqs.map((f) => (
+      <>
+        <h3>{f.q}</h3>
+        <p>{f.a}</p>
+      </>
+    ))}
+
+    <h2>資料來源與說明</h2>
+    <p>面積數字取自英文維基百科 Continent（各洲陸地面積）與 Ocean（五大洋分列的海洋面積）條目，取整到萬平方公里；不同版本的課本或百科數字會略有出入，但排名相同，考試只會考排名，不會考精確數字。地圖輪廓來自 Natural Earth 公有領域資料，經過大幅簡化，只用來認位置，不適合當作精確地圖；歐亞分界以東經 60 度簡化處理。記憶口訣是我們自己整理的方便記法，不是教科書的官方內容。</p>
+  </Fragment>
+</ToolLayout>
+
+<style is:global>
+  /* 這頁的地圖需要較寬的版面；支援 :has 的瀏覽器放寬到 1000px，不支援的維持原寬 */
+  .tl-wrap-narrow:has(.co-root) { max-width: 1000px; }
+  .co-region { cursor: pointer; transition: filter .15s; }
+  .co-region:hover { filter: brightness(0.93); }
+  .co-region:focus { outline: none; }
+  .co-region:focus-visible { stroke: #3F7A4A; stroke-width: 3; }
+  .co-map-scroll { -webkit-overflow-scrolling: touch; }
+  .co-print-sheet { display: none; }
+
+  @media print {
+    html.co-printing body > * { display: none !important; }
+    html.co-printing body > main { display: block !important; }
+    html.co-printing main > * { display: none !important; }
+    html.co-printing main > div { display: block !important; }
+    html.co-printing main > div > * { display: none !important; }
+    html.co-printing main > div > section { display: block !important; border: 0; padding: 0; }
+    html.co-printing section > * { display: none !important; }
+    html.co-printing section > astro-island { display: block !important; }
+    html.co-printing .co-root > * { display: none !important; }
+    html.co-printing .co-print-sheet { display: block !important; }
+    .co-print-sheet { color: #111; font-size: 14px; }
+    .co-print-sheet h2 { font-size: 22px; margin: 0 0 6px; }
+    .co-print-sheet p { margin: 0 0 8px; }
+    .co-print-map { width: 100%; height: auto; display: block; page-break-inside: avoid; }
+    .co-print-blanks { display: flex; gap: 32px; margin-top: 10px; }
+    .co-print-blanks h3 { font-size: 16px; margin: 0 0 4px; }
+    .co-print-blanks ol { list-style: none; margin: 0; padding: 0; columns: 1; }
+    .co-print-blanks li { margin: 0 0 6px; }
+    .co-print-foot { font-size: 11px; color: #555; margin-top: 10px; }
+    @page { size: A4 landscape; margin: 12mm; }
+  }
+</style>
