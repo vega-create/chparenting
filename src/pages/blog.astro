@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+import PostSearch from '../components/PostSearch.astro';
 import { getCollection } from 'astro:content';
 
 const now = new Date();
@@ -17,10 +18,11 @@ const posts = allPosts.sort((a, b) =>
     <h1 class="text-3xl font-display font-bold text-warmgray-800 mb-2">
       📖 所有文章
     </h1>
-    <p class="text-warmgray-400 mb-8">共 {posts.length} 篇文章</p>
+    <p class="text-warmgray-400 mb-6">共 {posts.length} 篇文章</p>
+    <PostSearch listId="post-list" />
 
     {posts.length > 0 ? (
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <div id="post-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {posts.map((post) => (
           <PostCard
             title={post.data.title}

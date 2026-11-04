@@ -1,0 +1,103 @@
+---
+/**
+ * 文章搜尋框（分類頁、所有文章頁用）。
+ * 輸入關鍵字時從 /search-index.json 比對標題、描述、標籤，顯示全站結果；
+ * 有指定 category 時，該分類的文章排前面。輸入為空時恢復原本的文章列表。
+ */
+interface Props {
+  category?: string;   // 目前分類 slug，用來排序
+  listId: string;      // 原本文章列表的元素 id，搜尋時隱藏
+  placeholder?: string;
+}
+
+const { category = '', listId, placeholder = '輸入關鍵字，例如：睡眠、分數、情緒' } = Astro.props;
+---
+
+<div class="post-search mb-8" data-post-search data-category={category} data-list-id={listId}>
+  <label for="post-search-input" class="block text-sm font-medium text-warmgray-700 mb-2">找文章</label>
+  <div class="relative">
+    <input
+      id="post-search-input"
+      type="search"
+      autocomplete="off"
+      enterkeyhint="search"
+      placeholder={placeholder}
+      class="w-full rounded-2xl border border-[#E8DFD5] bg-white px-4 py-3 pr-12 text-base text-warmgray-800 placeholder:text-warmgray-400 focus:outline-none focus:border-peach-400 focus:ring-2 focus:ring-peach-400/30"
+    />
+    <button type="button" data-clear hidden aria-label="清除搜尋"
+      class="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full text-warmgray-400 hover:bg-[#F5F0EB] hover:text-warmgray-700 text-lg leading-none">×</button>
+  </div>
+  <p class="text-sm text-warmgray-400 mt-2 min-h-[1.5rem]" data-status role="status" aria-live="polite"></p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6" data-results hidden></div>
+</div>
+
+<script>
+  type Item = { t: string; d: string; c: string; n: string; u: string; p: string; h: string };
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch] as string));
+  const norm = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
+
+  document.querySelectorAll<HTMLElement>('[data-post-search]').forEach((root) => {
+    const input = root.querySelector<HTMLInputElement>('input')!;
+    const clear = root.querySelector<HTMLButtonElement>('[data-clear]')!;
+    const status = root.querySelector<HTMLElement>('[data-status]')!;
+    const results = root.querySelector<HTMLElement>('[data-results]')!;
+    const list = document.getElementById(root.dataset.listId || '');
+    const category = root.dataset.category || '';
+
+    let index: Item[] | null = null;
+    let loading: Promise<Item[]> | null = null;
+    const load = () => {
+      if (index) return Promise.resolve(index);
+      loading ||= fetch('/search-index.json').then((r) => r.json()).then((d: Item[]) => (index = d));
+      return loading;
+    };
+
+    const card = (it: Item) => `
+      <a href="${esc(it.u)}" class="block group">
+        <article class="bg-white/60 rounded-2xl border border-white/80 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5 h-full">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-peach-400/10 text-peach-500">${esc(it.n)}</span>
+            <time class="text-xs text-warmgray-400" datetime="${esc(it.p)}">${esc(it.p.replace(/-/g, '/'))}</time>
+          </div>
+          <h3 class="font-display font-bold text-warmgray-800 group-hover:text-peach-500 transition-colors mb-2 line-clamp-2">${esc(it.t)}</h3>
+          <p class="text-sm text-warmgray-400 line-clamp-2 leading-relaxed">${esc(it.d)}</p>
+        </article>
+      </a>`;
+
+    const render = (q: string) => {
+      const tokens = norm(q).split(' ').filter(Boolean);
+      clear.hidden = tokens.length === 0;
+      if (!tokens.length) {
+        results.hidden = true; results.innerHTML = ''; status.textContent = '';
+        if (list) list.hidden = false;
+        return;
+      }
+      if (!index) { status.textContent = '搜尋中…'; load().then(() => render(input.value)); return; }
+      const hits = index
+        .filter((it) => tokens.every((t) => it.h.includes(t)))
+        .map((it) => ({ it, s: (category && it.c === category ? 2 : 0) + (it.t.toLowerCase().includes(tokens[0]) ? 1 : 0) }))
+        .sort((a, b) => b.s - a.s || (a.it.p < b.it.p ? 1 : -1))
+        .slice(0, 30);
+      if (list) list.hidden = true;
+      results.hidden = false;
+      results.innerHTML = hits.map((h) => card(h.it)).join('');
+      if (!hits.length) {
+        status.textContent = '沒有找到相關文章，換個關鍵字試試，例如「睡覺」「情緒」「功課」。';
+      } else {
+        const inCat = category ? hits.filter((h) => h.it.c === category).length : 0;
+        status.textContent = category
+          ? `找到 ${hits.length} 篇，本分類 ${inCat} 篇排在前面，其他分類的在後面。`
+          : `找到 ${hits.length} 篇。`;
+      }
+    };
+
+    let timer = 0;
+    input.addEventListener('input', () => { window.clearTimeout(timer); timer = window.setTimeout(() => render(input.value), 150); });
+    input.addEventListener('focus', () => { load(); }, { once: true });
+    clear.addEventListener('click', () => { input.value = ''; render(''); input.focus(); });
+
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) { input.value = q; render(q); }
+  });
+</script>

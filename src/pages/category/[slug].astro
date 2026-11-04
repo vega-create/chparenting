@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
+import PostSearch from '../../components/PostSearch.astro';
 import { siteConfig } from '../../site.config';
 import { getCollection } from 'astro:content';
 
@@ -33,7 +34,8 @@ const posts = allPosts.sort((a, b) =>
         {category.name}
       </h1>
     </div>
-    <p class="text-warmgray-400 mb-8">{category.description}（{posts.length} 篇文章）</p>
+    <p class="text-warmgray-400 mb-6">{category.description}（{posts.length} 篇文章）</p>
+    <PostSearch category={category.slug} listId="post-list" placeholder={`在「${category.name}」和全站文章裡找：輸入關鍵字`} />
 
     {category.slug === 'kids-learning' && (
       <div class="bg-amber-50 border border-amber-100 rounded-2xl p-6 mb-10">
@@ -74,7 +76,7 @@ const posts = allPosts.sort((a, b) =>
     )}
 
     {posts.length > 0 ? (
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <div id="post-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {posts.map((post) => (
           <PostCard
             title={post.data.title}
