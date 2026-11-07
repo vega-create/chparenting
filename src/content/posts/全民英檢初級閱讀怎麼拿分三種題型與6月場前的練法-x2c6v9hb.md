@@ -45,7 +45,7 @@ author: "薇佳媽媽"
 - 看到不會的單字，先用刪去法刪掉詞性不對的
 - 這部分靠單字量，平常就要累積
 
-單字怎麼背，可以看 [GEPT 初級單字怎麼背](/posts/GEPT初級單字怎麼背適合國小生的4個方法-cj7np2qs/)。
+單字怎麼背，可以看 [GEPT 初級單字怎麼背](/posts/gept初級單字怎麼背適合國小生的4個方法-cj7np2qs/)。
 
 ## 第二部分：段落填空
 
@@ -82,7 +82,7 @@ author: "薇佳媽媽"
 | 5 月 | 計時做完整模擬，檢討錯題 |
 | 6 月初 | 複習錯題，調整作息 |
 
-完整模擬可以用 [learn 的 GEPT 初級模擬測驗](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=x2c6v9hb)。聽力怎麼練，可以看 [GEPT 初級聽力怎麼練](/posts/GEPT初級聽力怎麼練考什麼常錯在哪在家怎麼練-fwhwssg1/)；場次怎麼選，可以看 [全民英檢初級 2027 場次怎麼選](/posts/全民英檢初級2027場次怎麼選國小生報名時程與準備節奏-z3n6p8vd/)；整體準備可以參考 [國小幾年級適合考 GEPT 初級](/posts/國小幾年級適合考GEPT初級完整準備攻略-ab1cd2ef/)。
+完整模擬可以用 [learn 的 GEPT 初級模擬測驗](https://learn.chparenting.com/elementary/mock-test?utm_source=chparenting&utm_medium=article&utm_campaign=x2c6v9hb)。聽力怎麼練，可以看 [GEPT 初級聽力怎麼練](/posts/gept初級聽力怎麼練考什麼常錯在哪在家怎麼練-fwhwssg1/)；場次怎麼選，可以看 [全民英檢初級 2027 場次怎麼選](/posts/全民英檢初級2027場次怎麼選國小生報名時程與準備節奏-z3n6p8vd/)；整體準備可以參考 [國小幾年級適合考 GEPT 初級](/posts/國小幾年級適合考gept初級完整準備攻略-ab1cd2ef/)。
 
 ## 在家怎麼練閱讀
 

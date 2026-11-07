@@ -110,4 +110,4 @@ C 大調穩了之後，下一個調通常是 **G 大調**（一個升記號 F♯
 
 ## 延伸閱讀
 
-音階建立在「音的高低」和「五線譜怎麼看」的基礎上，那一課在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)；音的長短（拍子）那一半在[音符為什麼有黑有白](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)。音高與譜號、音符、音階三個合起來，孩子就能看懂一首簡單曲子的譜，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=d8xk8zbd)。
+音階建立在「音的高低」和「五線譜怎麼看」的基礎上，那一課在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清do和c是同一個音音名和唱名到底差在哪-7n2h39t7/)；音的長短（拍子）那一半在[音符為什麼有黑有白](/posts/音符為什麼有黑有白有尾巴用一個蘋果講清楚拍是什麼-iwii3n1b/)。音高與譜號、音符、音階三個合起來，孩子就能看懂一首簡單曲子的譜，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=d8xk8zbd)。

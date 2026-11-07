@@ -122,4 +122,4 @@ author: "薇佳媽媽"
 
 ## 延伸閱讀
 
-音程的大小跟大調小調是同一件事，在 [C 大調為什麼全是白鍵？音階和調號](/posts/C大調為什麼全是白鍵音階和調號孩子第一次遇到升降記號之前要懂的事-d8xk8zbd/)；數音程要先會音名（C D E），音名和唱名的對照在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清Do和C是同一個音音名和唱名到底差在哪-7n2h39t7/)。音程的下一課是和弦，在[音階與調性](https://learn.chparenting.com/music/basic/scales?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)之後，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)。
+音程的大小跟大調小調是同一件事，在 [C 大調為什麼全是白鍵？音階和調號](/posts/c大調為什麼全是白鍵音階和調號孩子第一次遇到升降記號之前要懂的事-d8xk8zbd/)；數音程要先會音名（C D E），音名和唱名的對照在[五線譜怎麼看？Do 和 C 是同一個音](/posts/五線譜怎麼看孩子分不清do和c是同一個音音名和唱名到底差在哪-7n2h39t7/)。音程的下一課是和弦，在[音階與調性](https://learn.chparenting.com/music/basic/scales?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)之後，全部在[樂理專區](https://learn.chparenting.com/music?utm_source=chparenting&utm_medium=article&utm_campaign=egpwn1mk)。
