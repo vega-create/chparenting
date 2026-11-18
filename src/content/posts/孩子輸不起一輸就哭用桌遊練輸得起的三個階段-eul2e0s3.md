@@ -16,6 +16,23 @@ faq:
   - q: "幾歲開始可以練？"
     a: "會玩簡單規則的遊戲就可以，大約四、五歲。越早開始，每次輸的強度越小，越容易累積「輸了也沒事」的經驗。"
 author: "薇佳媽媽"
+products:
+  - name: "大富翁 新磁石跳棋 G801 大"
+    price: 160
+    image: "https://ads-partners.tw.coupang.com/image1/f97SA6O6JwPWo0UKf-7Kb4-ttffvcRQ-WOdJ-yde9bdqUS2FiIsdjShJKkFAkwm9hZKf4qG0FAUGPrAMyddx41aEjiTlya1Z9guiRO2Lrb2JOxYm_SevuRtRsO7gCwYBK48tXJsq0ODEj_8JmtM_XDzB-aysWepW6wb1ktMwWx8YgCXsm6D1qCet4shQ14rUAdbfm6MOo1urxhzjd62_ZE0_5m2CFzttuOH7YE97qf582QRX9OuxwBkp2TP7Yr9qseY2EXYzqusZL35y64bTjTzN5F3a6jnOsPRLgHAEAEEqOl0OpBhJXCJDDWUWw3BiKZ6AYuZSvlOMs3sbVwpWmQ3LxmV7"
+    url: "https://coupa.ng/cq6Riz"
+    note: "大富翁磁石跳棋，棋子不會滑掉"
+  - name: "大富翁 大富翁圍棋 D961 6歲以上"
+    price: 156
+    image: "https://ads-partners.tw.coupang.com/image1/FwWeUjta8gXSJK2WFxV4MfZbULHa89iXyPTZIAG1suTT4X8QP1SuJaSAdInalHIuvmcCaJVULy6RO8K9ENbzHFVhmZe9YOuBz1s_mqtRt4yoNGjAYOScR2xoWiD5dhMtvbgFhxu-CehWovQDgrUiBfsjS3qvrsdzgqUq7sKiPNGtReW_zS4risyH5795a19GPRrjN85NUM3TKM7dnKQ-FwxZEl6ROvGSgDXdNZnxj1dGJVHQqeww24UYlxP9jQz-UUZpiUrCeQufizavieVUDsfj0lWxMGPsvEEB4rQH3-xpd_jUIO6-BlWkO61pPyU8_R98Y9yUrNuVzniRyqDRNXTUPwt6WPXgNrRu"
+    url: "https://coupa.ng/cq6RiA"
+    note: "大富翁圍棋，6 歲以上入門款"
+  - name: "美國 UNO 遊戲卡"
+    price: 199
+    image: "https://ads-partners.tw.coupang.com/image1/Q9rzlr75GIL02DaLQ_wpz25wHm3Z8Z9HSa__wVigkZmsTApGhEH0x7n4Y3146KYdJ6gIPNSY0-sfL4g-a1UKMfSiNnVe6aeZncM5xYNbz0Z5j605UQsKUB4Aqlq1r0Sivw_iowEsA-WJPNCMk_4lsmfLH2DPPODwFSI6hUbKXKrv6fsn6fTLNWQPrNIOii0wQDK22D4-JhT5r27JmOq-TFkX6vzY7Xoz6FPb_GcsxOc66LiP473G359jO6ucaVddNB_QbKyYmQ74pPvSbBo-avc0CJLHnWSCgLMkLoe-JYcgWIMPRnTrz-3z30vHjVGn6H0AFGDpSE-onijEOHW4JGxFVw=="
+    url: "https://coupa.ng/cq6RiB"
+    note: "UNO，規則短、一局很快就有輸贏"
+productsIntro: "第三階段提到的跳棋和 9×9 入門圍棋，想玩實體版可以看這幾款。"
 ---
 
 孩子輸不起、一輸就哭、翻桌、說不玩了——這件事幾乎每個家長都遇過。

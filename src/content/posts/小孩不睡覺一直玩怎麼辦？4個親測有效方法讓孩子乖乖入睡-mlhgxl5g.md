@@ -14,6 +14,23 @@ faq:
   - q: "為什麼睡前不能讓孩子看電視或玩手機？"
     a: "螢幕的藍光會抑制褪黑激素分泌，讓大腦誤以為還是白天，導致孩子更難入睡。建議睡前至少一小時就切換成靜態活動，例如拼圖、畫畫或看書。"
 author: "Vega"
+products:
+  - name: "DANCELIGHT 舞光 圓滿光感小夜燈 2700K 黃光 0.2W D-NLA0.2WR1"
+    price: 106
+    image: "https://ads-partners.tw.coupang.com/image1/jM_L6Kqk676mEJozjA2aZ_3ufQeCM6iZzQMmEPRHMLspDh88wx4UBXOcW635iM_FsAi76K9f3DG4X7v7-Atlb6LsSFdx-QgmKqi_draOeWp7XRQc5MNXCTbSzcuv407e40JHIFbFXnQbRHup7BCZ3XnYZgkOXdxetCFrR3dSB7hSfWTGf-XKqbuMthTmQK1OeZfDVA7pS-s0gzPgBvKW3RIQSLavgeqdPE3mF11BOpmVoEzzBYZr6x6114GKaQaJrA6BlXedCh-5DEiuzvofKmMfhYJT7eCwnXkROArU_maTttpi-w11yvlNzFIAtlZP3eR0jv_dpsxviFLqtIUClBu9ulr8"
+    url: "https://coupa.ng/cq6RiF"
+    note: "2700K 黃光，插在插座上整晚開"
+  - name: "Kinyo LED造型小夜燈 NL-5923 64 x 103 x 62.5mm 36.5g"
+    price: 109
+    image: "https://ads-partners.tw.coupang.com/image1/MjyTArjVMbPXnqoCMlxuDF9C-e7G0ChMpOpgcVmgGy4GI9dev3wNRWgj81Qyy-e3FvXRTfRgNONF5RhAC8QcSziQuaReEv35Eu6jLyoykMcGU319nNUb3ZaC6ppPLKt_9xik1CQDbbj6uFMKcl-qsaieVBOQZBYikG2moFHnTYG6uFzk2IOG9gRdw80DCqAiUwzNAh2yMiE6t6bEhVOg3-f82Gj8qO4gOBLI0F7k1B3AhRz94AniNHlQuPpIfQkI_4VYM4hsa0sHeunqfcvHrs7wPIYlTYMdkE28_flkm8vtQRsJoehsK6wLwHFxuH9RycxfMciSugrcEl77TAiEt8yG_Q=="
+    url: "https://coupa.ng/cq6RiG"
+    note: "Kinyo 造型小夜燈，孩子房間用"
+  - name: "風車圖書 孩子的第一套認知拼圖 恐龍王國"
+    price: 180
+    image: "https://ads-partners.tw.coupang.com/image1/9PgjZt8NuB9o2OcL9O6Db6BHJN_bvDye89W0yVDWvH2ITK-gWTD4kgBtVglW-F4cuesIIh-gl2889y491f3uTPXBQGWOQ1uH9Wt9NJokmsHdPwa1DER4C8YK7ASgny5u5M91tgpx8-wNZQtwLjyjzm33fkzenC4fQnYEMA_52Ea7wBR9Fve9HteFbOQrRfmts6KVVyxDdKOFWTemDjdg4oh7JuOKjrAVqR2geEpp70YtFpw0AKcYo-GszPdKFuqRKR1w57FqyjPKYu7Ayla52u-xj6J3s23vO7cVD2D12VJyBogc_FQn1uSSt32pZWBLLWU-3YHUtA6-I0-mINwD4WzI3ew="
+    url: "https://coupa.ng/cq6RiH"
+    note: "風車認知拼圖，睡前安靜活動"
+productsIntro: "睡前換成暖黃光、留一盞小夜燈，安靜活動可以拼拼圖，這裡有幾款。"
 ---
 
 在某個疲憊的晚上，好不容易把孩子帶進房間、關燈、蓋被子，以為今天終於可以早點結束——結果十分鐘後，黑暗裡傳來咯咯笑聲和玩具碰撞的聲音。

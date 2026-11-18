@@ -14,6 +14,28 @@ faq:
   - q: "何時應該考慮尋求專業幫助？"
     a: "如果孩子在三歲仍然不肯戒尿布，伴隨其他發展遲緩或情緒問題，建議諮詢專業醫生，尋求適當的評估和建議。"
 author: "薇佳媽媽"
+products:
+  - name: "Nuby 幼兒輔助便座 含把手"
+    price: 399
+    image: "https://ads-partners.tw.coupang.com/image1/9ktNFcme6gxwP_8x9qSYQAdwV1t2aIHAJNa9gDQ7CEnNsNuZHDOc0hgrnAb6emqhYyYwpS5DX-_X84lwRmFrZijoE6sX8gCBI2fpQbWWCp6Ptwml0_azLrH_QXa6TLNG6K6ElYWjUTO8sPgdmlV2-ksl24CPIiGpe-dP87LA0nMniUsID5RMaFjCi22DeY7nMaszEwK3kcNT_9nFePYSa4vbwcFKEgPB7whY49mNq3L029nmtRxWp9MOKVcnwM3kZA2IUp87q23a3kO_qIWGGiW5-wR7SQ1DaWc-Dmy1uP6dkAO2DLKSOWZBoy4CDh-0UZMy1aeaUCva907D0Nz6u0k="
+    url: "https://coupa.ng/cq6RgD"
+    note: "套在大人馬桶上的輔助便座，有把手孩子比較敢坐"
+  - name: "lilikoko 哩哩摳摳 兒童階梯可收納馬桶"
+    price: 377
+    image: "https://ads-partners.tw.coupang.com/image1/ICWHJNYjyyPdK3sGIJhOgpI0OEjZQlvlK4AY7tF0-FzRJbC3Cp1jfct8E96Ff2yggo3FmAdqKEOd1qePAAzno07sx-VRpkBxmTPYHa5HpdUmXTIhVwwCHyFWJ_WuGQo9u-W-KS596hXWI_w_95JDHubpJ0z_95i8TZYAOPrqAa5eIkQwnTDSLNhFdiiEbEIU56d688CeK3B1PjfeNERY_E3Kb_gvg9SXV86Anzhgl0N-OVj3J8sdJxA3KADuG4j7GjJGVqsSVAJgxNLGQgL7-y3RNiqyn60POykmFsbGPP3ONjBudKGJ-Y70yFymIMQdvCxCOYolBlDjwR3aB53XPMAIcFJALOY1PNc="
+    url: "https://coupa.ng/cq6RgE"
+    note: "階梯式可收納，孩子能自己上下"
+  - name: "Bebehome 6層紗紗布學習褲/透氣親膚尿布褲"
+    price: 219
+    image: "https://ads-partners.tw.coupang.com/image1/Cm6Lg3xHEkPPlyMmCge6ozPR-VCU6JyBWwo1zG235n8y4hd8Lmch2evbM-3o_qr0v9a_a1iHgdrYlQE0TKuEQhirOKDwRWf2UNGPK0YivNtS-gFwLISr3nDBddbxC-zH739eyUKeGstKvMjbS8uKSkbHbH_lYN51kWOMaXh2JRi1cJe1DANvq5Ur2XYnkSSPhSFXema_ifYMjroV2EnhAj0dqP9OCX79bmWx8xPBAGHbMW_0JCHkNM9L3BYcsi69KnEV6tSrCmR5-F3k6zBgOgaPZZX9a58FU0j8cKso7aTnmsfWdlPvwCQX8zeXf0ik0hjIVpG4q0Us5wlQGIlzvg=="
+    url: "https://coupa.ng/cq6RgF"
+    note: "六層紗學習褲，尿濕有感覺但不會滴得到處都是"
+  - name: "我會嗯嗯"
+    price: 178
+    image: "https://ads-partners.tw.coupang.com/image1/La3ZZKan_7vXqOmlLRX_srtIhPEtu7qnI1H_KI2tzUv_5ZS9_kcWcwB-xsP4cOjxCIh2iPXLehLLkaVFe5yflKyQ09Z5QK2Uhw-Gr2DQfOri2VYP-Jx2l_SHxp6XUxRO6UQG6DacBOBbpKeYzmg1-PyaDeRmbq5JExtEKtA5ZJO0Hk1cPuOTYnqORL0L3Ltkvl5CbZCpZSC3yKM-TCx3pNbWZQfF9chwL5dxUXA4Tq8xySzcznbmMsLsP--kd6g2O6MF0LK8Mkc2u_C1XEJygkWHwVq3F16n8O1jcY0Ftp0I-6M8f8cjpEAxxRI7yJEYMWiA4jBphNHEjaqTKUR4X3sqNXE="
+    url: "https://coupa.ng/cq6RgG"
+    note: "把上廁所變成故事，親子共讀用"
+productsIntro: "文中提到的兒童馬桶座、便盆和戒尿布繪本，想看實品可以從這裡到酷澎。"
 ---
 
 在一個陽光明媚的下午，筱婷帶著她三歲的兒子哲瑋來到公園玩。看著周圍的孩子們自由自在地奔跑，筱婷心中有些焦慮。哲瑋的尿布已經快要滿到溢出，但他依然不願意上廁所。她的心情就像那被風吹動的秋千，起伏不定。旁邊的韻如正帶著她的女兒，輕鬆地告訴哲瑋：“不如跟媽媽說要上廁所，這樣就能換成小內褲了！”哲瑋卻只是撅著嘴，像是誓言不肯放棄他的尿布。筱婷心中暗自嘆息，為何戒尿布這件事總是如此困難？

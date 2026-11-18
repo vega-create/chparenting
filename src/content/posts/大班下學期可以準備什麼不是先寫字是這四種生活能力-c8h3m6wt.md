@@ -14,6 +14,23 @@ faq:
   - q: "孩子很怕上小學怎麼辦？"
     a: "可以先帶孩子到學校附近走走、看看校門和操場，聊聊上學會做什麼。對未知的事先有畫面，害怕通常會減少。"
 author: "薇佳媽媽"
+products:
+  - name: "ProTap 浦拓 可視化計時器 T-2508"
+    price: 244
+    image: "https://ads-partners.tw.coupang.com/image1/AhVVPNLwOT1ccEwfAobNszI3Tbe9lbLrtWmkHmkbThB5E4fSepIeFXEoBof90UWO_07yMh-SyjY3uwlWZFTGXZP1jO6kIWOH25EapYGbs6_9S6jGwnRI6WHjUokFhio7rsWBP79W2sgzS9DG-m0gS7h3L0wdSA-lbrAiz4QHunovX1yiQN7wkmS3jJwcjLFYn8cIwaKR4kzBj7NAbFH3nyao_-ID5Jmy1CjjqP57oDKnT9PkV-cE_UuiF51GYRN4VOWpZPCVk5wWbIVOJreZY4FZT3znAbkyxnwRuNSMbHG2ilqLtakIl0XhKkGeimKTwMq6gEznbLb-qLnyRfnlnvn77x2T"
+    url: "https://coupa.ng/cq6RiM"
+    note: "ProTap 可視化計時器，轉一下就看得到剩多少時間"
+  - name: "兒童自律學習計時器 冰山熊"
+    price: 181
+    image: "https://ads-partners.tw.coupang.com/image1/ISsXXKgniITIGdr8IbPf7dxaVF-zPJT4DoegbdKdr3a1PSWEa7zfikYOfHTTCT0AUqWX7t4EfPZUUJzU3PNzk6DUm1C8s2qqn5cSkE8tOel1xlyoFGa-KwO9ROTMpebQ4bizB9PrBrtMKfrPaaGbDkL4g5aNfCiUtX8F8TGRtMpIBlv5Vh1f1WuRzJl4QBQGFfmNNlWhSFWLsLz46yfheUjNjcoP5voDEn94sWLR3NizLn6O93ipOruekMkq5JgkqBjSJeQi0_tMduApDuk5gR2KMPYhthoSDZoDeFjP7KpjKWmg_2_a1a31_sacJ3J1q41DmphwZHCOO-Mdqirh1xY0-OCMT0QAdzmR"
+    url: "https://coupa.ng/cq6RiN"
+    note: "冰山熊造型，孩子自己設定"
+  - name: "Kolin 歌林 超大螢幕計時器"
+    price: 49
+    image: "https://ads-partners.tw.coupang.com/image1/83yKUyabnaOXAl9f82Yn3JUdRWlidqcczJtZZQ1m91l2Run-JAszpdvXKx1bJh_GH5Tpoq9MC4I4w2SJVgszG0wmyvwAW4mJKs5IPMXtPRpIL-idoNP4NldcMT8sKE2HcKtg59434kIDDhkSptAefhJfMhZ1zCbp1F7mvip7ZeZ_eVZ446WqV3hEZbccjUGMz0pxv1FGNtu4o-wcTI_UUjtVVBdEGoRo5Vgdl3jVNN-_-6o0mSUDDdezlgUWUhRcIHdyYw9_nMPpG51rsjJwTfgvIbj6cS8KnZxNKx0fBEd12qbkWoZ6e5tPlGIqXlZmZLH3Uo9_Roc6WshZQ0E-PfSkyA=="
+    url: "https://coupa.ng/cq6RiO"
+    note: "歌林超大螢幕計時器，便宜耐用"
+productsIntro: "練「時間感」用的計時器，孩子看得懂的視覺款比較好用。"
 ---
 
 孩子明年 9 月要上小一，很多家長在大班下學期開始緊張：要不要先學注音？要不要先練寫字？

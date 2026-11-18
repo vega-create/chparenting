@@ -14,6 +14,28 @@ faq:
   - q: "如何讓孩子參與整理？"
     a: "可以讓孩子負責自己的玩具和書籍的整理，並給予他們適當的獎勵，讓他們感受到成就感。"
 author: "薇佳媽媽"
+products:
+  - name: "BangJiaShi 幫家適 掀蓋式透明收納箱"
+    price: 178
+    image: "https://ads-partners.tw.coupang.com/image1/GDUFV9GnOX2sXBBwGNpAfcpBS1ZLEPWkZRFjfV88virUduYxdmKvRHlYAHlnkYMhv1-f-RT4bO6KrtTORA-4_9s6AVz5ZaMInuIbIx2aIYITOls1WfOrEFpxQo_oDhIKvEGg4lHx2s3Tjpfv7zmHxr9NO0ZQCDwzjuVXtj045RSAgnZlTd6zIgsrS8q3YQmkeFiC5kkfvdK1Yf561RR3aQN06lB7rXfxUdYbOrl8Vmy7aOGS7-adutukQpVoCTw_xTCJK_zCtOD5USC0DxZ_JpBNJ40rqLTA8G2UxdNY8Crvp9OZZo6cqnn2k6TpJRRkrAioUhoaN1bGjjpL2rrdH_FO6Fo="
+    url: "https://coupa.ng/cq6Rhh"
+    note: "掀蓋透明箱，一眼看到裡面是什麼"
+  - name: "NIIMBOT 標籤機 B1"
+    price: 649
+    image: "https://ads-partners.tw.coupang.com/image1/0hmVJXK9Muy11E9v0oNsXtqxx1gJ6CummxQkwg59uwKwc-wLtv9s1s6X7EocGRLtsxr01OzSaJ8oBrmlFxpw_-xoCcM1PX8NKikLOV4oyNvPN_HXIFLVA832yhaofBtFlXuCm1_uozByCgeK4DxfwzunkU14MzLHcOEDmfbIyB1JEQIT07iBxm-EONw_H_dLgoknfGq5hqW54WnVxXdrBpcOzis6v4HJTlzbFVX_iOUmB78ho5j5IpksC-oiq3Lk1YOZtjMSb2PTKfWF_eX-0FBCLV8bMcJjrB5MJyFdgrVkKHxxv_NOi6Np8IAtoOKc7IpWaZgklBKwnYCiWhbNPS7hCWs="
+    url: "https://coupa.ng/cq6Rhi"
+    note: "手機連線印標籤，收納盒分類用"
+  - name: "Craftsman In Storage 收納職人 北歐童話棉麻方型束口折疊收納籃/洗衣籃/髒衣籃"
+    price: 208
+    image: "https://ads-partners.tw.coupang.com/image1/kW-ofMN1QQW2nB33kaJQLEOyhvXWQ0TTsgwGwBxa4jeo1xJgBVwz3cLOJ602vCUBXN4eVmkQFYFEtE9k5vj6EGExZ35Du8zdhbApDUTg-nX1VEzSDJeP0htUC_bH_jN0T7cen04oA0i0Gs78x5s6HRhLRhTNxPmmfF-n3gkMtBGv9kySe7Bl8jilBUk4cnMD6sJ7g6WIbpnwIYNdI1o6QxitAH01C193zGoaKT726pa1cj2NncKSUx5QkY-iU78D_MLJlv2La6FLN3Iem7mb3MYZ_KWhcUJu-MsEvIRqZD_K3mO-FQyXYtDlJhNYm924HMQbXFjxRe6wCKCHCXvOYuJf2bg="
+    url: "https://coupa.ng/cq6Rhj"
+    note: "棉麻束口折疊籃，裝髒衣或玩具都行"
+  - name: "SHIMOYAMA 樂高可疊式積木收納盒 5L"
+    price: 166
+    image: "https://ads-partners.tw.coupang.com/image1/R73D8O_iS5IHlqEKR74u9aAxYUppunlJAm4UFLCkhnowqniTaujLf4Zqar51fa0qR0zV_YDpSYWb0bE2kXRZ0a0VfXzDOchCFy8mFJJCo3l_giieYKInp8ARLKvHYD4tBHF0N-jb6x5Pg9en0F8NRHAgT19EOvMz9evwrsq_v4e6x7Fuc9d3QsTWrHjG9cl8-Y7EKQwYfCMPdH1u2Hr9eEp5zHt31To4TS61Ptu2N9lG4jVmzpUSA7Z3ylYNFJwNsNN05445vR-zuAspSHUF35IGsBXff5Wzg5oxiVzdP7SVeZx4p3h5TBgw8c-N4r7AGvKEAwXNSARTcZ_6qNNa6lDhEA=="
+    url: "https://coupa.ng/cq6Rhk"
+    note: "可疊式積木收納盒，分色收樂高"
+productsIntro: "文中提到的收納盒、標籤和衣物籃，可以從這裡看。"
 ---
 
 在一個陽光明媚的早晨，筱婷站在客廳，對著一片堆滿玩具、書本和衣物的地板嘆息。她的兩個孩子，建宏和秀娟，正興奮地玩著積木，完全不在意周圍的凌亂。筱婷心裡清楚，這樣的狀況如果不改善，日常的生活會變得更加忙碌和焦慮。於是，她決定開始一場「家庭整理大作戰」，希望能夠讓家裡的空間變得整潔而舒適。這一天，她學會了幾個小妙招，讓家庭環境變得整齊，心情也隨之輕鬆起來。

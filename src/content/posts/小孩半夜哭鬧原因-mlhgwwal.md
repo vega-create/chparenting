@@ -14,6 +14,23 @@ faq:
   - q: "夜驚和噩夢有什麼不同？"
     a: "夜驚通常發生在深睡期（入睡後 2～3 小時），孩子雖然尖叫但其實沒有醒，不需要叫醒他。噩夢發生在後半夜淺眠期，孩子會真的醒來且記得夢境。"
 author: "Vega"
+products:
+  - name: "Panatec 沛莉緹 USB 攜帶型白噪音除噪助眠儀 寶寶睡眠安撫器"
+    price: 899
+    image: "https://ads-partners.tw.coupang.com/image1/nZoe0HwJ_sSPajjPnbNgspB8Ps3Oj-gcMcLi8_pU2WbdDn-jQe8zjKAJhIkbCcG-18JMt2aC5zwgTW96HqJsZPD0sVeBLyCrBHrylMeAt4cW3-cJKZG2DNKgwGDEqA-1g6pRdhLPDr-CezT8403qygqjsbsa429DR5IueyzP7EAd-xGvHR3K4DZIu4E772oheRYmpfki_UI-7C06edW-fYEAZ1qyZsYbFDrp9YQN6dsNfW6MetUeh5urdtsZJEwrs1NkylJoyVxUtYeQ2ghMq7JDS24dINczrMorso4H9fJglgV5Hdc6k3ATMh_92smhfDvnRcjvuW_KvxqR8NNqoN3vZA=="
+    url: "https://coupa.ng/cq6RgW"
+    note: "USB 充電攜帶型，出門也能帶"
+  - name: "Casa Bella 美麗家居 全遮光 窗簾"
+    price: 239
+    image: "https://ads-partners.tw.coupang.com/image1/Odl6AMKvBuY0f6N3OfRam0wYeKYdv87sawgVWYHicaNoXOXioH7n5KXH-fPsZzkOW1_sUk7uH3E_r3DIp3n7uN548CFyXNNQXGWwM8WFvypNZz52Rd3xbWJ8bWQFiA_lIgPS0J2Op-5ij-VozsiQVJE60OOmiwlCSnvoWu5n5OiF-tb7tzroYv6VBcMNm7-xzb5iCR8C4R8ZVL1kfRvyxVr3z_BoyUR_w7xu-ygW2rszrE39KlN0ztqeGxWGovOyzK4emFs0YI4J64tEfIgCThQpXSNysg3iYqKVW8-pDl7mERxTLEiqCxAAL7Z-v_81ZPNdZPOTUhoc27DnQOmRahkupU4="
+    url: "https://coupa.ng/cq6RgY"
+    note: "全遮光，清晨光線不會提早把孩子叫醒"
+  - name: "DANCELIGHT 舞光 圓滿光感小夜燈 2700K 黃光 0.2W D-NLA0.2WR1"
+    price: 106
+    image: "https://ads-partners.tw.coupang.com/image1/jM_L6Kqk676mEJozjA2aZ_3ufQeCM6iZzQMmEPRHMLspDh88wx4UBXOcW635iM_FsAi76K9f3DG4X7v7-Atlb6LsSFdx-QgmKqi_draOeWp7XRQc5MNXCTbSzcuv407e40JHIFbFXnQbRHup7BCZ3XnYZgkOXdxetCFrR3dSB7hSfWTGf-XKqbuMthTmQK1OeZfDVA7pS-s0gzPgBvKW3RIQSLavgeqdPE3mF11BOpmVoEzzBYZr6x6114GKaQaJrA6BlXedCh-5DEiuzvofKmMfhYJT7eCwnXkROArU_maTttpi-w11yvlNzFIAtlZP3eR0jv_dpsxviFLqtIUClBu9ulr8"
+    url: "https://coupa.ng/cq6RgZ"
+    note: "2700K 黃光、0.2W，整晚開著也不刺眼"
+productsIntro: "文中提到的睡眠環境用品：白噪音機、遮光窗簾、暖黃小夜燈。"
 ---
 
 在一個寧靜的夜晚，媽媽小珍正疲憊地坐在沙發上，努力想要閉上眼睛休息。就在這時，房間裡突然傳來一陣尖銳的哭聲。小珍的心一緊，立刻跳起來衝向寶寶的房間。她的兒子小凱才剛入睡不到一個小時，怎麼又哭了？是肚子餓了？做噩夢了？還是哪裡不舒服？小珍抱起小凱輕輕搖晃，但他似乎怎麼都安撫不下來，哭得越來越大聲。
