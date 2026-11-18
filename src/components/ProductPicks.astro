@@ -14,7 +14,7 @@
 interface Product { name: string; url: string; price?: number; image?: string; note?: string }
 interface Props { products?: Product[]; title?: string; intro?: string }
 const { products = [], title = '文中提到的用品', intro } = Astro.props;
-const fmt = (n?: number) => (typeof n === 'number' && n > 0 ? `NT$${n.toLocaleString('zh-TW')}` : '');
+// price 是抓取當天的快照，不會自動更新 → 不顯示在頁面上，避免讀者看到過期價格（欄位保留，之後有自動更新再打開）
 ---
 {products.length > 0 && (
   <section class="google-anno-skip mt-10 rounded-2xl border border-peach-200 bg-peach-50/60 p-5 md:p-6" aria-label="相關用品">
@@ -32,8 +32,7 @@ const fmt = (n?: number) => (typeof n === 'number' && n > 0 ? `NT$${n.toLocaleSt
             <span class="min-w-0 flex-1">
               <span class="block text-[15px] font-semibold text-warmgray-800 leading-snug line-clamp-2">{p.name}</span>
               {p.note && <span class="block text-xs text-warmgray-500 mt-1 leading-relaxed">{p.note}</span>}
-              <span class="flex items-center justify-between gap-2 mt-2">
-                <span class="text-sm font-bold text-peach-600">{fmt(p.price)}</span>
+              <span class="flex items-center justify-end gap-2 mt-2">
                 <span class="text-xs font-semibold text-white bg-peach-500 rounded-full px-3 py-1">到酷澎看看 ↗</span>
               </span>
             </span>
@@ -41,6 +40,6 @@ const fmt = (n?: number) => (typeof n === 'number' && n > 0 ? `NT$${n.toLocaleSt
         </li>
       ))}
     </ul>
-    <p class="text-[11px] text-warmgray-400 mt-3 mb-0 leading-relaxed">以上為酷澎分潤連結，透過連結購買不會增加您的費用，但能支持我們持續提供免費內容。價格以酷澎頁面為準。</p>
+    <p class="text-[11px] text-warmgray-400 mt-3 mb-0 leading-relaxed">我可能會從合作夥伴的活動中收取佣金。以上為酷澎分潤連結，透過連結購買不會增加您的費用，但能支持我們持續提供免費內容。價格與庫存以酷澎頁面為準。</p>
   </section>
 )}
