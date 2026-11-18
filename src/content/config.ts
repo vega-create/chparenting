@@ -15,6 +15,16 @@ const posts = defineCollection({
       q: z.string(),
       a: z.string(),
     })).optional(),
+    // 文章內商品卡（酷澎分潤），見 components/ProductPicks.astro
+    products: z.array(z.object({
+      name: z.string(),
+      url: z.string(),
+      price: z.number().optional(),
+      image: z.string().optional(),
+      note: z.string().optional(),
+    })).optional(),
+    productsTitle: z.string().optional(),
+    productsIntro: z.string().optional(),
   }),
 });
 

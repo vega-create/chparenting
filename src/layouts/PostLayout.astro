@@ -8,6 +8,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import AdSense from '../components/AdSense.astro';
 import { siteConfig } from '../site.config';
 import ShareButtons from '../components/ShareButtons.astro';
+import ProductPicks from '../components/ProductPicks.astro';
 
 interface Props {
   frontmatter: {
@@ -19,13 +20,16 @@ interface Props {
     image?: string;
     imageAlt?: string;
     faq?: { q: string; a: string }[];
+    products?: { name: string; url: string; price?: number; image?: string; note?: string }[];
+    productsTitle?: string;
+    productsIntro?: string;
   };
   headings: { depth: number; slug: string; text: string }[];
   readingMinutes?: number;
 }
 
 const { frontmatter, headings, readingMinutes } = Astro.props;
-const { title, description, publishDate, category, tags, image, imageAlt, faq } = frontmatter;
+const { title, description, publishDate, category, tags, image, imageAlt, faq, products, productsTitle, productsIntro } = frontmatter;
 
 const categoryInfo = siteConfig.categories.find(c => c.slug === category || c.name === category);
 const categorySlug = categoryInfo?.slug || category;
@@ -157,6 +161,9 @@ if (faq && faq.length > 0) {
             <div class="prose-warm post-prose">
               <slot />
             </div>
+
+            <!-- 商品卡（酷澎分潤，只在 frontmatter 有 products 時出現） -->
+            <ProductPicks products={products} title={productsTitle} intro={productsIntro} />
 
             <!-- Ad: Mid Article -->
             <AdSense slot="mid" />

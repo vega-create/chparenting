@@ -1,0 +1,56 @@
+{
+  "site": "chparenting.com",
+  "note": "第一批適合放酷澎商品卡的文章。keywords 是搜尋酷澎用的關鍵字，跑 `node scripts/coupang.mjs plan` 列出候選後，挑合適的寫進該文章 frontmatter 的 products[]。intro 會顯示在商品卡上方。",
+  "articles": [
+    {
+      "file": "src/content/posts/3歲不肯戒尿布-mlkp11qs.md",
+      "intro": "文中提到的兒童馬桶座、便盆和戒尿布繪本，想看實品可以從這裡到酷澎。",
+      "keywords": ["兒童馬桶座", "幼兒便盆", "學習褲 幼兒", "戒尿布 繪本"]
+    },
+    {
+      "file": "src/content/posts/國小新生開學要準備什麼文具心理學習完整清單-k2v6x4.md",
+      "intro": "清單裡建議買新的幾樣：書包、鉛筆盒、水壺，還有牆上貼的注音符號海報。",
+      "keywords": ["護脊書包 小學", "鉛筆盒 小學生", "兒童水壺", "注音符號 海報"]
+    },
+    {
+      "file": "src/content/posts/小孩半夜哭鬧原因-mlhgwwal.md",
+      "intro": "文中提到的睡眠環境用品：白噪音機、遮光窗簾、暖黃小夜燈。",
+      "keywords": ["白噪音機 嬰兒", "遮光窗簾", "小夜燈 暖黃"]
+    },
+    {
+      "file": "src/content/posts/白噪音播放器推薦-mlhj0001.md",
+      "intro": "不想一直佔用手機的話，也可以考慮一台獨立的白噪音機。",
+      "keywords": ["白噪音機", "白噪音機 嬰兒 攜帶"]
+    },
+    {
+      "file": "src/content/posts/家庭整理的-7-個小妙招讓你輕鬆擁有整潔空間-mlro6djh.md",
+      "intro": "文中提到的收納盒、標籤和衣物籃，可以從這裡看。",
+      "keywords": ["收納盒 透明", "標籤機", "衣物籃 兒童", "玩具收納"]
+    },
+    {
+      "file": "src/content/posts/用暑假紅包教孩子記帳兒童理財第一步-h9s3u8.md",
+      "intro": "三罐法需要的透明罐子和孩子用的記帳本，這裡有幾款。",
+      "keywords": ["透明存錢罐", "兒童存錢筒 三格", "兒童記帳本"]
+    },
+    {
+      "file": "src/content/posts/想讓孩子接觸日文暑假是最好入門時機-i0t4v9.md",
+      "intro": "方法 4 提到的日文繪本，以及貼在牆上的五十音表。",
+      "keywords": ["五十音 海報", "五十音 學習卡", "日文繪本 兒童"]
+    },
+    {
+      "file": "src/content/posts/孩子輸不起一輸就哭用桌遊練輸得起的三個階段-eul2e0s3.md",
+      "intro": "第三階段提到的跳棋和 9×9 入門圍棋，想玩實體版可以看這幾款。",
+      "keywords": ["跳棋 兒童", "圍棋 9路 入門", "兒童桌遊"]
+    },
+    {
+      "file": "src/content/posts/小孩不睡覺一直玩怎麼辦？4個親測有效方法讓孩子乖乖入睡-mlhgxl5g.md",
+      "intro": "睡前換成暖黃光、留一盞小夜燈，這裡有幾款。",
+      "keywords": ["小夜燈 兒童", "拼圖 幼兒"]
+    },
+    {
+      "file": "src/content/posts/大班下學期可以準備什麼不是先寫字是這四種生活能力-c8h3m6wt.md",
+      "intro": "練「時間感」用的計時器，孩子看得懂的視覺款比較好用。",
+      "keywords": ["視覺計時器 兒童", "倒數計時器"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+---
+/**
+ * 文章內商品卡（酷澎分潤）
+ * 由文章 frontmatter 的 products[] 驅動：
+ *   products:
+ *     - name: "商品名"
+ *       price: 299
+ *       image: "https://..."
+ *       url: "https://link.coupang.com/..."   # 分潤追蹤連結（scripts/coupang.mjs 產生）
+ *       note: "一句話說明（可省略）"
+ *   productsTitle: "自訂標題（可省略）"
+ *   productsIntro: "自訂開頭一句（可省略）"
+ */
+interface Product { name: string; url: string; price?: number; image?: string; note?: string }
+interface Props { products?: Product[]; title?: string; intro?: string }
+const { products = [], title = '文中提到的用品', intro } = Astro.props;
+const fmt = (n?: number) => (typeof n === 'number' && n > 0 ? `NT$${n.toLocaleString('zh-TW')}` : '');
+---
+{products.length > 0 && (
+  <section class="google-anno-skip mt-10 rounded-2xl border border-peach-200 bg-peach-50/60 p-5 md:p-6" aria-label="相關用品">
+    <h2 class="text-lg md:text-xl font-bold text-warmgray-800 mt-0 mb-1 flex items-center gap-2">
+      <span aria-hidden="true">🛒</span>{title}
+    </h2>
+    <p class="text-sm text-warmgray-600 mt-0 mb-4">{intro ?? '想直接看價格或規格，可以從這裡到酷澎看看。'}</p>
+    <ul class="list-none p-0 m-0 grid gap-3 sm:grid-cols-2">
+      {products.map((p) => (
+        <li class="m-0 p-0">
+          <a href={p.url} target="_blank" rel="nofollow sponsored noopener" class="flex gap-3 items-start no-underline bg-white border border-warmgray-200 rounded-xl p-3 hover:border-peach-400 hover:shadow-sm transition">
+            {p.image && (
+              <img src={p.image} alt="" width="88" height="88" loading="lazy" referrerpolicy="no-referrer" class="w-[88px] h-[88px] object-contain rounded-lg bg-white shrink-0 m-0" />
+            )}
+            <span class="min-w-0 flex-1">
+              <span class="block text-[15px] font-semibold text-warmgray-800 leading-snug line-clamp-2">{p.name}</span>
+              {p.note && <span class="block text-xs text-warmgray-500 mt-1 leading-relaxed">{p.note}</span>}
+              <span class="flex items-center justify-between gap-2 mt-2">
+                <span class="text-sm font-bold text-peach-600">{fmt(p.price)}</span>
+                <span class="text-xs font-semibold text-white bg-peach-500 rounded-full px-3 py-1">到酷澎看看 ↗</span>
+              </span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="text-[11px] text-warmgray-400 mt-3 mb-0 leading-relaxed">以上為酷澎分潤連結，透過連結購買不會增加您的費用，但能支持我們持續提供免費內容。價格以酷澎頁面為準。</p>
+  </section>
+)}
